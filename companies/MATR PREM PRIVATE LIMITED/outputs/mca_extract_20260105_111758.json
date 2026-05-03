@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MATR PREM PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "f80548391030bab1d496e3521c16b5eeccca5a8e54c03206eaa3db8efd0689fe",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-05 11:17:58"
+  },
+  "master_data": {
+    "cin": "U01110UP2025PTC237849",
+    "company_name": "MATR PREM PRIVATE LIMITED",
+    "roc_name": "ROC Kanpur",
+    "registration_number": "237849",
+    "date_of_incorporation": "08/12/2025",
+    "email": "matrpremofficial@gmail.com",
+    "registered_address": "90 Vill Alipur Khurd, Baghra, Meerut, Baghra (Muzaffarnagar), Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India, 251306",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11415183,
+    "paid_up_capital": 11415184,
+    "date_of_last_agm": "1/5/26, 11:17 AM",
+    "date_of_balance_sheet": "08/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Kanpur",
+    "jurisdiction_roc": "ROC Kanpur",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "matrpremofficial@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11415183",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11415184",
+      "name": "Pooja",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/5/26, 11:17 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU01110UP2025PTC237849\n\nCompany Name\n\nMATR PREM PRIVATE LIMITED\n\nROC Name\n\nROC Kanpur\n\nRegistration Number\n\n237849\n\nDate of Incorporation\n\n08/12/2025\n\nEmail Id\n\nmatrpremofficial@gmail.com\n\nRegistered Address\n\n90 Vill Alipur Khurd, Baghra, Meerut, Baghra (Muzaffarnagar),\nMuzaffarnagar, Muzaffarnagar, Uttar Pradesh, India, 251306\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n15,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kanpur\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/5/26, 11:17 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11415183\n\nDirector\n\nPromoter\n\n08/12/2025\n\n-\n\nYes\n\nROBIN\nSINGH\n\n2\n\n11415184\n\nPOOJA\n\nDirector\n\nPromoter\n\n08/12/2025\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "CURESIGMA PRIVATE LIMITED",
+  "cin": "U70200BR2026PTC083757",
+  "registered_address": "276/175 DEOGHARA, MEDNICHOWKI, Amarpur, Lakhisarai, Surajgarha, Bihar, India, 811106",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11630512,
+  "paid_up_capital": 11630513,
+  "directors": [
+    {
+      "din": "11630512",
+      "name": "ABHINASH KUMAR BANBARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11630513",
+      "name": "RESHAMA DEVI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC6880E"
+  },
+  "email": "medx7739@gmail.com",
+  "meta": {
+    "created": "20260327_102850",
+    "last_updated": "20260327_102850"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260327_102850",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_CURESIGMA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U70200BR2026PTC083757",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RCHC02848G"
+}

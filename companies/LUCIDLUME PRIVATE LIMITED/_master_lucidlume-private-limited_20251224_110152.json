@@ -1,0 +1,67 @@
+{
+  "company_name": "LUCIDLUME PRIVATE LIMITED",
+  "cin": "U73100KA2025PTC212155",
+  "registered_address": "NO 648/A, (Bangalore), Bangalore, Bangalore North, Karnataka, India, 4TH FLOOR, BINNAMANGALA, 1ST STAGE, Indiranagar",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11421330",
+      "name": "SREERAJ SATHYARAJ SREEJA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11421331",
+      "name": "RAJ NAVEEN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAGCL6133Q"
+  },
+  "email": "sreerajssofficial@gmail.com",
+  "meta": {
+    "created": "20251224_110152",
+    "last_updated": "20251224_110541"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251224_110152",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Lucidlume Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100KA2025PTC212155",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251224_110541",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Lucidlume Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100KA2025PTC212155",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRL12591F"
+}

@@ -1,0 +1,22 @@
+{
+  "source": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\PINAKI NUTRAGLOBE FOODS PRIVATE LIMITED\\INC-33_MOA_PINAKI NUTRAGLOBE FOODS PRIVATE LIMITED.pdf",
+  "parsed": {
+    "company_name": "UTTAR PRADESH",
+    "state": null,
+    "share_capital": {
+      "total_amount": 1500000,
+      "no_of_shares": 1500000,
+      "face_value": 1
+    },
+    "subscribers": [
+      {
+        "name": "S. NO",
+        "equity_shares": 100000
+      },
+      {
+        "name": "COLONY KANPUR NAGAR INDIA",
+        "equity_shares": 100000
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "to": "sidqontechnologies@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 SIDQON TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "SIDQON TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance Package",
+    "amount": "10620",
+    "currency": "INR",
+    "payment_id": "Y2P1240580968025174016",
+    "payment_date": "2026-02-20T13:33:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

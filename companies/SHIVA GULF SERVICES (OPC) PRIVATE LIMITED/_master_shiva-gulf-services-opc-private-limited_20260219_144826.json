@@ -1,0 +1,95 @@
+{
+  "company_name": "SHIVA GULF SERVICES (OPC) PRIVATE LIMITED",
+  "cin": "U70200RJ2026OPC111598",
+  "registered_address": "C/O SITARAM MEGHWAL, GAGRANA, Merta, Nagaur, Merta, Rajasthan, India, 341510",
+  "roc_name": "ROC Jaipur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11544781,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11544781",
+      "name": "SHIV PRAKASH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS7643F"
+  },
+  "email": "SHIVPRAKASHJAIPAL@GMAIL.COM",
+  "meta": {
+    "created": "20260219_144826",
+    "last_updated": "20260223_114653"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260219_144826",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHIVA GULF SERVICES (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U70200RJ2026OPC111598",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260219_145221",
+      "inputs": {
+        "meeting_date": "19 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SHIV PRAKASH",
+          "din": "11544781",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHIVA GULF SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145221.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260223_114653",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHIVA GULF SERVICES (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U70200RJ2026OPC111598",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "authorized_signatory": {
+    "name": "SHIV PRAKASH",
+    "din": "11544781",
+    "designation": "Director",
+    "meeting_date": "19 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHIVA GULF SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145221.docx",
+    "ts": "20260219_145221",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "SHIV PRAKASH",
+    "din": "11544781",
+    "designation": "Director",
+    "meeting_date": "19 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHIVA GULF SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145221.docx",
+    "ts": "20260219_145221",
+    "note": "authorised signatory appointed"
+  },
+  "tan": "JDHS33036D"
+}

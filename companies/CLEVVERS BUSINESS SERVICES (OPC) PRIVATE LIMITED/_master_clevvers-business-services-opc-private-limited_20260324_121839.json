@@ -1,0 +1,83 @@
+{
+  "company_name": "CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED",
+  "cin": "U74909PN2026OPC253145",
+  "registered_address": "A-302, NSG Royale One, Appartment Vishal Nagar, Sangavi, Pune, Pune City, Maharashtra, India, 411027",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 9390269,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "09390269",
+      "name": "SHASHANK SHEKHAR SRIVASTAVA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC6414C"
+  },
+  "email": "clevvers.com@gmail.com",
+  "meta": {
+    "created": "20260324_121839",
+    "last_updated": "20260407_113558"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260324_121839",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U74909PN2026OPC253145",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260407_113558",
+      "inputs": {
+        "meeting_date": "07 Apr 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SHASHANK SHEKHAR SRIVASTAVA",
+          "din": "09390269",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260407_113558.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEC22238G",
+  "authorized_signatory": {
+    "name": "SHASHANK SHEKHAR SRIVASTAVA",
+    "din": "09390269",
+    "designation": "Director",
+    "meeting_date": "07 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260407_113558.docx",
+    "ts": "20260407_113558",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "SHASHANK SHEKHAR SRIVASTAVA",
+    "din": "09390269",
+    "designation": "Director",
+    "meeting_date": "07 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260407_113558.docx",
+    "ts": "20260407_113558",
+    "note": "authorised signatory appointed"
+  }
+}

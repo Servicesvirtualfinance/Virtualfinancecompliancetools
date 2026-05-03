@@ -1,0 +1,27 @@
+{
+  "source": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ACROCAN HEALTHTECH PRIVATE LIMITED\\INC20A\\inputs\\bank\\scan_20251105_182653.jpeg",
+  "parsed": {
+    "bank": {
+      "name": "STATE BANK OF INDIA",
+      "branch": "CODE 8017 BLOCK BINOBA NAGAR JUHI COLONY BRANCH EMALL JUHI KANPUR L0B017",
+      "branch_code": "8017",
+      "account_no": null,
+      "ifsc": "BERE0GNAGAR",
+      "account_open_date": null
+    },
+    "credits": [
+      {
+        "narration": "STATE BANK OF INDIA STATEMENI QF ACCOUNI GAUSSHALCR CROSSING (KANPUR) CROSSING,1270J6 FICOCK JUHI GAUGALA KANPUR DISTKANPUR; PINAKI NUTRAGLOBE PIN COCO ZUDU A FOODS PRIVATE LIMITED",
+        "amount": 2000.0,
+        "party_name": "VISHNU GUPTA AT",
+        "ref": "2841123"
+      },
+      {
+        "narration": "01-11-2025 01-11-2025 DEP TFR UPICRI530527297915NVISHNU ISBINIGUPTAVSHNVUPI 0097738162095 08017 CAUSHALA CROSSING (KANPUR}",
+        "amount": null,
+        "party_name": null,
+        "ref": "0097738162095"
+      }
+    ]
+  }
+}

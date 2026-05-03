@@ -1,0 +1,18 @@
+{
+  "to": "rdixit@myself.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance Package For FY 2024-2025",
+    "amount": "10000",
+    "currency": "INR",
+    "payment_id": "South Indian Bank",
+    "payment_date": "2026-01-31T11:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

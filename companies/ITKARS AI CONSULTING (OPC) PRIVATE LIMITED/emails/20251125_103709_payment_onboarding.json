@@ -1,0 +1,18 @@
+{
+  "to": "ashfakis@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ITKARS AI CONSULTING (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "ITKARS AI CONSULTING (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013Without ROC and MCA Compliance",
+    "amount": "944",
+    "currency": "INR",
+    "payment_id": "pay_RjqjSl3cgru68O",
+    "payment_date": "2025-11-25T10:35:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

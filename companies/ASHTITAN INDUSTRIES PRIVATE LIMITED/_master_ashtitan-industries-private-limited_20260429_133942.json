@@ -1,0 +1,55 @@
+{
+  "company_name": "ASHTITAN INDUSTRIES PRIVATE LIMITED",
+  "cin": "U23910DL2026PTC465877",
+  "registered_address": "T16 S/F KHIRKI EXTENSION, MAVIYA NAGAE, Malviya Nagar (South Delhi), South Delhi, New Delhi, Delhi, India, 110017",
+  "roc_name": "ROC Delhi I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11684356,
+  "paid_up_capital": 11684357,
+  "directors": [
+    {
+      "din": "11684356",
+      "name": "Sofiyaan Dev",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11684357",
+      "name": "Nisar Ahmed Dev",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA5206R"
+  },
+  "email": "sofiyaandev861@gmail.com",
+  "meta": {
+    "created": "20260429_133942",
+    "last_updated": "20260429_133942"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260429_133942",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ASHTITAN INDUSTRIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U23910DL2026PTC465877",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELA88647G"
+}

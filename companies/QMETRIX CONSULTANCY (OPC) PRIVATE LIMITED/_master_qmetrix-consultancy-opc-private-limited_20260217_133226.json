@@ -1,0 +1,46 @@
+{
+  "company_name": "QMETRIX CONSULTANCY (OPC) PRIVATE LIMITED",
+  "cin": "U69200TZ2026OPC037805",
+  "registered_address": "No.11/4, Pooja Garden, Kalapatti Main Road, Coimbatore Aerodrome, Coimbatore, Coimbatore South, Tamil Nadu, India, 641014",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11529576,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11529576",
+      "name": "SAKTHIVEL RAJAMAN SINGH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AABCQ2253K"
+  },
+  "email": "qmetrixconsultancyllc@gmail.com",
+  "meta": {
+    "created": "20260217_133226",
+    "last_updated": "20260217_133226"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260217_133226",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_QMETRIX CONSULTANCY (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U69200TZ2026OPC037805",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CMBQ03208C"
+}

@@ -1,0 +1,18 @@
+{
+  "to": "Svachharajaniandco@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 S.VACHHARAJANI (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "S.VACHHARAJANI (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RYqLFB1vMbdN90",
+    "payment_date": "2025-10-28T15:01:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

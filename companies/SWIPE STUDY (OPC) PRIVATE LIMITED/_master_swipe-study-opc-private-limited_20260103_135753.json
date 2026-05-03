@@ -1,0 +1,46 @@
+{
+  "company_name": "SWIPE STUDY (OPC) PRIVATE LIMITED",
+  "cin": "U85499UP2025OPC237878",
+  "registered_address": "SHOP NO 110/292/56, VICTORIA STREET, CHOWK, Lucknow Chowk, Lucknow, Lucknow, Uttar Pradesh, India, 226003",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 9455730,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "09455730",
+      "name": "Nusrat Rizvi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS9972J"
+  },
+  "email": "skillswipe33@gmail.com",
+  "meta": {
+    "created": "20260103_135753",
+    "last_updated": "20260103_135753"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260103_135753",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Swipe Study (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U85499UP2025OPC237878",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNS30664E"
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "CLINIXO HEALTHCARE TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U63119KA2026PTC218792",
+  "registered_address": "648/A, 4th Floor, Binnamangala 1st Stage, Indiranagar (Bangalore), Bangalore, Bangalore North, Karnataka, India, 560038",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11646309,
+  "paid_up_capital": 11646310,
+  "directors": [
+    {
+      "din": "11646309",
+      "name": "Nikhil Chopra",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11646310",
+      "name": "Rakesh Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC7134M"
+  },
+  "email": "nikhil.sharma@getclinixo.in",
+  "meta": {
+    "created": "20260421_112310",
+    "last_updated": "20260421_112310"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260421_112310",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_CLINIXO HEALTHCARE TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U63119KA2026PTC218792",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRC30779A"
+}

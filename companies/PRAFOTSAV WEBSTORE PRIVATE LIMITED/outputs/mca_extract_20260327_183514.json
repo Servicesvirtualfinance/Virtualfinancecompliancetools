@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PRAFOTSAV WEBSTORE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "1b3c3b4325ad59b030548cd5ca6e7707ea56aa7fe1521b228cd01a72ecae8802",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-27 18:35:14"
+  },
+  "master_data": {
+    "cin": "U47912UP2026PTC241259",
+    "company_name": "PRAFOTSAV WEBSTORE PRIVATE LIMITED",
+    "roc_name": "ROC Uttar Pradesh II",
+    "registration_number": "241259",
+    "date_of_incorporation": "14/01/2026",
+    "email": "prafotsavwebstore@gmail.com",
+    "registered_address": "331 Apsra Cinema Complex, U P Border, Chikamberpur, Ghaziabad, Ghaziabad, Uttar Pradesh, India, 201006",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 7775430,
+    "paid_up_capital": 11483248,
+    "date_of_last_agm": "3/27/26, 6:34 PM",
+    "date_of_balance_sheet": "14/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Uttar Pradesh II",
+    "jurisdiction_roc": "ROC Uttar Pradesh II",
+    "jurisdiction_rd": "RD Delhi, Northern Region Directorate I",
+    "emails_found": [
+      "prafotsavwebstore@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "07775430",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11483248",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/27/26, 6:34 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU47912UP2026PTC241259\n\nCompany Name\n\nPRAFOTSAV WEBSTORE PRIVATE LIMITED\n\nROC Name\n\nROC Uttar Pradesh II\n\nRegistration Number\n\n241259\n\nDate of Incorporation\n\n14/01/2026\n\nEmail Id\n\nprafotsavwebstore@gmail.com\n\nRegistered Address\n\n331 Apsra Cinema Complex, U P Border, Chikamberpur, Ghaziabad,\nGhaziabad, Uttar Pradesh, India, 201006\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Uttar Pradesh II\n\nRD (name and Region)\n\nRD Delhi, Northern Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/27/26, 6:34 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n07775430\n\nDirector\n\nPromoter\n\n14/01/2026\n\n-\n\nYes\n\nPRABHAT\nSHARMA\n\n2\n\n11483248\n\nDirector\n\nPromoter\n\n14/01/2026\n\n-\n\nYes\n\nPANKAJ\nSHARMA\n\n"
+  }
+}

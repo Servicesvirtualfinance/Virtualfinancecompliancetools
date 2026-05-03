@@ -1,0 +1,55 @@
+{
+  "company_name": "SWACHH PRAKRITI SOLUTIONS PRIVATE LIMITED",
+  "cin": "U17029UP2026PTC244537",
+  "registered_address": "NUSRAT RIZVI 110, GALI SHAH CHADA CHOWK, Amberganj, Lucknow, Lucknow, Uttar Pradesh, India, 226003",
+  "roc_name": "ROC Uttar Pradesh I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 9455730,
+  "paid_up_capital": 9453908,
+  "directors": [
+    {
+      "din": "09455730",
+      "name": "Nusrat Rizvi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "09453908",
+      "name": "Nasreen Jahan",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS8664C"
+  },
+  "email": "rnus990@gmail.com",
+  "meta": {
+    "created": "20260225_113549",
+    "last_updated": "20260225_113549"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260225_113549",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SWACHH PRAKRITI SOLUTIONS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U17029UP2026PTC244537",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNS31353A"
+}

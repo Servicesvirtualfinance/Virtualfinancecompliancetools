@@ -1,0 +1,18 @@
+{
+  "to": "miteshvb@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DMV DIGITAL NETWORK PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "DMV DIGITAL NETWORK PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rj5frrCGmd3l72",
+    "payment_date": "2025-11-23T12:32:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

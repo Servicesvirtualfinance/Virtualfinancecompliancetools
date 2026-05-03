@@ -1,0 +1,108 @@
+{
+  "company_name": "SHREE RADHA RANI HOSPITALITY PRIVATE LIMITED",
+  "cin": "U55101PN2025PTC248063",
+  "registered_address": "Cts No -259, School Mohalla, Mahabaleshwar, Satara, Mahabaleshwar, Maharashtra, India, 412806",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11370124,
+  "paid_up_capital": 11370125,
+  "directors": [
+    {
+      "din": "11370124",
+      "name": "PALLAVI KIRAN SAPKAL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370125",
+      "name": "KIRAN RAVIKANT SAPKAL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS7535B"
+  },
+  "email": "Kiransapkal77@gmail.com",
+  "meta": {
+    "created": "20251226_105318",
+    "last_updated": "20260131_124418"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251226_105318",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Shree Radha Rani Hospitality Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U55101PN2025PTC248063",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260131_124418",
+      "inputs": {
+        "meeting_date": "31 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "PALLAVI KIRAN SAPKAL",
+          "din": "11370124",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHREE RADHA RANI HOSPITALITY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260131_124418.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260131_124431",
+      "inputs": {
+        "to": "Kiransapkal77@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260131_124418.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PNES07136K",
+  "authorized_signatory": {
+    "name": "PALLAVI KIRAN SAPKAL",
+    "din": "11370124",
+    "designation": "Director",
+    "meeting_date": "31 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHREE RADHA RANI HOSPITALITY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260131_124418.docx",
+    "ts": "20260131_124418",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260131_124431"
+  },
+  "authorised_signatory": {
+    "name": "PALLAVI KIRAN SAPKAL",
+    "din": "11370124",
+    "designation": "Director",
+    "meeting_date": "31 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHREE RADHA RANI HOSPITALITY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260131_124418.docx",
+    "ts": "20260131_124418",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260131_124431"
+  }
+}

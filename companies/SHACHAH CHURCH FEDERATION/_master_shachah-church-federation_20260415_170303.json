@@ -1,0 +1,55 @@
+{
+  "company_name": "SHACHAH CHURCH FEDERATION",
+  "cin": "U94910OD2026NPL053118",
+  "registered_address": "D No 032 OD BLD HAS 96D, Hatapadi Sahi balliguda, Balliguda, Kandhamal, Balliguda, Orissa, India, 762103",
+  "roc_name": "ROC Cuttack",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11554811",
+      "name": "RANEESHPA RAMESWARAN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11554796",
+      "name": "Reena Raneesh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS2062F"
+  },
+  "email": "Shachahcf@gmail.com",
+  "meta": {
+    "created": "20260415_170303",
+    "last_updated": "20260415_170303"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260415_170303",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHACHAH CHURCH FEDERATION.pdf"
+      },
+      "outputs": {
+        "cin": "U94910OD2026NPL053118",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BBNS18083C"
+}

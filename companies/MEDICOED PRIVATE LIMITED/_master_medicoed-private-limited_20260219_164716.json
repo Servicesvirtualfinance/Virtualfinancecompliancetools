@@ -1,0 +1,92 @@
+{
+  "company_name": "MEDICOED PRIVATE LIMITED",
+  "cin": "U85499MP2026PTC082049",
+  "registered_address": "14 B Shri Krishna Avanyou, Face 3, Kasturbagram, Indore, Indore, Madhya Pradesh, India, 452020",
+  "roc_name": "ROC Gwalior",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11544652,
+  "paid_up_capital": 11544653,
+  "directors": [
+    {
+      "din": "11544652",
+      "name": "Priyanjali Sharma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11544653",
+      "name": "Soumya Pandey",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM5173D"
+  },
+  "email": "priyanjalis16@gmail.com",
+  "meta": {
+    "created": "20260219_164716",
+    "last_updated": "20260227_161404"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260219_164716",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MEDICOED PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U85499MP2026PTC082049",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260227_161404",
+      "inputs": {
+        "meeting_date": "27 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Priyanjali Sharma",
+          "din": "11544652",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MEDICOED PRIVATE LIMITED\\bod_gst_authorized_signatory_20260227_161403.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BPLM19656A",
+  "authorized_signatory": {
+    "name": "Priyanjali Sharma",
+    "din": "11544652",
+    "designation": "Director",
+    "meeting_date": "27 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MEDICOED PRIVATE LIMITED\\bod_gst_authorized_signatory_20260227_161403.docx",
+    "ts": "20260227_161404",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Priyanjali Sharma",
+    "din": "11544652",
+    "designation": "Director",
+    "meeting_date": "27 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MEDICOED PRIVATE LIMITED\\bod_gst_authorized_signatory_20260227_161403.docx",
+    "ts": "20260227_161404",
+    "note": "authorised signatory appointed"
+  }
+}

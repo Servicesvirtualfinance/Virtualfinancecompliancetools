@@ -1,0 +1,55 @@
+{
+  "company_name": "HOBER TRIPS PRIVATE LIMITED",
+  "cin": "U79110AS2025PTC029405",
+  "registered_address": "ByLane 10, Nabapur, Mazgoan, Tezpur, Sonitpur, Tezpur, Assam, India, 784001",
+  "roc_name": "ROC Guwahati",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11429759,
+  "paid_up_capital": 11429760,
+  "directors": [
+    {
+      "din": "11429759",
+      "name": "Masoom Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11429760",
+      "name": "Minati Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICH3534M"
+  },
+  "email": "masoom@hober.in",
+  "meta": {
+    "created": "20260112_152649",
+    "last_updated": "20260112_152649"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260112_152649",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOBER TRIPS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79110AS2025PTC029405",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "SHLH02783E"
+}

@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Pgkm Solar Energy Private Limited.pdf",
+  "file_hash_sha256": "67c22d32682187cf19539c825b1eef683d6a09a7d78990013afd121935439ba7",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-02 12:19:36"
+  },
+  "master_data": {
+    "cin": "U35105RJ2025PTC108451",
+    "company_name": "PGKM SOLAR ENERGY PRIVATE LIMITED",
+    "roc_name": "ROC Jaipur",
+    "registration_number": "108451",
+    "date_of_incorporation": "05/11/2025",
+    "email": "pgkm.solar@gmail.com",
+    "registered_address": "C44 MOHAN NAGAR GARSHISAR, ROAD GANGASHAHAR, Bikaner, Bikaner, Bikaner, Rajasthan, India, 334001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/2/26, 12:18 PM",
+    "authorised_capital": 11368742,
+    "paid_up_capital": 11368743,
+    "date_of_last_agm": "05/11/2025",
+    "date_of_balance_sheet": "05/11/2025",
+    "company_status": "Active",
+    "small_company": "ROC Jaipur",
+    "jurisdiction_roc": "ROC Jaipur",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "pgkm.solar@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11368742",
+      "name": "Gurjeet Kaur Oberoi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11368743",
+      "name": "Pritpal Singh Oberoi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11368744",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/2/26, 12:18 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU35105RJ2025PTC108451\n\nCompany Name\n\nPGKM SOLAR ENERGY PRIVATE LIMITED\n\nROC Name\n\nROC Jaipur\n\nRegistration Number\n\n108451\n\nDate of Incorporation\n\n05/11/2025\n\nEmail Id\n\npgkm.solar@gmail.com\n\nRegistered Address\n\nC44 MOHAN NAGAR GARSHISAR, ROAD GANGASHAHAR, Bikaner, Bikaner,\nBikaner, Rajasthan, India, 334001\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/2/26, 12:18 PM\n\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Jaipur\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11368742\n\nGURJEET KAUR OBEROI\n\nDirector\n\nPromoter\n\n05/11/2025\n\n-\n\nYes\n\n2\n\n11368743\n\nPRITPAL SINGH OBEROI\n\nDirector\n\nPromoter\n\n05/11/2025\n\n-\n\nYes\n\n\n1/2/26, 12:18 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n3\n\n11368744\n\nDirector\n\nPromoter\n\n05/11/2025\n\n-\n\nYes\n\nHARPREET SINGH\nOBEROI\n\n"
+  }
+}

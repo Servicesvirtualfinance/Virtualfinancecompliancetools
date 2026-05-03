@@ -1,0 +1,65 @@
+{
+  "company_name": "MSEB RETIRED ENGINEERS WELFARE ASSOCIATION",
+  "cin": "U88900MR2026NPL475628",
+  "registered_address": "E-1201 Richmond Shiv sai, paradiseNEarFatima Church, Thane, Thane, Thane, Maharashtra, India, 400601",
+  "roc_name": "ROC Mumbai II",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11664000,
+  "paid_up_capital": 11664001,
+  "directors": [
+    {
+      "din": "11664000",
+      "name": "RAJSHEKHAR BHARAMA KORE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11664001",
+      "name": "PRASHANT BHASKAR BHANUSHALI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11664002",
+      "name": "DHANANJAY VASANTRAO BHOJANE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAUCM8009N"
+
+},
+  "email": "msebretiredengineers1201@gmail.com",
+  "meta": {
+    "created": "20260425_163119",
+    "last_updated": "20260425_163119"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260425_163119",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MSEB RETIRED ENGINEERS WELFARE ASSOCIATION.pdf"
+      },
+      "outputs": {
+        "cin": "U88900MR2026NPL475628",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEM47981D"
+}

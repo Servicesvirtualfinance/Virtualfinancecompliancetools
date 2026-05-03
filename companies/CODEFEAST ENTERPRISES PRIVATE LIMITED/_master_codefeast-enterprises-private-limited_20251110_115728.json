@@ -1,0 +1,76 @@
+{
+  "company_name": "CODEFEAST ENTERPRISES PRIVATE LIMITED",
+  "cin": "U62099UP2025PTC235020",
+  "registered_address": "185/3 Devi nagar, Suraj kunj Road, Meerut City, Meerut, Meerut, Uttar Pradesh, India, 250002",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11346637",
+      "name": "Archana Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11346638",
+      "name": "Mahendra Kumar Garg",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11346639",
+      "name": "Abhishek Garg",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC1982F"
+  },
+  "email": "abhishek.uniprofs@gmail.com",
+  "meta": {
+    "created": "20251110_115728",
+    "last_updated": "20251110_120730"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251110_115728",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Codefeast Enterprises Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099UP2025PTC235020",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251110_120730",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Codefeast Enterprises Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099UP2025PTC235020",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTC07951G"
+}

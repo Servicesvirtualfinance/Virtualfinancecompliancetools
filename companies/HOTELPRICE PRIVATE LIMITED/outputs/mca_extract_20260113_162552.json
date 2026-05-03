@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOTELPRICE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "d7fcab2ba515b9488b282d58ec1987ac391f414e58084a06edc1bec6f092d9f7",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-13 16:25:52"
+  },
+  "master_data": {
+    "cin": "U63122TN2025PTC187422",
+    "company_name": "HOTELPRICE PRIVATE LIMITED",
+    "roc_name": "ROC Chennai",
+    "registration_number": "187422",
+    "date_of_incorporation": "19/12/2025",
+    "email": "info@thehotelprice.com",
+    "registered_address": "No.23, Ettu Thogai Street, Tirunelveli, Vannarpettai, Tirunelveli, Palayamkottai, Tamil Nadu, India, 627003",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/13/26, 4:25 PM",
+    "authorised_capital": 11438549,
+    "paid_up_capital": 11438550,
+    "date_of_last_agm": "19/12/2025",
+    "date_of_balance_sheet": "19/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Chennai",
+    "jurisdiction_roc": "ROC Chennai",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "info@thehotelprice.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11438549",
+      "name": "Subi Perachi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11438550",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/13/26, 4:25 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU63122TN2025PTC187422\n\nCompany Name\n\nHOTELPRICE PRIVATE LIMITED\n\nROC Name\n\nROC Chennai\n\nRegistration Number\n\n187422\n\nDate of Incorporation\n\n19/12/2025\n\nEmail Id\n\ninfo@thehotelprice.com\n\nRegistered Address\n\nNo.23, Ettu Thogai Street, Tirunelveli, Vannarpettai, Tirunelveli, Palayamkottai, Tamil\nNadu, India, 627003\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/13/26, 4:25 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chennai\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11438549\n\nSUBI PERACHI\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\n2\n\n11438550\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\nGANESAN\nPERACHISELVAM\n\n"
+  }
+}

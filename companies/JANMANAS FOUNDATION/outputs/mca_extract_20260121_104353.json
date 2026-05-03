@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_JANMANAS FOUNDATION.pdf",
+  "file_hash_sha256": "5a0ad05df0887d7c6757e539cfd2c7778af30eb311bed0bc5b2d00be462a0633",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-21 10:43:53"
+  },
+  "master_data": {
+    "cin": "U88900DL2025NPL460576",
+    "company_name": "JANMANAS FOUNDATION",
+    "roc_name": "ROC Delhi",
+    "registration_number": "460576",
+    "date_of_incorporation": "27/12/2025",
+    "email": "janmanasfoundation.in@gmail.com",
+    "registered_address": "BE- 384 F/F/B/P HARINAGAR, NEW DELHI, Hari Nagar BE Block, West Delhi, New Delhi, Delhi, India, 110064",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Maximum Number of Members",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "Active",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Delhi",
+    "jurisdiction_roc": "ROC Delhi",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "janmanasfoundation.in@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11453058",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11453059",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/21/26, 10:43 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900DL2025NPL460576\n\nCompany Name\n\nJANMANAS FOUNDATION\n\nROC Name\n\nROC Delhi\n\nRegistration Number\n\n460576\n\nDate of Incorporation\n\n27/12/2025\n\nEmail Id\n\njanmanasfoundation.in@gmail.com\n\nRegistered Address\n\nBE- 384 F/F/B/P HARINAGAR, NEW DELHI, Hari Nagar BE Block,\nWest Delhi, New Delhi, Delhi, India, 110064\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nMaximum Number of Members\n\n2\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/21/26, 10:43 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11453058\n\nDirector\n\nPromoter\n\n27/12/2025\n\n-\n\nYes\n\nSHEETAL\nSHARMA\n\n2\n\n11453059\n\nDirector\n\nPromoter\n\n27/12/2025\n\n-\n\nYes\n\nCHAITANYA\nSHARMA\n\n"
+  }
+}

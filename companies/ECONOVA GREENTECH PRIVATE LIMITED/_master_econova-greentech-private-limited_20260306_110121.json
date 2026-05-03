@@ -1,0 +1,55 @@
+{
+  "company_name": "ECONOVA GREENTECH PRIVATE LIMITED",
+  "cin": "U20119MH2026PTC467625",
+  "registered_address": "504, FLR-5, PLOT-3, ANURADHA, AMRUTKUMBH CHSL, Gokhale Road (Mumbai), Mumbai, Mumbai, Maharashtra, India, 400028",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10732515,
+  "paid_up_capital": 11528803,
+  "directors": [
+    {
+      "din": "10732515",
+      "name": "VEDANT DINESH PENDHARKAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11528803",
+      "name": "Vaibhav Rajesh Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE4767C"
+  },
+  "email": "vedant2433@gmail.com",
+  "meta": {
+    "created": "20260306_110121",
+    "last_updated": "20260306_110121"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260306_110121",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ECONOVA GREENTECH PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U20119MH2026PTC467625",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUME18428E"
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "MATR PREM PRIVATE LIMITED",
+  "cin": "U01110UP2025PTC237849",
+  "registered_address": "90 Vill Alipur Khurd, Baghra, Meerut, Baghra (Muzaffarnagar), Muzaffarnagar, Muzaffarnagar, Uttar Pradesh, India, 251306",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11415183,
+  "paid_up_capital": 11415184,
+  "directors": [
+    {
+      "din": "11415183",
+      "name": "ROBIN SINGH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11415184",
+      "name": "Pooja",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM1738N"
+  },
+  "email": "matrpremofficial@gmail.com",
+  "meta": {
+    "created": "20260105_111758",
+    "last_updated": "20260105_111758"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260105_111758",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MATR PREM PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U01110UP2025PTC237849",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTM17811D"
+}

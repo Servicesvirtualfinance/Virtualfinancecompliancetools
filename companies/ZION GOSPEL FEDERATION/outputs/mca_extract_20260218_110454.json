@@ -1,0 +1,75 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZION GOSPEL FEDERATION.pdf",
+  "file_hash_sha256": "6c5944ecb57b8d34fcf396f6e51ff302cb9c441abb72af26578caea5a11a0e6c",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-18 11:04:54"
+  },
+  "master_data": {
+    "cin": "U88900TZ2026NPL037934",
+    "company_name": "ZION GOSPEL FEDERATION",
+    "roc_name": "ROC Coimbatore",
+    "registration_number": "037934",
+    "date_of_incorporation": "17/02/2026",
+    "email": "ziongospelfederation@gmail.com",
+    "registered_address": "DOOR NO. II-12-45, MANIYATHATTUVILAI, Madichel, Kanyakumari, Vilavancode, Tamil Nadu, India, 629163",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Maximum Number of Members",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "Active",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Coimbatore",
+    "jurisdiction_roc": "ROC Coimbatore",
+    "jurisdiction_rd": "RD Chennai, Southern Region Directorate",
+    "emails_found": [
+      "ziongospelfederation@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11546508",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550011",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550012",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550013",
+      "name": "Roshin Raj",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/18/26, 11:03 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900TZ2026NPL037934\n\nCompany Name\n\nZION GOSPEL FEDERATION\n\nROC Name\n\nROC Coimbatore\n\nRegistration Number\n\n037934\n\nDate of Incorporation\n\n17/02/2026\n\nEmail Id\n\nziongospelfederation@gmail.com\n\nRegistered Address\n\nDOOR NO. II-12-45, MANIYATHATTUVILAI, Madichel, Kanyakumari,\nVilavancode, Tamil Nadu, India, 629163\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nMaximum Number of Members\n\n200\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Coimbatore\n\nRD (name and Region)\n\nRD Chennai, Southern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/18/26, 11:03 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11546508\n\nDirector\n\nPromoter\n\n17/02/2026\n\n-\n\nYes\n\nSWAMINATHAN\nANTHONI\n\n2\n\n11550011\n\nDirector\n\nPromoter\n\n17/02/2026\n\n-\n\nYes\n\nMANAS\nVANAJA\nMALAR\n\n3\n\n11550012\n\nDirector\n\nPromoter\n\n17/02/2026\n\n-\n\nYes\n\nTHANKAPPAN\nSUNDAR RAJ\n\n4\n\n11550013\n\nROSHIN RAJ\n\nDirector\n\nProfessional\n\n17/02/2026\n\n-\n\nYes\n\n"
+  }
+}

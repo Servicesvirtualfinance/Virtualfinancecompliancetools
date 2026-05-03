@@ -1,0 +1,55 @@
+{
+  "company_name": "AURELLENT PRIVATE LIMITED",
+  "cin": "U46306DL2026PTC464986",
+  "registered_address": "C-191 IIND FLOOR, NEW ASHOK NAGAR, East Delhi, East Delhi, East Delhi, Delhi, India, 110096",
+  "roc_name": "ROC Delhi I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11634120,
+  "paid_up_capital": 11634121,
+  "directors": [
+    {
+      "din": "11634120",
+      "name": "Ghanshyam",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11634121",
+      "name": "Kundan Ram",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA2969M"
+  },
+  "email": "Shyamkashyap38@gmail.com",
+  "meta": {
+    "created": "20260406_103149",
+    "last_updated": "20260406_103149"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260406_103149",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_AURELLENT PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46306DL2026PTC464986",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELA88104C"
+}

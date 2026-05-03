@@ -1,0 +1,55 @@
+{
+  "company_name": "DELIVORA FRESCUS PRIVATE LIMITED",
+  "cin": "U56102MH2025PTC461809",
+  "registered_address": "Flat No.3, G, Casa Elite G, Taloja BypsRd, Dombivali E, Khoni, Thane, Kalyan, Maharashtra, India, 421204",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11406138,
+  "paid_up_capital": 11406139,
+  "directors": [
+    {
+      "din": "11406138",
+      "name": "Amit Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11406139",
+      "name": "Bhabya",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCD2089B"
+  },
+  "email": "Delivorafrescus@gmail.com",
+  "meta": {
+    "created": "20260102_141933",
+    "last_updated": "20260102_141933"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260102_141933",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DELIVORA FRESCUS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56102MH2025PTC461809",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNED25046A"
+}

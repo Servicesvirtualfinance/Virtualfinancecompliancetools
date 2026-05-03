@@ -1,0 +1,46 @@
+{
+  "company_name": "E-COM CONNECT GLOBAL (OPC) PRIVATE LIMITED",
+  "cin": "U47912KA2025OPC213259",
+  "registered_address": "Suit No.5B, AXIS PENMARK, 565, 9th Cross 7th Main, JP Nagar III Phase, Bangalore, Bangalore South, Karnataka, India, 560078",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11451289,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11451289",
+      "name": "Obaid Jayakumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE3774D"
+  },
+  "email": "info@ecomconnectglobal.com",
+  "meta": {
+    "created": "20260217_172427",
+    "last_updated": "20260217_172427"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260217_172427",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_E-COM CONNECT GLOBAL (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912KA2025OPC213259",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRE16306D"
+}

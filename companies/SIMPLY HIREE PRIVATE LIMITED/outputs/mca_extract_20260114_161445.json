@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIMPLY HIREE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "700142d2c8fa0db48c93fc6255ee83cef5d6e9edcf51fc6f0e0ab880970ed5f9",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-14 16:14:45"
+  },
+  "master_data": {
+    "cin": "U78200UP2025PTC238321",
+    "company_name": "SIMPLY HIREE PRIVATE LIMITED",
+    "roc_name": "ROC Kanpur",
+    "registration_number": "238321",
+    "date_of_incorporation": "12/12/2025",
+    "email": "Anjrajgroup@gmail.com",
+    "registered_address": "C/o Rajendra Prasad, JNP, Phoolkhan/Shahar 152, Machhali Shahar, Jaunpur, Machhali Shahar, Uttar Pradesh, India, 222143",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/14/26, 4:14 PM",
+    "authorised_capital": 7892399,
+    "paid_up_capital": 11424196,
+    "date_of_last_agm": "12/12/2025",
+    "date_of_balance_sheet": "12/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Kanpur",
+    "jurisdiction_roc": "ROC Kanpur",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "Anjrajgroup@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "07892399",
+      "name": "Aman Yadav",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11424196",
+      "name": "Ankit Yadav",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/14/26, 4:14 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU78200UP2025PTC238321\n\nCompany Name\n\nSIMPLY HIREE PRIVATE LIMITED\n\nROC Name\n\nROC Kanpur\n\nRegistration Number\n\n238321\n\nDate of Incorporation\n\n12/12/2025\n\nEmail Id\n\nAnjrajgroup@gmail.com\n\nRegistered Address\n\nC/o Rajendra Prasad, JNP, Phoolkhan/Shahar 152, Machhali Shahar, Jaunpur, Machhali\nShahar, Uttar Pradesh, India, 222143\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/14/26, 4:14 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kanpur\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n07892399\n\nAMAN YADAV\n\nDirector\n\nPromoter\n\n12/12/2025\n\n-\n\nYes\n\n2\n\n11424196\n\nANKIT YADAV\n\nDirector\n\nPromoter\n\n12/12/2025\n\n-\n\nYes\n\n"
+  }
+}

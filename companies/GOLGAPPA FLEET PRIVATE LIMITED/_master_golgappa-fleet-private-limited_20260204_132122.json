@@ -1,0 +1,55 @@
+{
+  "company_name": "GOLGAPPA FLEET PRIVATE LIMITED",
+  "cin": "U56100WB2026PTC285848",
+  "registered_address": "C/O VILL-SAHAPUR PO-, KHATURA, NORTH24 PARGANAS, Khantura, North 24 Parganas, Habra - I, West Bengal, India, 743273",
+  "roc_name": "ROC Kolkata",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11473141,
+  "paid_up_capital": 11473142,
+  "directors": [
+    {
+      "din": "11473141",
+      "name": "ARIJIT PODDER",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11473142",
+      "name": "KOUSTAV SAHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG6687J"
+  },
+  "email": "golgappafleet@gmail.com",
+  "meta": {
+    "created": "20260204_132122",
+    "last_updated": "20260204_132122"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260204_132122",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_GOLGAPPA FLEET PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56100WB2026PTC285848",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CALG16105F"
+}

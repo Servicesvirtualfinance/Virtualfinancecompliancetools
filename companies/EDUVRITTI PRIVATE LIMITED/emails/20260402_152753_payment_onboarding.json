@@ -1,0 +1,18 @@
+{
+  "to": "EDUVRITTI@GMAIL.COM",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 EDUVRITTI PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "EDUVRITTI PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SYZD01hzBuXoxM",
+    "payment_date": "2026-04-02T14:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

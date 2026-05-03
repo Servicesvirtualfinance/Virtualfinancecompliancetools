@@ -1,0 +1,107 @@
+{
+  "company_name": "PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED",
+  "cin": "U24202MH2026PTC464828",
+  "registered_address": "A 302 Ashtavinayak Apt Beside haridham apt, Near Funfiesta Nilemore Nagar, Sopara, Thane, Vasai, Maharashtra, India, 401203",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11464497,
+  "paid_up_capital": 11464498,
+  "directors": [
+    {
+      "din": "11464497",
+      "name": "SURYAKANT RAMDULAR PANDEY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11464498",
+      "name": "PUNEET SURYAKANT PANDEY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ASJPP2684E"
+  },
+  "email": "pandeyarchitecture@gmail.com",
+  "meta": {
+    "created": "20260130_164536",
+    "last_updated": "20260209_150730"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260130_164536",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U24202MH2026PTC464828",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260209_150730",
+      "inputs": {
+        "meeting_date": "09 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SURYAKANT RAMDULAR PANDEY",
+          "din": "11464497",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260209_150730.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260209_150741",
+      "inputs": {
+        "to": "pandeyarchitecture@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260209_150730.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "authorized_signatory": {
+    "name": "SURYAKANT RAMDULAR PANDEY",
+    "din": "11464497",
+    "designation": "Director",
+    "meeting_date": "09 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260209_150730.docx",
+    "ts": "20260209_150730",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260209_150741"
+  },
+  "authorised_signatory": {
+    "name": "SURYAKANT RAMDULAR PANDEY",
+    "din": "11464497",
+    "designation": "Director",
+    "meeting_date": "09 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260209_150730.docx",
+    "ts": "20260209_150730",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260209_150741"
+  }
+}

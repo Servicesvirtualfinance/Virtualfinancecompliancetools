@@ -1,0 +1,55 @@
+{
+  "company_name": "BILVA LIFESTYLE PRIVATE LIMITED",
+  "cin": "U85491UP2025PTC239719",
+  "registered_address": "K-1005 10th Floor Tower K, Ajnara Homes GH 3 Sec 16B, Bisrakh, Gautam Buddha Nagar, Bishrakh, Uttar Pradesh, India, 201306",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7347236,
+  "paid_up_capital": 11450540,
+  "directors": [
+    {
+      "din": "07347236",
+      "name": "Daljit Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11450540",
+      "name": "Niti Garg",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB2584P"
+  },
+  "email": "Bilvalifestyle@gmail.com",
+  "meta": {
+    "created": "20260128_114853",
+    "last_updated": "20260128_114853"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260128_114853",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BILVA LIFESTYLE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U85491UP2025PTC239719",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTB09838D"
+}

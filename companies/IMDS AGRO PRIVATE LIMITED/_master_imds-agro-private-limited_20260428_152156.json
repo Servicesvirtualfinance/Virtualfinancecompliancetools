@@ -1,0 +1,55 @@
+{
+  "company_name": "IMDS AGRO PRIVATE LIMITED",
+  "cin": "U01100PN2020PTC191644",
+  "registered_address": "22/1, VADUJ HP HIGHSCHOOL VADUJ HP HIGHSCHOOL NEA KHATAV SATARA, Satara, Vaduj, Maharashtra, India, 415506",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 6943537,
+  "paid_up_capital": 8258427,
+  "directors": [
+    {
+      "din": "06943537",
+      "name": "Amol Govind Shinde",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/07/2020",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08258427",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/07/2020",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAFCI6842N"
+},
+  "email": "IMDSIT1@GMAIL.COM",
+  "meta": {
+    "created": "20260428_152156",
+    "last_updated": "20260428_152156"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260428_152156",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_IMDS AGRO PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U01100PN2020PTC191644",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "PNEI09853E"
+}

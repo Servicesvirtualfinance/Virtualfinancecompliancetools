@@ -1,0 +1,55 @@
+{
+  "company_name": "GRANDCITY TRADERS PRIVATE LIMITED",
+  "cin": "U47591AS2025PTC029442",
+  "registered_address": "VILLA NO 2 BHETAGAON, PANBARI ROAD CHIRANG, Bijni, Bongaigaon, Manikpur, Assam, India, 783390",
+  "roc_name": "ROC Guwahati",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10585765,
+  "paid_up_capital": 11437065,
+  "directors": [
+    {
+      "din": "10585765",
+      "name": "Pradip Kumar Saha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11437065",
+      "name": "Anuradha Saha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG6016F"
+  },
+  "email": "saraighatproject@gmail.com",
+  "meta": {
+    "created": "20260109_163125",
+    "last_updated": "20260109_163125"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260109_163125",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_GRANDCITY TRADERS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47591AS2025PTC029442",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "SHLG03833E"
+}

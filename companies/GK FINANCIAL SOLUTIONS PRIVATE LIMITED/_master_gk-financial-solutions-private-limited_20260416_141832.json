@@ -1,0 +1,55 @@
+{
+  "company_name": "GK FINANCIAL SOLUTIONS PRIVATE LIMITED",
+  "cin": "U66190HR2026PTC143318",
+  "registered_address": "Office No 21 Lower Ground, Charmwood Plaza, Eros, Surajkund Faridabad, Faridabad, Faridabad, Haryana, India, 121009",
+  "roc_name": "ROC Haryana",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11620678,
+  "paid_up_capital": 11620679,
+  "directors": [
+    {
+      "din": "11620678",
+      "name": "GAUTAM KUMAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11620679",
+      "name": "SONALI KUMARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG9058M"
+  },
+  "email": "gkfs.Pvt.Ltd@Outlook.com",
+  "meta": {
+    "created": "20260416_141832",
+    "last_updated": "20260416_141832"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260416_141832",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Master Data (GK Financial) (3).pdf"
+      },
+      "outputs": {
+        "cin": "U66190HR2026PTC143318",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELG34070B"
+}

@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BRIIDGE WITH TRADE CO PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "4579ca82d9f9dddc2f8dc671647910e910a3c9d868bcc540c121cc6a73b4c991",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-21 18:14:09"
+  },
+  "master_data": {
+    "cin": "U46699GJ2026PTC172359",
+    "company_name": "BRIIDGE WITH TRADE CO PRIVATE LIMITED",
+    "roc_name": "ROC Ahmedabad",
+    "registration_number": "172359",
+    "date_of_incorporation": "20/01/2026",
+    "email": "Jd9601271@gmail.com",
+    "registered_address": "115-BILESHWAR, IND.ESTATE, II, OPP.G.V.M.M., ODHAV, Kathwada, Ahmedabad, Daskroi, Gujarat, India, 382430",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/21/26, 6:13 PM",
+    "authorised_capital": 11405655,
+    "paid_up_capital": 11495289,
+    "date_of_last_agm": "20/01/2026",
+    "date_of_balance_sheet": "20/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Ahmedabad",
+    "jurisdiction_roc": "ROC Ahmedabad",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "Jd9601271@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11405655",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11495289",
+      "name": "Sanjaykumar Kushwaha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11495290",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/21/26, 6:13 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU46699GJ2026PTC172359\n\nCompany Name\n\nBRIIDGE WITH TRADE CO PRIVATE LIMITED\n\nROC Name\n\nROC Ahmedabad\n\nRegistration Number\n\n172359\n\nDate of Incorporation\n\n20/01/2026\n\nEmail Id\n\nJd9601271@gmail.com\n\nRegistered Address\n\n115-BILESHWAR, IND.ESTATE, II, OPP.G.V.M.M., ODHAV, Kathwada, Ahmedabad,\nDaskroi, Gujarat, India, 382430\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/21/26, 6:13 PM\n\n\nAuthorised Capital (Rs)\n\n1,50,000\n\nPaid up Capital (Rs)\n\n1,50,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ahmedabad\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11405655\n\nDirector\n\nPromoter\n\n20/01/2026\n\n-\n\nYes\n\nKATHAN JYOTISHCHANDRA\nDAS\n\n2\n\n11495289\n\nSANJAYKUMAR KUSHWAHA\n\nDirector\n\nPromoter\n\n20/01/2026\n\n-\n\nYes\n\n\n1/21/26, 6:13 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n3\n\n11495290\n\nDirector\n\nPromoter\n\n20/01/2026\n\n-\n\nYes\n\nNAVDEEPSINGH\nRAMESHSINGH TOMAR\n\n"
+  }
+}

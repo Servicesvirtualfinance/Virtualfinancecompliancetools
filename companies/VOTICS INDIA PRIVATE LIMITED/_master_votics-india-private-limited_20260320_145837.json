@@ -1,0 +1,67 @@
+{
+  "company_name": "VOTICS INDIA PRIVATE LIMITED",
+  "cin": "U73200BR2026PTC083266",
+  "registered_address": "House no 25, NO-2 NEHRUNAGAR, Patliputra, Patna, Phulwari, Bihar, India, 800013",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11595692,
+  "paid_up_capital": 11595693,
+  "directors": [
+    {
+      "din": "11595692",
+      "name": "RAJENDRA KUMAR KARMSHIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11595693",
+      "name": "MEERA KUMARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AALCV9832H"
+  },
+  "email": "voticsindia@gmail.com",
+  "meta": {
+    "created": "20260320_145837",
+    "last_updated": "20260321_174929"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260320_145837",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_VOTICS INDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U73200BR2026PTC083266",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260321_174929",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_VOTICS INDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U73200BR2026PTC083266",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PTNV03902D"
+}

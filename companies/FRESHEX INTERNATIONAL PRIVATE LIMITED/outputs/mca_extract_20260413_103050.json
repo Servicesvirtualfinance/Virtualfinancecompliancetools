@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_FRESHEX INTERNATIONAL PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "aa1403f2dd876b43c82dc4e520f1f100195176e76f677811365f1cf759928511",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-13 10:30:50"
+  },
+  "master_data": {
+    "cin": "U46205MR2026PTC475400",
+    "company_name": "FRESHEX INTERNATIONAL PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai II",
+    "registration_number": "475400",
+    "date_of_incorporation": "08/04/2026",
+    "email": "freshexinternational@gmail.com",
+    "registered_address": "C/O RUKHASANA M K AT, NAYANAGAR, RAJPURI, MURUD, Janjira Murud, Raigarh(MH), Murud, Maharashtra, India, 402401",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11653047,
+    "paid_up_capital": 11653048,
+    "date_of_last_agm": "08/04/2026",
+    "date_of_balance_sheet": "08/04/2026",
+    "company_status": "Inactive for e-filing",
+    "small_company": "ROC Mumbai II",
+    "jurisdiction_roc": "ROC Mumbai II",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "freshexinternational@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11653047",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11653048",
+      "name": "Mahek Munib Kaskar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/13/26, 10:27 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU46205MR2026PTC475400\n\nCompany Name\n\nFRESHEX INTERNATIONAL PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai II\n\nRegistration Number\n\n475400\n\nDate of Incorporation\n\n08/04/2026\n\nEmail Id\n\nfreshexinternational@gmail.com\n\nRegistered Address\n\nC/O RUKHASANA M K AT, NAYANAGAR,RAJPURI, MURUD, Janjira Murud, Raigarh(MH),\nMurud, Maharashtra, India, 402401\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n4/13/26, 10:27 AM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nInactive for e-filing\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai II\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11653047\n\nDirector\n\nPromoter\n\n08/04/2026\n\n-\n\nYes\n\nRAYYAN MASOOD\nKASKAR\n\n2\n\n11653048\n\nMAHEK MUNIB KASKAR\n\nDirector\n\nPromoter\n\n08/04/2026\n\n-\n\nYes\n\n"
+  }
+}

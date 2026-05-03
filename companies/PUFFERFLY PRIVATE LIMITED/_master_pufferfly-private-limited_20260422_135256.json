@@ -1,0 +1,55 @@
+{
+  "company_name": "PUFFERFLY PRIVATE LIMITED",
+  "cin": "U10799CH2026PTC046869",
+  "registered_address": "House no 733, Sector 25 D, Sector 14 (Chandigarh), Chandigarh, Chandigarh, Chandigarh, India, 160014",
+  "roc_name": "ROC Chandigarh",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11631238,
+  "paid_up_capital": 11631239,
+  "directors": [
+    {
+      "din": "11631238",
+      "name": "Shivani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11631239",
+      "name": "Shivam",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAQCP8835P"
+  },
+  "email": "pufferflysnacks@gmail.com",
+  "meta": {
+    "created": "20260422_135256",
+    "last_updated": "20260422_135256"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260422_135256",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PUFFERFLY PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U10799CH2026PTC046869",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PTLP20701C"
+}

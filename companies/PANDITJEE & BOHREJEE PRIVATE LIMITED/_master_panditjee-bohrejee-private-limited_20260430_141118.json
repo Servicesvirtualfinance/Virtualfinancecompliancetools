@@ -1,0 +1,67 @@
+{
+  "company_name": "PANDITJEE & BOHREJEE PRIVATE LIMITED",
+  "cin": "U56102UP2025PTC239457",
+  "registered_address": "C/o Karan Pal, Goverdhan Chorah, Chhata (Mathura), Mathura, Chhata, Uttar Pradesh, India, 281401",
+  "roc_name": "ROC Uttar Pradesh II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10496452,
+  "paid_up_capital": 11445972,
+  "directors": [
+    {
+      "din": "10496452",
+      "name": "Raghavendra Dixit",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11445972",
+      "name": "Digamber Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS4511P"
+  },
+  "email": "pjbj2024@gmail.com",
+  "meta": {
+    "created": "20260430_141118",
+    "last_updated": "20260430_141348"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260430_141118",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PANDITJEE & BOHREJEE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56102UP2025PTC239457",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260430_141348",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PANDITJEE & BOHREJEE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56102UP2025PTC239457",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RTKS55204C"
+}

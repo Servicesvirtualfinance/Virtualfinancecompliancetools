@@ -1,0 +1,55 @@
+{
+  "company_name": "STREAMHEART PRIVATE LIMITED",
+  "cin": "U62099UP2025PTC235918",
+  "registered_address": "G-478, G BLOCK, GOVINDPURAM PARK, BLOCK 1, Govindpuram, Ghaziabad, Ghaziabad, Uttar Pradesh, India, 201013",
+  "roc_name": "ROC Uttar Pradesh II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11387763,
+  "paid_up_capital": 11368016,
+  "directors": [
+    {
+      "din": "11387763",
+      "name": "Harish Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11368016",
+      "name": "Ankit Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS7391H"
+  },
+  "email": "Ankit.hyperchat@gmail.com",
+  "meta": {
+    "created": "20260422_161414",
+    "last_updated": "20260422_161414"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260422_161414",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_STREAMHEART PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62099UP2025PTC235918",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "ALDS13901G"
+}

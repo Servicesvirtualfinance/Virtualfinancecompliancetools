@@ -1,0 +1,108 @@
+{
+  "company_name": "MERIDIAN EDIBLE OILS PRIVATE LIMITED",
+  "cin": "U10402MH2025PTC463707",
+  "registered_address": "Shp-5, B-1, MMRDA Complex, Wadala truck terminal, Antop Hill, Mumbai, Mumbai, Maharashtra, India, 400037",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7062098,
+  "paid_up_capital": 7062226,
+  "directors": [
+    {
+      "din": "07062098",
+      "name": "Krishna Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07062226",
+      "name": "Agni Pratap Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM2551M"
+  },
+  "email": "meridianedibleoils@gmail.com",
+  "meta": {
+    "created": "20251224_125303",
+    "last_updated": "20251224_130339"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251224_125303",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services.pdf"
+      },
+      "outputs": {
+        "cin": "U10402MH2025PTC463707",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251224_130339",
+      "inputs": {
+        "meeting_date": "24 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Krishna Singh",
+          "din": "07062098",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MERIDIAN EDIBLE OILS PRIVATE LIMITED\\bod_gst_authorized_signatory_20251224_130339.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251224_130352",
+      "inputs": {
+        "to": "meridianedibleoils@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251224_130339.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "MUMM73448E",
+  "authorized_signatory": {
+    "name": "Krishna Singh",
+    "din": "07062098",
+    "designation": "Director",
+    "meeting_date": "24 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MERIDIAN EDIBLE OILS PRIVATE LIMITED\\bod_gst_authorized_signatory_20251224_130339.docx",
+    "ts": "20251224_130339",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251224_130352"
+  },
+  "authorised_signatory": {
+    "name": "Krishna Singh",
+    "din": "07062098",
+    "designation": "Director",
+    "meeting_date": "24 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MERIDIAN EDIBLE OILS PRIVATE LIMITED\\bod_gst_authorized_signatory_20251224_130339.docx",
+    "ts": "20251224_130339",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251224_130352"
+  }
+}

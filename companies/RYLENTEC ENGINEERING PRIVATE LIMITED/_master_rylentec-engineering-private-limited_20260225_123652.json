@@ -1,0 +1,108 @@
+{
+  "company_name": "RYLENTEC ENGINEERING PRIVATE LIMITED",
+  "cin": "U62099PN2026PTC252022",
+  "registered_address": "6/624, Mangalwar Peth, Near Madhura Hotel, Ichalkaranji, Kolhapur, Hatkanangle, Maharashtra, India, 416115",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11543991,
+  "paid_up_capital": 11543992,
+  "directors": [
+    {
+      "din": "11543991",
+      "name": "MADHURA ASHISH MHETAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11543992",
+      "name": "MANOJ VAMANRAO MHETAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR5465C"
+  },
+  "email": "mashish88@live.com",
+  "meta": {
+    "created": "20260225_123652",
+    "last_updated": "20260310_131319"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260225_123652",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RYLENTEC ENGINEERING PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62099PN2026PTC252022",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260310_131319",
+      "inputs": {
+        "meeting_date": "10 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "MADHURA ASHISH MHETAR",
+          "din": "11543991",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RYLENTEC ENGINEERING PRIVATE LIMITED\\bod_gst_authorized_signatory_20260310_131319.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260310_131401",
+      "inputs": {
+        "to": "mashish88@live.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260310_131319.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "KLPR05252C",
+  "authorized_signatory": {
+    "name": "MADHURA ASHISH MHETAR",
+    "din": "11543991",
+    "designation": "Director",
+    "meeting_date": "10 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RYLENTEC ENGINEERING PRIVATE LIMITED\\bod_gst_authorized_signatory_20260310_131319.docx",
+    "ts": "20260310_131319",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260310_131401"
+  },
+  "authorised_signatory": {
+    "name": "MADHURA ASHISH MHETAR",
+    "din": "11543991",
+    "designation": "Director",
+    "meeting_date": "10 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RYLENTEC ENGINEERING PRIVATE LIMITED\\bod_gst_authorized_signatory_20260310_131319.docx",
+    "ts": "20260310_131319",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260310_131401"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "BLUNTWINS CONSULTING PRIVATE LIMITED",
+  "cin": "U70200HR2025PTC139536",
+  "registered_address": "HOUSE NO 1581 SECTOR- 23A, Faridabad Sector 22, Faridabad, Faridabad, Haryana, India, 121005",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11440778,
+  "paid_up_capital": 11440779,
+  "directors": [
+    {
+      "din": "11440778",
+      "name": "Rahul Aggarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11440779",
+      "name": "Nikhil Jha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB2347N"
+  },
+  "email": "maverickco.info@gmail.com",
+  "meta": {
+    "created": "20260112_123707",
+    "last_updated": "20260112_123707"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260112_123707",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BLUNTWINS CONSULTING PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U70200HR2025PTC139536",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELB31532E"
+}

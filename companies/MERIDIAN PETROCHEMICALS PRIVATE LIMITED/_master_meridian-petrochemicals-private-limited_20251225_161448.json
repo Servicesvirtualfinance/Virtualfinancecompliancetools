@@ -1,0 +1,67 @@
+{
+  "company_name": "MERIDIAN PETROCHEMICALS PRIVATE LIMITED",
+  "cin": "U19200MH2025PTC462429",
+  "registered_address": "SHop No.05, B1, MMRDA, WADALA TRUCK TERMINAL, Antop Hill, Mumbai, Mumbai, Maharashtra, India, 400037",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7062098,
+  "paid_up_capital": 7062226,
+  "directors": [
+    {
+      "din": "07062098",
+      "name": "Krishna Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07062226",
+      "name": "Agni Pratap Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM1791M"
+  },
+  "email": "meridianpetrochemicals@gmail.com",
+  "meta": {
+    "created": "20251225_161448",
+    "last_updated": "20251225_161729"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251225_161448",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services0522.pdf"
+      },
+      "outputs": {
+        "cin": "U19200MH2025PTC462429",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251225_161729",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services0522.pdf"
+      },
+      "outputs": {
+        "cin": "U19200MH2025PTC462429",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMM73322E"
+}

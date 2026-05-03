@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ARAVALLII TAEKWONDO ASSOCIATION.pdf",
+  "file_hash_sha256": "e17723108a8543a42027b0097e439c8be3c6e691ac117a3f86f46cb3248b9328",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-14 13:13:10"
+  },
+  "master_data": {
+    "cin": "U88900GJ2025NPL170487",
+    "company_name": "ARAVALLII TAEKWONDO ASSOCIATION",
+    "roc_name": "ROC Ahmedabad",
+    "registration_number": "170487",
+    "date_of_incorporation": "12/12/2025",
+    "email": "aravalliitaekwondongo@gmail.com",
+    "registered_address": "46/A Vallabh Tenament, Malpur Road, Aravalli, Modasa, Sabarkantha, Modasa, Gujarat, India, 383315",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Maximum Number of Members",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "Active",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Ahmedabad",
+    "jurisdiction_roc": "ROC Ahmedabad",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "aravalliitaekwondongo@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11424589",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11424590",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/14/26, 12:57 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900GJ2025NPL170487\n\nCompany Name\n\nARAVALLII TAEKWONDO ASSOCIATION\n\nROC Name\n\nROC Ahmedabad\n\nRegistration Number\n\n170487\n\nDate of Incorporation\n\n12/12/2025\n\nEmail Id\n\naravalliitaekwondongo@gmail.com\n\nRegistered Address\n\n46/A Vallabh Tenament, Malpur Road, Aravalli, Modasa, Sabarkantha,\nModasa, Gujarat, India, 383315\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nMaximum Number of Members\n\n2\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Ahmedabad\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/14/26, 12:57 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11424589\n\nDirector\n\nPromoter\n\n12/12/2025\n\n-\n\nYes\n\nSHITALBEN\nSANJAYKUMAR\nSONI\n\n2\n\n11424590\n\nDirector\n\nPromoter\n\n12/12/2025\n\n-\n\nYes\n\nVARSHIL\nSANJAYKUMAR\nSONI\n\n"
+  }
+}

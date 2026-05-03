@@ -1,0 +1,64 @@
+{
+  "company_name": "SIRHO INNOVATIONS PRIVATE LIMITED",
+  "cin": "U72100DL2025PTC446455",
+  "registered_address": "B-120 Third Floor KH NO, 393/264, New Ashok Nagar, East Delhi, East Delhi, East Delhi, Delhi, India, 110096",
+  "roc_name": "ROC Delhi I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11058054,
+  "paid_up_capital": 11058055,
+  "directors": [
+    {
+      "din": "11058054",
+      "name": "Asha Ray",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11058055",
+      "name": "Goldi Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "09143075",
+      "name": "MANIKANDAN NAGARAJAN",
+      "designation": "Director",
+      "category": "Independent",
+      "date_of_appointment": "24/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABPCS9244M"
+  },
+  "email": "sirhoinnovations@gmail.com",
+  "meta": {
+    "created": "20260502_193924",
+    "last_updated": "20260502_193924"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260502_193924",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIRHO INNOVATIONS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U72100DL2025PTC446455",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELS13253J"
+}

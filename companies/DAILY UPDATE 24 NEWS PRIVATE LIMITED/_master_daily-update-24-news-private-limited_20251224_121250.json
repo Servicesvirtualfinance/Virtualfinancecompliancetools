@@ -1,0 +1,55 @@
+{
+  "company_name": "DAILY UPDATE 24 NEWS PRIVATE LIMITED",
+  "cin": "U63910GJ2025PTC171076",
+  "registered_address": "63 RATANAMANI IND.ESTATE, OPP. BAHUCHAR PARTY PLOT, Kathwada, Ahmedabad, Daskroi, Gujarat, India, 382430",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11405655,
+  "paid_up_capital": 11405656,
+  "directors": [
+    {
+      "din": "11405655",
+      "name": "KATHAN JYOTISHCHANDRADAS",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11405656",
+      "name": "SANDHYABENJYOTISHCHANDRA DAS",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCD2842A"
+  },
+  "email": "daily.update24news@gmail.com",
+  "meta": {
+    "created": "20251224_121250",
+    "last_updated": "20251224_121250"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251224_121250",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Daily Update 24 News Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U63910GJ2025PTC171076",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMD18480A"
+}

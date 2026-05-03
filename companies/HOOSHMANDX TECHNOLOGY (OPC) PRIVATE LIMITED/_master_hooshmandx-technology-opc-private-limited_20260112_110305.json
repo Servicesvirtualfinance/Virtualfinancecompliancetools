@@ -1,0 +1,83 @@
+{
+  "company_name": "HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED",
+  "cin": "U62013JK2026OPC018513",
+  "registered_address": "Old Bus adda Budgam, Budgam, Budgam, Budgam, Budgam, Jammu & Kashmir, India, 191111",
+  "roc_name": "ROC Jammu",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11314818,
+  "paid_up_capital": 50000,
+  "directors": [
+    {
+      "din": "11314818",
+      "name": "DANISH NISAR PANDITH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICH4162M"
+  },
+  "email": "hooshmandxtech@gmail.com",
+  "meta": {
+    "created": "20260112_110305",
+    "last_updated": "20260112_110442"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260112_110305",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62013JK2026OPC018513",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260112_110442",
+      "inputs": {
+        "meeting_date": "12 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "DANISH NISAR PANDITH",
+          "din": "11314818",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260112_110442.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AMRH13830F",
+  "authorized_signatory": {
+    "name": "DANISH NISAR PANDITH",
+    "din": "11314818",
+    "designation": "Director",
+    "meeting_date": "12 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260112_110442.docx",
+    "ts": "20260112_110442",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "DANISH NISAR PANDITH",
+    "din": "11314818",
+    "designation": "Director",
+    "meeting_date": "12 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260112_110442.docx",
+    "ts": "20260112_110442",
+    "note": "authorised signatory appointed"
+  }
+}

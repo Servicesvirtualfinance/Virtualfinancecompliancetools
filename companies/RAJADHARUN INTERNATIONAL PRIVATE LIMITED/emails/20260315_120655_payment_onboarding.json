@@ -1,0 +1,18 @@
+{
+  "to": "dharunraja1@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 RAJADHARUN INTERNATIONAL PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "RAJADHARUN INTERNATIONAL PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SROpz0caUAECfp",
+    "payment_date": "2026-03-15T12:04:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

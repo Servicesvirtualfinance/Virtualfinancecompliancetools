@@ -1,0 +1,64 @@
+{
+  "company_name": "YOURSRIDE SERVICES PRIVATE LIMITED",
+  "cin": "U49224BR2025PTC080513",
+  "registered_address": "C/O MD. SABIR HASHAN VILL, KACHHARA PANCH-BETAUNA, Benipatti, Madhubani, Benipatti, Bihar, India, 847223",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11416857",
+      "name": "Md Aquib Raza",
+      "designation": null,
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11416858",
+      "name": "Md Asif Raza",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11416859",
+      "name": "Md Rahbar Ali",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AACCY1224F"
+  },
+  "email": "yoursrideofficial@gmail.com",
+  "meta": {
+    "created": "20251217_154459",
+    "last_updated": "20251217_154459"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251217_154459",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Yoursride Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U49224BR2025PTC080513",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PTNY00679A"
+}

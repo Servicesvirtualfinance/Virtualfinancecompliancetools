@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ELYRIX ALPHA PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "c5563d927db0b787a9a0ba16e25949641a6b4e00cc6be5f0b1f631d957195b1f",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-27 13:54:12"
+  },
+  "master_data": {
+    "cin": "U27500WB2026PTC285666",
+    "company_name": "ELYRIX ALPHA PRIVATE LIMITED",
+    "roc_name": "ROC Kolkata",
+    "registration_number": "285666",
+    "date_of_incorporation": "05/01/2026",
+    "email": "info@cosiva.in",
+    "registered_address": "4A Shree Ganapati Apt, Jhilbagan, Newtown, Hatiara, North 24 Parganas, North 24 Pgs, West Bengal, India, 700157",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/27/26, 1:53 PM",
+    "authorised_capital": 10122649,
+    "paid_up_capital": 11463130,
+    "date_of_last_agm": "05/01/2026",
+    "date_of_balance_sheet": "05/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Kolkata",
+    "jurisdiction_roc": "ROC Kolkata",
+    "jurisdiction_rd": "RD, Eastern Region",
+    "emails_found": [
+      "info@cosiva.in"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10122649",
+      "name": "Neha Agrawal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11463130",
+      "name": "Yash Agrawal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/27/26, 1:53 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU27500WB2026PTC285666\n\nCompany Name\n\nELYRIX ALPHA PRIVATE LIMITED\n\nROC Name\n\nROC Kolkata\n\nRegistration Number\n\n285666\n\nDate of Incorporation\n\n05/01/2026\n\nEmail Id\n\ninfo@cosiva.in\n\nRegistered Address\n\n4A Shree Ganapati Apt, Jhilbagan, Newtown, Hatiara, North 24 Parganas, North 24 Pgs,\nWest Bengal, India, 700157\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/27/26, 1:53 PM\n\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kolkata\n\nRD (name and Region)\n\nRD, Eastern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n10122649\n\nNEHA AGRAWAL\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\n2\n\n11463130\n\nYASH AGRAWAL\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "company_name": "SMT SUBHADRA SONS PRIVATE LIMITED",
+  "cin": "U47219BR2025PTC080563",
+  "registered_address": "C/O PARWATI DEVI, VILL-DHARAHRA, Paliganj, Patna, Paliganj, Bihar, India, 801110",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11406306",
+      "name": "Pushpa Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11419798",
+      "name": "Parwati Devi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS0231R"
+  },
+  "email": "smtsubhadrasons@gmail.com",
+  "meta": {
+    "created": "20251220_135201",
+    "last_updated": "20260106_184138"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251220_135201",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Smt Subhadra Sons Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47219BR2025PTC080563",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251220_135520",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Smt Subhadra Sons Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47219BR2025PTC080563",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260106_184138",
+      "inputs": {
+        "meeting_date": "06 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Pushpa Kumari",
+          "din": "11406306",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SMT SUBHADRA SONS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260106_184138.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PTNS20907F",
+  "authorized_signatory": {
+    "name": "Pushpa Kumari",
+    "din": "11406306",
+    "designation": "Director",
+    "meeting_date": "06 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SMT SUBHADRA SONS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260106_184138.docx",
+    "ts": "20260106_184138",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Pushpa Kumari",
+    "din": "11406306",
+    "designation": "Director",
+    "meeting_date": "06 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SMT SUBHADRA SONS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260106_184138.docx",
+    "ts": "20260106_184138",
+    "note": "authorised signatory appointed"
+  }
+}

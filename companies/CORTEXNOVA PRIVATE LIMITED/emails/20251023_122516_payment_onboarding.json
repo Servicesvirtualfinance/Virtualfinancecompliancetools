@@ -1,0 +1,18 @@
+{
+  "to": "cortexnova@hotmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 CORTEXNOVA PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "CORTEXNOVA PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RWp0WLwL3e2Mxi",
+    "payment_date": "2025-10-23T11:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

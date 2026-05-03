@@ -1,0 +1,18 @@
+{
+  "to": "theoutstares@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 OUTSTARES UNIVERSE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "OUTSTARES UNIVERSE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "plan_RDndjPYIyPdNhV",
+    "payment_date": "2026-01-15T11:13:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

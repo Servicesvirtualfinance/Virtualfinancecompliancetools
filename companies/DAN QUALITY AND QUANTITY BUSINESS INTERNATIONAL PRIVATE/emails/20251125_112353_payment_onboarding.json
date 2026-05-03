@@ -1,0 +1,18 @@
+{
+  "to": "christodantakri@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DAN QUALITY AND QUANTITY BUSINESS INTERNATIONAL PRIVATE",
+  "ctx": {
+    "company": {
+      "name": "DAN QUALITY AND QUANTITY BUSINESS INTERNATIONAL PRIVATE"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RjrYwD3OsrQmmu",
+    "payment_date": "2025-11-25T11:22:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

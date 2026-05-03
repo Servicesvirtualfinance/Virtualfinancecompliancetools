@@ -1,0 +1,18 @@
+{
+  "to": "virgopictures.contact@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 VIRGO PICTURES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "VIRGO PICTURES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_ReoIUjVg2kCwrX",
+    "payment_date": "2025-11-12T16:53:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

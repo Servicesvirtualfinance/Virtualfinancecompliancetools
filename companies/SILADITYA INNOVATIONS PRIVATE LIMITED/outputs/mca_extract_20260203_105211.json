@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SILADITYA INNOVATIONS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "f90b81b99a54b534c506c5763cadc0865ae531a240167fc95f63845ec9a74ffd",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-03 10:52:11"
+  },
+  "master_data": {
+    "cin": "U47912OD2026PTC052000",
+    "company_name": "SILADITYA INNOVATIONS PRIVATE LIMITED",
+    "roc_name": "ROC Cuttack",
+    "registration_number": "052000",
+    "date_of_incorporation": "05/01/2026",
+    "email": "siladityainnovationspvtltd@gmail.com",
+    "registered_address": "C/O RABINDRA KUMAR SWAIN, ANDHIA SAHI, Nimapara, Puri, Nimapara, Orissa, India, 752106",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11462999,
+    "paid_up_capital": 11463000,
+    "date_of_last_agm": "2/3/26, 10:51 AM",
+    "date_of_balance_sheet": "05/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Cuttack",
+    "jurisdiction_roc": "ROC Cuttack",
+    "jurisdiction_rd": "RD, Eastern Region",
+    "emails_found": [
+      "siladityainnovationspvtltd@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11462999",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11463000",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/3/26, 10:51 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU47912OD2026PTC052000\n\nCompany Name\n\nSILADITYA INNOVATIONS PRIVATE LIMITED\n\nROC Name\n\nROC Cuttack\n\nRegistration Number\n\n052000\n\nDate of Incorporation\n\n05/01/2026\n\nEmail Id\n\nsiladityainnovationspvtltd@gmail.com\n\nRegistered Address\n\nC/O RABINDRA KUMAR SWAIN, ANDHIA SAHI, Nimapara, Puri,\nNimapara, Orissa, India, 752106\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Cuttack\n\nRD (name and Region)\n\nRD, Eastern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/3/26, 10:51 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11462999\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\nSILADITYA\nSWAIN\n\n2\n\n11463000\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\nSANJEEBANI\nSWAIN\n\n"
+  }
+}

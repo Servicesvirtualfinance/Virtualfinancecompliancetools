@@ -1,0 +1,18 @@
+{
+  "to": "mdperwezalam102@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 INAYA TECHNI SOLUTIONS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "INAYA TECHNI SOLUTIONS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SKHErPqKEHLSfi",
+    "payment_date": "2026-02-25T11:57:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "company_name": "SHRIKAVI BEVERAGES (OPC) PRIVATE LIMITED",
+  "cin": "U11045GA2025OPC017654",
+  "registered_address": "FLAT NO F 2 DEEP, AKANKSHA COOPERATIVE, Ponda, North Goa, Ponda, Goa, India, 403401",
+  "roc_name": "ROC Goa",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11347823",
+      "name": "Chinmay Shrikant Naik",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AACCZ7804N"
+  },
+  "email": "shrikavibeverages@gmail.com",
+  "meta": {
+    "created": "20251108_134023",
+    "last_updated": "20260220_173044"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251108_134023",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Shrikavi Beverages (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U11045GA2025OPC017654",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251108_134654",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Shrikavi Beverages (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U11045GA2025OPC017654",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260220_173044",
+      "inputs": {
+        "meeting_date": "20 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Chinmay Shrikant Naik",
+          "din": "11347823",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHRIKAVI BEVERAGES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_173044.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMZ01378G",
+  "authorized_signatory": {
+    "name": "Chinmay Shrikant Naik",
+    "din": "11347823",
+    "designation": "Director",
+    "meeting_date": "20 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHRIKAVI BEVERAGES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_173044.docx",
+    "ts": "20260220_173044",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Chinmay Shrikant Naik",
+    "din": "11347823",
+    "designation": "Director",
+    "meeting_date": "20 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SHRIKAVI BEVERAGES (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_173044.docx",
+    "ts": "20260220_173044",
+    "note": "authorised signatory appointed"
+  }
+}

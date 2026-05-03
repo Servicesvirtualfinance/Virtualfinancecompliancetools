@@ -1,0 +1,46 @@
+{
+  "company_name": "XORDINAY (OPC) PRIVATE LIMITED",
+  "cin": "U47733DL2025OPC459668",
+  "registered_address": "Sainik Enclave, Sec 3, House No 71 Mohan Garden, D. K. Mohan Garden, West Delhi, New Delhi, Delhi, India, 110059",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11430266,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11430266",
+      "name": "Anant Dev Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAACX6060G"
+  },
+  "email": "xor1dinary@gmail.com",
+  "meta": {
+    "created": "20251226_185615",
+    "last_updated": "20251226_185615"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251226_185615",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_XORDINAY (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47733DL2025OPC459668",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELX01097F"
+}

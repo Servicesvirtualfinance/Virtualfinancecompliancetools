@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "5294800e07f5d44be834f4d2986853dbba70340a9628495e4523012ede876a9b",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-05 10:42:30"
+  },
+  "master_data": {
+    "cin": "U62010GJ2026PTC173936",
+    "company_name": "NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED",
+    "roc_name": "ROC Ahmedabad",
+    "registration_number": "173936",
+    "date_of_incorporation": "20/02/2026",
+    "email": "matrojatech@gmail.com",
+    "registered_address": "At 1/137, Darjivaru Faliyu, At Post Ghammad, Taluka Amod, Ghamnad, Bharuch, Amod, Gujarat, India, 392025",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "3/5/26, 10:40 AM",
+    "authorised_capital": 11560776,
+    "paid_up_capital": 11560777,
+    "date_of_last_agm": "20/02/2026",
+    "date_of_balance_sheet": "20/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Ahmedabad",
+    "jurisdiction_roc": "ROC Ahmedabad",
+    "jurisdiction_rd": "RD Ahmedabad, North-Western Region Directorate",
+    "emails_found": [
+      "matrojatech@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11560776",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11560777",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11560778",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/5/26, 10:40 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU62010GJ2026PTC173936\n\nCompany Name\n\nNEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED\n\nROC Name\n\nROC Ahmedabad\n\nRegistration Number\n\n173936\n\nDate of Incorporation\n\n20/02/2026\n\nEmail Id\n\nmatrojatech@gmail.com\n\nRegistered Address\n\nAt 1/137, Darjivaru Faliyu, At Post Ghammad, Taluka Amod, Ghamnad, Bharuch, Amod,\nGujarat, India, 392025\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n3/5/26, 10:40 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n50,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ahmedabad\n\nRD (name and Region)\n\nRD Ahmedabad, North-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11560776\n\nDirector\n\nPromoter\n\n20/02/2026\n\n-\n\nYes\n\nJANUBEN HARSHPALSINH\nMATROJA\n\n2\n\n11560777\n\nDirector\n\nPromoter\n\n20/02/2026\n\n-\n\nYes\n\nHARSHPALSINH\nHITENDRASINH MATROJA\n\n\n3/5/26, 10:40 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n3\n\n11560778\n\nDirector\n\nPromoter\n\n20/02/2026\n\n-\n\nYes\n\nMITRAJSINH HITENDRASINH\nMATROJA\n\n"
+  }
+}

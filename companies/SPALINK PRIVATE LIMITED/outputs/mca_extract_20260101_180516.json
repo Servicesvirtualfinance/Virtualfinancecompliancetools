@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SPALINK PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "3b71d40915cc3f80a14d839339b5d591e8bd19b2fb9a9d4ce357e91cd7790a0e",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-01 18:05:16"
+  },
+  "master_data": {
+    "cin": "U63122GJ2025PTC169904",
+    "company_name": "SPALINK PRIVATE LIMITED",
+    "roc_name": "ROC Ahmedabad",
+    "registration_number": "169904",
+    "date_of_incorporation": "02/12/2025",
+    "email": "spalink.private.limited@gmail.com",
+    "registered_address": "B-702, Castle Pearl, B.H. Gopi Party Plot, Got, T B Sanatorium, Vadodara, Vadodara, Gujarat, India, 390021",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/1/26, 6:03 PM",
+    "authorised_capital": 11024540,
+    "paid_up_capital": 11024541,
+    "date_of_last_agm": "02/12/2025",
+    "date_of_balance_sheet": "02/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Ahmedabad",
+    "jurisdiction_roc": "ROC Ahmedabad",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "spalink.private.limited@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11024540",
+      "name": "Soniyaben T Tiwari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11024541",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/1/26, 6:03 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU63122GJ2025PTC169904\n\nCompany Name\n\nSPALINK PRIVATE LIMITED\n\nROC Name\n\nROC Ahmedabad\n\nRegistration Number\n\n169904\n\nDate of Incorporation\n\n02/12/2025\n\nEmail Id\n\nspalink.private.limited@gmail.com\n\nRegistered Address\n\nB-702, Castle Pearl, B.H. Gopi Party Plot, Got, T B Sanatorium, Vadodara, Vadodara,\nGujarat, India, 390021\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/1/26, 6:03 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ahmedabad\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11024540\n\nSONIYABEN T TIWARI\n\nDirector\n\nPromoter\n\n02/12/2025\n\n-\n\nYes\n\n2\n\n11024541\n\nDirector\n\nPromoter\n\n02/12/2025\n\n-\n\nYes\n\nHEMANG CHETANBHAI\nBHATT\n\n"
+  }
+}

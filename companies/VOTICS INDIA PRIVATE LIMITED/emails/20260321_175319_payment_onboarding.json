@@ -1,0 +1,18 @@
+{
+  "to": "voticsindia@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 VOTICS INDIA PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "VOTICS INDIA PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "5000",
+    "currency": "INR",
+    "payment_id": "SIB_02_21032026",
+    "payment_date": "2026-03-21T17:49:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

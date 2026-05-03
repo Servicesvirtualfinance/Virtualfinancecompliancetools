@@ -1,0 +1,132 @@
+{
+  "company_name": "OAREAL TRANSWARE PRIVATE LIMITED",
+  "cin": "U47911PN2025PTC246010",
+  "registered_address": "M.NO. 1521 P.NO. 1;, SHIVSHAKTI HSG SOC;SATARA, Kodoli, Satara, Satara, Maharashtra, India, 415004",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11279365",
+      "name": "Rajkumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/09/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11279366",
+      "name": "Prakashrao",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/09/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAECO8600R"
+  },
+  "email": "realmartstore20@gmail.com",
+  "meta": {
+    "created": "20251028_165948",
+    "last_updated": "20251216_104607"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251028_165948",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251106_175222",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251106_183420",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251216_104607",
+      "inputs": {
+        "meeting_date": "16 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Prakashrao",
+          "din": "11279366",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\OAREAL TRANSWARE PRIVATE LIMITED\\bod_gst_authorized_signatory_20251216_104606.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251216_104615",
+      "inputs": {
+        "to": "realmartstore20@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251216_104606.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "NSKO01867F",
+  "authorized_signatory": {
+    "name": "Prakashrao",
+    "din": "11279366",
+    "designation": "Director",
+    "meeting_date": "16 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\OAREAL TRANSWARE PRIVATE LIMITED\\bod_gst_authorized_signatory_20251216_104606.docx",
+    "ts": "20251216_104607",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251216_104615"
+  },
+  "authorised_signatory": {
+    "name": "Prakashrao",
+    "din": "11279366",
+    "designation": "Director",
+    "meeting_date": "16 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\OAREAL TRANSWARE PRIVATE LIMITED\\bod_gst_authorized_signatory_20251216_104606.docx",
+    "ts": "20251216_104607",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251216_104615"
+  }
+}

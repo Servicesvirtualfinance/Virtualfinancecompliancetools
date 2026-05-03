@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BIG BIOCHAR (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "5c832d67d48c3f7a62a00d018f2e03ad427342ac4cf4ef568b1539814d2cf529",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-20 10:39:06"
+  },
+  "master_data": {
+    "cin": "U20121TS2025OPC208132",
+    "company_name": "BIG BIOCHAR (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Hyderabad",
+    "registration_number": "208132",
+    "date_of_incorporation": "18/12/2025",
+    "email": "Murtaza.khambati.in@gmail.com",
+    "registered_address": "C/O INSEEYA KHAMBATI, PREM SAGAR OLD BOWENPALLY, Trimulgherry, Hyderabad, Rangareddy, Telangana, India, 500015",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1/20/26, 10:38 AM",
+    "authorised_capital": 11437469,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "18/12/2025",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Hyderabad",
+    "jurisdiction_roc": "ROC Hyderabad",
+    "jurisdiction_rd": "RD, South East Region",
+    "emails_found": [
+      "Murtaza.khambati.in@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11437469",
+      "name": "Murtaza Khambati",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/20/26, 10:38 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU20121TS2025OPC208132\n\nCompany Name\n\nBIG BIOCHAR (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Hyderabad\n\nRegistration Number\n\n208132\n\nDate of Incorporation\n\n18/12/2025\n\nEmail Id\n\nMurtaza.khambati.in@gmail.com\n\nRegistered Address\n\nC/O INSEEYA KHAMBATI, PREM SAGAR OLD BOWENPALLY, Trimulgherry,\nHyderabad, Rangareddy, Telangana, India, 500015\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n1/20/26, 10:38 AM\n\n\nAuthorised Capital (Rs)\n\n10,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Hyderabad\n\nRD (name and Region)\n\nRD, South East Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11437469\n\nMURTAZA KHAMBATI\n\nDirector\n\nPromoter\n\n18/12/2025\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BIORENOVA HEALTHCARE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "da3c16f29b8b7d8712c1f28b661a1d70b0d1c1b2ff881702db4570851d3cfc1c",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-30 12:59:02"
+  },
+  "master_data": {
+    "cin": "U33131PN2025PTC249591",
+    "company_name": "BIORENOVA HEALTHCARE PRIVATE LIMITED",
+    "roc_name": "ROC Pune",
+    "registration_number": "249591",
+    "date_of_incorporation": "19/12/2025",
+    "email": "biorenovalab@gmail.com",
+    "registered_address": "C1-1104 Uttam TownScape, Sainik Nagar Vishrantwadi, Yerwada, Pune, Pune City, Maharashtra, India, 411006",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "5,00,000",
+    "authorised_capital": 9610722,
+    "paid_up_capital": 11369744,
+    "date_of_last_agm": "1/30/26, 12:58 PM",
+    "date_of_balance_sheet": "19/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Pune",
+    "jurisdiction_roc": "ROC Pune",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "biorenovalab@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "09610722",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11369744",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/30/26, 12:58 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU33131PN2025PTC249591\n\nCompany Name\n\nBIORENOVA HEALTHCARE PRIVATE LIMITED\n\nROC Name\n\nROC Pune\n\nRegistration Number\n\n249591\n\nDate of Incorporation\n\n19/12/2025\n\nEmail Id\n\nbiorenovalab@gmail.com\n\nRegistered Address\n\nC1-1104 Uttam TownScape, Sainik Nagar Vishrantwadi, Yerwada, Pune,\nPune City, Maharashtra, India, 411006\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Pune\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/30/26, 12:58 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n09610722\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\nSITARAM\nPARIDA\n\n2\n\n11369744\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\nJAYARAM\nPARIDA\n\n"
+  }
+}

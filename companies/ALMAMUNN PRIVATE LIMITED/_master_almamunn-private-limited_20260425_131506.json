@@ -1,0 +1,101 @@
+{
+  "company_name": "ALMAMUNN PRIVATE LIMITED",
+  "cin": "U47711WB2026PTC287811",
+  "registered_address": "BL 7 5Th FR FL BH 190, MONDAL GATHI TATA GATE, Kolkata Airport Po, Kolkata, Kolkata, West Bengal, India, 700052",
+  "roc_name": "ROC Kolkata I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11613314,
+  "paid_up_capital": 11613249,
+  "directors": [
+    {
+      "din": "11613314",
+      "name": "Munshi Tofayal Hossain",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11613249",
+      "name": "Kazi Sahanaj Khatun",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11613289",
+      "name": "MOHAMMAD ABDULLAH AL MAMUN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA4871J"
+  },
+  "email": "almamunnpvtltd@gmail.com",
+  "meta": {
+    "created": "20260425_131506",
+    "last_updated": "20260425_131619"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260425_131506",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ALMAMUNN PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47711WB2026PTC287811",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260425_131619",
+      "inputs": {
+        "meeting_date": "25 Apr 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "MOHAMMAD ABDULLAH AL MAMUN",
+          "din": "11613289",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALMAMUNN PRIVATE LIMITED\\bod_gst_authorized_signatory_20260425_131619.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CALA44043G",
+  "authorized_signatory": {
+    "name": "MOHAMMAD ABDULLAH AL MAMUN",
+    "din": "11613289",
+    "designation": "Director",
+    "meeting_date": "25 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALMAMUNN PRIVATE LIMITED\\bod_gst_authorized_signatory_20260425_131619.docx",
+    "ts": "20260425_131619",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "MOHAMMAD ABDULLAH AL MAMUN",
+    "din": "11613289",
+    "designation": "Director",
+    "meeting_date": "25 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALMAMUNN PRIVATE LIMITED\\bod_gst_authorized_signatory_20260425_131619.docx",
+    "ts": "20260425_131619",
+    "note": "authorised signatory appointed"
+  }
+}

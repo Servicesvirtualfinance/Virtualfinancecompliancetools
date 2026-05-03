@@ -1,0 +1,46 @@
+{
+  "company_name": "TASTY FOODS PRODUCTS AND SERVICES (OPC) PRIVATE LIMITED",
+  "cin": "U56210MH2026OPC465846",
+  "registered_address": "PL- 44, SEC- 5A, APEX AVENUE, Panvel City, Raigarh(MH), Panvel, Maharashtra, India, 410206",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11486805,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11486805",
+      "name": "Kumari Kavita",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT7009D"
+  },
+  "email": "preciousfamilymemory@gmail.com",
+  "meta": {
+    "created": "20260212_173601",
+    "last_updated": "20260212_173601"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260212_173601",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TASTY FOODS PRODUCTS AND SERVICES (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56210MH2026OPC465846",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNET21978F"
+}

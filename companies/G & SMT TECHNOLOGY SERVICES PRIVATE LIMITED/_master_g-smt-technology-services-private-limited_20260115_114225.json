@@ -1,0 +1,55 @@
+{
+  "company_name": "G & SMT TECHNOLOGY SERVICES PRIVATE LIMITED",
+  "cin": "U49223UP2025PTC237755",
+  "registered_address": "D80, Kamleshpuram, Deoria, Rd, Ward No 18, M.M.M.E.College, Gorakhpur, Gorakhpur, Uttar Pradesh, India, 273010",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11412981,
+  "paid_up_capital": 11412982,
+  "directors": [
+    {
+      "din": "11412981",
+      "name": "Goldi Mani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11412982",
+      "name": "RAKESH MANI TRIPATHI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG5552C"
+  },
+  "email": "tripathiassociatesaag2025@gmail.com",
+  "meta": {
+    "created": "20260115_114225",
+    "last_updated": "20260115_114225"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260115_114225",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_G & Smt Technology Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U49223UP2025PTC237755",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "ALDG22831E"
+}

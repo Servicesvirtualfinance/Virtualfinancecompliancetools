@@ -1,0 +1,130 @@
+{
+  "company_name": "KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED",
+  "cin": "U59113MP2026PTC082479",
+  "registered_address": "Office No 418 Fourth Floor Unity One, Rajiv Gandhi Square A.B. Road Village Pipliya Rao, Radio Colony Indore, Indore, Indore, Madhya Pradesh, India, 452001",
+  "roc_name": "ROC Gwalior",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11356966,
+  "paid_up_capital": 11562334,
+  "directors": [
+    {
+      "din": "11356966",
+      "name": "LOKENDRA GOSWAMI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11562334",
+      "name": "Reena",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11603582",
+      "name": "RAVINDRA GOSWAMI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCK6562C"
+  },
+  "email": "kodanda7media@gmail.com",
+  "meta": {
+    "created": "20260304_190206",
+    "last_updated": "20260324_123250"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260304_190206",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U59113MP2026PTC082479",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260324_113153",
+      "inputs": {
+        "meeting_date": "24 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Lokendra Goswami",
+          "din": "11356966",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED\\bod_gst_authorized_signatory_20260324_113153.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260324_123141",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED (1).pdf"
+      },
+      "outputs": {
+        "cin": "U59113MP2026PTC082479",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260324_123250",
+      "inputs": {
+        "meeting_date": "24 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "LOKENDRA GOSWAMI",
+          "din": "11356966",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED\\bod_gst_authorized_signatory_20260324_123250.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BPLK08676D",
+  "authorized_signatory": {
+    "name": "LOKENDRA GOSWAMI",
+    "din": "11356966",
+    "designation": "Director",
+    "meeting_date": "24 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED\\bod_gst_authorized_signatory_20260324_123250.docx",
+    "ts": "20260324_123250",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "LOKENDRA GOSWAMI",
+    "din": "11356966",
+    "designation": "Director",
+    "meeting_date": "24 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED\\bod_gst_authorized_signatory_20260324_123250.docx",
+    "ts": "20260324_123250",
+    "note": "authorised signatory appointed"
+  }
+}

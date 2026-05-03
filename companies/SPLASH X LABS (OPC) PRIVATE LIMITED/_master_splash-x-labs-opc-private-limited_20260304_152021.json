@@ -1,0 +1,83 @@
+{
+  "company_name": "SPLASH X LABS (OPC) PRIVATE LIMITED",
+  "cin": "U62099TN2026OPC190012",
+  "registered_address": "D N.141/C, 3, P H Road, Ondikuppam, Vengathur, Tiruvallur, Tiruvallur, Tiruvallur, Tamil Nadu, India, 602001",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11565499,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11565499",
+      "name": "SADAGOPAN MADHUKAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS8930P"
+  },
+  "email": "splashxlabs@gmail.com",
+  "meta": {
+    "created": "20260304_152021",
+    "last_updated": "20260315_121634"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260304_152021",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SPLASH X LABS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62099TN2026OPC190012",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260315_121634",
+      "inputs": {
+        "meeting_date": "15 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SADAGOPAN MADHUKAR",
+          "din": "11565499",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SPLASH X LABS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260315_121634.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHES83470C",
+  "authorized_signatory": {
+    "name": "SADAGOPAN MADHUKAR",
+    "din": "11565499",
+    "designation": "Director",
+    "meeting_date": "15 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SPLASH X LABS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260315_121634.docx",
+    "ts": "20260315_121634",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "SADAGOPAN MADHUKAR",
+    "din": "11565499",
+    "designation": "Director",
+    "meeting_date": "15 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SPLASH X LABS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260315_121634.docx",
+    "ts": "20260315_121634",
+    "note": "authorised signatory appointed"
+  }
+}

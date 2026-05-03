@@ -1,0 +1,18 @@
+{
+  "to": "tatvamai.labs@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 TATVAM AI LABS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "TATVAM AI LABS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Sc6SDBbi0cDFSg",
+    "payment_date": "2026-04-11T12:13:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "SPALINK PRIVATE LIMITED",
+  "cin": "U63122GJ2025PTC169904",
+  "registered_address": "B-702, Castle Pearl, B.H. Gopi Party Plot, Got, T B Sanatorium, Vadodara, Vadodara, Gujarat, India, 390021",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11024540,
+  "paid_up_capital": 11024541,
+  "directors": [
+    {
+      "din": "11024540",
+      "name": "Soniyaben T Tiwari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11024541",
+      "name": "HEMANG CHETANBHAI BHATT",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS9267L"
+  },
+  "email": "spalink.private.limited@gmail.com",
+  "meta": {
+    "created": "20260101_180516",
+    "last_updated": "20260101_180516"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260101_180516",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SPALINK PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U63122GJ2025PTC169904",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BRDS20298F"
+}

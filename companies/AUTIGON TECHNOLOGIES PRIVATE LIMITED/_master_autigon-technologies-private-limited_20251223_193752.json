@@ -1,0 +1,55 @@
+{
+  "company_name": "AUTIGON TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62011UP2025PTC237571",
+  "registered_address": "25 Panchkula III Block B, Chhapraula, Chhaprola, Ghaziabad, Chhprola, Uttar Pradesh, India, 201009",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11409232",
+      "name": "Deepak Sharma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11409233",
+      "name": "Aparna Tiwari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA2500P"
+  },
+  "email": "deepak@autigon.com",
+  "meta": {
+    "created": "20251223_193752",
+    "last_updated": "20251223_193752"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251223_193752",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Autigon Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62011UP2025PTC237571",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNA23257D"
+}

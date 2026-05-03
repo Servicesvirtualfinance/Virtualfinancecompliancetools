@@ -1,0 +1,55 @@
+{
+  "company_name": "SIDQON TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62090UP2026PTC243355",
+  "registered_address": "C/O ARMAGHAN A ANSARI, FARZANA MANZILBAZAR MUFTI, Nawabpura, Moradabad, Moradabad, Uttar Pradesh, India, 244001",
+  "roc_name": "ROC Uttar Pradesh I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11527619,
+  "paid_up_capital": 11527620,
+  "directors": [
+    {
+      "din": "11527619",
+      "name": "ARMAGH ANAKRAM ANSARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11527620",
+      "name": "SHAIKH HUMA NAZNEEN MD ISMAIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS6722P"
+  },
+  "email": "sidqontechnologies@gmail.com",
+  "meta": {
+    "created": "20260220_133340",
+    "last_updated": "20260220_133340"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260220_133340",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIDQON TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62090UP2026PTC243355",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNS31179B"
+}

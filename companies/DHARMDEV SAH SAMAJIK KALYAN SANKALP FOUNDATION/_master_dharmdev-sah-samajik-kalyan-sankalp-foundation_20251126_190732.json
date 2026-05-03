@@ -1,0 +1,129 @@
+{
+  "company_name": "DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION",
+  "cin": "U88900BR2025NPL079877",
+  "registered_address": "Sitamarhi, Dumra, Bihar, India, 843301",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 8173145,
+  "paid_up_capital": 11364736,
+  "directors": [
+    {
+      "din": "08173145",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11364736",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+	"pan_number": "AAMCD1481H"
+},
+  "email": "timeeffect60@gmail.com",
+  "meta": {
+    "created": "20251126_190732",
+    "last_updated": "20251225_132305"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251126_190732",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dharmdev Sah Samajik Kalyan Sankalp Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900BR2025NPL079877",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251127_140043",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dharmdev Sah Samajik Kalyan Sankalp Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900BR2025NPL079877",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251215_114323",
+      "inputs": {
+        "meeting_date": "15 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Appun Kumar",
+          "din": "11364736",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION\\bod_gst_authorized_signatory_20251215_114323.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251225_132117",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dharmdev Sah Samajik Kalyan Sankalp Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900BR2025NPL079877",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251225_132305",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dharmdev Sah Samajik Kalyan Sankalp Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900BR2025NPL079877",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+	"tan": "PTND07122D",
+
+  "authorized_signatory": {
+    "name": "Appun Kumar",
+    "din": "11364736",
+    "designation": "Director",
+    "meeting_date": "15 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION\\bod_gst_authorized_signatory_20251215_114323.docx",
+    "ts": "20251215_114323",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Appun Kumar",
+    "din": "11364736",
+    "designation": "Director",
+    "meeting_date": "15 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION\\bod_gst_authorized_signatory_20251215_114323.docx",
+    "ts": "20251215_114323",
+    "note": "authorised signatory appointed"
+  }
+}

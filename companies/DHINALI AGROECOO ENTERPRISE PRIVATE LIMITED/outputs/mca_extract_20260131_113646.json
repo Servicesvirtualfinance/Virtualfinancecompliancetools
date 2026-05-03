@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "7852063d46e4fd7b8ef450646abef656b34e416b12a46875b86fe88d50849ba7",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-31 11:36:46"
+  },
+  "master_data": {
+    "cin": "U01611UT2024PTC016858",
+    "company_name": "DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED",
+    "roc_name": "ROC Uttarakhand",
+    "registration_number": "016858",
+    "date_of_incorporation": "07/02/2024",
+    "email": "rdixit@myself.com",
+    "registered_address": "C/o Harak Singh Village N, Pauri Garhwal, Dungrikhal, Pauri Garhwal, Pauri, Uttarakhand, India, 246123",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/31/26, 11:34 AM",
+    "authorised_capital": 10496451,
+    "paid_up_capital": 10496452,
+    "date_of_last_agm": "07/02/2024",
+    "date_of_balance_sheet": "07/02/2024",
+    "company_status": "Active",
+    "small_company": "ROC Uttarakhand",
+    "jurisdiction_roc": "ROC Uttarakhand",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "rdixit@myself.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10496451",
+      "name": "Mohini Dixit",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/02/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10496452",
+      "name": "Raghavendra Dixit",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/02/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/31/26, 11:34 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU01611UT2024PTC016858\n\nCompany Name\n\nDHINALI AGROECOO ENTERPRISE PRIVATE LIMITED\n\nROC Name\n\nROC Uttarakhand\n\nRegistration Number\n\n016858\n\nDate of Incorporation\n\n07/02/2024\n\nEmail Id\n\nrdixit@myself.com\n\nRegistered Address\n\nC/o Harak Singh Village N, Pauri Garhwal, Dungrikhal, Pauri Garhwal, Pauri,\nUttarakhand, India, 246123\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/31/26, 11:34 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Uttarakhand\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n10496451\n\nMOHINI DIXIT\n\nDirector\n\nPromoter\n\n07/02/2024\n\n-\n\nYes\n\n2\n\n10496452\n\nRAGHAVENDRA DIXIT\n\nDirector\n\nPromoter\n\n07/02/2024\n\n-\n\nYes\n\n"
+  }
+}

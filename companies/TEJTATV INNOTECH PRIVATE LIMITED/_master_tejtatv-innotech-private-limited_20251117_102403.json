@@ -1,0 +1,133 @@
+{
+  "company_name": "TEJTATV INNOTECH PRIVATE LIMITED",
+  "cin": "U62011PN2025PTC247955",
+  "registered_address": "Office No-15A, 4th Floor, Wing A City Vista, Kharadi, Vadgaon Sheri, Pune, Pune City, Maharashtra, India, 411014",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1000000,
+  "paid_up_capital": 5000,
+  "directors": [
+    {
+      "din": "11364994",
+      "name": "SUNIL BHAGWAN SALUNKE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11364995",
+      "name": "VISHAL SANJAY PAWAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT4290L"
+  },
+  "email": "sunilbsalunke07@gmail.com",
+  "meta": {
+    "created": "20251117_102403",
+    "last_updated": "20260325_104147"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251117_102403",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Tejtatv Innotech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62011PN2025PTC247955",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251117_184952",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Tejtatv Innotech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62011PN2025PTC247955",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251119_133254",
+      "inputs": {
+        "meeting_date": "19 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "VISHAL SANJAY PAWAR",
+          "din": "11364995",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\TEJTATV INNOTECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20251119_133254.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251119_133324",
+      "inputs": {
+        "to": "sunilbsalunke07@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251119_133254.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260325_104147",
+      "inputs": {
+        "meeting_date": "25 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SUNIL BHAGWAN SALUNKE",
+          "din": "11364994",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\TEJTATV INNOTECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20260325_104147.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNET21525A",
+  "authorized_signatory": {
+    "name": "SUNIL BHAGWAN SALUNKE",
+    "din": "11364994",
+    "designation": "Director",
+    "meeting_date": "25 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\TEJTATV INNOTECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20260325_104147.docx",
+    "ts": "20260325_104147",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "SUNIL BHAGWAN SALUNKE",
+    "din": "11364994",
+    "designation": "Director",
+    "meeting_date": "25 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\TEJTATV INNOTECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20260325_104147.docx",
+    "ts": "20260325_104147",
+    "note": "authorised signatory appointed"
+  }
+}

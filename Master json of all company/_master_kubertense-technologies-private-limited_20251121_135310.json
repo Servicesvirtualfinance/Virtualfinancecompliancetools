@@ -1,0 +1,117 @@
+{
+  "company_name": "KUBERTENSE TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62099MH2025PTC460373",
+  "registered_address": "E-1004 MARVEL SOHAM, PLOT 147 SECT 2 ULWA, Ulwa, Raigarh(MH), Panvel, Maharashtra, India, 410206",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11370300",
+      "name": "Ashu Lamba",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370301",
+      "name": "Muskan Lamba",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "muskaan2lamba@gmail.com",
+  "meta": {
+    "created": "20251121_135310",
+    "last_updated": "20251122_135806"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251121_135310",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kubertense Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099MH2025PTC460373",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251121_142409",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kubertense Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099MH2025PTC460373",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251122_135806",
+      "inputs": {
+        "meeting_date": "22 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Muskan Lamba",
+          "din": "11370301",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KUBERTENSE TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20251122_135806.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251122_135823",
+      "inputs": {
+        "to": "muskaan2lamba@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251122_135806.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "authorized_signatory": {
+    "name": "Muskan Lamba",
+    "din": "11370301",
+    "designation": "Director",
+    "meeting_date": "22 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KUBERTENSE TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20251122_135806.docx",
+    "ts": "20251122_135806",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251122_135823"
+  },
+  "authorised_signatory": {
+    "name": "Muskan Lamba",
+    "din": "11370301",
+    "designation": "Director",
+    "meeting_date": "22 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KUBERTENSE TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20251122_135806.docx",
+    "ts": "20251122_135806",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251122_135823"
+  }
+}

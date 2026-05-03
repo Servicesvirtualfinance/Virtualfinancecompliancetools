@@ -1,0 +1,18 @@
+{
+  "to": "thryvsip@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 THRYVSIP PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "THRYVSIP PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Swati",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RwBO1ChvdnqZU0",
+    "payment_date": "2025-12-26T14:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

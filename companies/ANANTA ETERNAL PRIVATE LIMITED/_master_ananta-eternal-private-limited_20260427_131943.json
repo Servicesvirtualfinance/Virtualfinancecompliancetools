@@ -1,0 +1,55 @@
+{
+  "company_name": "ANANTA ETERNAL PRIVATE LIMITED",
+  "cin": "U35106ME2026PTC474306",
+  "registered_address": "Plot no 26 aarti society, Saubhagya NG hudkeshwar, Mhalginagar, Nagpur, Nagpur, Maharashtra, India, 440034",
+  "roc_name": "ROC Nagpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11651996,
+  "paid_up_capital": 11651997,
+  "directors": [
+    {
+      "din": "11651996",
+      "name": "PRANAV SUNIL DHENGE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11651997",
+      "name": "Rekha Sunil Dhenge",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA3523R"
+  },
+  "email": "anantaeternal1@gmail.com",
+  "meta": {
+    "created": "20260427_131943",
+    "last_updated": "20260427_131943"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260427_131943",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ANANTA ETERNAL PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U35106ME2026PTC474306",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEA60246E"
+}

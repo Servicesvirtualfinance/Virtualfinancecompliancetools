@@ -1,0 +1,55 @@
+{
+  "company_name": "ONEHOOD PRIVATE LIMITED",
+  "cin": "U62020KL2025PTC099048",
+  "registered_address": "VARA 613, HARMONY, ARAPURA LANE, Vattiyoorkavu, Thiruvananthapuram, Kerala, India, 695013",
+  "roc_name": "ROC Ernakulam",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11418989,
+  "paid_up_capital": 11418990,
+  "directors": [
+    {
+      "din": "11418989",
+      "name": "Jebin Edwin",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11418990",
+      "name": "WILSON LATHA BRIGITTA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAECO9690D"
+  },
+  "email": "jebin.edwin@onehood.in",
+  "meta": {
+    "created": "20251224_172435",
+    "last_updated": "20251224_172435"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251224_172435",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services.pdf"
+      },
+      "outputs": {
+        "cin": "U62020KL2025PTC099048",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "TVDO01594F"
+}

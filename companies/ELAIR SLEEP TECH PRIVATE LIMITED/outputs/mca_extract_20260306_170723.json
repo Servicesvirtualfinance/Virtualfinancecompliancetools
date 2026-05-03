@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ELAIR SLEEP TECH PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "648caa00ef05448490b3f0804e98ee6fb556a7cf559807437ab4f5bf4b682352",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-06 17:07:23"
+  },
+  "master_data": {
+    "cin": "U31009KA2026PTC216614",
+    "company_name": "ELAIR SLEEP TECH PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "216614",
+    "date_of_incorporation": "23/02/2026",
+    "email": "elairsleeptech@gmail.com",
+    "registered_address": "No. 43, CHIKIKABANAVARA, YESHAVANTHAPURA, Kodigehalli, Bangalore Rural, Bangalore North, Karnataka, India, 560091",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 8165310,
+    "paid_up_capital": 11564531,
+    "date_of_last_agm": "3/6/26, 5:05 PM",
+    "date_of_balance_sheet": "23/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD Bangalore, South-Western Region Directorate",
+    "emails_found": [
+      "elairsleeptech@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "08165310",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11564531",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11564532",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/6/26, 5:05 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU31009KA2026PTC216614\n\nCompany Name\n\nELAIR SLEEP TECH PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n216614\n\nDate of Incorporation\n\n23/02/2026\n\nEmail Id\n\nelairsleeptech@gmail.com\n\nRegistered Address\n\nNo. 43, CHIKIKABANAVARA, YESHAVANTHAPURA, Kodigehalli,\nBangalore Rural, Bangalore North, Karnataka, India, 560091\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD Bangalore, South-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/6/26, 5:05 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n08165310\n\nDirector\n\nPromoter\n\n23/02/2026\n\n-\n\nYes\n\nWASSIM\nMOHAMMED\n\n2\n\n11564531\n\nDirector\n\nPromoter\n\n23/02/2026\n\n-\n\nYes\n\nSABIHA\nSULTANA\n\n3\n\n11564532\n\nDirector\n\nPromoter\n\n23/02/2026\n\n-\n\nYes\n\nNAWAZ\nPASHA\n\n"
+  }
+}

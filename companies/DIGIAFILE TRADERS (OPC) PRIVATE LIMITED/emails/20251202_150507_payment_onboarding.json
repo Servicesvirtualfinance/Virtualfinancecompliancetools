@@ -1,0 +1,18 @@
+{
+  "to": "digiafiletradersprivatelimited@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DIGIAFILE TRADERS (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "DIGIAFILE TRADERS (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rmh25wzaUT8EZe",
+    "payment_date": "2025-12-02T15:04:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "ICUCCAPITAL MICRO FINANCE PRIVATE LIMITED",
+  "cin": "U64920MH2026PTC469317",
+  "registered_address": "R NO.20 3RD FLR., SHAKUNTALA NIWAS M G ROAD, Borivali East, Mumbai, Borivlai East, Maharashtra, India, 400066",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11229677,
+  "paid_up_capital": 11602741,
+  "directors": [
+    {
+      "din": "11229677",
+      "name": "LUXMANSHARAN RAMBACHAN TIWARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11602741",
+      "name": "NITIN LUXMANSHARAN TIWARI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI7603N"
+  },
+  "email": "icuccapitalmicrofinancepvtltd@gmail.com",
+  "meta": {
+    "created": "20260331_123944",
+    "last_updated": "20260331_123944"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260331_123944",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ICUCCAPITAL MICRO FINANCE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U64920MH2026PTC469317",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMI20353E"
+}

@@ -1,0 +1,18 @@
+{
+  "to": "binoddbc@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 KASUTI INFOTECH SOLUTION PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "KASUTI INFOTECH SOLUTION PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RnUSFp2KW3YNdV",
+    "payment_date": "2025-12-04T15:28:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "company_name": "ZION GOSPEL FEDERATION",
+  "cin": "U88900TZ2026NPL037934",
+  "registered_address": "DOOR NO. II-12-45, MANIYATHATTUVILAI, Madichel, Kanyakumari, Vilavancode, Tamil Nadu, India, 629163",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11546508",
+      "name": "SWAMINATH ANANTHONI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550011",
+      "name": "MANAS VANAJA MALAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550012",
+      "name": "THANKAPPAN SUNDAR RAJ",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11550013",
+      "name": "Roshin Raj",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AACCZ9101A"
+},
+  "email": "ziongospelfederation@gmail.com",
+  "meta": {
+    "created": "20260218_110454",
+    "last_updated": "20260218_110454"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260218_110454",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZION GOSPEL FEDERATION.pdf"
+      },
+      "outputs": {
+        "cin": "U88900TZ2026NPL037934",
+        "directors_count": 4
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "CHEZ04804C"
+}

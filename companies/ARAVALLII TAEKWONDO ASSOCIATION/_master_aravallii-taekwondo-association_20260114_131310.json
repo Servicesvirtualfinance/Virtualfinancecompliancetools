@@ -1,0 +1,57 @@
+{
+  "company_name": "ARAVALLII TAEKWONDO ASSOCIATION",
+  "cin": "U88900GJ2025NPL170487",
+  "registered_address": "46/A Vallabh Tenament, Malpur Road, Aravalli, Modasa, Sabarkantha, Modasa, Gujarat, India, 383315",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11424589",
+      "name": "SHITALBEN SANJAYKUMAR SONI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11424590",
+      "name": "VARSHIL SANJAYKUMAR SONI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "ABECA3328H"
+
+},
+  "email": "aravalliitaekwondongo@gmail.com",
+  "meta": {
+    "created": "20260114_131310",
+    "last_updated": "20260114_131310"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260114_131310",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ARAVALLII TAEKWONDO ASSOCIATION.pdf"
+      },
+      "outputs": {
+        "cin": "U88900GJ2025NPL170487",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "AHMA34902A"
+
+}

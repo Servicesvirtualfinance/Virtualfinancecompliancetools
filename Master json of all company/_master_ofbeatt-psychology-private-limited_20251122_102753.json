@@ -1,0 +1,67 @@
+{
+  "company_name": "OFBEATT PSYCHOLOGY PRIVATE LIMITED",
+  "cin": "U86909WB2025PTC283925",
+  "registered_address": "Flat-1D, Oasis Nature, 266 Hossainpur Road, E.K.T, Kolkata, Kolkata, West Bengal, India, 700107",
+  "roc_name": "ROC Kolkata",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1500000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11365142",
+      "name": "Tanishka Shalini Safri",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11365143",
+      "name": "Hetvie Jignesh Kosambi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAECO9267A"
+  },
+  "email": "ofbeattpsychology@gmail.com",
+  "meta": {
+    "created": "20251122_102753",
+    "last_updated": "20251124_105931"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251122_102753",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ofbeatt Psychology Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U86909WB2025PTC283925",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251124_105931",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ofbeatt Psychology Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U86909WB2025PTC283925",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CALO07072C"
+}

@@ -1,0 +1,108 @@
+{
+  "company_name": "RUNIC INDIA PRIVATE LIMITED",
+  "cin": "U62099KA2026PTC215232",
+  "registered_address": "Prestige Estates Projects, No 26 Laskar Hosur Road, Adugodi, Bangalore, Bangalore South, Karnataka, India, 560030",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11421124,
+  "paid_up_capital": 11421123,
+  "directors": [
+    {
+      "din": "11421124",
+      "name": "ISHANI SINGH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11421123",
+      "name": "VIVEK JAIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR4976E"
+  },
+  "email": "corp@runic.global",
+  "meta": {
+    "created": "20260321_142220",
+    "last_updated": "20260417_163412"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260321_142220",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RUNIC INDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62099KA2026PTC215232",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260417_163412",
+      "inputs": {
+        "meeting_date": "17 Apr 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "VIVEK JAIN",
+          "din": "11421123",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_163412.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260417_163425",
+      "inputs": {
+        "to": "corp@runic.global"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260417_163412.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "BLRR35607F",
+  "authorized_signatory": {
+    "name": "VIVEK JAIN",
+    "din": "11421123",
+    "designation": "Director",
+    "meeting_date": "17 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_163412.docx",
+    "ts": "20260417_163412",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260417_163425"
+  },
+  "authorised_signatory": {
+    "name": "VIVEK JAIN",
+    "din": "11421123",
+    "designation": "Director",
+    "meeting_date": "17 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_163412.docx",
+    "ts": "20260417_163412",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260417_163425"
+  }
+}

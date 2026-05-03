@@ -1,0 +1,64 @@
+{
+  "company_name": "INGREDIENTSX NEXUS PRIVATE LIMITED",
+  "cin": "U46909MH2025PTC461170",
+  "registered_address": "Flat No A 604 Ganesh Atria APPT, Gulmohar colony, Ambad A.S.,Nashik, Nashik, Maharashtra, India, 422010",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "09655127",
+      "name": "Pranay Kumar Manohar Sortey",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "21/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11390566",
+      "name": "Rajesh Kumar Ghosh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "21/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11390567",
+      "name": "Ashok Kumar Kandpal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "21/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI5254P"
+  },
+  "email": "ingredientsxnexus@gmail.com",
+  "meta": {
+    "created": "20251212_152305",
+    "last_updated": "20251212_152305"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251212_152305",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ingredientsx Nexus Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U46909MH2025PTC461170",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEI14149C"
+}

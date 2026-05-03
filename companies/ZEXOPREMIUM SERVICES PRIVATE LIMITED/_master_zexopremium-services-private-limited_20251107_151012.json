@@ -1,0 +1,67 @@
+{
+  "company_name": "ZEXOPREMIUM SERVICES PRIVATE LIMITED",
+  "cin": "U81100GJ2025PTC168868",
+  "registered_address": "C-1401, SWATI CHRESENTHA, Shela, Ahmedabad, Sanand, Gujarat, India, 380058",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11347890",
+      "name": "Priya Rupesh Nagpure",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11347891",
+      "name": "Rupesh Prakash Nagpure",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AACCZ7804N"
+  },
+  "email": "info@zexopremium.com",
+  "meta": {
+    "created": "20251107_151012",
+    "last_updated": "20251107_152002"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251107_151012",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Zexopremium Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U81100GJ2025PTC168868",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251107_152002",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Zexopremium Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U81100GJ2025PTC168868",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMZ01378G"
+}

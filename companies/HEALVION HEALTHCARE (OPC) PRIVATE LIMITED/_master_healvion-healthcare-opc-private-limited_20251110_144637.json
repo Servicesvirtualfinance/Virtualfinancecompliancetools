@@ -1,0 +1,58 @@
+{
+  "company_name": "HEALVION HEALTHCARE (OPC) PRIVATE LIMITED",
+  "cin": "U46596UP2025OPC235450",
+  "registered_address": "0 Floor, D.36, VINAY NAGAR, Krishna Nagar, Ashiyana, Manasnagar, Lucknow, Lucknow, Uttar Pradesh, India, 226023",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11356142",
+      "name": "Ritesh Kumar Chaubey",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICH2664J"
+  },
+  "email": "healthcareopc1990@gmail.com",
+  "meta": {
+    "created": "20251110_144637",
+    "last_updated": "20251110_144918"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251110_144637",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Healvion Healthcare (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U46596UP2025OPC235450",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251110_144918",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Healvion Healthcare (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U46596UP2025OPC235450",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNH08591C"
+}

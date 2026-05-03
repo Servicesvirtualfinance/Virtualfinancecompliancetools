@@ -1,0 +1,18 @@
+{
+  "to": "ziongospelfederation@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ZION GOSPEL FEDERATION",
+  "ctx": {
+    "company": {
+      "name": "ZION GOSPEL FEDERATION"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Sidhak",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SHAdb5e2w9d13B",
+    "payment_date": "2026-02-18T11:04:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

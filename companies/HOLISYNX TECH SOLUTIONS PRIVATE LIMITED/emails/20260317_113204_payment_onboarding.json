@@ -1,0 +1,18 @@
+{
+  "to": "holisynxtechsolutions@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 HOLISYNX TECH SOLUTIONS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "HOLISYNX TECH SOLUTIONS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance",
+    "amount": "5000",
+    "currency": "INR",
+    "payment_id": "SIB",
+    "payment_date": "2026-03-17T11:28:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

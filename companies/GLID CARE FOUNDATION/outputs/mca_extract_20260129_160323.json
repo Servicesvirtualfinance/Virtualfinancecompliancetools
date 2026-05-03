@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_MASTER DATA (1).pdf",
+  "file_hash_sha256": "8a0f95047c52d1ba79c53ef97f977e5cb5799f9a31e283c58d94ab88e50c28f4",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-29 16:03:23"
+  },
+  "master_data": {
+    "cin": "U88900TZ2026NPL037431",
+    "company_name": "GLID CARE FOUNDATION",
+    "roc_name": "ROC Coimbatore",
+    "registration_number": "037431",
+    "date_of_incorporation": "09/01/2026",
+    "email": "glidcarefoundation@gmail.com",
+    "registered_address": "8/5A, SHALOAM GATTAGE, PATTANAM RO.GANDHI NAGAR, Vellalore, Coimbatore, Coimbatore South, Tamil Nadu, India, 641111",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Maximum Number of Members",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "Active",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Coimbatore",
+    "jurisdiction_roc": "ROC Coimbatore",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "glidcarefoundation@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11461185",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11475406",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11475407",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "19/01/2026, 14:38\n\n\n\n\nCompany Information\n\nCIN\n\nU88900TZ2026NPL037431\n\nCompany Name\n\nGLID CARE FOUNDATION\n\nROC Name\n\nROC Coimbatore\n\nRegistration Number\n\n037431\n\nDate of Incorporation\n\n09/01/2026\n\nEmail Id\n\nglidcarefoundation@gmail.com\n\nRegistered Address\n\n8/5A, SHALOAM GATTAGE, PATTANAM RO.GANDHI NAGAR,\nVellalore, Coimbatore, Coimbatore South, Tamil Nadu, India, 641111\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nMaximum Number of Members\n\n200\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Coimbatore\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n19/01/2026, 14:38\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11461185\n\nDirector\n\nPromoter\n\n09/01/2026\n\n-\n\nYes\n\nAYYAPPAN\nBEAULA\nJEBARANI\n\n2\n\n11475406\n\nDirector\n\nPromoter\n\n09/01/2026\n\n-\n\nYes\n\nMANISHA\nRANI BHOI\n\n3\n\n11475407\n\nDirector\n\nPromoter\n\n09/01/2026\n\n-\n\nYes\n\nJOHN\nDAVID\nGNANARAJ\nBLESSING\n\n"
+  }
+}

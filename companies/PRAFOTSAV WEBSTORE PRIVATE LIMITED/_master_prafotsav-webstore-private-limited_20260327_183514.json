@@ -1,0 +1,56 @@
+{
+  "company_name": "PRAFOTSAV WEBSTORE PRIVATE LIMITED",
+  "cin": "U47912UP2026PTC241259",
+  "registered_address": "331 Apsra Cinema Complex, U P Border, Chikamberpur, Ghaziabad, Ghaziabad, Uttar Pradesh, India, 201006",
+  "roc_name": "ROC Uttar Pradesh II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7775430,
+  "paid_up_capital": 11483248,
+  "directors": [
+    {
+      "din": "07775430",
+      "name": "PRABHAT SHARMA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11483248",
+      "name": "PANKAJ SHARMA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAQCP5820J"
+},
+  "email": "prafotsavwebstore@gmail.com",
+  "meta": {
+    "created": "20260327_183514",
+    "last_updated": "20260327_183514"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260327_183514",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PRAFOTSAV WEBSTORE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912UP2026PTC241259",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTP15070G"
+
+}

@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SMARTBASE BUILDERS AND DEVELOPERS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "6dbfb77afd0ad997773ee3636c50dde30901d1226374da347ac5fd48f0bc68c5",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-27 14:14:00"
+  },
+  "master_data": {
+    "cin": "U74102KL2026PTC101283",
+    "company_name": "SMARTBASE BUILDERS AND DEVELOPERS PRIVATE LIMITED",
+    "roc_name": "ROC Ernakulam",
+    "registration_number": "101283",
+    "date_of_incorporation": "25/02/2026",
+    "email": "nishaur9@gmail.com",
+    "registered_address": "Bushra Manzil, A M K Nager, Nedumangad, Thiruvananthapuram, Nedumangad, Kerala, India, 695541",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11367315,
+    "paid_up_capital": 10702201,
+    "date_of_last_agm": "3/27/26, 2:13 PM",
+    "date_of_balance_sheet": "25/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Ernakulam",
+    "jurisdiction_roc": "ROC Ernakulam",
+    "jurisdiction_rd": "RD Bangalore, South-Western Region Directorate",
+    "emails_found": [
+      "nishaur9@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11367315",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10702201",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11546490",
+      "name": "Siddique",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/27/26, 2:13 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU74102KL2026PTC101283\n\nCompany Name\n\nSMARTBASE BUILDERS AND DEVELOPERS PRIVATE LIMITED\n\nROC Name\n\nROC Ernakulam\n\nRegistration Number\n\n101283\n\nDate of Incorporation\n\n25/02/2026\n\nEmail Id\n\nnishaur9@gmail.com\n\nRegistered Address\n\nBushra Manzil, A M K Nager, Nedumangad, Thiruvananthapuram,\nNedumangad, Kerala, India, 695541\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ernakulam\n\nRD (name and Region)\n\nRD Bangalore, South-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/27/26, 2:13 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11367315\n\nDirector\n\nPromoter\n\n25/02/2026\n\n-\n\nYes\n\nANSAR\nRAMLA\nSALIM\n\n2\n\n10702201\n\nDirector\n\nPromoter\n\n25/02/2026\n\n-\n\nYes\n\nARSHAD\nSALIM\n\n3\n\n11546490\n\nSIDDIQUE\n\nDirector\n\nPromoter\n\n25/02/2026\n\n-\n\nYes\n\n"
+  }
+}

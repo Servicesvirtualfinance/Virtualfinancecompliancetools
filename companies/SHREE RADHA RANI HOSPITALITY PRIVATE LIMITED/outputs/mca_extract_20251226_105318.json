@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Shree Radha Rani Hospitality Private Limited.pdf",
+  "file_hash_sha256": "d45a699e83ce78c46e24191e1ffb37a8746de8ccf9d715c48d19d6451bf324f0",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2025-12-26 10:53:18"
+  },
+  "master_data": {
+    "cin": "U55101PN2025PTC248063",
+    "company_name": "SHREE RADHA RANI HOSPITALITY PRIVATE LIMITED",
+    "roc_name": "ROC Pune",
+    "registration_number": "248063",
+    "date_of_incorporation": "06/11/2025",
+    "email": "Kiransapkal77@gmail.com",
+    "registered_address": "Cts No -259, School Mohalla, Mahabaleshwar, Satara, Mahabaleshwar, Maharashtra, India, 412806",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "12/26/25, 10:52 AM",
+    "authorised_capital": 11370124,
+    "paid_up_capital": 11370125,
+    "date_of_last_agm": "06/11/2025",
+    "date_of_balance_sheet": "06/11/2025",
+    "company_status": "Active",
+    "small_company": "ROC Pune",
+    "jurisdiction_roc": "ROC Pune",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "Kiransapkal77@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11370124",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370125",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "12/26/25, 10:52 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU55101PN2025PTC248063\n\nCompany Name\n\nSHREE RADHA RANI HOSPITALITY PRIVATE LIMITED\n\nROC Name\n\nROC Pune\n\nRegistration Number\n\n248063\n\nDate of Incorporation\n\n06/11/2025\n\nEmail Id\n\nKiransapkal77@gmail.com\n\nRegistered Address\n\nCts No -259, School Mohalla, Mahabaleshwar, Satara, Mahabaleshwar, Maharashtra,\nIndia, 412806\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n12/26/25, 10:52 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Pune\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11370124\n\nDirector\n\nPromoter\n\n06/11/2025\n\n-\n\nYes\n\nPALLAVI KIRAN\nSAPKAL\n\n2\n\n11370125\n\nDirector\n\nPromoter\n\n06/11/2025\n\n-\n\nYes\n\nKIRAN RAVIKANT\nSAPKAL\n\n\n12/26/25, 10:52 AM\n\n\n"
+  }
+}

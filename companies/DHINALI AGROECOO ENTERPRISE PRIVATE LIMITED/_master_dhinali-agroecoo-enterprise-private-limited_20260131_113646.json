@@ -1,0 +1,55 @@
+{
+  "company_name": "DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED",
+  "cin": "U01611UT2024PTC016858",
+  "registered_address": "Kyunkaleshwar Mohalla, Pauri, Pauri Garhwal, Uttarakhand, India, 246001",
+  "roc_name": "ROC Uttarakhand",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10496451,
+  "paid_up_capital": 10496452,
+  "directors": [
+    {
+      "din": "10496451",
+      "name": "Mohini Dixit",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/02/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10496452",
+      "name": "Raghavendra Dixit",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/02/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAKCD6254G"
+  },
+  "email": "rdixit@myself.com",
+  "meta": {
+    "created": "20260131_113646",
+    "last_updated": "20260131_113646"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260131_113646",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DHINALI AGROECOO ENTERPRISE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U01611UT2024PTC016858",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "SHLD06563E"
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BLUNTWINS CONSULTING PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "2bed843b7ee9c28d94492aae5fc28adfe40781de33ec16eaa992599c4db6cf30",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-12 12:37:07"
+  },
+  "master_data": {
+    "cin": "U70200HR2025PTC139536",
+    "company_name": "BLUNTWINS CONSULTING PRIVATE LIMITED",
+    "roc_name": "ROC Delhi",
+    "registration_number": "139536",
+    "date_of_incorporation": "19/12/2025",
+    "email": "maverickco.info@gmail.com",
+    "registered_address": "HOUSE NO 1581 SECTOR- 23A, Faridabad Sector 22, Faridabad, Faridabad, Haryana, India, 121005",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/12/26, 11:45 AM",
+    "authorised_capital": 11440778,
+    "paid_up_capital": 11440779,
+    "date_of_last_agm": "19/12/2025",
+    "date_of_balance_sheet": "19/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Delhi",
+    "jurisdiction_roc": "ROC Delhi",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "maverickco.info@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11440778",
+      "name": "Rahul Aggarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11440779",
+      "name": "Nikhil Jha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/12/26, 11:45 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU70200HR2025PTC139536\n\nCompany Name\n\nBLUNTWINS CONSULTING PRIVATE LIMITED\n\nROC Name\n\nROC Delhi\n\nRegistration Number\n\n139536\n\nDate of Incorporation\n\n19/12/2025\n\nEmail Id\n\nmaverickco.info@gmail.com\n\nRegistered Address\n\nHOUSE NO 1581 SECTOR- 23A, Faridabad Sector 22, Faridabad, Faridabad, Haryana,\nIndia, 121005\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/12/26, 11:45 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11440778\n\nRAHUL AGGARWAL\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\n2\n\n11440779\n\nNIKHIL JHA\n\nDirector\n\nPromoter\n\n19/12/2025\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "KRISHAK SARTHI AGRO VENTURE PRIVATE LIMITED",
+  "cin": "U01611MP2025PTC080463",
+  "registered_address": "C/O DURGESH MANGILAL GOAD, JAT WADI, SHIV NAGAR, Sarangpur, Rajgarh, Sarangpur, Madhya Pradesh, India, 465697",
+  "roc_name": "ROC Gwalior",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11067757,
+  "paid_up_capital": 11421107,
+  "directors": [
+    {
+      "din": "11067757",
+      "name": "SUMIT GOUD",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11421107",
+      "name": "MAYA NAROLIYA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAMCK3925H"
+},
+  "email": "organicmp.adp@gmail.com",
+  "meta": {
+    "created": "20260218_200232",
+    "last_updated": "20260218_200232"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260218_200232",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Krishak Sarthi Agro Venture Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U01611MP2025PTC080463",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "BPKL08505A"
+}

@@ -1,0 +1,18 @@
+{
+  "to": "viantislifesciences@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 VIANTIS LIFE SCIENCES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "VIANTIS LIFE SCIENCES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SFcKv6tFmuSVSs",
+    "payment_date": "2026-02-13T17:19:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

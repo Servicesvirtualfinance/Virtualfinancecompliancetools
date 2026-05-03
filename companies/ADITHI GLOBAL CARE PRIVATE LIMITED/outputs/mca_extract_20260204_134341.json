@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ADITHI GLOBAL CARE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "3f4115f8ca8c217527b14e851667ef58f11150fe131bf72659c9761dbb791b3f",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-04 13:43:41"
+  },
+  "master_data": {
+    "cin": "U78300KA2026PTC214117",
+    "company_name": "ADITHI GLOBAL CARE PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "214117",
+    "date_of_incorporation": "13/01/2026",
+    "email": "adithiglobalcare@gmail.com",
+    "registered_address": "C/O SHARANAMMA WD NO 22, SRI NAGAR TALUR ROAD, Bellary Cowl Bazar, Bellary, Bellary, Karnataka, India, 583102",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 10058395,
+    "paid_up_capital": 11481757,
+    "date_of_last_agm": "2/4/26, 1:38 PM",
+    "date_of_balance_sheet": "13/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD, South East Region",
+    "emails_found": [
+      "adithiglobalcare@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10058395",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11481757",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/4/26, 1:38 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU78300KA2026PTC214117\n\nCompany Name\n\nADITHI GLOBAL CARE PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n214117\n\nDate of Incorporation\n\n13/01/2026\n\nEmail Id\n\nadithiglobalcare@gmail.com\n\nRegistered Address\n\nC/O SHARANAMMA WD NO 22, SRI NAGAR TALUR ROAD,\nBellary Cowl Bazar, Bellary, Bellary, Karnataka, India, 583102\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD, South East Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/4/26, 1:38 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n10058395\n\nDirector\n\nPromoter\n\n13/01/2026\n\n-\n\nYes\n\nHALEGOUD\nADITHYA\n\n2\n\n11481757\n\nDirector\n\nPromoter\n\n13/01/2026\n\n-\n\nYes\n\nBELLARY\nSOUMYA\n\n"
+  }
+}

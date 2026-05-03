@@ -1,0 +1,18 @@
+{
+  "to": "hamvatanfoundation@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 HAMVATAN INTERNATIONAL FOUNDATION",
+  "ctx": {
+    "company": {
+      "name": "HAMVATAN INTERNATIONAL FOUNDATION"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RYpX9ivZZEIDcl",
+    "payment_date": "2025-10-28T14:13:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MEIV GLOBAL PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "60f2fe01629266f1cdec1ccda2f5f66cf526540f50eb4abb7396737785468c4b",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-04 18:04:12"
+  },
+  "master_data": {
+    "cin": "U46909DL2026PTC461168",
+    "company_name": "MEIV GLOBAL PRIVATE LIMITED",
+    "roc_name": "ROC Delhi",
+    "registration_number": "461168",
+    "date_of_incorporation": "06/01/2026",
+    "email": "meivglobal@gmail.com",
+    "registered_address": "E- 49/5 FIRST FLOOR OKHLA, INDUSTRIAL AREA PH 11, C R R I (South Delhi), South Delhi, New Delhi, Delhi, India, 110020",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "2/4/26, 5:58 PM",
+    "authorised_capital": 11467762,
+    "paid_up_capital": 11467763,
+    "date_of_last_agm": "06/01/2026",
+    "date_of_balance_sheet": "06/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Delhi",
+    "jurisdiction_roc": "ROC Delhi",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "meivglobal@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11467762",
+      "name": "Paramjit Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11467763",
+      "name": "Jasmeet Bhatia",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/4/26, 5:58 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU46909DL2026PTC461168\n\nCompany Name\n\nMEIV GLOBAL PRIVATE LIMITED\n\nROC Name\n\nROC Delhi\n\nRegistration Number\n\n461168\n\nDate of Incorporation\n\n06/01/2026\n\nEmail Id\n\nmeivglobal@gmail.com\n\nRegistered Address\n\nE- 49/5 FIRST FLOOR OKHLA, INDUSTRIAL AREA PH 11, C R R I (South Delhi),\nSouth Delhi, New Delhi, Delhi, India, 110020\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n2/4/26, 5:58 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11467762\n\nPARAMJIT SINGH\n\nDirector\n\nPromoter\n\n06/01/2026\n\n-\n\nYes\n\n2\n\n11467763\n\nJASMEET BHATIA\n\nDirector\n\nPromoter\n\n06/01/2026\n\n-\n\nYes\n\n"
+  }
+}

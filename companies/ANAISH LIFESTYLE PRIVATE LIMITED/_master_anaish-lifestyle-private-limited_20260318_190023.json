@@ -1,0 +1,55 @@
+{
+  "company_name": "ANAISH LIFESTYLE PRIVATE LIMITED",
+  "cin": "U47912MH2026PTC468890",
+  "registered_address": "1006 WING H ORCHID RES, M G CROSS ROAD NO 1, Kandivali West, Mumbai, Kandivali West, Maharashtra, India, 400067",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11067870,
+  "paid_up_capital": 11067871,
+  "directors": [
+    {
+      "din": "11067870",
+      "name": "AISHWARYA PRAVIN RUPAREL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "26/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11067871",
+      "name": "ANUP SANJEEVA SHETTY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "26/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA0429A"
+  },
+  "email": "hello@barelyminimum.com",
+  "meta": {
+    "created": "20260318_190023",
+    "last_updated": "20260318_190023"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260318_190023",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ANAISH LIFESTYLE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912MH2026PTC468890",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMA86317A"
+}

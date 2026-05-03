@@ -1,0 +1,18 @@
+{
+  "to": "realmartstore20@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 OAREAL TRANSWARE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "OAREAL TRANSWARE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Trupti",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RcS1rYEYBTXUDx",
+    "payment_date": "2025-11-06T17:52:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

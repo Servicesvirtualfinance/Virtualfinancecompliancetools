@@ -1,0 +1,106 @@
+{
+  "company_name": "FRESHEX INTERNATIONAL PRIVATE LIMITED",
+  "cin": "U46205MR2026PTC475400",
+  "registered_address": "C/O RUKHASANA M K AT, NAYANAGAR, RAJPURI, MURUD, Janjira Murud, Raigarh(MH), Murud, Maharashtra, India, 402401",
+  "roc_name": "ROC Mumbai II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11653047,
+  "paid_up_capital": 11653048,
+  "directors": [
+    {
+      "din": "11653047",
+      "name": "RAYYAN MASOOD KASKAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11653048",
+      "name": "Mahek Munib Kaskar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "freshexinternational@gmail.com",
+  "meta": {
+    "created": "20260413_103050",
+    "last_updated": "20260422_110311"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260413_103050",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_FRESHEX INTERNATIONAL PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46205MR2026PTC475400",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260422_110311",
+      "inputs": {
+        "meeting_date": "22 Apr 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "RAYYAN MASOOD KASKAR",
+          "din": "11653047",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FRESHEX INTERNATIONAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20260422_110311.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260422_110351",
+      "inputs": {
+        "to": "freshexinternational@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260422_110311.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PNEF07936F",
+  "authorized_signatory": {
+    "name": "RAYYAN MASOOD KASKAR",
+    "din": "11653047",
+    "designation": "Director",
+    "meeting_date": "22 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FRESHEX INTERNATIONAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20260422_110311.docx",
+    "ts": "20260422_110311",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260422_110351"
+  },
+  "authorised_signatory": {
+    "name": "RAYYAN MASOOD KASKAR",
+    "din": "11653047",
+    "designation": "Director",
+    "meeting_date": "22 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FRESHEX INTERNATIONAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20260422_110311.docx",
+    "ts": "20260422_110311",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260422_110351"
+  }
+}

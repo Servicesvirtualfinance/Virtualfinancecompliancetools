@@ -1,0 +1,104 @@
+{
+  "company_name": "VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED",
+  "cin": "U22200MH2025PTC460116",
+  "registered_address": "26, FLOOR-3RD, PLOT-8, HAJI, KASAM CHAWL DURGADEVI ST, Girgaon, Mumbai, Mumbai, Maharashtra, India, 400004",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11365536",
+      "name": "SHASHANK DHNYNADEV GOGAWALE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11365537",
+      "name": "VANDANA DHNYNADEV GOGAWALE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AALCV5517B"
+  },
+  "email": "vanshikaplasticschuna@gmail.com",
+  "meta": {
+    "created": "20251117_153432",
+    "last_updated": "20251118_162347"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251117_153432",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Vanshika Plastics And Chuna Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U22200MH2025PTC460116",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251117_154156",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Vanshika Plastics And Chuna Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U22200MH2025PTC460116",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251118_162347",
+      "inputs": {
+        "meeting_date": "18 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "SHASHANK DHNYNADEV GOGAWALE",
+          "din": "11365536",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251118_162347.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMV37029G",
+  "authorized_signatory": {
+    "name": "SHASHANK DHNYNADEV GOGAWALE",
+    "din": "11365536",
+    "designation": "Director",
+    "meeting_date": "18 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251118_162347.docx",
+    "ts": "20251118_162347",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "SHASHANK DHNYNADEV GOGAWALE",
+    "din": "11365536",
+    "designation": "Director",
+    "meeting_date": "18 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251118_162347.docx",
+    "ts": "20251118_162347",
+    "note": "authorised signatory appointed"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED (1).pdf",
+  "file_hash_sha256": "6a66fba81399ea63ec6c553bd90ffc70d2e496406405644245b2357d1c0c809a",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-24 12:31:41"
+  },
+  "master_data": {
+    "cin": "U59113MP2026PTC082479",
+    "company_name": "KODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED",
+    "roc_name": "ROC Gwalior",
+    "registration_number": "082479",
+    "date_of_incorporation": "28/02/2026",
+    "email": "kodanda7media@gmail.com",
+    "registered_address": "Office No 418 Fourth Floor Unity One, Rajiv Gandhi Square A.B. Road Village Pipliya Rao, Radio Colony Indore, Indore, Indore, Madhya Pradesh, India, 452001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11356966,
+    "paid_up_capital": 11562334,
+    "date_of_last_agm": "3/24/26, 12:31 PM",
+    "date_of_balance_sheet": "28/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Gwalior",
+    "jurisdiction_roc": "ROC Gwalior",
+    "jurisdiction_rd": "RD Ahmedabad, North-Western Region Directorate",
+    "emails_found": [
+      "kodanda7media@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11356966",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11562334",
+      "name": "Reena",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11603582",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/24/26, 12:31 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU59113MP2026PTC082479\n\nCompany Name\n\nKODANDA MEDIA AND ENTERTAINMENT PRIVATE LIMITED\n\nROC Name\n\nROC Gwalior\n\nRegistration Number\n\n082479\n\nDate of Incorporation\n\n28/02/2026\n\nEmail Id\n\nkodanda7media@gmail.com\n\nRegistered Address\n\nOffice No 418 Fourth Floor Unity One, Rajiv Gandhi Square A.B. Road\nVillage Pipliya Rao, Radio Colony Indore, Indore, Indore, Madhya\nPradesh, India, 452001\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Gwalior\n\nRD (name and Region)\n\nRD Ahmedabad, North-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/24/26, 12:31 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11356966\n\nDirector\n\nPromoter\n\n28/02/2026\n\n-\n\nYes\n\nLOKENDRA\nGOSWAMI\n\n2\n\n11562334\n\nREENA\n\nDirector\n\nPromoter\n\n28/02/2026\n\n-\n\nYes\n\n3\n\n11603582\n\nDirector\n\nPromoter\n\n13/03/2026\n\n-\n\nYes\n\nRAVINDRA\nGOSWAMI\n\n"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "to": "aishwaryeshwar.pointservice.2111@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 AISHWARYESHWAR POINT SERVICE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "AISHWARYESHWAR POINT SERVICE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Swati",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SC0M3Fc05nulzd",
+    "payment_date": "2026-02-04T15:56:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

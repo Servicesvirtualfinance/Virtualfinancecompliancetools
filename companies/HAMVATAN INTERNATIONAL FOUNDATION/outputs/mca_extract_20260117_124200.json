@@ -1,0 +1,75 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ (1).pdf",
+  "file_hash_sha256": "97085fb6a089261a05453d332a0e3556f88ffea00f678da354d833d03b8d49b6",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-17 12:42:00"
+  },
+  "master_data": {
+    "cin": "U88900JK2025NPL018004",
+    "company_name": "HAMVATAN INTERNATIONAL FOUNDATION",
+    "roc_name": "ROC Jammu",
+    "registration_number": "018004",
+    "date_of_incorporation": "24/09/2025",
+    "email": "hamvatanfoundation@gmail.com",
+    "registered_address": "Main Town Budgam, District Budgam, Jammu & Kashmir, Budgam, Budgam, Budgam, Jammu & Kashmir, India, 191111",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11388506,
+    "paid_up_capital": 11387766,
+    "date_of_last_agm": "1/17/26, 12:38 PM",
+    "date_of_balance_sheet": "14/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Jammu",
+    "jurisdiction_roc": "ROC Jammu",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "hamvatanfoundation@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11388506",
+      "name": "",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11387766",
+      "name": "",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "14/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11314817",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/09/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11314818",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/09/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/17/26, 12:38 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900JK2025NPL018004\n\nCompany Name\n\nHAMVATAN INTERNATIONAL FOUNDATION\n\nROC Name\n\nROC Jammu\n\nRegistration Number\n\n018004\n\nDate of Incorporation\n\n24/09/2025\n\nEmail Id\n\nhamvatanfoundation@gmail.com\n\nRegistered Address\n\nMain Town Budgam, District Budgam, Jammu & Kashmir, Budgam,\nBudgam, Budgam, Jammu & Kashmir, India, 191111\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Jammu\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/17/26, 12:38 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11388506\n\nDirector\n\nProfessional\n\n14/01/2026\n\n-\n\nYes\n\nSIKANDER\nHUSSAIN\n\n2\n\n11387766\n\nDirector\n\nProfessional\n\n14/01/2026\n\n-\n\nYes\n\nZAFFER ALI\nRATHER\n\n3\n\n11314817\n\nDirector\n\nPromoter\n\n24/09/2025\n\n-\n\nYes\n\nMOHAMMAD\nILYAS\nPANDITH\n\n4\n\n11314818\n\nDirector\n\nPromoter\n\n24/09/2025\n\n-\n\nYes\n\nDANISH\nNISAR\nPANDITH\n\n"
+  }
+}

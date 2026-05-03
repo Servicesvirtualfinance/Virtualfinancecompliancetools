@@ -1,0 +1,18 @@
+{
+  "to": "quickxkart@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 QUICKXKART PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "QUICKXKART PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubba",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_ShkAKJPJ6UgjUQ",
+    "payment_date": "2026-04-25T19:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "to": "s66885493@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DETOX DIET DELIGHT PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "DETOX DIET DELIGHT PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Sidhak",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SHuN35EnQELujh",
+    "payment_date": "2026-02-19T17:39:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "company_name": "QZVAX PRIVATE LIMITED",
+  "cin": "U43210UP2026PTC245301",
+  "registered_address": "2240 DUGHRA JUGGAUR, LALLI KA PURWA, Juggaur, Lucknow, Lucknow, Uttar Pradesh, India, 226028",
+  "roc_name": "ROC Uttar Pradesh I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11598722,
+  "paid_up_capital": 11598723,
+  "directors": [
+    {
+      "din": "11598722",
+      "name": "LAXMAN KUMAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11598723",
+      "name": "ASHUTOSH YADAV",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AABCQ2407K"
+  },
+  "email": "edu.teachashu@gmail.com",
+  "meta": {
+    "created": "20260316_104847",
+    "last_updated": "20260316_105603"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260316_104847",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_QZVAX PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U43210UP2026PTC245301",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260316_105603",
+      "inputs": {
+        "meeting_date": "16 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "LAXMAN KUMAR",
+          "din": "11598722",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\QZVAX PRIVATE LIMITED\\bod_gst_authorized_signatory_20260316_105603.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNQ05344D",
+  "authorized_signatory": {
+    "name": "LAXMAN KUMAR",
+    "din": "11598722",
+    "designation": "Director",
+    "meeting_date": "16 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\QZVAX PRIVATE LIMITED\\bod_gst_authorized_signatory_20260316_105603.docx",
+    "ts": "20260316_105603",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "LAXMAN KUMAR",
+    "din": "11598722",
+    "designation": "Director",
+    "meeting_date": "16 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\QZVAX PRIVATE LIMITED\\bod_gst_authorized_signatory_20260316_105603.docx",
+    "ts": "20260316_105603",
+    "note": "authorised signatory appointed"
+  }
+}

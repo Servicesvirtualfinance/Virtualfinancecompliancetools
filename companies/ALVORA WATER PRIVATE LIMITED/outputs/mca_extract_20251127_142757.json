@@ -1,0 +1,64 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Alvora Water Private Limited.pdf",
+  "file_hash_sha256": "fe2c65958ad2cfe0fe9df86e8440e8cc2a8360c1703af50f99731bb58cccf584",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.2.1",
+    "timestamp": "2025-11-27 14:27:57"
+  },
+  "master_data": {
+    "cin": "U36000MH2025PTC460359",
+    "company_name": "ALVORA WATER PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "ROC Mumbai",
+    "date_of_incorporation": "ROC Mumbai",
+    "email": "alvorawater@gmail.com",
+    "registered_address": "8th Flr S-11, 1171, 1172, SOLITAIRE CORPORATE PK, Chakala Midc, Mumbai, Mumbai, Maharashtra, India, 400093",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Private",
+    "authorised_capital": 100000,
+    "paid_up_capital": 100000,
+    "date_of_last_agm": "06/11/2025",
+    "date_of_balance_sheet": "06/11/2025",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "alvorawater@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11370148",
+      "name": "Shaikh Samiuddin Shaikh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370149",
+      "name": "Rafiuddin Anshul Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370150",
+      "name": "Anchal Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "Skip to Main Content\n\nSitemap\n\nTheme Light\n\nFont Size\n\nA\n\nLanguage English\n\nSign In/Sign Up\n\nSearch\n\nHome > MCA Services > Master Data > Master Data Services V3 > Company/ LLP Search\n\nMaster data\n\nIndex of Charges\n\nDirector/Signatory details\n\nCompany Information\n\nCIN\n\nU36000MH2025PTC460359\n\nCompany Name\n\nALVORA WATER PRIVATE LIMITED\n\nROC Name\n\nRegistration Number\n\nDate of Incorporation\n\nROC Mumbai\n\n460359\n\n06/11/2025\n\nEmail Id\n\nalvorawater@gmail.com\n\nRegistered Address\n\n8th Flr S-11, 1171,1172, SOLITAIRE CORPORATE PK, Chakala Midc,\n\nMumbai, Mumbai, Maharashtra, India, 400093\n\nAddress at which the books of account\n\nare to be maintained\n\nListed in Stock Exchange(s) (Y/N)\n\n-\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nACTIVE compliance\n\nAuthorised Capital (Rs)\n\nPaid up Capital (Rs)\n\nDate of last AGM\n\nDate of Balance Sheet\n\nPrivate\n\n-\n\n1,00,000\n\n1,00,000\n\n-\n\n-\n\nCompany Status\n\nActive\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nQuick Links\n\nPMO\n\nICAI(CA)\n\nIRDA\n\nBSE\n\nNFCG\n\nRTI Online\n\nSEBI\n\nICSI(CS)\n\nTrademarks Portal\n\nInvest India\n\nIn.Registry\n\nPublic Grievance Portal\n\nMyGov.in\n\n\n\nPrincipal Accounts Office\n\nNVS Portal\n\nLatest News\n\nWebsite Policies\n\nIEPFA Portal\n\nRBI\n\nMobile App policy\n\nInstitute of Cost Accountants of India\n\nNSE\n\nParticipate in the Fight Against Corruption\n\nContact Us\n\nXBRL V3\n\nAbout Us\n\nHelp & FAQs\n\nDisclaimer\nThis site is owned by Ministry of Corporate Affairs.\n\nLast Updated: 7 Nov 2025 .\n\nThe site is best viewed in Microsoft Edge 89.0 , Firefox 83.0 or Chrome 89.0\n\nFollow\nus:\n\n\nSkip to Main Content\n\nSitemap\n\nTheme Light\n\nFont Size\n\nA\n\nLanguage English\n\nSign In/Sign Up\n\nSearch\n\nHome > MCA Services > Master Data > Master Data Services V3 > Company/ LLP Search\n\nMaster data\n\nIndex of Charges\n\nDirector/Signatory details\n\nSr.\n\nNo\n\n1\n\n2\n\n3\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of\n\nCessation\n\nAppointment\n\nDate\n\nSignatory\n\n11370148\n\n11370149\n\n11370150\n\nSHAIKH\n\nSAMIUDDIN\n\nSHAIKH\n\nRAFIUDDIN\n\nANSHUL\nSINGH\n\nANCHAL\n\nSINGH\n\nDirector\n\nPromoter\n\n06/11/2025\n\nDirector\n\nPromoter\n\n06/11/2025\n\nDirector\n\nPromoter\n\n06/11/2025\n\n-\n\n-\n\n-\n\nYes\n\nYes\n\nYes\n\nFor more information on current designation and cessation dates, please click on the DIN/ DPIN to access Director\nMaster Data\n\nQuick Links\n\nPMO\n\nICAI(CA)\n\nIRDA\n\nBSE\n\nNFCG\n\nRTI Online\n\nSEBI\n\nICSI(CS)\n\nTrademarks Portal\n\nInvest India\n\nIn.Registry\n\nPublic Grievance Portal\n\nMyGov.in\n\nPrincipal Accounts Office\n\n\n\nNVS Portal\n\nLatest News\n\nWebsite Policies\n\nIEPFA Portal\n\nRBI\n\nMobile App policy\n\nInstitute of Cost Accountants of India\n\nNSE\n\nParticipate in the Fight Against Corruption\n\nContact Us\n\nXBRL V3\n\nAbout Us\n\nHelp & FAQs\n\nDisclaimer\nThis site is owned by Ministry of Corporate Affairs.\n\nLast Updated: 7 Nov 2025 .\n\nThe site is best viewed in Microsoft Edge 89.0 , Firefox 83.0 or Chrome 89.0\n\nFollow\nus:\n\n\n"
+  }
+}

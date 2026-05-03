@@ -1,0 +1,64 @@
+{
+  "company_name": "MAGSONS GLOBAL X-TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62011KA2026PTC215292",
+  "registered_address": "No.B-4433, B2 Block, Brigade Meadows, Basil, Kagalipura, Bangalore Rural, Bangalore South, Karnataka, India, 560082",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10327095,
+  "paid_up_capital": 7836395,
+  "directors": [
+    {
+      "din": "10327095",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07836395",
+      "name": "Promoter 03/02/2026 - Yes Managing",
+      "designation": "Director",
+      "category": "SURESH",
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11520402",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM4606R"
+  },
+  "email": "Arykanishk@gmail.com",
+  "meta": {
+    "created": "20260225_161733",
+    "last_updated": "20260225_161733"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260225_161733",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MAGSONS GLOBAL X-TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62011KA2026PTC215292",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRM54780F"
+}

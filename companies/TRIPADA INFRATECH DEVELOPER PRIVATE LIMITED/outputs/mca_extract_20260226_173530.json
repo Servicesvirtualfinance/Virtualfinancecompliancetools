@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TRIPADA INFRATECH DEVELOPER PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "26ea6234a64080f7ecf1537461fca59ca67a69621f12d3fadb59bbfdd1c7c5fb",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-26 17:35:30"
+  },
+  "master_data": {
+    "cin": "U41000KA2026PTC216245",
+    "company_name": "TRIPADA INFRATECH DEVELOPER PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "216245",
+    "date_of_incorporation": "17/02/2026",
+    "email": "Tripadainfratech@gmail.com",
+    "registered_address": "235 RAMACHANDRAPURA, Vidyaranyapura, Bangalore, Bangalore North, Karnataka, India, 560097",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "2/26/26, 5:34 PM",
+    "authorised_capital": 8172385,
+    "paid_up_capital": 11552503,
+    "date_of_last_agm": "17/02/2026",
+    "date_of_balance_sheet": "17/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD Bangalore, South-Western Region Directorate",
+    "emails_found": [
+      "Tripadainfratech@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "08172385",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11552503",
+      "name": "Surekha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/26/26, 5:34 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU41000KA2026PTC216245\n\nCompany Name\n\nTRIPADA INFRATECH DEVELOPER PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n216245\n\nDate of Incorporation\n\n17/02/2026\n\nEmail Id\n\nTripadainfratech@gmail.com\n\nRegistered Address\n\n235 RAMACHANDRAPURA, Vidyaranyapura, Bangalore, Bangalore North, Karnataka,\nIndia, 560097\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n2/26/26, 5:34 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD Bangalore, South-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n08172385\n\nDirector\n\nPromoter\n\n17/02/2026\n\n-\n\nYes\n\nCHAITRA JAYA\nSHANKAR\n\n2\n\n11552503\n\nSUREKHA\n\nDirector\n\nPromoter\n\n17/02/2026\n\n-\n\nYes\n\n"
+  }
+}

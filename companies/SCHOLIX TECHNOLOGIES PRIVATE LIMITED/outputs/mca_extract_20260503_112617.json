@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SCHOLIX TECHNOLOGIES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "7931b7b562e8c4030485881539ceba07f5334fd6e4e50d62e0a35105a16e8d40",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-05-03 11:26:17"
+  },
+  "master_data": {
+    "cin": "U47912TS2026PTC214924",
+    "company_name": "SCHOLIX TECHNOLOGIES PRIVATE LIMITED",
+    "roc_name": "ROC Hyderabad",
+    "registration_number": "214924",
+    "date_of_incorporation": "22/04/2026",
+    "email": "support@schoolkart.in",
+    "registered_address": "HNO 1-8-236, PRAKASH NAGAR, Begumpet, Hyderabad, Secunderabad, Telangana, India, 500016",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11678618,
+    "paid_up_capital": 11678619,
+    "date_of_last_agm": "22/04/2026",
+    "date_of_balance_sheet": "22/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Hyderabad",
+    "jurisdiction_roc": "ROC Hyderabad",
+    "jurisdiction_rd": "RD Hyderabad, Southeastern Region Directorate",
+    "emails_found": [
+      "support@schoolkart.in"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11678618",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11678619",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "5/3/26, 11:17 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU47912TS2026PTC214924\n\nCompany Name\n\nSCHOLIX TECHNOLOGIES PRIVATE LIMITED\n\nROC Name\n\nROC Hyderabad\n\nRegistration Number\n\n214924\n\nDate of Incorporation\n\n22/04/2026\n\nEmail Id\n\nsupport@schoolkart.in\n\nRegistered Address\n\nHNO 1-8-236, PRAKASH NAGAR, Begumpet, Hyderabad, Secunderabad, Telangana, India, 500016\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\n\n5/3/26, 11:17 AM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Hyderabad\n\nRD (name and Region)\n\nRD Hyderabad, Southeastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11678618\n\nDirector\n\nPromoter\n\n22/04/2026\n\n-\n\nYes\n\nMOHAMMAD SHAMSHAD\nUDDIN\n\n2\n\n11678619\n\nDirector\n\nPromoter\n\n22/04/2026\n\n-\n\nYes\n\nMOHAMMAD MAZHAR\nHUSSAIN\n\n"
+  }
+}

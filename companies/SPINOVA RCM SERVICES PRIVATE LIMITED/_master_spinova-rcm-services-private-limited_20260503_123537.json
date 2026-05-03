@@ -1,0 +1,55 @@
+{
+  "company_name": "SPINOVA RCM SERVICES PRIVATE LIMITED",
+  "cin": "U86909GJ2026PTC176277",
+  "registered_address": "E-701, Sahaj Centre, Nr, Ganeshdwar Bunglow, Digvijaynagar, Ahmedabad, Ahmadabad City, Gujarat, India, 382470",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11654845,
+  "paid_up_capital": 11654846,
+  "directors": [
+    {
+      "din": "11654845",
+      "name": "DHRUVIBEN VINODBHAI PATADIYA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11654846",
+      "name": "UTSAVKUMAR VINODBHAI PATADIYA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS4336C"
+  },
+  "email": "utsavsoni4450@gmail.com",
+  "meta": {
+    "created": "20260503_123537",
+    "last_updated": "20260503_123537"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260503_123537",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SPINOVA RCM SERVICES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U86909GJ2026PTC176277",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMS59209D"
+}

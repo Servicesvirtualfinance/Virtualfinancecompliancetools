@@ -1,0 +1,18 @@
+{
+  "to": "healthcareopc1990@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 HEALVION HEALTHCARE (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "HEALVION HEALTHCARE (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rdz16JIq5U2xaG",
+    "payment_date": "2025-11-10T14:46:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

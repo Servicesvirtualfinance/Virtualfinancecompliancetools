@@ -1,0 +1,18 @@
+{
+  "to": "harshsisodiya321@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 KRIYANSHI MARKETING PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "KRIYANSHI MARKETING PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RYno9kGHHcLjbh",
+    "payment_date": "2025-10-28T12:33:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

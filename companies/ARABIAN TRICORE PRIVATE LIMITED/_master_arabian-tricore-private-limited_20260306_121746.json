@@ -1,0 +1,55 @@
+{
+  "company_name": "ARABIAN TRICORE PRIVATE LIMITED",
+  "cin": "U71200TS2026PTC211686",
+  "registered_address": "D.NO 3-94, CHINTHAKANI, Chintakani, Khammam, Chintakani, Telangana, India, 507208",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11556598,
+  "paid_up_capital": 11556599,
+  "directors": [
+    {
+      "din": "11556598",
+      "name": "VENU SAMINENI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11556599",
+      "name": "BANDI SAIDESWARA RAO",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA9564F"
+  },
+  "email": "arabiantricore@gmail.com",
+  "meta": {
+    "created": "20260306_121746",
+    "last_updated": "20260306_121746"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260306_121746",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ARABIAN TRICORE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U71200TS2026PTC211686",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDA40539C"
+}

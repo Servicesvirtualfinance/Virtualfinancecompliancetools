@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PUJANIYA INTERNATIONAL (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "f7bcd8deb23f39513a6d72c8602f89ebbc01e0aa5230a82fe4905a3850d302ba",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-28 15:30:28"
+  },
+  "master_data": {
+    "cin": "U52219MH2024OPC426540",
+    "company_name": "PUJANIYA INTERNATIONAL (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "426540",
+    "date_of_incorporation": "05/06/2024",
+    "email": "pujaniyainternationalcompany@gmail.com",
+    "registered_address": "FT NO:3 GURU ASHRAY CO-OP, HSG SO NR SHANTI PARK NGR, Nashik Road, Nashik, Nashik, Maharashtra, India, 422101",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1/28/26, 3:29 PM",
+    "authorised_capital": 10657502,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "05/06/2024",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "pujaniyainternationalcompany@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10657502",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/06/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/28/26, 3:29 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU52219MH2024OPC426540\n\nCompany Name\n\nPUJANIYA INTERNATIONAL (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai\n\nRegistration Number\n\n426540\n\nDate of Incorporation\n\n05/06/2024\n\nEmail Id\n\npujaniyainternationalcompany@gmail.com\n\nRegistered Address\n\nFT NO:3 GURU ASHRAY CO-OP, HSG SO NR SHANTI PARK NGR, Nashik Road,\nNashik, Nashik, Maharashtra, India, 422101\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n1/28/26, 3:29 PM\n\n\nAuthorised Capital (Rs)\n\n4,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n10657502\n\nDirector\n\nPromoter\n\n05/06/2024\n\n-\n\nYes\n\nVIDULA SUSHIL\nTIKALE\n\n"
+  }
+}

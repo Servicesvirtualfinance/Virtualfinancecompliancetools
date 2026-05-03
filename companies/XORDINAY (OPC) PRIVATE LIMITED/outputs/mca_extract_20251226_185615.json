@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_XORDINAY (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "6ff18f2da55722f81ed11187b712ee81c386e69acf8c28a634481cd57eaf3fc4",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2025-12-26 18:56:15"
+  },
+  "master_data": {
+    "cin": "U47733DL2025OPC459668",
+    "company_name": "XORDINAY (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Delhi",
+    "registration_number": "459668",
+    "date_of_incorporation": "15/12/2025",
+    "email": "xor1dinary@gmail.com",
+    "registered_address": "Sainik Enclave, Sec 3, House No 71 Mohan Garden, D. K. Mohan Garden, West Delhi, New Delhi, Delhi, India, 110059",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "12/26/25, 6:47 PM",
+    "authorised_capital": 11430266,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "15/12/2025",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Delhi",
+    "jurisdiction_roc": "ROC Delhi",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "xor1dinary@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11430266",
+      "name": "Anant Dev Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "12/26/25, 6:47 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU47733DL2025OPC459668\n\nCompany Name\n\nXORDINAY (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Delhi\n\nRegistration Number\n\n459668\n\nDate of Incorporation\n\n15/12/2025\n\nEmail Id\n\nxor1dinary@gmail.com\n\nRegistered Address\n\nSainik Enclave, Sec 3, House No 71 Mohan Garden, D. K. Mohan Garden, West Delhi,\nNew Delhi, Delhi, India, 110059\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n12/26/25, 6:47 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11430266\n\nANANT DEV SINGH\n\nDirector\n\nPromoter\n\n15/12/2025\n\n-\n\nYes\n\n"
+  }
+}

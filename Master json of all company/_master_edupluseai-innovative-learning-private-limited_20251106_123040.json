@@ -1,0 +1,67 @@
+{
+  "company_name": "EDUPLUSEAI INNOVATIVE LEARNING PRIVATE LIMITED",
+  "cin": "U85500TS2025PTC205331",
+  "registered_address": "Telangana, India, 500083",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11347846",
+      "name": "Karthik Goud Survi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11347847",
+      "name": "Bowan Goud Survi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE2270L"
+  },
+  "email": "edupluseai@gmail.com",
+  "meta": {
+    "created": "20251106_123040",
+    "last_updated": "20251106_123537"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251106_123040",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Edupluseai Innovative Learning Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U85500TS2025PTC205331",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251106_123537",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Edupluseai Innovative Learning Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U85500TS2025PTC205331",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDE08763G"
+}

@@ -1,0 +1,67 @@
+{
+  "company_name": "CUKD KART PRIVATE LIMITED",
+  "cin": "U47912PN2025PTC247989",
+  "registered_address": "SN 74/2 SUNANDA KRUTI, SANTNAGAR, Lohogaon, Pune, Pune City, Maharashtra, India, 411047",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11366612",
+      "name": "Pallavi Anand Kishore",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11366613",
+      "name": "Anand Kishore",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC2347N"
+  },
+  "email": "meletinfoods@gmail.com",
+  "meta": {
+    "created": "20251127_130626",
+    "last_updated": "20251127_132804"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251127_130626",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Cukd Kart Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47912PN2025PTC247989",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251127_132804",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Cukd Kart Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47912PN2025PTC247989",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEC21532A"
+}

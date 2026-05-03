@@ -1,0 +1,18 @@
+{
+  "to": "beyondtheveils333@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SBz0cc3WiEnpzp",
+    "payment_date": "2026-02-04T12:59:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

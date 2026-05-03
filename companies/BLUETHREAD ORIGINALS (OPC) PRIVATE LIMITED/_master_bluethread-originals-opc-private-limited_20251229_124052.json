@@ -1,0 +1,46 @@
+{
+  "company_name": "BLUETHREAD ORIGINALS (OPC) PRIVATE LIMITED",
+  "cin": "U14105TN2025OPC186917",
+  "registered_address": "5 8, RAJACHANI, Thygarayanagar, Chennai, Chennai, Tamil Nadu, India, 600017",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11419787,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11419787",
+      "name": "Sahaya Sumitha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB1875D"
+  },
+  "email": "blue.thread.cb@gmail.com",
+  "meta": {
+    "created": "20251229_124052",
+    "last_updated": "20251229_124052"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251229_124052",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Bluethread Originals (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U14105TN2025OPC186917",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEB17861E"
+}

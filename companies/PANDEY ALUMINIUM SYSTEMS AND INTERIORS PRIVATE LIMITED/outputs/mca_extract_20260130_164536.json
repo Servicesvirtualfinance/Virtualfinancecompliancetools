@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "19c2ab38aa70b2566d47205a3ff71d71efedc4bbfea32180a2b39ebe4db7ca6e",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-30 16:45:36"
+  },
+  "master_data": {
+    "cin": "U24202MH2026PTC464828",
+    "company_name": "PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "464828",
+    "date_of_incorporation": "05/01/2026",
+    "email": "pandeyarchitecture@gmail.com",
+    "registered_address": "SHYAMKAMAL C BLDG, AGARWAL MARKET VILE PARLE, Vileeparle (East), Mumbai, Mumbai, Maharashtra, India, 400057",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/30/26, 4:44 PM",
+    "authorised_capital": 11464497,
+    "paid_up_capital": 11464498,
+    "date_of_last_agm": "05/01/2026",
+    "date_of_balance_sheet": "05/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "pandeyarchitecture@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11464497",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11464498",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/30/26, 4:44 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU24202MH2026PTC464828\n\nCompany Name\n\nPANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai\n\nRegistration Number\n\n464828\n\nDate of Incorporation\n\n05/01/2026\n\nEmail Id\n\npandeyarchitecture@gmail.com\n\nRegistered Address\n\nSHYAMKAMAL C BLDG, AGARWAL MARKET VILE PARLE, Vileeparle (East),\nMumbai, Mumbai, Maharashtra, India, 400057\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/30/26, 4:44 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11464497\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\nSURYAKANT RAMDULAR\nPANDEY\n\n2\n\n11464498\n\nDirector\n\nPromoter\n\n05/01/2026\n\n-\n\nYes\n\nPUNEET SURYAKANT\nPANDEY\n\n\n1/30/26, 4:44 PM\n\n\n"
+  }
+}

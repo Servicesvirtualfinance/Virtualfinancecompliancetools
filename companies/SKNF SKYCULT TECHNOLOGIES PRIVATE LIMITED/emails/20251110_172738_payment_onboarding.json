@@ -1,0 +1,18 @@
+{
+  "to": "farmsknatural@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Re1mt3qxKEVzEI",
+    "payment_date": "2025-11-10T17:26:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

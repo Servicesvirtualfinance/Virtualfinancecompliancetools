@@ -1,0 +1,55 @@
+{
+  "company_name": "BANRUP AGRICRAFTS PRIVATE LIMITED",
+  "cin": "U01139BR2025PTC080982",
+  "registered_address": "Banrup Ashray, Madhopur govind via Mehsi, Mehsi, East Champaran,Mehsi, Bihar, India, 845426",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11445239,
+  "paid_up_capital": 11445240,
+  "directors": [
+    {
+      "din": "11445239",
+      "name": "Uma Devi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11445240",
+      "name": "KUMARI POOJA CHAUHAN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB2457R"
+  },
+  "email": "banrupapl26@gmail.com",
+  "meta": {
+    "created": "20260116_164153",
+    "last_updated": "20260116_164153"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260116_164153",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BANRUP AGRICRAFTS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U01139BR2025PTC080982",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PTNB09805F"
+}

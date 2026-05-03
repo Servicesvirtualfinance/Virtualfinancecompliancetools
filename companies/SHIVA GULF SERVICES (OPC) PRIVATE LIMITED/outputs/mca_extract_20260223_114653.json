@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHIVA GULF SERVICES (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "ab5ae5c5b0213160e8d3acc8ce82141d289fcff21daa9201f2b1cb81fba85354",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-23 11:46:53"
+  },
+  "master_data": {
+    "cin": "U70200RJ2026OPC111598",
+    "company_name": "SHIVA GULF SERVICES (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Jaipur",
+    "registration_number": "111598",
+    "date_of_incorporation": "13/02/2026",
+    "email": "SHIVPRAKASHJAIPAL@GMAIL.COM",
+    "registered_address": "C/O SITARAM MEGHWAL, GAGRANA, Merta, Nagaur, Merta, Rajasthan, India, 341510",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11544781,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "2/23/26, 11:46 AM",
+    "date_of_balance_sheet": "13/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Jaipur",
+    "jurisdiction_roc": "ROC Jaipur",
+    "jurisdiction_rd": "RD Ahmedabad, North-Western Region Directorate",
+    "emails_found": [
+      "SHIVPRAKASHJAIPAL@GMAIL.COM"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11544781",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/23/26, 11:46 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU70200RJ2026OPC111598\n\nCompany Name\n\nSHIVA GULF SERVICES (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Jaipur\n\nRegistration Number\n\n111598\n\nDate of Incorporation\n\n13/02/2026\n\nEmail Id\n\nSHIVPRAKASHJAIPAL@GMAIL.COM\n\nRegistered Address\n\nC/O SITARAM MEGHWAL, GAGRANA, Merta, Nagaur, Merta,\nRajasthan, India, 341510\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Jaipur\n\nRD (name and Region)\n\nRD Ahmedabad, North-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/23/26, 11:46 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11544781\n\nDirector\n\nPromoter\n\n13/02/2026\n\n-\n\nYes\n\nSHIV\nPRAKASH\n\n"
+  }
+}

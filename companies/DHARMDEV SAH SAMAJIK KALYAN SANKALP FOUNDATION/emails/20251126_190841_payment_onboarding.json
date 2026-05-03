@@ -1,0 +1,18 @@
+{
+  "to": "timeeffect60@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION",
+  "ctx": {
+    "company": {
+      "name": "DHARMDEV SAH SAMAJIK KALYAN SANKALP FOUNDATION"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RkO3sLwrPJOfWJ",
+    "payment_date": "2025-11-26T19:07:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

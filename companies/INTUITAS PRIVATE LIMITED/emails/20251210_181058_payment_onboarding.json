@@ -1,0 +1,18 @@
+{
+  "to": "conradpintoes@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 INTUITAS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "INTUITAS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RpuXeDZiEIruIM",
+    "payment_date": "2025-12-10T18:09:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

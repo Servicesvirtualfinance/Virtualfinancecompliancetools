@@ -1,0 +1,18 @@
+{
+  "to": "info@realstakeventures.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 REALSTAKE VENTURES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "REALSTAKE VENTURES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S4S3jcKGeAOs3x",
+    "payment_date": "2026-01-16T12:10:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

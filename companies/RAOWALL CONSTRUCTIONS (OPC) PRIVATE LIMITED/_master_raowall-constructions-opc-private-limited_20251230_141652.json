@@ -1,0 +1,46 @@
+{
+  "company_name": "RAOWALL CONSTRUCTIONS (OPC) PRIVATE LIMITED",
+  "cin": "U46633UP2025OPC238050",
+  "registered_address": "C/O SHASTRI DEVI KHASRA, ALI NAGAR SUNHARA, Amausi, Lucknow, Lucknow, Uttar Pradesh, India, 226008",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11419646,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11419646",
+      "name": "Ashish Rao",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR2883Q"
+  },
+  "email": "Raowallconstructions@gmail.com",
+  "meta": {
+    "created": "20251230_141652",
+    "last_updated": "20251230_141652"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251230_141652",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RAOWALL CONSTRUCTIONS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46633UP2025OPC238050",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNR15909F"
+}

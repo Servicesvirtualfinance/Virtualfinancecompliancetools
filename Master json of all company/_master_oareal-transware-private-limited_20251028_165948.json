@@ -1,0 +1,79 @@
+{
+  "company_name": "OAREAL TRANSWARE PRIVATE LIMITED",
+  "cin": "U47911PN2025PTC246010",
+  "registered_address": "M.NO. 1521 P.NO. 1;, SHIVSHAKTI HSG SOC;SATARA, Kodoli, Satara, Satara, Maharashtra, India, 415004",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11279365",
+      "name": "Rajkumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/09/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11279366",
+      "name": "Prakashrao",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/09/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAECO8600R"
+  },
+  "email": "realmartstore20@gmail.com",
+  "meta": {
+    "created": "20251028_165948",
+    "last_updated": "20251106_183420"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251028_165948",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251106_175222",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251106_183420",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Oareal Transware Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47911PN2025PTC246010",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "NSKO01867F"
+}

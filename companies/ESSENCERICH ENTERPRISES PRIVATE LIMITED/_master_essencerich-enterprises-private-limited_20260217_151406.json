@@ -1,0 +1,55 @@
+{
+  "company_name": "ESSENCERICH ENTERPRISES PRIVATE LIMITED",
+  "cin": "U47213AP2026PTC123833",
+  "registered_address": "1-00, NEAR AYYAVARIPALLI, Anantapur Collectorate, Ananthapur, Anantapur, Andhra Pradesh, India, 515001",
+  "roc_name": "ROC Vijayawada",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11526986,
+  "paid_up_capital": 11526987,
+  "directors": [
+    {
+      "din": "11526986",
+      "name": "Potla Bharathi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11526987",
+      "name": "ALLU RAMAKRISHNA CHOWDARY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE4750H"
+  },
+  "email": "Aramakrishna.chowdary@gmail.com",
+  "meta": {
+    "created": "20260217_151406",
+    "last_updated": "20260217_151406"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260217_151406",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ESSENCERICH ENTERPRISES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47213AP2026PTC123833",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "VPNE02002A"
+}

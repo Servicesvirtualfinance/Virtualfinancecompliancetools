@@ -1,0 +1,55 @@
+{
+  "company_name": "RLJ TRAVELS PRIVATE LIMITED",
+  "cin": "U79120UP2025PTC239172",
+  "registered_address": "A-61 SECTOR 16, NOIDA GHAZIABAD, Noida, Gautam Buddha Nagar, Noida, Uttar Pradesh, India, 201301",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7035456,
+  "paid_up_capital": 8804882,
+  "directors": [
+    {
+      "din": "07035456",
+      "name": "Lokesh Jat",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08804882",
+      "name": "Renu",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR3393H"
+  },
+  "email": "royaljattravels@gmail.com",
+  "meta": {
+    "created": "20260110_141814",
+    "last_updated": "20260110_141814"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260110_141814",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RLJ TRAVELS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79120UP2025PTC239172",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RTKR24027D"
+}

@@ -1,0 +1,104 @@
+{
+  "company_name": "SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U26515MH2025PTC459834",
+  "registered_address": "SNO.241/1 PARKWAYZ, WAKAD BLD NO.A/3 FLAT-104, Wakad, Pune, Pune City, Maharashtra, India, 411057",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1000000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11013704",
+      "name": "Jamal Ahmed Adil",
+      "designation": null,
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11357900",
+      "name": "Hafsha Khatoon",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS6865J"
+  },
+  "email": "farmsknatural@gmail.com",
+  "meta": {
+    "created": "20251110_172646",
+    "last_updated": "20260103_161910"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251110_172646",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Sknf Skycult Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U26515MH2025PTC459834",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251112_125904",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Sknf Skycult Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U26515MH2025PTC459834",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260103_161910",
+      "inputs": {
+        "meeting_date": "03 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Jamal Ahmed Adil",
+          "din": "11013704",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_161910.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNES06937H",
+  "authorized_signatory": {
+    "name": "Jamal Ahmed Adil",
+    "din": "11013704",
+    "designation": "Director",
+    "meeting_date": "03 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_161910.docx",
+    "ts": "20260103_161910",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Jamal Ahmed Adil",
+    "din": "11013704",
+    "designation": "Director",
+    "meeting_date": "03 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SKNF SKYCULT TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_161910.docx",
+    "ts": "20260103_161910",
+    "note": "authorised signatory appointed"
+  }
+}

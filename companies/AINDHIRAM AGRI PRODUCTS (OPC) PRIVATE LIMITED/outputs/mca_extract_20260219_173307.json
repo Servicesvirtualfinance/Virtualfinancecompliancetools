@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_AINDHIRAM AGRI PRODUCTS (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "07be540a71c49127f8c191449d8dbf4d42965c25b0011c053b5d8a272e0c23eb",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-19 17:33:07"
+  },
+  "master_data": {
+    "cin": "U46201TN2026OPC188754",
+    "company_name": "AINDHIRAM AGRI PRODUCTS (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Chennai",
+    "registration_number": "188754",
+    "date_of_incorporation": "23/01/2026",
+    "email": "sathiya.ack@gmail.com",
+    "registered_address": "PLOT NO 9-B 1ST STREET, BHUVANESHWARI NAGAR, Rajakilpakkam, Kanchipuram, Tambaram, Tamil Nadu, India, 600073",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "2/19/26, 5:32 PM",
+    "authorised_capital": 11502947,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "23/01/2026",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Chennai",
+    "jurisdiction_roc": "ROC Chennai",
+    "jurisdiction_rd": "RD Chennai, Southern Region Directorate",
+    "emails_found": [
+      "sathiya.ack@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11502947",
+      "name": "Ashwin Jayaseelan",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/19/26, 5:32 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU46201TN2026OPC188754\n\nCompany Name\n\nAINDHIRAM AGRI PRODUCTS (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Chennai\n\nRegistration Number\n\n188754\n\nDate of Incorporation\n\n23/01/2026\n\nEmail Id\n\nsathiya.ack@gmail.com\n\nRegistered Address\n\nPLOT NO 9-B 1ST STREET, BHUVANESHWARI NAGAR, Rajakilpakkam,\nKanchipuram, Tambaram, Tamil Nadu, India, 600073\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n2/19/26, 5:32 PM\n\n\nAuthorised Capital (Rs)\n\n4,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chennai\n\nRD (name and Region)\n\nRD Chennai, Southern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11502947\n\nASHWIN JAYASEELAN\n\nDirector\n\nPromoter\n\n23/01/2026\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "company_name": "INDIAN TOURLINE (OPC) PRIVATE LIMITED",
+  "cin": "U79110AP2026OPC124030",
+  "registered_address": "1-109/A Mallamgunta, Thirupathi rural, Tirupati, Chittoor, Tirupati (Urban), Andhra Pradesh, India, 517501",
+  "roc_name": "ROC Vijayawada",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11545069,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11545069",
+      "name": "VENKATA RAMANMURTHI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI6984Q"
+  },
+  "email": "info@indiantourline.com",
+  "meta": {
+    "created": "20260307_130349",
+    "last_updated": "20260307_130911"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260307_130349",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INDIAN TOURLINE (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79110AP2026OPC124030",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260307_130911",
+      "inputs": {
+        "meeting_date": "07 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "VENKATA RAMANMURTHI",
+          "din": "11545069",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\INDIAN TOURLINE (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260307_130911.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDI10319B",
+  "authorized_signatory": {
+    "name": "VENKATA RAMANMURTHI",
+    "din": "11545069",
+    "designation": "Director",
+    "meeting_date": "07 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\INDIAN TOURLINE (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260307_130911.docx",
+    "ts": "20260307_130911",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "VENKATA RAMANMURTHI",
+    "din": "11545069",
+    "designation": "Director",
+    "meeting_date": "07 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\INDIAN TOURLINE (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260307_130911.docx",
+    "ts": "20260307_130911",
+    "note": "authorised signatory appointed"
+  }
+}

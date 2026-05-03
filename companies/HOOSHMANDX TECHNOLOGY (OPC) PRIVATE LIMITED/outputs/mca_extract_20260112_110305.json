@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "c7d5954704b2408ea0199708e0833c9ac5c53278bfb45d69b38eb3f9a822c0d3",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-12 11:03:05"
+  },
+  "master_data": {
+    "cin": "U62013JK2026OPC018513",
+    "company_name": "HOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Jammu",
+    "registration_number": "018513",
+    "date_of_incorporation": "09/01/2026",
+    "email": "hooshmandxtech@gmail.com",
+    "registered_address": "Old Bus adda Budgam, Budgam, Budgam, Budgam, Budgam, Jammu & Kashmir, India, 191111",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1/12/26, 11:02 AM",
+    "authorised_capital": 11314818,
+    "paid_up_capital": 50000,
+    "date_of_last_agm": "09/01/2026",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Jammu",
+    "jurisdiction_roc": "ROC Jammu",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "hooshmandxtech@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11314818",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/12/26, 11:02 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU62013JK2026OPC018513\n\nCompany Name\n\nHOOSHMANDX TECHNOLOGY (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Jammu\n\nRegistration Number\n\n018513\n\nDate of Incorporation\n\n09/01/2026\n\nEmail Id\n\nhooshmandxtech@gmail.com\n\nRegistered Address\n\nOld Bus adda Budgam, Budgam, Budgam, Budgam, Budgam, Jammu & Kashmir, India,\n191111\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n1/12/26, 11:02 AM\n\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n50,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Jammu\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11314818\n\nDirector\n\nPromoter\n\n09/01/2026\n\n-\n\nYes\n\nDANISH NISAR\nPANDITH\n\n"
+  }
+}

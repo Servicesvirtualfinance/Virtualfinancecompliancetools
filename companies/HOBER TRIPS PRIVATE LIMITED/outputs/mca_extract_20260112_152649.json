@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOBER TRIPS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "766f89b927b32b9c6c7d99dcc9794e7acc3bb556dde4f5626d18b277cd6d9970",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-12 15:26:48"
+  },
+  "master_data": {
+    "cin": "U79110AS2025PTC029405",
+    "company_name": "HOBER TRIPS PRIVATE LIMITED",
+    "roc_name": "ROC Guwahati",
+    "registration_number": "029405",
+    "date_of_incorporation": "15/12/2025",
+    "email": "masoom@hober.in",
+    "registered_address": "ByLane 10, Nabapur, Mazgoan, Tezpur, Sonitpur, Tezpur, Assam, India, 784001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11429759,
+    "paid_up_capital": 11429760,
+    "date_of_last_agm": "15/12/2025",
+    "date_of_balance_sheet": "15/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Guwahati",
+    "jurisdiction_roc": "ROC Guwahati",
+    "jurisdiction_rd": "RD, North Eastern Region",
+    "emails_found": [
+      "masoom@hober.in"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11429759",
+      "name": "Masoom Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11429760",
+      "name": "Minati Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/12/26, 3:26 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU79110AS2025PTC029405\n\nCompany Name\n\nHOBER TRIPS PRIVATE LIMITED\n\nROC Name\n\nROC Guwahati\n\nRegistration Number\n\n029405\n\nDate of Incorporation\n\n15/12/2025\n\nEmail Id\n\nmasoom@hober.in\n\nRegistered Address\n\nByLane 10 , Nabapur, Mazgoan, Tezpur, Sonitpur, Tezpur, Assam, India, 784001\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\n\n1/12/26, 3:26 PM\n\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Guwahati\n\nRD (name and Region)\n\nRD, North Eastern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11429759\n\nMASOOM DAS\n\nDirector\n\nPromoter\n\n15/12/2025\n\n-\n\nYes\n\n2\n\n11429760\n\nMINATI DAS\n\nDirector\n\nPromoter\n\n15/12/2025\n\n-\n\nYes\n\n"
+  }
+}

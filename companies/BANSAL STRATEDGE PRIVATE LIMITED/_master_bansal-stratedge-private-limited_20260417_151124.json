@@ -1,0 +1,52 @@
+{
+  "company_name": "BANSAL STRATEDGE PRIVATE LIMITED",
+  "cin": "U70200MR2026PTC475662",
+  "registered_address": "FLAT NO D-302 PLOT NO.46, SECTOR 30A Silicon Tower, Thane, Thane, Thane, Maharashtra, India, 400705",
+  "roc_name": "ROC Mumbai II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11590295,
+  "paid_up_capital": 11666327,
+  "directors": [
+    {
+      "din": "11590295",
+      "name": "Kamlesh Bansal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11666327",
+      "name": "RIGVED KAMLESH BANSAL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "kamlesh@kamleshbansal.com",
+  "meta": {
+    "created": "20260417_151124",
+    "last_updated": "20260417_151124"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260417_151124",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BANSAL STRATEDGE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U70200MR2026PTC475662",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ]
+}

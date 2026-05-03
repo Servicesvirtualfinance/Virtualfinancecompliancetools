@@ -1,0 +1,46 @@
+{
+  "company_name": "CALMYN PERSONAL CARE (OPC) PRIVATE LIMITED",
+  "cin": "U47912AP2026OPC124623",
+  "registered_address": "B1-4/40, KATTUPALEM, Yellamanchili, Visakhapatnam, Yellamanchili, Andhra Pradesh, India, 531055",
+  "roc_name": "ROC Vijayawada",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11486967,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11486967",
+      "name": "PATURI RATNAM",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AANCC6418Q"
+  },
+  "email": "zenviapersonalcare@gmail.com",
+  "meta": {
+    "created": "20260317_155610",
+    "last_updated": "20260317_155610"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260317_155610",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_CALMYN PERSONAL CARE (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912AP2026OPC124623",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "NGPC06183C"
+}

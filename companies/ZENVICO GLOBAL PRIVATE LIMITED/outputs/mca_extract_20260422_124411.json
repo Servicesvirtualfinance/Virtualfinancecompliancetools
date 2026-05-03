@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZENVICO GLOBAL PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "9c13658ba2117a2f6648d18bfb4bf257a24f8fb86ff8c84d0b10482fb65aa779",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-22 12:44:11"
+  },
+  "master_data": {
+    "cin": "U46209UP2026PTC246347",
+    "company_name": "ZENVICO GLOBAL PRIVATE LIMITED",
+    "roc_name": "ROC Uttar Pradesh I",
+    "registration_number": "246347",
+    "date_of_incorporation": "06/04/2026",
+    "email": "mkchauhan083@gmail.com",
+    "registered_address": "Shivnagar Colony, Near, Bhullanpur PAC, Bhullanpur, Bhulanpur Pac, Varanasi, Varanasi, Uttar Pradesh, India, 221108",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "5,00,000",
+    "authorised_capital": 11648923,
+    "paid_up_capital": 11648924,
+    "date_of_last_agm": "06/04/2026",
+    "date_of_balance_sheet": "06/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Uttar Pradesh I",
+    "jurisdiction_roc": "ROC Uttar Pradesh I",
+    "jurisdiction_rd": "RD Delhi, Northern Region Directorate I",
+    "emails_found": [
+      "mkchauhan083@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11648923",
+      "name": "Priya Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11648924",
+      "name": "Priyanshu Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/22/26, 12:43 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU46209UP2026PTC246347\n\nCompany Name\n\nZENVICO GLOBAL PRIVATE LIMITED\n\nROC Name\n\nROC Uttar Pradesh I\n\nRegistration Number\n\n246347\n\nDate of Incorporation\n\n06/04/2026\n\nEmail Id\n\nmkchauhan083@gmail.com\n\nRegistered Address\n\nShivnagar Colony, Near, Bhullanpur PAC,Bhullanpur, Bhulanpur Pac, Varanasi, Varanasi, Uttar\nPradesh, India, 221108\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n50,000\n\n\n4/22/26, 12:43 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Uttar Pradesh I\n\nRD (name and Region)\n\nRD Delhi, Northern Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11648923\n\nPRIYA SINGH\n\nDirector\n\nPromoter\n\n06/04/2026\n\n-\n\nYes\n\n2\n\n11648924\n\nPRIYANSHU SINGH\n\nDirector\n\nPromoter\n\n06/04/2026\n\n-\n\nYes\n\n"
+  }
+}

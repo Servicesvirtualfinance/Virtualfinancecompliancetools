@@ -1,0 +1,64 @@
+{
+  "company_name": "ASTARAG OLD AGE HOME PRIVATE LIMITED",
+  "cin": "U87900WB2025PTC278664",
+  "registered_address": "P-277 PLAZA HOUSING, SHIBRAMPUR ASHUTI-2, Vivekanandapur, South 24 Parganas, Thakurpukur Mahestola, West Bengal, India, 700141",
+  "roc_name": "ROC Kolkata II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11066419,
+  "paid_up_capital": 11066420,
+  "directors": [
+    {
+      "din": "11066419",
+      "name": "Partha Ray",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11066420",
+      "name": "SAMIR KUMAR SAMANTA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11066421",
+      "name": "Manisha Samanta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "ABCCA7216J"
+},
+  "email": "astarag76@gmail.com",
+  "meta": {
+    "created": "20260403_155910",
+    "last_updated": "20260403_155910"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260403_155910",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ASTARAG OLD AGE HOME PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U87900WB2025PTC278664",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "CALA39937C"
+}

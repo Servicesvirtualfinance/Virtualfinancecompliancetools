@@ -1,0 +1,46 @@
+{
+  "company_name": "TUPIYAL FERTILIZER (OPC) PRIVATE LIMITED",
+  "cin": "U20129RJ2026OPC112535",
+  "registered_address": "C/O MOHAR SINGH MEENA, TUPIYAL KA PURA, Gurda, Karauli, Mandrail, Rajasthan, India, 322242",
+  "roc_name": "ROC Jaipur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11609243,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11609243",
+      "name": "MOHAR SINGH MEENA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT9288N"
+  },
+  "email": "tupiyalfertilizers@gmail.com",
+  "meta": {
+    "created": "20260318_202605",
+    "last_updated": "20260318_202605"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260318_202605",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TUPIYAL FERTILIZER (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U20129RJ2026OPC112535",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "JDHT04946E"
+}

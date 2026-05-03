@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ESSENCERICH ENTERPRISES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "12589187c50857c444a956fc948dda551ee9d071cead841bf953d400de61d6d7",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-17 15:14:06"
+  },
+  "master_data": {
+    "cin": "U47213AP2026PTC123833",
+    "company_name": "ESSENCERICH ENTERPRISES PRIVATE LIMITED",
+    "roc_name": "ROC Vijayawada",
+    "registration_number": "123833",
+    "date_of_incorporation": "05/02/2026",
+    "email": "Aramakrishna.chowdary@gmail.com",
+    "registered_address": "1-00, NEAR AYYAVARIPALLI, Anantapur Collectorate, Ananthapur, Anantapur, Andhra Pradesh, India, 515001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "2/17/26, 3:13 PM",
+    "authorised_capital": 11526986,
+    "paid_up_capital": 11526987,
+    "date_of_last_agm": "05/02/2026",
+    "date_of_balance_sheet": "05/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Vijayawada",
+    "jurisdiction_roc": "ROC Vijayawada",
+    "jurisdiction_rd": "RD, South East Region",
+    "emails_found": [
+      "Aramakrishna.chowdary@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11526986",
+      "name": "Potla Bharathi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11526987",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/17/26, 3:13 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU47213AP2026PTC123833\n\nCompany Name\n\nESSENCERICH ENTERPRISES PRIVATE LIMITED\n\nROC Name\n\nROC Vijayawada\n\nRegistration Number\n\n123833\n\nDate of Incorporation\n\n05/02/2026\n\nEmail Id\n\nAramakrishna.chowdary@gmail.com\n\nRegistered Address\n\n1-00, NEAR AYYAVARIPALLI, Anantapur Collectorate, Ananthapur, Anantapur, Andhra\nPradesh, India, 515001\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n2/17/26, 3:13 PM\n\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n5,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Vijayawada\n\nRD (name and Region)\n\nRD, South East Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11526986\n\nPOTLA BHARATHI\n\nDirector\n\nPromoter\n\n05/02/2026\n\n-\n\nYes\n\n2\n\n11526987\n\nDirector\n\nPromoter\n\n05/02/2026\n\n-\n\nYes\n\nALLU RAMAKRISHNA\nCHOWDARY\n\n"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TASTY FOODS PRODUCTS AND SERVICES (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "d7035991a3e5549486b41d445ad8aaec0a23a508dbe976f7513cd7c41d1f3c6b",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-12 17:36:01"
+  },
+  "master_data": {
+    "cin": "U56210MH2026OPC465846",
+    "company_name": "TASTY FOODS PRODUCTS AND SERVICES (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "465846",
+    "date_of_incorporation": "16/01/2026",
+    "email": "preciousfamilymemory@gmail.com",
+    "registered_address": "PL- 44, SEC- 5A, APEX AVENUE, Panvel City, Raigarh(MH), Panvel, Maharashtra, India, 410206",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "2/12/26, 5:35 PM",
+    "authorised_capital": 11486805,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "16/01/2026",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "preciousfamilymemory@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11486805",
+      "name": "Kumari Kavita",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/12/26, 5:35 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU56210MH2026OPC465846\n\nCompany Name\n\nTASTY FOODS PRODUCTS AND SERVICES (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai\n\nRegistration Number\n\n465846\n\nDate of Incorporation\n\n16/01/2026\n\nEmail Id\n\npreciousfamilymemory@gmail.com\n\nRegistered Address\n\nPL- 44, SEC- 5A, APEX AVENUE, Panvel City, Raigarh(MH), Panvel, Maharashtra,\nIndia, 410206\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n2/12/26, 5:35 PM\n\n\nAuthorised Capital (Rs)\n\n10,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11486805\n\nKUMARI KAVITA\n\nDirector\n\nPromoter\n\n16/01/2026\n\n-\n\nYes\n\n"
+  }
+}

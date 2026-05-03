@@ -1,0 +1,55 @@
+{
+  "company_name": "VINAYAK RENEWABLE PROJECTS PRIVATE LIMITED",
+  "cin": "U42201RJ2025PTC108398",
+  "registered_address": "PN117, NorthWest Prt, Sumer, Ngr, Kalyanpura, Sanganer, Mansarovar, Jaipur, Jaipur, Rajasthan, India, 302020",
+  "roc_name": "ROC Jaipur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1000000,
+  "paid_up_capital": 1000000,
+  "directors": [
+    {
+      "din": "11355336",
+      "name": "Jivani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "10956209",
+      "name": "Saroj",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AALCV5555B"
+  },
+  "email": "Billing.vrppl@gmail.com",
+  "meta": {
+    "created": "20251205_185705",
+    "last_updated": "20251205_185705"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251205_185705",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Vinayak Renewable Projects Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U42201RJ2025PTC108398",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "JPRV08630G"
+}

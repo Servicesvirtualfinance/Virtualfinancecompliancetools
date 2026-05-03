@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHACHAH CHURCH FEDERATION.pdf",
+  "file_hash_sha256": "5d92995dede5d8e31a185879fdd28c413b6a974b47af6b90ff5a472a70171316",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-15 17:03:03"
+  },
+  "master_data": {
+    "cin": "U94910OD2026NPL053118",
+    "company_name": "SHACHAH CHURCH FEDERATION",
+    "roc_name": "ROC Cuttack",
+    "registration_number": "053118",
+    "date_of_incorporation": "23/03/2026",
+    "email": "Shachahcf@gmail.com",
+    "registered_address": "D No 032 OD BLD HAS 96D, Hatapadi Sahi balliguda, Balliguda, Kandhamal, Balliguda, Orissa, India, 762103",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "Maximum Number of Members",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "4/15/26, 5:02 PM",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Cuttack",
+    "jurisdiction_roc": "ROC Cuttack",
+    "jurisdiction_rd": "RD Hyderabad, Southeastern Region Directorate",
+    "emails_found": [
+      "Shachahcf@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11554811",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11554796",
+      "name": "Reena Raneesh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/15/26, 5:02 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU94910OD2026NPL053118\n\nCompany Name\n\nSHACHAH CHURCH FEDERATION\n\nROC Name\n\nROC Cuttack\n\nRegistration Number\n\n053118\n\nDate of Incorporation\n\n23/03/2026\n\nEmail Id\n\nShachahcf@gmail.com\n\nRegistered Address\n\nD No 032 OD BLD HAS 96D, Hatapadi Sahi balliguda, Balliguda, Kandhamal, Balliguda, Orissa,\nIndia, 762103\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nMaximum Number of Members\n\n2\n\nDate of last AGM\n\n-\n\n\n4/15/26, 5:02 PM\n\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Cuttack\n\nRD (name and Region)\n\nRD Hyderabad, Southeastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11554811\n\nDirector\n\nPromoter\n\n23/03/2026\n\n-\n\nYes\n\nRANEESH\nPARAMESWARAN\n\n2\n\n11554796\n\nREENA RANEESH\n\nDirector\n\nPromoter\n\n23/03/2026\n\n-\n\nYes\n\n"
+  }
+}

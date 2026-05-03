@@ -1,0 +1,18 @@
+{
+  "to": "sathiya.ack@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 AINDHIRAM AGRI PRODUCTS (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "AINDHIRAM AGRI PRODUCTS (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Trupthi",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SHuEd2TDiAQynK",
+    "payment_date": "2026-02-19T17:33:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

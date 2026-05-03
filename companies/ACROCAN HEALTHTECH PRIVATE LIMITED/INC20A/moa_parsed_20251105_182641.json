@@ -1,0 +1,22 @@
+{
+  "source": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ACROCAN HEALTHTECH PRIVATE LIMITED\\INC_33_E_MOA.pdf",
+  "parsed": {
+    "company_name": "WEST BENGAL",
+    "state": null,
+    "share_capital": {
+      "total_amount": 100000,
+      "no_of_shares": 10000,
+      "face_value": 10
+    },
+    "subscribers": [
+      {
+        "name": "S. NO",
+        "equity_shares": 1000
+      },
+      {
+        "name": "AMAN KUMAR SINGH MANGALMURTI",
+        "equity_shares": 1000
+      }
+    ]
+  }
+}

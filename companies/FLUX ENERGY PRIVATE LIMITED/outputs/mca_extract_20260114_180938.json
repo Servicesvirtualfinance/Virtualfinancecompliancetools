@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_FLUX ENERGY PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "aa2e48f60c1cc8db73ef353166dc1eafd341d0fa36ac45cef36805fd92f0faa0",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-14 18:09:38"
+  },
+  "master_data": {
+    "cin": "U35109TZ2025PTC037208",
+    "company_name": "FLUX ENERGY PRIVATE LIMITED",
+    "roc_name": "ROC Coimbatore",
+    "registration_number": "037208",
+    "date_of_incorporation": "23/12/2025",
+    "email": "fluxenergyorg@gmail.com",
+    "registered_address": "NO.466, THADAGAM ROAD, R.S.Puram West, Coimbatore, Coimbatore South, Tamil Nadu, India, 641002",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/14/26, 6:08 PM",
+    "authorised_capital": 6787252,
+    "paid_up_capital": 7766928,
+    "date_of_last_agm": "23/12/2025",
+    "date_of_balance_sheet": "23/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Coimbatore",
+    "jurisdiction_roc": "ROC Coimbatore",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "fluxenergyorg@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "06787252",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07766928",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/14/26, 6:08 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU35109TZ2025PTC037208\n\nCompany Name\n\nFLUX ENERGY PRIVATE LIMITED\n\nROC Name\n\nROC Coimbatore\n\nRegistration Number\n\n037208\n\nDate of Incorporation\n\n23/12/2025\n\nEmail Id\n\nfluxenergyorg@gmail.com\n\nRegistered Address\n\nNO.466, THADAGAM ROAD, R.S.Puram West, Coimbatore, Coimbatore South, Tamil\nNadu, India, 641002\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/14/26, 6:08 PM\n\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Coimbatore\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n06787252\n\nDirector\n\nPromoter\n\n23/12/2025\n\n-\n\nYes\n\nKOTHANDAPANI\nKANAGARAJ\n\n2\n\n07766928\n\nDirector\n\nPromoter\n\n23/12/2025\n\n-\n\nYes\n\nKANAGARAJ\nSIVASITTHARTH\n\n\n1/14/26, 6:08 PM\n\n\n"
+  }
+}

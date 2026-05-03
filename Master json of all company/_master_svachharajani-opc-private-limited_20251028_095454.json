@@ -1,0 +1,70 @@
+{
+  "company_name": "S.VACHHARAJANI (OPC) PRIVATE LIMITED",
+  "cin": "U70200MH2025OPC458268",
+  "registered_address": "Room No H/1304 Gajvakra, Om Shree Ashtavianayk, Nallosapare E, Thane, Vasai, Maharashtra, India, 401209",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 25000,
+  "directors": [
+    {
+      "din": "11325104",
+      "name": "Suraj Dinesh Bhul",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "01/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS4979D"
+  },
+  "email": "Svachharajaniandco@gmail.com",
+  "meta": {
+    "created": "20251028_095454",
+    "last_updated": "20251028_160908"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251028_095454",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_S.Vachharajani (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U70200MH2025OPC458268",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251028_150141",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_S.Vachharajani (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U70200MH2025OPC458268",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251028_160908",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_S.Vachharajani (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U70200MH2025OPC458268",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNES06380K"
+}

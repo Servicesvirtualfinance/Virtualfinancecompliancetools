@@ -1,0 +1,46 @@
+{
+  "company_name": "SANSTORM ENTERPRISE (OPC) PRIVATE LIMITED",
+  "cin": "U82990JK2026OPC018943",
+  "registered_address": "46E (EXT) BHARAT NAGAR, KAMLA PALACE ROAD, Talab Tillo, Jammu, Jammu, Jammu & Kashmir, India, 180002",
+  "roc_name": "ROC Jammu",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11619611,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11619611",
+      "name": "SANGEET BARGOTRA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS1861Q"
+  },
+  "email": "sanstormholdings@gmail.com",
+  "meta": {
+    "created": "20260323_125859",
+    "last_updated": "20260323_125859"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260323_125859",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SANSTORM ENTERPRISE (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U82990JK2026OPC018943",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AMRS27058D"
+}

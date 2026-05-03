@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INAYA TECHNI SOLUTIONS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "d0065d9800a0d33bbecd9e790a4d968bbcb472291440cab3f8deacc13bde4860",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-25 11:57:28"
+  },
+  "master_data": {
+    "cin": "U42209TS2026PTC210666",
+    "company_name": "INAYA TECHNI SOLUTIONS PRIVATE LIMITED",
+    "roc_name": "ROC Hyderabad",
+    "registration_number": "210666",
+    "date_of_incorporation": "03/02/2026",
+    "email": "mdperwezalam102@gmail.com",
+    "registered_address": "18-397/5/F PYARADISE, COLONY SHADNAGAR, Farooqnagar, Mahabub Nagar, Farooqnagar, Telangana, India, 509216",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11521535,
+    "paid_up_capital": 11521536,
+    "date_of_last_agm": "2/25/26, 11:56 AM",
+    "date_of_balance_sheet": "03/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Hyderabad",
+    "jurisdiction_roc": "ROC Hyderabad",
+    "jurisdiction_rd": "RD Hyderabad, Southeastern Region Directorate",
+    "emails_found": [
+      "mdperwezalam102@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11521535",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11521536",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/25/26, 11:56 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU42209TS2026PTC210666\n\nCompany Name\n\nINAYA TECHNI SOLUTIONS PRIVATE LIMITED\n\nROC Name\n\nROC Hyderabad\n\nRegistration Number\n\n210666\n\nDate of Incorporation\n\n03/02/2026\n\nEmail Id\n\nmdperwezalam102@gmail.com\n\nRegistered Address\n\n18-397/5/F PYARADISE, COLONY SHADNAGAR, Farooqnagar,\nMahabub Nagar, Farooqnagar, Telangana, India, 509216\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Hyderabad\n\nRD (name and Region)\n\nRD Hyderabad, Southeastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/25/26, 11:56 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11521535\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nMD\nPERWEZ\nALAM\n\n2\n\n11521536\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nMARIYAM\nPARVEEN\n\n"
+  }
+}

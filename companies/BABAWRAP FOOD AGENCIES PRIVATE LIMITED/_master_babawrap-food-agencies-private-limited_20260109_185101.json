@@ -1,0 +1,55 @@
+{
+  "company_name": "BABAWRAP FOOD AGENCIES PRIVATE LIMITED",
+  "cin": "U10799WB2025PTC284831",
+  "registered_address": "A4TH-FR FL-D/410/11 KABI, BHARAT CHANDRA LP-37/19/1, Dumdum, Kolkata, Kolkata, West Bengal, India, 700028",
+  "roc_name": "ROC Kolkata",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11420266,
+  "paid_up_capital": 11420267,
+  "directors": [
+    {
+      "din": "11420266",
+      "name": "Anusree Bhaduri",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11420267",
+      "name": "Yashadhara Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB1888N"
+  },
+  "email": "babawrapfoodagencies@gmail.com",
+  "meta": {
+    "created": "20260109_185101",
+    "last_updated": "20260109_185101"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260109_185101",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BABAWRAP FOOD AGENCIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U10799WB2025PTC284831",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CALB28995B"
+}

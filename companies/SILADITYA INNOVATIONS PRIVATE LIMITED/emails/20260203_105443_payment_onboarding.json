@@ -1,0 +1,18 @@
+{
+  "to": "siladityainnovationspvtltd@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 SILADITYA INNOVATIONS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "SILADITYA INNOVATIONS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SBYPxZ9jlPOqv4",
+    "payment_date": "2026-02-03T10:52:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

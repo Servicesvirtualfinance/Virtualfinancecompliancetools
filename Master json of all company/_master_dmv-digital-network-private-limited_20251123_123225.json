@@ -1,0 +1,64 @@
+{
+  "company_name": "DMV DIGITAL NETWORK PRIVATE LIMITED",
+  "cin": "U73100GJ2025PTC169168",
+  "registered_address": "B-103 DEVNANDAN DESIRE, OPP.ENG COLLEGE, NR AUDA, Kabir Chowk, Ahmedabad, Ahmadabad City, Gujarat, India, 380005",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11365010",
+      "name": "MITESHKUMAR VINODBHAI BAROT",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11365011",
+      "name": "MAMTABEN MITESHKUMAR BAROT",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {},
+  "email": "miteshvb@gmail.com",
+  "meta": {
+    "created": "20251123_123225",
+    "last_updated": "20251123_123903"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251123_123225",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dmv Digital Network Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100GJ2025PTC169168",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251123_123903",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dmv Digital Network Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100GJ2025PTC169168",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ]
+}

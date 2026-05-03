@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services.pdf",
+  "file_hash_sha256": "d0e932846ad12ef413e389c45d044d4ebf880fdb719a2d95080a065e0dbebb23",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2025-12-24 12:53:03"
+  },
+  "master_data": {
+    "cin": "U10402MH2025PTC463707",
+    "company_name": "MERIDIAN EDIBLE OILS PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "463707",
+    "date_of_incorporation": "22/12/2025",
+    "email": "meridianedibleoils@gmail.com",
+    "registered_address": "Shp-5, B-1, MMRDA Complex, Wadala truck terminal, Antop Hill, Mumbai, Mumbai, Maharashtra, India, 400037",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "12/24/25, 12:48 PM",
+    "authorised_capital": 7062098,
+    "paid_up_capital": 7062226,
+    "date_of_last_agm": "22/12/2025",
+    "date_of_balance_sheet": "22/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "meridianedibleoils@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "07062098",
+      "name": "Krishna Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07062226",
+      "name": "Agni Pratap Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "12/24/25, 12:48 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU10402MH2025PTC463707\n\nCompany Name\n\nMERIDIAN EDIBLE OILS PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai\n\nRegistration Number\n\n463707\n\nDate of Incorporation\n\n22/12/2025\n\nEmail Id\n\nmeridianedibleoils@gmail.com\n\nRegistered Address\n\nShp-5,B-1, MMRDA Complex, Wadala truck terminal, Antop Hill, Mumbai, Mumbai,\nMaharashtra, India, 400037\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n12/24/25, 12:48 PM\n\n\nAuthorised Capital (Rs)\n\n10,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n07062098\n\nKRISHNA SINGH\n\nDirector\n\nPromoter\n\n22/12/2025\n\n-\n\nYes\n\n2\n\n07062226\n\nAGNI PRATAP SINGH\n\nDirector\n\nPromoter\n\n22/12/2025\n\n-\n\nYes\n\n"
+  }
+}

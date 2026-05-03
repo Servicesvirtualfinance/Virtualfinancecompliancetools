@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services.pdf",
+  "file_hash_sha256": "751b592eb09edb77cd60c3f3f233684306f4cc7e5a3c7a99e5e72df97fc43086",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2025-12-24 17:24:35"
+  },
+  "master_data": {
+    "cin": "U62020KL2025PTC099048",
+    "company_name": "ONEHOOD PRIVATE LIMITED",
+    "roc_name": "ROC Ernakulam",
+    "registration_number": "099048",
+    "date_of_incorporation": "10/12/2025",
+    "email": "jebin.edwin@onehood.in",
+    "registered_address": "VARA 613, HARMONY, ARAPURA LANE, VATTIYOORKA, Vattiyoorkavu, Thiruvananthapuram, Thiruvananthapuram, Kerala, India, 695013",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "12/24/25, 5:24 PM",
+    "authorised_capital": 11418989,
+    "paid_up_capital": 11418990,
+    "date_of_last_agm": "10/12/2025",
+    "date_of_balance_sheet": "10/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Ernakulam",
+    "jurisdiction_roc": "ROC Ernakulam",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "jebin.edwin@onehood.in"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11418989",
+      "name": "Jebin Edwin",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11418990",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "12/24/25, 5:24 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62020KL2025PTC099048\n\nCompany Name\n\nONEHOOD PRIVATE LIMITED\n\nROC Name\n\nROC Ernakulam\n\nRegistration Number\n\n099048\n\nDate of Incorporation\n\n10/12/2025\n\nEmail Id\n\njebin.edwin@onehood.in\n\nRegistered Address\n\nVARA 613, HARMONY, ARAPURA LANE, VATTIYOORKA, Vattiyoorkavu,\nThiruvananthapuram, Thiruvananthapuram, Kerala, India, 695013\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n12/24/25, 5:24 PM\n\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n50,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ernakulam\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11418989\n\nJEBIN EDWIN\n\nDirector\n\nPromoter\n\n10/12/2025\n\n-\n\nYes\n\n2\n\n11418990\n\nDirector\n\nPromoter\n\n10/12/2025\n\n-\n\nYes\n\nWILSON LATHA\nBRIGITTA\n\n"
+  }
+}

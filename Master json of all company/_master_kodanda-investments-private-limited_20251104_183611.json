@@ -1,0 +1,67 @@
+{
+  "company_name": "KODANDA INVESTMENTS PRIVATE LIMITED",
+  "cin": "U66309MP2025PTC079760",
+  "registered_address": "409 414 UNITY ONE MALL, RAJIV GHANDI SQURE, Indore G.P.O., Indore, Indore, Madhya Pradesh, India, 452001",
+  "roc_name": "ROC Gwalior",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1500000,
+  "paid_up_capital": 200000,
+  "directors": [
+    {
+      "din": "11356965",
+      "name": "Chahat Tiwari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11356966",
+      "name": "Lokendra Goswami",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "27/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCK2920J"
+  },
+  "email": "Kodandainvestmentsprivatelimit@gmail.com",
+  "meta": {
+    "created": "20251104_183611",
+    "last_updated": "20251104_184246"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251104_183611",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kodanda Investments Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U66309MP2025PTC079760",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251104_184246",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kodanda Investments Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U66309MP2025PTC079760",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BPLK08440F"
+}

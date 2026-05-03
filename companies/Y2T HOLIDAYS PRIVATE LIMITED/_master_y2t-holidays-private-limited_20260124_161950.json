@@ -1,0 +1,55 @@
+{
+  "company_name": "Y2T HOLIDAYS PRIVATE LIMITED",
+  "cin": "U79110HR2026PTC140186",
+  "registered_address": "FF 31, First Floor, Amrata Arcade Mall, Bahadurgarh, Jhajjar, Bahadurgarh, Haryana, India, 124507",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11466013,
+  "paid_up_capital": 11466014,
+  "directors": [
+    {
+      "din": "11466013",
+      "name": "Deep Jyoti",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11466014",
+      "name": "Deepak Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AACCY1434D"
+  },
+  "email": "yes2trips@gmail.com",
+  "meta": {
+    "created": "20260124_161950",
+    "last_updated": "20260124_161950"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260124_161950",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Y2T HOLIDAYS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79110HR2026PTC140186",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RTKY02251E"
+}

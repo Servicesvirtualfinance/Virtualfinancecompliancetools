@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_HOLISYNX TECH SOLUTIONS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "d2aa0fcd9fa4de3901bfd7277c7b0cba6d6c93005bcba9a514d4e0dffb1921f4",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-17 11:28:22"
+  },
+  "master_data": {
+    "cin": "U62011PN2026PTC253182",
+    "company_name": "HOLISYNX TECH SOLUTIONS PRIVATE LIMITED",
+    "roc_name": "ROC Pune",
+    "registration_number": "253182",
+    "date_of_incorporation": "12/03/2026",
+    "email": "holisynxtechsolutions@gmail.com",
+    "registered_address": "Sn 242/1/2, Baner Tejwini Soc, Baner Gaon, Pune, Haveli, Maharashtra, India, 411045",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11601888,
+    "paid_up_capital": 11601889,
+    "date_of_last_agm": "3/17/26, 11:27 AM",
+    "date_of_balance_sheet": "12/03/2026",
+    "company_status": "Active",
+    "small_company": "ROC Pune",
+    "jurisdiction_roc": "ROC Pune",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "holisynxtechsolutions@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11601888",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11601889",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/17/26, 11:27 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU62011PN2026PTC253182\n\nCompany Name\n\nHOLISYNX TECH SOLUTIONS PRIVATE LIMITED\n\nROC Name\n\nROC Pune\n\nRegistration Number\n\n253182\n\nDate of Incorporation\n\n12/03/2026\n\nEmail Id\n\nholisynxtechsolutions@gmail.com\n\nRegistered Address\n\nSn 242/1/2, Baner Tejwini Soc, Baner Gaon, Pune, Haveli, Maharashtra,\nIndia, 411045\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n20,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Pune\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/17/26, 11:27 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11601888\n\nDirector\n\nPromoter\n\n12/03/2026\n\n-\n\nYes\n\nRANI\nHARIBHAU\nNIKAM\n\n2\n\n11601889\n\nDirector\n\nPromoter\n\n12/03/2026\n\n-\n\nYes\n\nANKUSH\nCHANDRAKANT\nWALUKAR\n\n"
+  }
+}

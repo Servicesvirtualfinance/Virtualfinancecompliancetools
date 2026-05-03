@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MAGSONS GLOBAL X-TECHNOLOGIES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "cf64271900e7699c662416d836df080531e452f0633a5dc8e6a7dedf7922232d",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-25 16:17:33"
+  },
+  "master_data": {
+    "cin": "U62011KA2026PTC215292",
+    "company_name": "MAGSONS GLOBAL X-TECHNOLOGIES PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "215292",
+    "date_of_incorporation": "03/02/2026",
+    "email": "Arykanishk@gmail.com",
+    "registered_address": "No.B-4433, B2 Block, Brigade Meadows, Basil, Kagalipura, Bangalore Rural, Bangalore South, Karnataka, India, 560082",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "15,00,000",
+    "authorised_capital": 10327095,
+    "paid_up_capital": 7836395,
+    "date_of_last_agm": "2/25/26, 4:16 PM",
+    "date_of_balance_sheet": "03/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD Bangalore, South-Western Region Directorate",
+    "emails_found": [
+      "Arykanishk@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10327095",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07836395",
+      "name": "Promoter 03/02/2026 - Yes Managing",
+      "designation": "Director",
+      "category": "SURESH",
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11520402",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/25/26, 4:16 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62011KA2026PTC215292\n\nCompany Name\n\nMAGSONS GLOBAL X-TECHNOLOGIES PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n215292\n\nDate of Incorporation\n\n03/02/2026\n\nEmail Id\n\nArykanishk@gmail.com\n\nRegistered Address\n\nNo.B-4433, B2 Block, Brigade Meadows, Basil, Kagalipura, Bangalore\nRural, Bangalore South, Karnataka, India, 560082\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD Bangalore, South-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/25/26, 4:16 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n10327095\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nARJUN\nMAGOTRA\n\n2\n\n07836395\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nManaging\nDirector\n\nSURESH\nKUMAR\nMAGOTRA\n\n3\n\n11520402\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nVERJESH\nKUMAR\nMAGOTRA\n\n"
+  }
+}

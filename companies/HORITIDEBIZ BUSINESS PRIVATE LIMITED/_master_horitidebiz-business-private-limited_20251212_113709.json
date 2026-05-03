@@ -1,0 +1,120 @@
+{
+  "company_name": "HORITIDEBIZ BUSINESS PRIVATE LIMITED",
+  "cin": "U41001KA2025PTC211696",
+  "registered_address": "D No - 77, Vijayanagra III Rd Stage, Vijaynagar III Stage, Mysore, Mysore, Karnataka, India, 570017",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 50000,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11408785",
+      "name": "Basavarajappa Amith Chinmay",
+      "designation": null,
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11408786",
+      "name": "Anusha Rubinbhaskar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICH3242A"
+  },
+  "email": "amith07chinmay@gmail.com",
+  "meta": {
+    "created": "20251212_113709",
+    "last_updated": "20260220_102225"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251212_113709",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Horitidebiz Business Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U41001KA2025PTC211696",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251212_115758",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Horitidebiz Business Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U41001KA2025PTC211696",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260220_102225",
+      "inputs": {
+        "meeting_date": "20 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Basavarajappa Amith Chinmay",
+          "din": "11408785",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HORITIDEBIZ BUSINESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_102225.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260220_102239",
+      "inputs": {
+        "to": "amith07chinmay@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260220_102225.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "BLRH18878G",
+  "authorized_signatory": {
+    "name": "Basavarajappa Amith Chinmay",
+    "din": "11408785",
+    "designation": "Director",
+    "meeting_date": "20 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HORITIDEBIZ BUSINESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_102225.docx",
+    "ts": "20260220_102225",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260220_102239"
+  },
+  "authorised_signatory": {
+    "name": "Basavarajappa Amith Chinmay",
+    "din": "11408785",
+    "designation": "Director",
+    "meeting_date": "20 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\HORITIDEBIZ BUSINESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260220_102225.docx",
+    "ts": "20260220_102225",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260220_102239"
+  }
+}

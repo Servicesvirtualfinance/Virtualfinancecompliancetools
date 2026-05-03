@@ -1,0 +1,18 @@
+{
+  "to": "muskaan2lamba@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 KUBERTENSE TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "KUBERTENSE TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RiJvej0F9PnJpj",
+    "payment_date": "2025-11-21T13:53:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

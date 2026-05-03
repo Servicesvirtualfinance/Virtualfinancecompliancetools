@@ -1,0 +1,108 @@
+{
+  "company_name": "RUNIC ADVISORS PRIVATE LIMITED",
+  "cin": "U70200KA2026PTC216585",
+  "registered_address": "Aspire Coworks 17 2nd Fl, 7th Main Road, ll stage, Indiranagar (Bangalore), Bangalore, Bangalore North, Karnataka, India, 560038",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11421124,
+  "paid_up_capital": 11421123,
+  "directors": [
+    {
+      "din": "11421124",
+      "name": "Ishani Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11421123",
+      "name": "Vivek Jain",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR5855G"
+  },
+  "email": "capital@runic.global",
+  "meta": {
+    "created": "20260404_113029",
+    "last_updated": "20260417_161930"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260404_113029",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Runic Advisors Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U70200KA2026PTC216585",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260417_161930",
+      "inputs": {
+        "meeting_date": "17 Apr 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Vivek Jain",
+          "din": "11421123",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC ADVISORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_161930.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260417_161950",
+      "inputs": {
+        "to": "capital@runic.global"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260417_161930.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "BLRR35846G",
+  "authorized_signatory": {
+    "name": "Vivek Jain",
+    "din": "11421123",
+    "designation": "Director",
+    "meeting_date": "17 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC ADVISORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_161930.docx",
+    "ts": "20260417_161930",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260417_161950"
+  },
+  "authorised_signatory": {
+    "name": "Vivek Jain",
+    "din": "11421123",
+    "designation": "Director",
+    "meeting_date": "17 Apr 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\RUNIC ADVISORS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260417_161930.docx",
+    "ts": "20260417_161930",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260417_161950"
+  }
+}

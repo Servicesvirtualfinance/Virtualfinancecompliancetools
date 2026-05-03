@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INTERNATIONAL MULTI ACTION POLITICAL STRATEGIES (OPC).pdf",
+  "file_hash_sha256": "6586a98ff11c8a9d9a8240673d6878ce78f945289ad5dd314365bb6deb6715c3",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-18 11:20:51"
+  },
+  "master_data": {
+    "cin": "U70200TN2026OPC190885",
+    "company_name": "INTERNATIONAL MULTI ACTION POLITICAL STRATEGIES (OPC)",
+    "roc_name": "ROC Chennai",
+    "registration_number": "190885",
+    "date_of_incorporation": "16/03/2026",
+    "email": "imapstrategies@gmail.com",
+    "registered_address": "NO.3/46, NEW NO.2/96, BAJANAI KOIL ST, METTU CLY, Porur, Kanchipuram, Sriperumbudur, Tamil Nadu, India, 600116",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11609275,
+    "paid_up_capital": 20000,
+    "date_of_last_agm": "3/18/26, 11:20 AM",
+    "date_of_balance_sheet": "16/03/2026",
+    "company_status": "Active",
+    "small_company": "ROC Chennai",
+    "jurisdiction_roc": "ROC Chennai",
+    "jurisdiction_rd": "RD Chennai, Southern Region Directorate",
+    "emails_found": [
+      "imapstrategies@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11609275",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/18/26, 11:20 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU70200TN2026OPC190885\n\nCompany Name\n\nINTERNATIONAL MULTI ACTION POLITICAL STRATEGIES (OPC)\nPRIVATE LIMITED\n\nROC Name\n\nROC Chennai\n\nRegistration Number\n\n190885\n\nDate of Incorporation\n\n16/03/2026\n\nEmail Id\n\nimapstrategies@gmail.com\n\nRegistered Address\n\nNO.3/46,NEW NO.2/96, BAJANAI KOIL ST,METTU CLY, Porur,\nKanchipuram, Sriperumbudur, Tamil Nadu, India, 600116\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n20,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chennai\n\nRD (name and Region)\n\nRD Chennai, Southern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/18/26, 11:20 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11609275\n\nDirector\n\nPromoter\n\n16/03/2026\n\n-\n\nYes\n\nNAGA\nSRINIVASA\nBAPUJI\nGUNTUPALLI\n\n"
+  }
+}

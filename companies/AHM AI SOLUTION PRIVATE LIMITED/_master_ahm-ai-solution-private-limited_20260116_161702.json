@@ -1,0 +1,55 @@
+{
+  "company_name": "AHM AI SOLUTION PRIVATE LIMITED",
+  "cin": "U62013UP2025PTC239462",
+  "registered_address": "E408, KALPATARU APPARTMENT, LUCKNOW, UTTAR PRADESH, Gomtinagar, Lucknow, Lucknow, Uttar Pradesh, India, 226010",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11446031,
+  "paid_up_capital": 11446032,
+  "directors": [
+    {
+      "din": "11446031",
+      "name": "Atul Joshi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11446032",
+      "name": "Manas Joshi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA4463F"
+  },
+  "email": "MANASJOSHI59@GMAIL.COM",
+  "meta": {
+    "created": "20260116_161702",
+    "last_updated": "20260116_161702"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260116_161702",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_AHM AI SOLUTION PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62013UP2025PTC239462",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNA23376D"
+}

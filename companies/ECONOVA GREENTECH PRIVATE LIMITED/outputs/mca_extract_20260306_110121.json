@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ECONOVA GREENTECH PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "e36a8ce8e8817d3bf99263dc1a8ea09606c98551b657f217bac1841e15f0089c",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-06 11:01:21"
+  },
+  "master_data": {
+    "cin": "U20119MH2026PTC467625",
+    "company_name": "ECONOVA GREENTECH PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai I",
+    "registration_number": "467625",
+    "date_of_incorporation": "06/02/2026",
+    "email": "sv7111212@gmail.com",
+    "registered_address": "504, FLR-5, PLOT-3, ANURADHA, AMRUTKUMBH CHSL, Gokhale Road (Mumbai), Mumbai, Mumbai, Maharashtra, India, 400028",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "3/6/26, 10:59 AM",
+    "authorised_capital": 10732515,
+    "paid_up_capital": 11528803,
+    "date_of_last_agm": "06/02/2026",
+    "date_of_balance_sheet": "06/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai I",
+    "jurisdiction_roc": "ROC Mumbai I",
+    "jurisdiction_rd": "RD Mumbai, Western Region Directorate I",
+    "emails_found": [
+      "sv7111212@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10732515",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11528803",
+      "name": "Vaibhav Rajesh Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/6/26, 10:59 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU20119MH2026PTC467625\n\nCompany Name\n\nECONOVA GREENTECH PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai I\n\nRegistration Number\n\n467625\n\nDate of Incorporation\n\n06/02/2026\n\nEmail Id\n\nsv7111212@gmail.com\n\nRegistered Address\n\n504, FLR-5, PLOT-3, ANURADHA, AMRUTKUMBH CHSL, Gokhale Road (Mumbai),\nMumbai, Mumbai, Maharashtra, India, 400028\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n3/6/26, 10:59 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai I\n\nRD (name and Region)\n\nRD Mumbai, Western Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n10732515\n\nDirector\n\nPromoter\n\n06/02/2026\n\n-\n\nYes\n\nVEDANT DINESH\nPENDHARKAR\n\n2\n\n11528803\n\nVAIBHAV RAJESH SINGH\n\nDirector\n\nPromoter\n\n06/02/2026\n\n-\n\nYes\n\n"
+  }
+}

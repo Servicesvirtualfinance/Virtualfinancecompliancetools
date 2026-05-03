@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZENCEED TECHNOLOGIES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "b9bd789c3aa35ed5420d5cc3bba406a26c24dba4a98c7799a4779afda904a683",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-27 15:53:20"
+  },
+  "master_data": {
+    "cin": "U62099BR2026PTC084140",
+    "company_name": "ZENCEED TECHNOLOGIES PRIVATE LIMITED",
+    "roc_name": "ROC Patna",
+    "registration_number": "084140",
+    "date_of_incorporation": "10/04/2026",
+    "email": "zenceedtech@gmail.com",
+    "registered_address": "3rd Floor, 800/399Dwarika, Nivas, Vishwa Sadan, L.I.C, Patna, Phulwari, Bihar, India, 800001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11657645,
+    "paid_up_capital": 11657646,
+    "date_of_last_agm": "10/04/2026",
+    "date_of_balance_sheet": "10/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Patna",
+    "jurisdiction_roc": "ROC Patna",
+    "jurisdiction_rd": "RD Kolkata, Eastern Region Directorate",
+    "emails_found": [
+      "zenceedtech@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11657645",
+      "name": "Paremjit Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11657646",
+      "name": "Awadh Kishor",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11657647",
+      "name": "Ayodhya Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/27/26, 3:52 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62099BR2026PTC084140\n\nCompany Name\n\nZENCEED TECHNOLOGIES PRIVATE LIMITED\n\nROC Name\n\nROC Patna\n\nRegistration Number\n\n084140\n\nDate of Incorporation\n\n10/04/2026\n\nEmail Id\n\nzenceedtech@gmail.com\n\nRegistered Address\n\n3rd Floor, 800/399Dwarika, Nivas, Vishwa Sadan, L.I.C, Patna, Phulwari, Bihar, India, 800001\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n4/27/26, 3:52 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Patna\n\nRD (name and Region)\n\nRD Kolkata, Eastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11657645\n\nPAREMJIT KUMAR\n\nDirector\n\nPromoter\n\n10/04/2026\n\n-\n\nYes\n\n2\n\n11657646\n\nAWADH KISHOR\n\nDirector\n\nPromoter\n\n10/04/2026\n\n-\n\nYes\n\n3\n\n11657647\n\nAYODHYA SINGH\n\nDirector\n\nPromoter\n\n10/04/2026\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,4891 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Doc Pack – Master & Auditor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg:#0a0f1e; --panel:#101a2e; --panel-2:#0e1628; --muted:#7d8aa5; --text:#e9f0ff;
+      --accent:#4da3ff; --accent-2:#7dd3fc; --ok:#22c55e; --warn:#f59e0b; --err:#ef4444;
+      --border:#1c2a46; --chip:#15223b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);
+      background:radial-gradient(1400px 900px at 70% -10%,#0e1b36 0%,#0a1122 40%,#060b18 100%),var(--bg)}
+    .wrap{max-width:1050px;margin:40px auto;padding:0 20px 60px}
+    h1{margin:0 0 22px;letter-spacing:.2px;font-weight:800}
+    h2{margin:10px 0 14px;font-weight:700}
+    p.hint{color:var(--muted);margin:-8px 0 18px}
+    .card{border:1px solid var(--border);border-radius:16px;
+      background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.012));
+      box-shadow:0 14px 48px rgba(0,0,0,.35);padding:18px;margin-bottom:22px}
+    .section{border:1px solid var(--border);border-radius:14px;
+      background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.008));
+      padding:18px;margin-top:14px}
+    .row{display:grid;grid-template-columns:1fr;gap:14px;margin:12px 0}
+    @media(min-width:860px){.row.two{grid-template-columns:1fr 1fr}}
+    label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    select,input[type="text"],input[type="file"],button{
+      width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--border);
+      background:var(--panel);color:var(--text);outline:none}
+    select:focus,input[type="text"]:focus,input[type="file"]:focus{
+      border-color:var(--accent);box-shadow:0 0 0 3px rgba(77,163,255,.2)}
+    .btn{background:linear-gradient(90deg,var(--accent) 0%,var(--accent-2) 100%);
+      border:0;color:#06101f;font-weight:800;cursor:pointer;letter-spacing:.2px}
+    .btn.secondary{background:#12203a;color:var(--text);border:1px solid var(--border)}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .chip{font-size:12px;border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);background:var(--chip)}
+    .status{margin-top:10px;font-size:13px;color:var(--muted)}
+    .success{color:var(--ok)} .error{color:var(--err)}
+    small.dim{color:var(--muted)}
+    hr.div{border:0;border-top:1px solid var(--border);margin:18px 0}
+    /* switch */
+    .switch{display:inline-flex;align-items:center;gap:10px;cursor:pointer;user-select:none}
+    .switch input{appearance:none;width:42px;height:24px;border-radius:999px;position:relative;
+      background:#1a2947;border:1px solid var(--border);outline:none;transition:.2s}
+    .switch input:checked{background:#2a7be4}
+    .switch input::after{content:"";position:absolute;width:18px;height:18px;border-radius:999px;top:2px;left:2px;
+      background:white;transition:.2s}
+    .switch input:checked::after{left:22px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Master & Auditor</h1>
+    <p class="hint">Top: Generate Master (MCA required, PAN optional). Below: choose company & auditor, toggle which docs to build, then click <b>Generate Selected</b>.</p>
+
+    <!-- 1) GENERATE MASTER -->
+    <div class="card">
+      <h2>1) Generate Master</h2>
+      <div class="section">
+        <div class="row two">
+          <div>
+            <label for="mca">MCA File (PDF) <small class="dim">(required)</small></label>
+            <input id="mca" type="file" accept=".pdf" />
+          </div>
+          <div>
+            <label for="pan">PAN File (PDF/IMG) <small class="dim">(optional)</small></label>
+            <input id="pan" type="file" accept=".pdf,.png,.jpg,.jpeg,.tif,.tiff,.bmp,.webp" />
+          </div>
+        </div>
+        <!-- NEW ROW -->
+<div class="row two">
+  <div>
+    <label for="panNumber">PAN Number <small class="dim">(optional — overrides file if filled)</small></label>
+    <input id="panNumber" type="text" placeholder="ABCDE1234F"
+           pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" style="text-transform:uppercase" />
+    <div class="status"><small class="dim">Format: 5 letters + 4 digits + 1 letter (e.g., ABCDE1234F)</small></div>
+  </div>
+
+  <div>
+    <label for="incorp">Incorporation Certificate (PDF) <small class="dim">(optional)</small></label>
+    <input id="incorp" type="file" accept=".pdf" />
+  </div>
+</div>
+        
+
+        <div class="row two">
+          <button class="btn" id="generateBtn">Generate Master</button>
+          <button class="btn secondary" id="clearGenBtn">Clear</button>
+        </div>
+
+        <div class="chips">
+          <span class="chip">API: <span id="apiStatusText">idle</span></span>
+          <span class="chip">Last Created/Updated: <span id="createdCompany">—</span></span>
+        </div>
+        <div class="status" id="genMsg"></div>
+      </div>
+    </div>
+
+    <!-- 2) AUDITOR SELECTION + SWITCHES + ONE GENERATE -->
+    <div class="card">
+      <h2>2) Auditor & Documents</h2>
+      <div class="section">
+
+        <!-- Company chooser -->
+        <div class="row two">
+          <div>
+            <label for="companySearch">Search Company</label>
+            <input id="companySearch" type="text" placeholder="Start typing company name…" list="companySuggestions" autocomplete="off" />
+            <datalist id="companySuggestions"></datalist>
+            <div class="status"><small id="searchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+          </div>
+          <div>
+            <label for="companies">Companies</label>
+            <select id="companies"></select>
+            <div class="status"><small id="countHint" class="dim">Loading companies…</small></div>
+          </div>
+        </div>
+
+        <hr class="div" />
+
+        <!-- Switches + Auditor dropdown -->
+        <div class="row two">
+          <div>
+            <!-- Add this new switch near the other three -->
+<label class="switch" style="margin-top:10px">
+  <input id="letterheadToggle" type="checkbox" />
+  <span><strong>Company Letterhead</strong></span>
+</label>
+<div class="status">Generates a blank letter page with company header.</div>
+
+            <label class="switch">
+              <input id="bodToggle" type="checkbox" />
+    
+              <span><strong>BOD Auditor Appointment</strong></span>
+            </label>
+            <div class="status">Generates Consent Letter with  auditor details.</div>
+
+<label class="switch">
+  <input id="consentToggle" type="checkbox" />
+  <span><strong>Auditor’s Consent Letter</strong></span>
+</label>
+            
+            <div class="status">Board Resolution (First Auditor).</div>
+            <label class="switch" style="margin-top:10px">
+              <input id="intimationToggle" type="checkbox" />
+              <span><strong>Intimation Letter to Auditor</strong></span>
+            </label>
+            <div class="status">Intimation under Sec. 139(6).</div>
+            <label class="switch" style="margin-top:10px">
+              <input id="proposalToggle" type="checkbox" />
+              <span><strong>Proposal for Auditor Appointment</strong></span>
+            </label>
+            <div class="status">Proposal/offer letter for first auditor engagement.</div>
+          </div>
+          
+          <div>
+            <label for="auditorsSelect">Select Auditor <small class="dim">(from Auditor Master)</small></label>
+            <select id="auditorsSelect" disabled>
+              <option value="">— Disabled —</option>
+            </select>
+            <div class="status" id="auditorsMsg"></div>
+
+            <label for="docDate" style="margin-top:10px">Document Date <small class="dim">(optional)</small></label>
+            <input id="docDate" type="text" placeholder="dd-mm-YYYY (or leave blank for today)" />
+          </div>
+        </div>
+
+        <hr class="div" />
+
+        <!-- One generate button -->
+        <div class="row">
+          <button class="btn" id="generateSelectedBtn">Generate Selected</button>
+        </div>
+
+        <!-- Results per doc -->
+        <div class="status" id="multiMsg"></div>
+        <div class="status" id="multiLinks"></div>
+
+        <div class="chips" style="margin-top:14px">
+          <span class="chip">Selected Company: <span id="companySelText">—</span></span>
+          <span class="chip">Selected Auditor: <span id="auditorSelText">—</span></span>
+        </div>
+        <div class="status" id="audMsg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3) EMAIL & SEND -->
+<div class="card">
+  <h2>3) Email &amp; Send</h2>
+  <div class="section">
+
+    <div class="row two">
+      <div>
+        <label>Selected Company</label>
+        <div class="chips">
+          <span class="chip">Company: <span id="mailCompanyChip">—</span></span>
+          <span class="chip">Auditor: <span id="mailAuditorChip">—</span></span>
+        </div>
+        <div class="status"><small class="dim">
+          Uses the same selection you made in section 2. Change there if needed.
+        </small></div>
+      </div>
+
+      <div>
+        <label>Readiness</label>
+        <div class="chips">
+          <span class="chip" id="readyCompany">Company: —</span>
+          <span class="chip" id="readyDocs">Docs: —</span>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <button class="btn secondary" id="checkReadyBtn">Check &amp; Prepare</button>
+        </div>
+        <div class="status" id="mailCheckMsg"></div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <div>
+        <label>Preview Emails (for review)</label>
+        <div class="row">
+          <button class="btn secondary" id="previewAuditorEmail">Preview: To Auditor</button>
+          <button class="btn secondary" id="previewDirectorsEmail">Preview: To Directors</button>
+        </div>
+        <div class="status"><small class="dim">
+          Opens a modal preview using your saved templates. If company/auditor details are missing,
+          it’ll use safe placeholders.
+        </small></div>
+      </div>
+
+      <div>
+        <label>Send Emails</label>
+        <div class="row">
+          <button class="btn" id="sendToAuditorBtn">Send to Auditor</button>
+          <button class="btn" id="sendToCompanyBtn">Send to Company</button>
+        </div>
+        <div class="status" id="mailSendMsg"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- simple email preview modal (re-use if you already added one) -->
+<div id="emailPreview" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:9999;">
+  <div style="max-width:900px; width:90%; height:80%; margin:4% auto; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 8px 30px rgba(0,0,0,.25)">
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px; background:#0f172a; color:#fff;">
+      <strong>Email Preview</strong>
+      <button id="closePreview" style="background:#334155; color:#fff; border:none; padding:6px 10px; border-radius:8px; cursor:pointer;">Close</button>
+    </div>
+    <iframe id="previewFrame" style="width:100%; height:calc(100% - 44px); border:0;"></iframe>
+  </div>
+</div>
+
+<!-- 4) SLA AGREEMENT -->
+<div class="card">
+  <h2>4) SLA Agreement</h2>
+  <div class="section">
+
+    <!-- Company chooser (independent UI but reuses the global list) -->
+    <div class="row two">
+      <div>
+        <label for="slaCompanySearch">Search Company</label>
+        <input id="slaCompanySearch" type="text" placeholder="Start typing company name…" list="slaCompanySuggestions" autocomplete="off" />
+        <datalist id="slaCompanySuggestions"></datalist>
+        <div class="status"><small id="slaSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="slaCompanies">Companies</label>
+        <select id="slaCompanies"></select>
+        <div class="status"><small id="slaCountHint" class="dim">Loading companies…</small></div>
+      </div>
+    </div>
+
+    <hr class="div" />
+
+    <div class="row two">
+      <div>
+        <label>Document</label>
+        <div class="row">
+          <button class="btn" id="slaGenerateBtn">Generate SLA</button>
+        </div>
+        <div class="status" id="slaGenMsg"></div>
+        <div class="status" id="slaLinks"></div>
+      </div>
+
+      <div>
+        <label>Mail</label>
+        <div class="row">
+          <button class="btn secondary" id="slaPreviewBtn">Preview SLA Email to Company</button>
+          <button class="btn" id="slaSendBtn">Send SLA Email</button>
+        </div>
+        <div class="status" id="slaMailMsg"></div>
+      </div>
+    </div>
+
+    <div class="chips" style="margin-top:14px">
+      <span class="chip">SLA Company: <span id="slaCompanyChip">—</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- 4) Process — Payment Confirmation + Onboarding Email -->
+<div class="card">
+  <h2>4) Process — Payment Confirmation + Onboarding Email</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX: search + dropdown) -->
+    <div class="row two">
+      <div>
+        <label for="pwoCompanySearch">Search Company</label>
+        <input id="pwoCompanySearch" type="text" placeholder="Start typing company name…" list="pwoCompanySuggestions" autocomplete="off" />
+        <datalist id="pwoCompanySuggestions"></datalist>
+        <div class="status"><small id="pwoSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="pwoCompanies">Companies</label>
+        <select id="pwoCompanies"></select>
+        <div class="status"><small id="pwoCountHint" class="dim">Loading companies…</small></div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <!-- Inputs needed for the combined email -->
+    <div class="row two">
+      <div>
+        <label for="pwoContactName">Contact Name <small class="dim">(optional)</small></label>
+        <input id="pwoContactName" type="text" placeholder="Finance Team / Mr. Shah" />
+      </div>
+      <div>
+        <label for="pwoAssignedMgr">Assigned Manager <small class="dim">(optional)</small></label>
+        <input id="pwoAssignedMgr" type="text" placeholder="Virtual Finance Team" />
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label for="pwoPlan">Plan Name</label>
+        <input id="pwoPlan" type="text" value="Annual Compliance – ₹999/month" />
+      </div>
+      <div>
+        <label for="pwoAmount">Amount (number)</label>
+        <input id="pwoAmount" type="text" value="999" />
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label for="pwoCurrency">Currency</label>
+        <input id="pwoCurrency" type="text" value="INR" />
+      </div>
+      <div>
+        <label for="pwoPaymentId">Payment ID</label>
+        <input id="pwoPaymentId" type="text" placeholder="rzp_ABC123" />
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label for="pwoDate">Payment Date/Time (ISO)</label>
+        <input id="pwoDate" type="text" />
+        <div class="status"><small class="dim">Example: 2025-10-21T15:30:00+05:30 (auto-fills to now if left blank)</small></div>
+      </div>
+      <div>
+        <label>Selected</label>
+        <div class="chips">
+          <span class="chip">Company: <span id="pwoCompanyChip">—</span></span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <button class="btn secondary" id="pwoPreviewBtn">Preview Combined Email</button>
+      <!-- We’ll wire “Send” later after backend; keeping front-end only now -->
+       <button class="btn primary" id="pwoSendBtn">Send Email</button>
+    </div>
+
+    <div class="status" id="pwoMsg"></div>
+  </div>
+</div>
+
+<!-- 5) Process — ADT-1 (Send for Digital Signature) -->
+<div class="card" id="adt1Card">
+  <h2>5) Process — ADT-1 (Send for Digital Signature)</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX: search + dropdown) -->
+    <div class="row two">
+      <div>
+        <label for="adt1CompanySearch">Search Company</label>
+        <input id="adt1CompanySearch" type="text" placeholder="Start typing company name…" list="adt1CompanySuggestions" autocomplete="off" />
+        <datalist id="adt1CompanySuggestions"></datalist>
+        <div class="status"><small id="adt1SearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="adt1Companies">Companies</label>
+        <select id="adt1Companies"></select>
+        <div class="status"><small id="adt1CountHint" class="dim">Loading companies…</small></div>
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label>Selected</label>
+        <div class="chips">
+          <span class="chip">Company: <span id="adt1CompanyChip">—</span></span>
+        </div>
+      </div>
+      <div>
+        <label for="adt1ToEmail">Recipient Email <small class="dim">(auto from master; editable)</small></label>
+        <input id="adt1ToEmail" type="text" placeholder="Auto-detected" />
+        <div class="status"><small id="adt1EmailStatus" class="dim"></small></div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <div>
+        <label for="adt1Note">Optional Note</label>
+        <textarea id="adt1Note" rows="4" placeholder="Short note to the client (optional)" style="width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text);"></textarea>
+      </div>
+      <div>
+        <label>ADT-1 PDF</label>
+        <div class="row two" style="align-items:center">
+          <button class="btn secondary" id="adt1AutoPickBtn" type="button">Auto-pick</button>
+          <span class="status"><small class="dim">We’ll try to auto-pick “Form No. ADT-1” from the company folder. You can override by uploading below.</small></span>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <input id="adt1File" type="file" accept=".pdf" />
+        </div>
+        <div class="status"><small id="adt1FileMsg" class="dim">No file chosen.</small></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div style="width:100%">
+        <label for="adt1Cc">CC (optional)</label>
+        <input id="adt1Cc" type="text" placeholder="cc1@example.com, cc2@example.com" />
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <button class="btn secondary" id="adt1PreviewBtn" type="button">Preview Email</button>
+      <button class="btn" id="adt1SendBtn" type="button">Send Email</button>
+    </div>
+
+    <div class="status" id="adt1Msg"></div>
+  </div>
+</div>
+
+<!-- 6) Process — ADT-1 Acknowledgement -->
+<div class="card" id="adt1AckCard">
+  <h2>6) Process — ADT-1 Acknowledgement</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX as others) -->
+    <div class="row two">
+      <div>
+        <label for="adt1AckCompanySearch">Search Company</label>
+        <input id="adt1AckCompanySearch" type="text" placeholder="Start typing company name…" list="adt1AckCompanySuggestions" autocomplete="off" />
+        <datalist id="adt1AckCompanySuggestions"></datalist>
+        <div class="status"><small id="adt1AckSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="adt1AckCompanies">Companies</label>
+        <select id="adt1AckCompanies"></select>
+        <div class="status"><small id="adt1AckCountHint" class="dim">Loading companies…</small></div>
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label>Selected</label>
+        <div class="chips">
+          <span class="chip">Company: <span id="adt1AckCompanyChip">—</span></span>
+        </div>
+      </div>
+      <div>
+        <label for="adt1AckToEmail">Recipient Email <small class="dim">(auto from master; editable)</small></label>
+        <input id="adt1AckToEmail" type="text" placeholder="Auto-detected" />
+        <div class="status"><small id="adt1AckEmailStatus" class="dim"></small></div>
+      </div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label for="adt1AckNote">Optional Note</label>
+        <textarea id="adt1AckNote" rows="4" placeholder="Short note to the client (optional)" style="width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text);"></textarea>
+      </div>
+
+      <div>
+        <label>Acknowledgement / Receipt PDF</label>
+        <div class="row two" style="align-items:center">
+          <button class="btn secondary" id="adt1AckAutoPickBtn" type="button">Auto-pick</button>
+          <span class="status"><small class="dim">Auto-picks MCA acknowledgement/receipt (SRN/challan). You can override by uploading below.</small></span>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <input id="adt1AckFile" type="file" accept=".pdf" />
+        </div>
+        <div class="status"><small id="adt1AckFileMsg" class="dim">No file chosen.</small></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div style="width:100%">
+        <label for="adt1AckCc">CC (optional)</label>
+        <input id="adt1AckCc" type="text" placeholder="cc1@example.com, cc2@example.com" />
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <button class="btn secondary" id="adt1AckPreviewBtn" type="button">Preview Email</button>
+      <button class="btn" id="adt1AckSendBtn" type="button">Send Email</button>
+    </div>
+
+    <div class="status" id="adt1AckMsg"></div>
+  </div>
+</div>
+
+
+<!-- Process — INC-20A (Commencement of Business) -->
+<!-- Process — INC-20A (Commencement of Business) -->
+<!-- Process — INC-20A (Commencement of Business) -->
+<div class="card" id="inc20aCard">
+  <h2>Process — INC-20A (Commencement of Business)</h2>
+  <div class="section">
+
+    <!-- Company chooser -->
+    <div class="row two">
+      <div>
+        <label for="inc20aCompanySearch">Search Company</label>
+        <input id="inc20aCompanySearch" type="text" placeholder="Start typing company name…" list="inc20aCompanySuggestions" autocomplete="off" />
+        <datalist id="inc20aCompanySuggestions"></datalist>
+        <div class="status"><small id="inc20aSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="inc20aCompanies">Companies</label>
+        <select id="inc20aCompanies"></select>
+        <div class="status"><small id="inc20aCountHint" class="dim">Loading companies…</small></div>
+      </div>
+    </div>
+
+       <!-- Company Type (mutually exclusive) -->
+    <div class="row">
+      <label>Company Type</label>
+      <div class="chips">
+        <label class="switch">
+          <input type="radio" name="inc20aPack" value="opc" checked />
+          <span><strong>OPC</strong></span>
+        </label>
+        <label class="switch">
+          <input type="radio" name="inc20aPack" value="private_limited" />
+          <span><strong>Private Limited</strong></span>
+        </label>
+        <label class="switch">
+          <input type="radio" name="inc20aPack" value="section8" />
+          <span><strong>Section 8 Company</strong></span>
+        </label>
+      </div>
+      <div class="status"><small class="dim">Templates will be picked from the selected pack.</small></div>
+    </div>
+
+    <!-- Authorised Signatory (Director for BR / Bank Certificate) -->
+    <div class="panel" id="inc20aSignPanel">
+      <h4>Authorised Signatory (Director)</h4>
+      <div class="row two">
+        <div>
+          <label>&nbsp;</label>
+          <button class="btn secondary" id="inc20aLoadDirectorsBtn" type="button">
+            Load Directors from Master
+          </button>
+          <div class="status">
+            <small id="inc20aSignHint" class="dim">
+              Directors will be loaded from the company master file.
+            </small>
+          </div>
+        </div>
+        <div>
+          <label for="inc20aSignatorySelect">Select Authorised Director</label>
+          <select id="inc20aSignatorySelect"></select>
+          <div class="grid two" style="margin-top:8px;">
+            <label>DIN
+              <input id="inc20aSignDin" placeholder="DIN (auto-filled, editable)" />
+            </label>
+            <label>Designation
+              <input id="inc20aSignDesig" value="Director" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preview & Generate -->
+    <div class="row two">
+      <button class="btn secondary" id="inc20aPreviewBtn" type="button">Preview Pack Files</button>
+      <button class="btn" id="inc20aGenerateBtn" type="button">Generate INC-20A Docs</button>
+    </div>
+
+
+    <!-- MOA + Bank -->
+    <div class="row two">
+      <div>
+        <label>MOA (INC-33)</label>
+        <button class="btn secondary" id="inc20aIngestMoaBtn" type="button">Find & Parse MOA</button>
+      </div>
+      <div>
+        <label>Bank Scan (passbook/statement)</label>
+        <input id="inc20aBankFile" type="file" accept=".png,.jpg,.jpeg,.pdf"/>
+        <button class="btn secondary" id="inc20aUploadBankBtn" type="button">Extract Bank Details</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="btn secondary" id="inc20aLoadAutoBtn" type="button">Preview Auto-Fill (MOA + Bank)</button>
+    </div>
+
+    <div class="status" id="inc20aMsg"></div>
+
+    <!-- Pack preview -->
+    <div class="section" id="inc20aPreviewBox" style="display:none; margin-top:10px">
+      <h4>Templates in this pack</h4>
+      <ul id="inc20aPreviewList" style="margin:6px 0 0 16px"></ul>
+    </div>
+
+    <!-- Editable Bank Details -->
+    <div class="panel" id="inc20aBankPanel" style="display:none">
+      <h4>Bank Details (editable)</h4>
+      <div class="grid two">
+        <label>A/c No <input id="bank_acct" /></label>
+        <label>IFSC <input id="bank_ifsc" /></label>
+        <label>Bank <input id="bank_name" /></label>
+        <label>Branch <input id="bank_branch" /></label>
+        <label>Open Date <input id="bank_open" placeholder="dd-mm-yyyy" /></label>
+      </div>
+    </div>
+
+    <!-- Editable Subscribers Table -->
+    <div class="panel" id="inc20aSubsPanel" style="display:none">
+      <h4>Subscribers / Share Capital (editable)</h4>
+      <div class="grid two">
+        <label>Total Capital (₹) <input id="moa_total" /></label>
+        <label>No. of Shares <input id="moa_shares" /></label>
+        <label>Face Value (₹) <input id="moa_face" /></label>
+      </div>
+      <table class="table" id="subsTable">
+        <thead><tr>
+          <th>Subscriber Name</th><th>Equity Shares</th><th>Amount (₹)</th><th>Date</th><th>Mode</th><th>Ref</th><th></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <button class="btn secondary" id="addSubRowBtn" type="button">+ Add Row</button>
+    </div>
+
+    <!-- Generated results -->
+    <div class="section" id="inc20aResultBox" style="display:none; margin-top:10px">
+      <h4>Generated Files</h4>
+      <ul id="inc20aLinks" style="margin:6px 0 0 16px"></ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== 1) Process — GST (Initiate & Request Docs) ===== -->
+<div class="card" id="gstInitCard">
+  <h2>1) Process — GST (Initiate & Request Docs)</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX: search + dropdown) -->
+    <div class="row two">
+      <div>
+        <label for="gstCompanySearch">Search Company</label>
+        <input id="gstCompanySearch" type="text" placeholder="Start typing company name…" list="gstCompanySuggestions" autocomplete="off" />
+        <datalist id="gstCompanySuggestions"></datalist>
+        <div class="status"><small id="gstSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="gstCompanies">Companies</label>
+        <select id="gstCompanies"></select>
+        <div class="status"><small id="gstCountHint" class="dim">—</small></div>
+      </div>
+    </div>
+
+    <!-- Email source (Use master vs New customer) -->
+    <div class="row two">
+      <div>
+        <label>Email Source</label>
+        <div class="chip-group">
+          <button type="button" id="gstBtnUseMaster" class="chip active">Use master email</button>
+          <button type="button" id="gstBtnNewCustomer" class="chip">New customer</button>
+        </div>
+        <div class="status"><small id="gstEmailInfo" class="dim">Master email will be auto-picked from company master.</small></div>
+      </div>
+      <div>
+        <label for="gstEmail">Email (if New customer)</label>
+        <input id="gstEmail" type="email" placeholder="name@example.com" disabled />
+      </div>
+    </div>
+
+    <!-- Optional personalization -->
+    <div class="row two">
+      <div>
+        <label for="gstContactName">Contact Name (optional)</label>
+        <input id="gstContactName" type="text" placeholder="e.g., Mr. Sharma" />
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button id="gstBtnPreview" class="secondary">Preview Email</button>
+      <button id="gstBtnSend" class="primary">Send Email</button>
+      <span id="gstStatus" class="status"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Lightweight preview modal (no extra libs) -->
+<dialog id="gstPreviewModal" style="width: 760px; max-width: 95vw; border: none; border-radius: 8px; padding: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #eee;">
+    <strong>Preview — GST Documents Request</strong>
+    <button id="gstPreviewClose" class="chip">Close</button>
+  </div>
+  <div id="gstPreviewBody" style="max-height:70vh; overflow:auto; background:#f6f7f9;"></div>
+  <div style="padding:12px 16px; border-top:1px solid #eee; text-align:right;">
+    <button id="gstPreviewSend" class="primary">Send This Email</button>
+  </div>
+</dialog>
+
+
+
+
+
+<!-- ===== 2) Process — GST (Authorised Signatory – Board Resolution) ===== -->
+<div class="card" id="gstSignatoryCard">
+  <h2>2) Process — GST (Authorised Signatory – Board Resolution)</h2>
+  <div class="section">
+
+    <!-- Company chooser -->
+    <div class="row two">
+      <div>
+        <label for="gstSignCompanySearch">Search Company</label>
+        <input id="gstSignCompanySearch" type="text" placeholder="Start typing company name…" list="gstSignCompanySuggestions" autocomplete="off" />
+        <datalist id="gstSignCompanySuggestions"></datalist>
+        <div class="status"><small id="gstSignSearchHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+      <div>
+        <label for="gstSignCompanies">Companies</label>
+        <select id="gstSignCompanies"></select>
+        <div class="status"><small id="gstSignCountHint" class="dim">—</small></div>
+      </div>
+    </div>
+
+    <!-- Meeting details -->
+    <div class="row two">
+      <div>
+        <label for="gstSignMeetingDate">Meeting Date</label>
+        <input id="gstSignMeetingDate" type="date"/>
+      </div>
+      <div>
+        <label for="gstSignMeetingPlace">Meeting Place</label>
+        <input id="gstSignMeetingPlace" type="text" placeholder="e.g., Registered Office, Mumbai"/>
+      </div>
+    </div>
+
+    <!-- Load directors + selection -->
+    <div class="row">
+      <div class="actions" style="gap:8px;">
+        <button id="gstSignLoadDirectors" class="secondary">Load Directors</button>
+        <span id="gstSignMsg" class="status"></span>
+      </div>
+    </div>
+
+    <div id="gstSignDirectorsBox" style="display:none; border:1px solid #eee; border-radius:8px; padding:12px;">
+      <div style="margin-bottom:6px; font-weight:600;">Select Authorised Signatory</div>
+      <ul id="gstSignDirectors" style="list-style:none; padding-left:0; margin:0; display:grid; gap:8px;"></ul>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions" style="margin-top:12px;">
+      <button id="gstSignPreviewBtn" class="secondary" disabled>Preview Resolution</button>
+      <button id="gstSignGenerateBtn" class="primary" disabled>Generate DOCX</button>
+      <span id="gstSignStatus" class="status"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Preview modal -->
+<dialog id="gstSignPreviewModal" style="width: 760px; max-width: 95vw; border: none; border-radius: 8px; padding: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #eee;">
+    <strong>Preview — GST Authorised Signatory Resolution</strong>
+    <button id="gstSignPreviewClose" class="chip">Close</button>
+  </div>
+  <div id="gstSignPreviewBody" style="max-height:70vh; overflow:auto; background:#f6f7f9;"></div>
+  <div style="padding:12px 16px; border-top:1px solid #eee; text-align:right;">
+    <button id="gstSignPreviewSend" class="primary">Download This DOCX</button>
+  </div>
+</dialog>
+<!-- 6) Process — Mail: GST Authorised Signatory Resolution -->
+<div class="card" id="gstSignMailCard">
+  <h2>6) Process — Mail: GST Authorised Signatory Resolution</h2>
+
+  <div class="section">
+    <!-- Company chooser (search + dropdown) -->
+    <div class="row two">
+      <div>
+        <label for="gstSignMailCompanySearch">Search Company</label>
+        <input id="gstSignMailCompanySearch" type="text"
+               placeholder="Start typing company name…" list="gstSignMailCompanySuggestions" autocomplete="off" />
+        <datalist id="gstSignMailCompanySuggestions"></datalist>
+        <div class="status"><small id="gstSignMailCountHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+
+      <div>
+        <label for="gstSignMailCompanies">Companies</label>
+        <select id="gstSignMailCompanies"></select>
+      </div>
+    </div>
+
+    <!-- Greeting name -->
+    <div class="row">
+      <div>
+        <label for="gstSignMailContactName">Recipient Name (optional)</label>
+        <input id="gstSignMailContactName" type="text" placeholder="e.g., Mr. Sharma" />
+      </div>
+    </div>
+
+    <!-- Email mode toggle -->
+    <div class="row">
+      <div class="btn-group">
+        <button id="gstSignMailBtnUseMaster" type="button" class="btn btn-toggle active">Use Master Email</button>
+        <button id="gstSignMailBtnNewCustomer" type="button" class="btn btn-toggle">New Customer</button>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+
+    <!-- Email input (only when New Customer) -->
+    <div class="row two">
+      <div>
+        <label for="gstSignMailEmail">Recipient Email</label>
+        <input id="gstSignMailEmail" type="email" placeholder="name@example.com" disabled />
+        <div class="status"><small id="gstSignMailEmailInfo" class="dim">
+          Master email will be auto-picked from company master.
+        </small></div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="row">
+      <button id="gstSignMailBtnPreview" type="button" class="btn">Preview Email</button>
+      <button id="gstSignMailBtnSend" type="button" class="btn primary">Send Email</button>
+      <div class="status" id="gstSignMailStatus" style="margin-left:10px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Preview modal -->
+<dialog id="gstSignMailPreviewModal" style="width: 820px; max-width: 95vw;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+    <h3 style="margin:0;">Email Preview — GST Authorised Signatory</h3>
+    <button id="gstSignMailPreviewClose" class="btn">Close</button>
+  </div>
+  <div id="gstSignMailPreviewBody" style="border:1px solid #eee; padding:12px; height:60vh; overflow:auto; background:#fff;"></div>
+  <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+    <button id="gstSignMailPreviewSend" class="btn primary">Send Now</button>
+  </div>
+</dialog>
+
+<!-- Process — Mail: Udyam Certificate -->
+<div class="card" id="udyamMailCard">
+  <h2>Process — Mail: Udyam Certificate</h2>
+
+  <div class="section">
+    <div class="row two">
+      <div>
+        <label for="udyamMailCompanySearch">Search Company</label>
+        <input id="udyamMailCompanySearch" type="text"
+               placeholder="Start typing company name…" list="udyamMailCompanySuggestions" autocomplete="off" />
+        <datalist id="udyamMailCompanySuggestions"></datalist>
+        <div class="status"><small id="udyamMailCountHint" class="dim">Type at least 2 characters to see suggestions.</small></div>
+      </div>
+
+      <div>
+        <label for="udyamMailCompanies">Companies</label>
+        <select id="udyamMailCompanies"></select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="udyamMailContactName">Recipient Name (optional)</label>
+        <input id="udyamMailContactName" type="text" placeholder="e.g., Mr. Sharma" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="btn-group">
+        <button id="udyamMailBtnUseMaster" type="button" class="btn btn-toggle active">Use Master Email</button>
+        <button id="udyamMailBtnNewCustomer" type="button" class="btn btn-toggle">New Customer</button>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+
+    <div class="row two">
+      <div>
+        <label for="udyamMailEmail">Recipient Email</label>
+        <input id="udyamMailEmail" type="email" placeholder="name@example.com" disabled />
+        <div class="status"><small id="udyamMailEmailInfo" class="dim">
+          Master email will be auto-picked from company master.
+        </small></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <button id="udyamMailBtnPreview" type="button" class="btn">Preview Email</button>
+      <button id="udyamMailBtnSend" type="button" class="btn primary">Send Email</button>
+      <div class="status" id="udyamMailStatus" style="margin-left:10px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Preview modal -->
+<dialog id="udyamMailPreviewModal" style="width: 820px; max-width: 95vw;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+    <h3 style="margin:0;">Email Preview — Udyam Certificate</h3>
+    <button id="udyamMailPreviewClose" class="btn">Close</button>
+  </div>
+  <div id="udyamMailPreviewBody" style="border:1px solid #eee; padding:12px; height:60vh; overflow:auto; background:#fff;"></div>
+  <div style="display:flex; justify-content:flex-end; margin-top:12px;">
+    <button id="udyamMailPreviewSend" class="btn primary">Send Now</button>
+  </div>
+</dialog>
+
+
+<!-- 7) Process — Commencement of Business (INC-20A Mail) -->
+<div class="card" id="commencementCard">
+  <h2>7) Process — Commencement of Business (INC-20A Mail)</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX as ADT-1 ACK) -->
+    <div class="row two">
+      <div>
+        <label for="commencementCompanySearch">Search Company</label>
+        <input id="commencementCompanySearch" type="text"
+               placeholder="Start typing company name…"
+               list="commencementCompanySuggestions"
+               autocomplete="off" />
+        <datalist id="commencementCompanySuggestions"></datalist>
+        <div class="status">
+          <small id="commencementSearchHint" class="dim">
+            Type at least 2 characters to see suggestions.
+          </small>
+        </div>
+      </div>
+      <div>
+        <label for="commencementCompanies">Companies</label>
+        <select id="commencementCompanies"></select>
+        <div class="status">
+          <small id="commencementCountHint" class="dim"></small>
+        </div>
+        <div class="chips">
+          <span class="chip">Company: <span id="commencementCompanyChip">—</span></span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <button class="btn secondary" id="commencementPreviewBtn" type="button">
+        Preview Commencement Mail
+      </button>
+      <button class="btn primary" id="commencementSendBtn" type="button">
+        Send Commencement Mail
+      </button>
+    </div>
+
+    <div class="status" id="commencementMsg"></div>
+  </div>
+</div>
+
+
+<!-- 8) Process — Share Certificate Issuance (Form SH-1) -->
+<div class="card" id="shareCertCard">
+  <h2>8) Process — Share Certificate Issuance (Form SH-1)</h2>
+  <div class="section">
+
+    <!-- Company chooser (same UX pattern) -->
+    <div class="row two">
+      <div>
+        <label for="shareCertCompanySearch">Search Company</label>
+        <input id="shareCertCompanySearch"
+               type="text"
+               placeholder="Start typing company name…"
+               list="shareCertCompanySuggestions"
+               autocomplete="off" />
+        <datalist id="shareCertCompanySuggestions"></datalist>
+        <div class="status">
+          <small id="shareCertSearchHint" class="dim">
+            Type at least 2 characters to see suggestions.
+          </small>
+        </div>
+      </div>
+
+      <div>
+        <label for="shareCertCompanies">Companies</label>
+        <select id="shareCertCompanies"></select>
+        <div class="status">
+          <small id="shareCertCountHint" class="dim"></small>
+        </div>
+      </div>
+    </div>
+
+    <hr class="div" />
+
+    <!-- Common fields -->
+    <div class="row two">
+      <div>
+        <label for="shareCertDate">Date of Issue</label>
+        <input id="shareCertDate" type="date" />
+      </div>
+      <div>
+        <label for="shareCertPlace">Place</label>
+        <input id="shareCertPlace" type="text" placeholder="e.g. Navi Mumbai" />
+      </div>
+    </div>
+
+    <div class="row two" style="margin-top:8px;">
+      <div>
+        <button class="btn secondary" id="shareCertLoadDirectorsBtn" type="button">
+          Load Directors (for dropdown)
+        </button>
+        <div class="status">
+          <small id="shareCertDirectorsHint" class="dim"></small>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <hr class="div" />
+
+    <!-- Certificates table -->
+<div class="table-wrapper">
+  <table id="shareCertTable">
+    <thead>
+      <tr>
+        <th style="width:70px;">Cert No.</th>
+        <th style="width:70px;">Folio</th>
+        <th style="min-width:160px;">Holder Name</th>
+        <th style="min-width:150px;">Director (optional)</th>
+        <th style="width:90px;">No. of Shares</th>
+        <th style="width:100px;">From</th>
+        <th style="width:100px;">To</th>
+        <th style="width:80px;">Face</th>
+        <th style="width:90px;">Paid-up</th>
+        <th style="width:120px;">Share Type</th>
+        <th style="width:40px;"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- rows will be added by JS -->
+    </tbody>
+  </table>
+</div>
+
+
+    <div class="row two" style="margin-top:12px;">
+      <div>
+        <button class="btn secondary" id="shareCertAddRowBtn" type="button">
+          + Add Row
+        </button>
+      </div>
+      <div style="text-align:right;">
+        <button class="btn primary" id="shareCertGenerateBtn" type="button">
+          Generate Share Certificates
+        </button>
+      </div>
+    </div>
+
+    <div class="status" id="shareCertStatus"></div>
+  </div>
+</div>
+<!-- 9) Process — Share Certificate Issuance Mail -->
+<div class="card" id="shareCertMailCard">
+  <h2>9) Process — Share Certificate Issuance Mail</h2>
+  <div class="section">
+
+    <div class="row two">
+      <div>
+        <label for="shareCertMailCompanySearch">Search Company</label>
+        <input id="shareCertMailCompanySearch"
+               type="text"
+               placeholder="Start typing company name…"
+               list="shareCertMailCompanySuggestions"
+               autocomplete="off" />
+        <datalist id="shareCertMailCompanySuggestions"></datalist>
+        <div class="status">
+          <small id="shareCertMailSearchHint" class="dim">
+            Type at least 2 characters to see suggestions.
+          </small>
+        </div>
+      </div>
+
+      <div>
+        <label for="shareCertMailCompanies">Companies</label>
+        <select id="shareCertMailCompanies"></select>
+        <div class="status">
+          <small id="shareCertMailCountHint" class="dim"></small>
+        </div>
+      </div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <div>
+        <label for="shareCertMailMeetingDate">Board Meeting / Issue Date</label>
+        <input id="shareCertMailMeetingDate" type="date" />
+        <div class="status">
+          <small class="dim">Used in the BR for share certificate issuance.</small>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <hr class="div"/>
+
+    <div class="row two">
+      <button class="btn secondary" id="shareCertMailPreviewBtn" type="button">
+        Preview Share Certificate Mail
+      </button>
+      <button class="btn primary" id="shareCertMailSendBtn" type="button">
+        Send Share Certificate Mail
+      </button>
+    </div>
+
+    <div class="status" id="shareCertMailStatus"></div>
+  </div>
+</div>
+
+<!-- Optional preview modal (like Udyam preview). Falls back to new tab if dialog unsupported. -->
+<dialog id="shareCertMailPreviewModal">
+  <form method="dialog" class="modal">
+    <header class="modal-header">
+      <h3>Preview — Share Certificate Issuance Mail</h3>
+    </header>
+    <section class="modal-body" id="shareCertMailPreviewBody"
+             style="max-height:60vh; overflow:auto; background:#fff; color:#000;">
+    </section>
+    <footer class="modal-actions" style="margin-top:12px; text-align:right;">
+      <button type="button" id="shareCertMailPreviewSend" class="btn primary">
+        Send Mail
+      </button>
+      <button type="submit" id="shareCertMailPreviewClose" class="btn secondary">
+        Close
+      </button>
+    </footer>
+  </form>
+</dialog>
+
+
+<script>
+  
+(function ShareCertMailProcess(){
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    card:   $('shareCertMailCard'),
+    search: $('shareCertMailCompanySearch'),
+    list:   $('shareCertMailCompanies'),
+    dl:     $('shareCertMailCompanySuggestions'),
+    hint:   $('shareCertMailSearchHint'),
+    count:  $('shareCertMailCountHint'),
+    date:   $('shareCertMailMeetingDate'),
+    previewBtn: $('shareCertMailPreviewBtn'),
+    sendBtn:    $('shareCertMailSendBtn'),
+    status:     $('shareCertMailStatus'),
+    dlg:        $('shareCertMailPreviewModal'),
+    dlgBody:    $('shareCertMailPreviewBody'),
+    dlgSend:    $('shareCertMailPreviewSend'),
+    dlgClose:   $('shareCertMailPreviewClose'),
+  };
+
+  if (!els.card) return; // safety
+
+  const apiPreview = '/api/mail/preview/share-cert-issue';
+  const apiSend    = '/api/mail/send/share-cert-issue';
+
+  function company(){
+    return els.list.value || els.search.value || '';
+  }
+
+  function setStatus(msg, kind){
+    if (!els.status) return;
+    els.status.className = 'status' + (
+      kind === 'ok'   ? ' success' :
+      kind === 'err'  ? ' error'   :
+      ''
+    );
+    els.status.textContent = msg || '';
+  }
+
+  async function getCompanies(){
+    // reuse global cache if already loaded by other cards
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length){
+      return window.ALL_COMPANIES;
+    }
+    const res = await fetch('/api/companies');
+    if (!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populateCompanies(list){
+    els.list.innerHTML = '';
+    (list || []).forEach(name=>{
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      els.list.appendChild(o);
+    });
+    if (list.length){
+      els.list.value = list[0];
+      els.search.value = list[0];
+      els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    }else{
+      els.count.textContent = 'No companies';
+    }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML = '';
+    (list || []).slice(0, 60).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n;
+      els.dl.appendChild(o);
+    });
+    els.hint.textContent = (list && list.length)
+      ? `Suggestions: ${Math.min(60, list.length)} shown`
+      : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (!els.search || els.search._wired) return;
+    els.search._wired = true;
+    let timer;
+    function filter(q){
+      if (!q || q.trim().length < 2){
+        refreshDatalist([]);
+        return [];
+      }
+      q = q.toLowerCase();
+      const m = all.filter(n=>n.toLowerCase().includes(q))
+                   .sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m);
+      return m;
+    }
+    els.search.addEventListener('input', (e)=>{
+      clearTimeout(timer);
+      const q = e.target.value;
+      timer = setTimeout(()=>{ filter(q); }, 180);
+    });
+    els.search.addEventListener('change', (e)=>{
+      const v = (e.target.value || '').trim();
+      if (!v) return;
+      els.list.value = v;
+    });
+  }
+
+  function payload(){
+    return {
+      company_key: company(),
+      meeting_date: els.date && els.date.value ? els.date.value : null,
+    };
+  }
+
+  async function doPreview(){
+    if (!company()){
+      setStatus('Please select a company.', 'err');
+      return;
+    }
+    try{
+      setStatus('Preparing preview…');
+      const res = await fetch(apiPreview, {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify(payload()),
+      });
+      const data = await res.json().catch(()=> ({}));
+      if (!res.ok) throw new Error(data.detail || 'Preview failed');
+
+      const html = data.html || '(empty)';
+      if (els.dlg && typeof els.dlg.showModal === 'function'){
+        els.dlgBody.innerHTML = html;
+        els.dlg.showModal();
+      }else{
+        const w = window.open('', '_blank');
+        w.document.write(html);
+        w.document.close();
+      }
+      setStatus(`Preview ready for ${data.company || company()}`, 'ok');
+    }catch(e){
+      console.error('[shareCertMail] preview error', e);
+      setStatus(e.message || 'Failed to prepare preview', 'err');
+    }
+  }
+
+  async function doSend(fromPreview){
+    if (!company()){
+      setStatus('Please select a company.', 'err');
+      return;
+    }
+    try{
+      setStatus('Sending share certificate mail…');
+      els.sendBtn.disabled = true;
+      if (els.dlgSend) els.dlgSend.disabled = true;
+
+      const res = await fetch(apiSend, {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify(payload()),
+      });
+      const data = await res.json().catch(()=> ({}));
+      if (!res.ok) throw new Error(data.detail || 'Send failed');
+
+      setStatus(
+        `Mail sent to ${data.to || 'client'} with ${data.attached ? data.attached.length : 'all'} attachment(s).`,
+        'ok'
+      );
+      if (fromPreview && els.dlg && els.dlg.open) els.dlg.close();
+    }catch(e){
+      console.error('[shareCertMail] send error', e);
+      setStatus(e.message || 'Failed to send mail', 'err');
+    }finally{
+      els.sendBtn.disabled = false;
+      if (els.dlgSend) els.dlgSend.disabled = false;
+    }
+  }
+
+  // init
+  (async function init(){
+    try{
+      if (els.count) els.count.textContent = 'Loading companies…';
+      const list = await getCompanies();
+      populateCompanies(list);
+      wireSearch(list);
+      refreshDatalist(list);
+      setStatus('', '');
+    }catch(e){
+      console.error('[shareCertMail] init error', e);
+      if (els.count) els.count.textContent = 'Failed to load companies';
+      setStatus('Failed to load companies', 'err');
+    }
+  })();
+
+  // events
+  els.previewBtn && els.previewBtn.addEventListener('click', ()=> doPreview());
+  els.sendBtn    && els.sendBtn.addEventListener('click',   ()=> doSend(false));
+  els.dlgSend    && els.dlgSend.addEventListener('click',   ()=> doSend(true));
+  els.dlgClose   && els.dlgClose.addEventListener('click',  ()=> {
+    if (els.dlg && els.dlg.open) els.dlg.close();
+  });
+})();
+
+
+(function ShareCertProcess(){
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    card:     $('shareCertCard'),
+    search:   $('shareCertCompanySearch'),
+    list:     $('shareCertCompanies'),
+    dl:       $('shareCertCompanySuggestions'),
+    count:    $('shareCertCountHint'),
+    hint:     $('shareCertSearchHint'),
+    date:     $('shareCertDate'),
+    place:    $('shareCertPlace'),
+    loadDirs: $('shareCertLoadDirectorsBtn'),
+    dirsHint: $('shareCertDirectorsHint'),
+    table:    $('shareCertTable'),
+    tbody:    $('shareCertTable') ? $('shareCertTable').querySelector('tbody') : null,
+    addRow:   $('shareCertAddRowBtn'),
+    gen:      $('shareCertGenerateBtn'),
+    status:   $('shareCertStatus'),
+  };
+  if (!els.card) return;
+
+  let DIRECTORS = [];
+  const apiDirectors = '/api/share-cert/directors';
+  const apiGenerate  = '/api/share-cert/generate';
+
+  // ---------- helpers ----------
+  function company(){
+    return els.list.value || els.search.value || '';
+  }
+
+  function setStatus(msg, kind){
+    if (!els.status) return;
+    els.status.className = 'status' + (
+      kind === 'ok'   ? ' success' :
+      kind === 'err'  ? ' error'   :
+      ''
+    );
+    els.status.textContent = msg || '';
+  }
+
+  async function getCompanies(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length){
+      return window.ALL_COMPANIES;
+    }
+    const res = await fetch('/api/companies');
+    if (!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populateCompanies(list){
+    els.list.innerHTML = '';
+    (list || []).forEach(name=>{
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      els.list.appendChild(o);
+    });
+    if (list.length){
+      els.list.value = list[0];
+      els.search.value = list[0];
+      els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    }else{
+      els.count.textContent = 'No companies';
+    }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML = '';
+    (list || []).slice(0, 60).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n;
+      els.dl.appendChild(o);
+    });
+    els.hint.textContent = (list && list.length)
+      ? `Suggestions: ${Math.min(60, list.length)} shown`
+      : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (!els.search || els.search._wired) return;
+    els.search._wired = true;
+    let t;
+    function filter(q){
+      if (!q || q.trim().length < 2){
+        refreshDatalist([]);
+        return [];
+      }
+      q = q.toLowerCase();
+      const m = all.filter(n=>n.toLowerCase().includes(q))
+                   .sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m);
+      return m;
+    }
+    els.search.addEventListener('input', (e)=>{
+      clearTimeout(t);
+      const q = e.target.value;
+      t = setTimeout(()=>{ filter(q); }, 180);
+    });
+    els.search.addEventListener('change', (e)=>{
+      const v = (e.target.value || '').trim();
+      if (!v) return;
+      els.list.value = v;
+    });
+  }
+
+  // ---------- directors & rows ----------
+
+  function buildDirectorSelect(){
+    const sel = document.createElement('select');
+    sel.className = 'shareCertDirectorSelect';
+    const empty = document.createElement('option');
+    empty.value = '';
+    empty.textContent = '— Select Director —';
+    sel.appendChild(empty);
+
+    DIRECTORS.forEach((d, idx)=>{
+      const opt = document.createElement('option');
+      opt.value = String(idx);
+      const labelParts = [];
+      if (d.name) labelParts.push(d.name);
+      if (d.din)  labelParts.push(`DIN: ${d.din}`);
+      opt.textContent = labelParts.join(' — ') || `Director ${idx+1}`;
+      sel.appendChild(opt);
+    });
+
+    return sel;
+  }
+
+  function wireDirectorSelect(sel, tr){
+    if (!sel || !tr) return;
+    sel.addEventListener('change', (e)=>{
+      const idxStr = e.target.value;
+      if (!idxStr) return;
+      const idx = Number(idxStr);
+      const d = DIRECTORS[idx];
+      const holderInput = tr.querySelector('.sc-holder');
+      if (d && holderInput && !holderInput.value.trim()){
+        holderInput.value = d.name || '';
+      }
+    });
+  }
+
+  function addRow(preset){
+    if (!els.tbody) return;
+    const tr = document.createElement('tr');
+
+    tr.innerHTML = `
+      <td><input type="text"   class="sc-cert-no" style="width:70px; text-align:center;" placeholder="1" /></td>
+      <td><input type="text"   class="sc-folio-no" style="width:70px; text-align:center;" placeholder="F-1" /></td>
+      <td><input type="text"   class="sc-holder" style="min-width:160px;" placeholder="Holder name" /></td>
+      <td class="sc-director-cell"></td>
+      <td><input type="number" class="sc-shares" style="width:80px; text-align:right;" /></td>
+      <td><input type="number" class="sc-from"   style="width:90px; text-align:right;" /></td>
+      <td><input type="number" class="sc-to"     style="width:90px; text-align:right;" /></td>
+      <td><input type="number" class="sc-face"   style="width:80px; text-align:right;" /></td>
+      <td><input type="number" class="sc-paid"   style="width:80px; text-align:right;" /></td>
+      <td><input type="text"   class="sc-type"   style="width:120px;" /></td>
+      <td><button type="button" class="mini danger sc-del">×</button></td>
+    `;
+
+    // Director dropdown
+    const dirCell = tr.querySelector('.sc-director-cell');
+    const sel = buildDirectorSelect();
+    dirCell.appendChild(sel);
+    wireDirectorSelect(sel, tr);
+
+    // Delete row
+    tr.querySelector('.sc-del').addEventListener('click', ()=> tr.remove());
+
+    // Presets / defaults
+    if (preset){
+      if (preset.certificate_no) tr.querySelector('.sc-cert-no').value = preset.certificate_no;
+      if (preset.folio_no)      tr.querySelector('.sc-folio-no').value = preset.folio_no;
+      if (preset.shareholder_name) tr.querySelector('.sc-holder').value = preset.shareholder_name;
+      if (preset.no_of_shares)  tr.querySelector('.sc-shares').value = preset.no_of_shares;
+      if (preset.distinctive_from) tr.querySelector('.sc-from').value = preset.distinctive_from;
+      if (preset.distinctive_to)   tr.querySelector('.sc-to').value   = preset.distinctive_to;
+      if (preset.face_value)    tr.querySelector('.sc-face').value = preset.face_value;
+      if (preset.paid_up_per_share) tr.querySelector('.sc-paid').value = preset.paid_up_per_share;
+      if (preset.share_type)    tr.querySelector('.sc-type').value = preset.share_type;
+    } else {
+      const typeInput = tr.querySelector('.sc-type');
+      if (typeInput && !typeInput.value) typeInput.value = 'Equity Shares';
+    }
+
+    els.tbody.appendChild(tr);
+  }
+
+  async function loadDirectors(){
+    if (!company()){
+      setStatus('Please select a company first.', 'err');
+      return;
+    }
+    try{
+      setStatus('Loading directors…');
+      els.dirsHint.textContent = '';
+      const url = `${apiDirectors}?company_key=${encodeURIComponent(company())}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.detail || 'Failed to load directors');
+
+      DIRECTORS = Array.isArray(data.directors) ? data.directors : [];
+      els.dirsHint.textContent = DIRECTORS.length
+        ? `Loaded ${DIRECTORS.length} director(s) for dropdown.`
+        : 'No directors found in master.';
+      setStatus('Directors loaded.', 'ok');
+
+      // Rebuild director selects in existing rows with fresh list + event
+      if (els.tbody){
+        els.tbody.querySelectorAll('tr').forEach(tr=>{
+          const cell = tr.querySelector('.sc-director-cell');
+          if (!cell) return;
+          cell.innerHTML = '';
+          const sel = buildDirectorSelect();
+          cell.appendChild(sel);
+          wireDirectorSelect(sel, tr);
+        });
+      }
+    }catch(e){
+      console.error('[SHARE-CERT] loadDirectors error', e);
+      els.dirsHint.textContent = e.message || 'Failed to load directors';
+      setStatus(e.message || 'Failed to load directors', 'err');
+    }
+  }
+
+  // ---------- collect & send ----------
+
+  function collectCertificates(){
+    const rows = Array.from(els.tbody ? els.tbody.querySelectorAll('tr') : []);
+    const dateVal  = els.date && els.date.value ? els.date.value : null;
+    const placeVal = els.place && els.place.value ? els.place.value.trim() : null;
+
+    const certs = [];
+    rows.forEach(tr=>{
+      const get = (sel)=> (tr.querySelector(sel)?.value || '').trim();
+      const cert_no = get('.sc-cert-no');
+      const folio   = get('.sc-folio-no');
+      const holder  = get('.sc-holder');
+      const shares  = get('.sc-shares');
+      if (!cert_no && !folio && !holder && !shares){
+        return; // skip completely empty row
+      }
+      certs.push({
+        certificate_no:   cert_no,
+        folio_no:         folio,
+        shareholder_name: holder,
+        shareholder_address: null,
+        no_of_shares:     shares ? Number(shares) || null : null,
+        share_type:       get('.sc-type') || 'Equity Shares',
+        face_value:       get('.sc-face') ? Number(get('.sc-face')) || null : null,
+        paid_up_per_share:get('.sc-paid') ? Number(get('.sc-paid')) || null : null,
+        distinctive_from: get('.sc-from') ? Number(get('.sc-from')) || null : null,
+        distinctive_to:   get('.sc-to')   ? Number(get('.sc-to'))   || null : null,
+        date_of_issue:    dateVal,
+        place:            placeVal
+      });
+    });
+    return certs;
+  }
+
+  async function doGenerate(){
+    if (!company()){
+      setStatus('Please select a company.', 'err');
+      return;
+    }
+    const certs = collectCertificates();
+    if (!certs.length){
+      setStatus('Add at least one certificate row.', 'err');
+      return;
+    }
+
+    try{
+      setStatus('Generating share certificates…');
+      els.gen.disabled = true;
+
+      const payload = {
+        company_key: company(),
+        certificates: certs
+      };
+
+      const res = await fetch(apiGenerate, {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json().catch(()=> ({}));
+      if (!res.ok) throw new Error(data?.detail || 'Generation failed');
+
+      const count = data.count || (data.items ? data.items.length : certs.length);
+      setStatus(`Generated ${count} share certificate(s) in company folder.`, 'ok');
+    }catch(e){
+      console.error('[SHARE-CERT] generate error', e);
+      setStatus(e.message || 'Failed to generate share certificates', 'err');
+    }finally{
+      els.gen.disabled = false;
+    }
+  }
+
+  // ---------- init ----------
+
+  (async function init(){
+    try{
+      if (els.count) els.count.textContent = 'Loading companies…';
+      const list = await getCompanies();
+      populateCompanies(list);
+      wireSearch(list);
+      refreshDatalist(list);
+      setStatus('', '');
+    }catch(e){
+      console.error('[SHARE-CERT] init error', e);
+      if (els.count) els.count.textContent = 'Failed to load companies';
+      setStatus('Failed to load companies', 'err');
+    }
+
+    // start with 2 compact rows (you had in screenshot)
+    addRow();
+    addRow();
+  })();
+
+  if (els.addRow)   els.addRow.addEventListener('click', ()=> addRow());
+  if (els.loadDirs) els.loadDirs.addEventListener('click', loadDirectors);
+  if (els.gen)      els.gen.addEventListener('click', doGenerate);
+})();
+
+
+
+  /* ===== 7) Process — Commencement of Business (INC-20A Mail) ===== */
+
+(function CommencementMailProcess(){
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    card:    $('commencementCard'),
+    search:  $('commencementCompanySearch'),
+    list:    $('commencementCompanies'),
+    dl:      $('commencementCompanySuggestions'),
+    chip:    $('commencementCompanyChip'),
+    count:   $('commencementCountHint'),
+    hint:    $('commencementSearchHint'),
+    send:    $('commencementSendBtn'),
+    preview: $('commencementPreviewBtn'),
+    msg:     $('commencementMsg')
+  };
+  if (!els.card) return; // safety
+
+  function setStatus(kind, msg){
+    els.msg.className = 'status' + (
+      kind === 'ok'   ? ' success' :
+      kind === 'err'  ? ' error'   :
+      kind === 'busy' ? ''         : ''
+    );
+    els.msg.innerHTML = msg || '';
+  }
+
+  // -------- company loader (smart: /api/admin/company/list/ then /api/companies) --------
+
+  function normalizeCompanyList(payload){
+    if (!payload) return [];
+    // already simple string array
+    if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+
+    if (Array.isArray(payload)) {
+      return payload
+        .map(o =>
+          (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || ''
+        )
+        .filter(Boolean);
+    }
+
+    if (payload.companies || payload.items || payload.results || payload.data) {
+      return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+    }
+
+    if (payload.name || payload.company_name || (payload.company && payload.company.name)) {
+      return [payload.name || payload.company_name || payload.company.name];
+    }
+
+    return [];
+  }
+
+  async function getCompanies(){
+    // Reuse global list if already loaded by other modules
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) {
+      return window.ALL_COMPANIES;
+    }
+
+    const endpoints = ['/api/admin/company/list/','/api/companies'];
+    let lastErr;
+
+    for (const url of endpoints){
+      try {
+        const res = await fetch(url);
+        const raw = await res.text();
+        let data;
+
+        try { data = JSON.parse(raw); }
+        catch {
+          throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`);
+        }
+
+        if (!res.ok){
+          throw new Error(`${url} → ${res.status} ${res.statusText}: ${(data.detail || data.message || '')}`);
+        }
+
+        let list = [...new Set(normalizeCompanyList(data))]
+          .filter(Boolean)
+          .sort((a,b)=>a.localeCompare(b));
+
+        if (list.length){
+          window.ALL_COMPANIES = list;
+          return list;
+        }
+        lastErr = new Error(`${url} returned 0 companies`);
+      } catch(e){
+        lastErr = e;
+        console.warn('[COMMENCEMENT] company loader error:', e);
+      }
+    }
+
+    throw lastErr || new Error('No company endpoints worked');
+  }
+
+  // -------- populate UI --------
+
+  function populate(list){
+    els.list.innerHTML = '';
+    (list || []).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n; o.textContent = n;
+      els.list.appendChild(o);
+    });
+    els.count.textContent = `${list.length} compan${list.length === 1 ? 'y' : 'ies'} found`;
+    if (list.length){
+      els.list.value = list[0];
+      els.chip.textContent = list[0];
+      els.search.value = list[0];
+    } else {
+      els.chip.textContent = '—';
+    }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML = '';
+    (list || []).slice(0, 60).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n;
+      els.dl.appendChild(o);
+    });
+    els.hint.textContent = list && list.length
+      ? `Suggestions: ${Math.min(60, list.length)} shown`
+      : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (!els.search || els.search._wired) return;
+    els.search._wired = true;
+    let timer;
+    function filter(q){
+      if (!q || q.trim().length < 2){
+        refreshDatalist([]);
+        return [];
+      }
+      q = q.toLowerCase();
+      const m = all.filter(n=>n.toLowerCase().includes(q))
+                   .sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m);
+      return m;
+    }
+    els.search.addEventListener('input', (e)=>{
+      clearTimeout(timer);
+      const q = e.target.value;
+      timer = setTimeout(()=>{ filter(q); }, 180);
+    });
+    els.search.addEventListener('change', (e)=>{
+      const v = (e.target.value || '').trim();
+      if (!v) return;
+      els.list.value = v;
+      els.chip.textContent = v;
+    });
+  }
+
+  function wireSelector(){
+    if (!els.list || els.list._wired) return;
+    els.list._wired = true;
+    els.list.addEventListener('change', ()=>{
+      els.chip.textContent = els.list.value || '—';
+      if (els.list.value) els.search.value = els.list.value;
+    });
+  }
+
+  // Init: load companies for this card
+  (async function init(){
+    try{
+      setStatus('busy','Loading companies…');
+      const list = await getCompanies();
+      populate(list);
+      wireSearch(list);
+      wireSelector();
+      setStatus('', '');
+    }catch(e){
+      console.warn('[COMMENCEMENT] company load error', e);
+      setStatus('err', e.message || 'Failed to load companies');
+    }
+  })();
+
+  // -------- Preview commencement mail --------
+
+  els.preview?.addEventListener('click', async ()=>{
+    const company = els.list.value || els.search.value;
+    if (!company){
+      setStatus('err','Please select a company.');
+      return;
+    }
+
+    try{
+      setStatus('busy','Generating preview…');
+      const res = await fetch('/api/mail/preview/commencement-inc20a', {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify({ company_key: company })
+      });
+      const data = await res.json().catch(()=> ({}));
+      if (!res.ok) throw new Error(data?.detail || 'Preview failed');
+
+      const html = data.html || '<p>(Empty preview)</p>';
+      const w = window.open('', '_blank');
+      w.document.write(html);
+      w.document.close();
+      setStatus('ok', 'Preview opened in a new tab.');
+    }catch(e){
+      console.warn('[COMMENCEMENT] preview error', e);
+      setStatus('err', e.message || 'Failed to generate preview');
+    }
+  });
+
+  // -------- Send commencement mail --------
+
+  els.send?.addEventListener('click', async ()=>{
+    const company = els.list.value || els.search.value;
+    if (!company){
+      setStatus('err','Please select a company.');
+      return;
+    }
+
+    try{
+      setStatus('busy','Sending commencement mail…');
+      const res = await fetch('/api/mail/send/commencement-inc20a', {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body: JSON.stringify({ company_key: company })
+      });
+      const data = await res.json().catch(()=> ({}));
+      if (!res.ok) throw new Error(data?.detail || 'Send failed');
+
+      const attached = data.attached || '(board resolution DOCX)';
+      setStatus('ok', `Mail sent successfully. Attached: ${attached}`);
+    }catch(e){
+      console.warn('[COMMENCEMENT] send error', e);
+      setStatus('err', e.message || 'Failed to send mail');
+    }
+  });
+
+})();
+
+(async function udyamMailModule(){
+  const apiCompanies = '/api/admin/company/list/';
+  const apiPreview   = '/api/mail/udyam/preview';
+  const apiSend      = '/api/mail/udyam/send';
+
+  const $ = (id)=>document.getElementById(id);
+  const elSearch   = $('udyamMailCompanySearch');
+  const elDatalist = $('udyamMailCompanySuggestions');
+  const elSelect   = $('udyamMailCompanies');
+  const elCount    = $('udyamMailCountHint');
+  const elName     = $('udyamMailContactName');
+  const elEmail    = $('udyamMailEmail');
+  const elInfo     = $('udyamMailEmailInfo');
+  const elStatus   = $('udyamMailStatus');
+  const btnUse     = $('udyamMailBtnUseMaster');
+  const btnNew     = $('udyamMailBtnNewCustomer');
+  const btnPreview = $('udyamMailBtnPreview');
+  const btnSend    = $('udyamMailBtnSend');
+
+  const dlgPrev  = $('udyamMailPreviewModal');
+  const dlgBody  = $('udyamMailPreviewBody');
+  const dlgClose = $('udyamMailPreviewClose');
+  const dlgSend  = $('udyamMailPreviewSend');
+
+  if (!elSelect || !elSearch) return;
+
+  let companies = [];
+  let useMaster = true;
+
+  const setStatus = (m, ok=false)=>{ elStatus.textContent = m||''; elStatus.style.color = ok ? '#059669' : '#6b7280'; };
+  const validateEmail = (v)=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v||'');
+
+  function normalizeCompanyList(payload){
+    if (!payload) return [];
+    if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+    if (Array.isArray(payload)) {
+      return payload.map(o => (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || '')
+                    .filter(Boolean);
+    }
+    if (payload.companies || payload.items || payload.results || payload.data)
+      return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+    if (payload.name || payload.company_name || (payload.company && payload.company.name))
+      return [payload.name || payload.company_name || payload.company.name];
+    return [];
+  }
+
+  async function loadCompaniesSmart(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+    const endpoints = ['/api/admin/company/list/','/api/companies'];
+    let lastErr;
+    for (const url of endpoints){
+      try{
+        const r = await fetch(url);
+        const raw = await r.text();
+        let data; try { data = JSON.parse(raw); }
+        catch { throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`); }
+        if (!r.ok) throw new Error(`${url} → ${r.status} ${r.statusText}: ${(data.detail||data.message||'')}`);
+        const list = [...new Set(normalizeCompanyList(data))].filter(Boolean).sort((a,b)=>a.localeCompare(b));
+        if (list.length){ window.ALL_COMPANIES = list; return list; }
+        lastErr = new Error(`${url} returned 0 companies`);
+      }catch(e){ lastErr = e; console.warn('[udyam-mail] loader:', e); }
+    }
+    throw lastErr || new Error('No company endpoints worked');
+  }
+
+  function toggleMode(master){
+    useMaster = master;
+    btnUse.classList.toggle('active', master);
+    btnNew.classList.toggle('active', !master);
+    elEmail.disabled = master;
+    elInfo.textContent = master
+      ? 'Master email will be auto-picked from company master.'
+      : 'Enter recipient email for a new customer (not in master).';
+  }
+  function getCompany(){ return elSelect.value || elSearch.value || ''; }
+
+  // init load
+  try{
+    if (elCount) elCount.textContent = 'Loading companies…';
+    companies = await loadCompaniesSmart();
+    elSelect.innerHTML   = companies.map(c => `<option value="${c}">${c}</option>`).join('');
+    elDatalist.innerHTML = companies.slice(0,200).map(c => `<option value="${c}">`).join('');
+    elCount.textContent  = `${companies.length} compan${companies.length===1?'y':'ies'}`;
+    if (companies.length){ elSelect.value = companies[0]; elSearch.value = companies[0]; }
+    setStatus('Companies loaded', true);
+  }catch(e){
+    setStatus((String(e)||'Failed to load companies').replace(/^Error:\s*/,'')); return;
+  }
+
+  // search sync
+  elSearch.addEventListener('input', () => {
+    const v = (elSearch.value||'').trim().toLowerCase();
+    const idx = companies.findIndex(c => c.toLowerCase() === v);
+    if (idx >= 0) elSelect.selectedIndex = idx;
+  });
+
+  // toggles
+  btnUse.addEventListener('click', () => toggleMode(true));
+  btnNew.addEventListener('click', () => toggleMode(false));
+  toggleMode(true);
+
+  // preview
+  btnPreview.addEventListener('click', async () => {
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+    const payload = { company_name: company, contact_name: (elName && elName.value) || null };
+    try{
+      setStatus('Preparing preview…');
+      const r = await fetch(apiPreview, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Preview failed');
+      dlgBody.innerHTML = js.html || '(empty)';
+      if (dlgPrev && dlgPrev.showModal) dlgPrev.showModal();
+      else { const w = window.open('', '_blank'); w.document.write(js.html || '(empty)'); w.document.close(); }
+      setStatus('Preview ready', true);
+    }catch(e){
+      setStatus(String(e));
+    }
+  });
+
+  async function doSend(fromPreview){
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+    let toEmail = null;
+    if (!useMaster){
+      toEmail = (elEmail && elEmail.value || '').trim();
+      if (!validateEmail(toEmail)){ setStatus('Enter a valid email for New customer'); return; }
+    }
+    const payload = {
+      company_name: company,
+      to_email: toEmail || null,
+      contact_name: (elName && elName.value) || null
+    };
+    try{
+      setStatus('Sending…');
+      btnSend.disabled = true; dlgSend.disabled = true;
+      const r = await fetch(apiSend, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Send failed');
+      const sentTo = (js && js.to && (js.to.email || js.to)) || '(recipient)';
+      setStatus(`Sent to ${sentTo}`, true);
+      if (fromPreview && dlgPrev && dlgPrev.open) dlgPrev.close();
+    }catch(e){
+      setStatus(String(e));
+    }finally{
+      btnSend.disabled = false; dlgSend.disabled = false;
+    }
+  }
+
+  btnSend.addEventListener('click', () => doSend(false));
+  dlgSend.addEventListener('click', () => doSend(true));
+  dlgClose.addEventListener('click', () => { if (dlgPrev && dlgPrev.open) dlgPrev.close(); });
+})();
+
+
+(async function udyamMailModule(){
+  const apiCompanies = '/api/admin/company/list/';
+  const apiPreview   = '/api/mail/udyam/preview';
+  const apiSend      = '/api/mail/udyam/send';
+
+  const $ = (id)=>document.getElementById(id);
+  const elSearch   = $('udyamMailCompanySearch');
+  const elDatalist = $('udyamMailCompanySuggestions');
+  const elSelect   = $('udyamMailCompanies');
+  const elCount    = $('udyamMailCountHint');
+  const elName     = $('udyamMailContactName');
+  const elEmail    = $('udyamMailEmail');
+  const elInfo     = $('udyamMailEmailInfo');
+  const elStatus   = $('udyamMailStatus');
+  const btnUse     = $('udyamMailBtnUseMaster');
+  const btnNew     = $('udyamMailBtnNewCustomer');
+  const btnPreview = $('udyamMailBtnPreview');
+  const btnSend    = $('udyamMailBtnSend');
+
+  const dlgPrev  = $('udyamMailPreviewModal');
+  const dlgBody  = $('udyamMailPreviewBody');
+  const dlgClose = $('udyamMailPreviewClose');
+  const dlgSend  = $('udyamMailPreviewSend');
+
+  if (!elSelect || !elSearch) return;
+
+  let companies = [];
+  let useMaster = true;
+
+  const setStatus = (m, ok=false)=>{ elStatus.textContent = m||''; elStatus.style.color = ok ? '#059669' : '#6b7280'; };
+  const validateEmail = (v)=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v||'');
+
+  function normalizeCompanyList(payload){
+    if (!payload) return [];
+    if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+    if (Array.isArray(payload)) {
+      return payload.map(o => (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || '')
+                    .filter(Boolean);
+    }
+    if (payload.companies || payload.items || payload.results || payload.data)
+      return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+    if (payload.name || payload.company_name || (payload.company && payload.company.name))
+      return [payload.name || payload.company_name || payload.company.name];
+    return [];
+  }
+
+  async function loadCompaniesSmart(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+    const endpoints = ['/api/admin/company/list/','/api/companies'];
+    let lastErr;
+    for (const url of endpoints){
+      try{
+        const r = await fetch(url);
+        const raw = await r.text();
+        let data; try { data = JSON.parse(raw); }
+        catch { throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`); }
+        if (!r.ok) throw new Error(`${url} → ${r.status} ${r.statusText}: ${(data.detail||data.message||'')}`);
+        const list = [...new Set(normalizeCompanyList(data))].filter(Boolean).sort((a,b)=>a.localeCompare(b));
+        if (list.length){ window.ALL_COMPANIES = list; return list; }
+        lastErr = new Error(`${url} returned 0 companies`);
+      }catch(e){ lastErr = e; console.warn('[udyam-mail] loader:', e); }
+    }
+    throw lastErr || new Error('No company endpoints worked');
+  }
+
+  function toggleMode(master){
+    useMaster = master;
+    btnUse.classList.toggle('active', master);
+    btnNew.classList.toggle('active', !master);
+    elEmail.disabled = master;
+    elInfo.textContent = master
+      ? 'Master email will be auto-picked from company master.'
+      : 'Enter recipient email for a new customer (not in master).';
+  }
+  function getCompany(){ return elSelect.value || elSearch.value || ''; }
+
+  // init load
+  try{
+    if (elCount) elCount.textContent = 'Loading companies…';
+    companies = await loadCompaniesSmart();
+    elSelect.innerHTML   = companies.map(c => `<option value="${c}">${c}</option>`).join('');
+    elDatalist.innerHTML = companies.slice(0,200).map(c => `<option value="${c}">`).join('');
+    elCount.textContent  = `${companies.length} compan${companies.length===1?'y':'ies'}`;
+    if (companies.length){ elSelect.value = companies[0]; elSearch.value = companies[0]; }
+    setStatus('Companies loaded', true);
+  }catch(e){
+    setStatus((String(e)||'Failed to load companies').replace(/^Error:\s*/,'')); return;
+  }
+
+  // search sync
+  elSearch.addEventListener('input', () => {
+    const v = (elSearch.value||'').trim().toLowerCase();
+    const idx = companies.findIndex(c => c.toLowerCase() === v);
+    if (idx >= 0) elSelect.selectedIndex = idx;
+  });
+
+  // toggles
+  btnUse.addEventListener('click', () => toggleMode(true));
+  btnNew.addEventListener('click', () => toggleMode(false));
+  toggleMode(true);
+
+  // preview
+  btnPreview.addEventListener('click', async () => {
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+    const payload = { company_name: company, contact_name: (elName && elName.value) || null };
+    try{
+      setStatus('Preparing preview…');
+      const r = await fetch(apiPreview, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Preview failed');
+      dlgBody.innerHTML = js.html || '(empty)';
+      if (dlgPrev && dlgPrev.showModal) dlgPrev.showModal();
+      else { const w = window.open('', '_blank'); w.document.write(js.html || '(empty)'); w.document.close(); }
+      setStatus('Preview ready', true);
+    }catch(e){
+      setStatus(String(e));
+    }
+  });
+
+  async function doSend(fromPreview){
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+    let toEmail = null;
+    if (!useMaster){
+      toEmail = (elEmail && elEmail.value || '').trim();
+      if (!validateEmail(toEmail)){ setStatus('Enter a valid email for New customer'); return; }
+    }
+    const payload = {
+      company_name: company,
+      to_email: toEmail || null,
+      contact_name: (elName && elName.value) || null
+    };
+    try{
+      setStatus('Sending…');
+      btnSend.disabled = true; dlgSend.disabled = true;
+      const r = await fetch(apiSend, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Send failed');
+      const sentTo = (js && js.to && (js.to.email || js.to)) || '(recipient)';
+      setStatus(`Sent to ${sentTo}`, true);
+      if (fromPreview && dlgPrev && dlgPrev.open) dlgPrev.close();
+    }catch(e){
+      setStatus(String(e));
+    }finally{
+      btnSend.disabled = false; dlgSend.disabled = false;
+    }
+  }
+
+  btnSend.addEventListener('click', () => doSend(false));
+  dlgSend.addEventListener('click', () => doSend(true));
+  dlgClose.addEventListener('click', () => { if (dlgPrev && dlgPrev.open) dlgPrev.close(); });
+})();
+
+
+
+
+(async function gstSignMailModule(){
+  const apiCompanies = '/api/admin/company/list/';
+  const apiPreview   = '/api/mail/gst-signatory/preview';
+  const apiSend      = '/api/mail/gst-signatory/send';
+
+  // Elements
+  const $ = (id)=>document.getElementById(id);
+  const elSearch   = $('gstSignMailCompanySearch');
+  const elDatalist = $('gstSignMailCompanySuggestions');
+  const elSelect   = $('gstSignMailCompanies');
+  const elCount    = $('gstSignMailCountHint');
+  const elName     = $('gstSignMailContactName');
+  const elEmail    = $('gstSignMailEmail');
+  const elInfo     = $('gstSignMailEmailInfo');
+  const elStatus   = $('gstSignMailStatus');
+  const btnUse     = $('gstSignMailBtnUseMaster');
+  const btnNew     = $('gstSignMailBtnNewCustomer');
+  const btnPreview = $('gstSignMailBtnPreview');
+  const btnSend    = $('gstSignMailBtnSend');
+
+  const dlgPrev  = $('gstSignMailPreviewModal');
+  const dlgBody  = $('gstSignMailPreviewBody');
+  const dlgClose = $('gstSignMailPreviewClose');
+  const dlgSend  = $('gstSignMailPreviewSend');
+
+  if (!elSelect || !elSearch) return;
+
+  let companies = [];
+  let useMaster = true;
+
+  // helpers
+  const log = (...a)=>console.log('[gst-sign-mail]', ...a);
+  const setStatus = (msg, ok=false)=>{ elStatus.textContent = msg || ''; elStatus.style.color = ok ? '#059669' : '#6b7280'; };
+  const validateEmail = (v)=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v||'');
+
+  function normalizeCompanyList(payload){
+    if (!payload) return [];
+    if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+    if (Array.isArray(payload)) {
+      return payload.map(o => (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || '')
+                    .filter(Boolean);
+    }
+    if (payload.companies || payload.items || payload.results || payload.data)
+      return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+    if (payload.name || payload.company_name || (payload.company && payload.company.name))
+      return [payload.name || payload.company_name || payload.company.name];
+    return [];
+  }
+
+  async function loadCompaniesSmart(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+    const endpoints = ['/api/admin/company/list/','/api/companies'];
+    let lastErr;
+    for (const url of endpoints){
+      try{
+        const r = await fetch(url);
+        const raw = await r.text();
+        let data; try { data = JSON.parse(raw); }
+        catch { throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`); }
+        if (!r.ok) throw new Error(`${url} → ${r.status} ${r.statusText}: ${(data.detail||data.message||'')}`);
+        const list = [...new Set(normalizeCompanyList(data))].filter(Boolean).sort((a,b)=>a.localeCompare(b));
+        if (list.length){ window.ALL_COMPANIES = list; return list; }
+        lastErr = new Error(`${url} returned 0 companies`);
+      }catch(e){ lastErr = e; console.warn('[gst-sign-mail] loader:', e); }
+    }
+    throw lastErr || new Error('No company endpoints worked');
+  }
+
+  function toggleMode(master){
+    useMaster = master;
+    btnUse.classList.toggle('active', master);
+    btnNew.classList.toggle('active', !master);
+    elEmail.disabled = master;
+    elInfo.textContent = master
+      ? 'Master email will be auto-picked from company master.'
+      : 'Enter recipient email for a new customer (not in master).';
+  }
+
+  function getCompany(){ return elSelect.value || elSearch.value || ''; }
+
+  // init – load companies
+  try{
+    if (elCount) elCount.textContent = 'Loading companies…';
+    companies = await loadCompaniesSmart();
+    elSelect.innerHTML   = companies.map(c => `<option value="${c}">${c}</option>`).join('');
+    elDatalist.innerHTML = companies.slice(0,200).map(c => `<option value="${c}">`).join('');
+    elCount.textContent  = `${companies.length} compan${companies.length===1?'y':'ies'}`;
+    // default
+    if (companies.length){ elSelect.value = companies[0]; elSearch.value = companies[0]; }
+    setStatus('Companies loaded', true);
+  }catch(e){
+    setStatus((String(e)||'Failed to load companies').replace(/^Error:\s*/,'')); log(e); return;
+  }
+
+  // search sync
+  elSearch.addEventListener('input', () => {
+    const v = (elSearch.value||'').trim().toLowerCase();
+    const idx = companies.findIndex(c => c.toLowerCase() === v);
+    if (idx >= 0) elSelect.selectedIndex = idx;
+  });
+
+  // toggle
+  btnUse.addEventListener('click', () => toggleMode(true));
+  btnNew.addEventListener('click', () => toggleMode(false));
+  toggleMode(true);
+
+  // preview
+  btnPreview.addEventListener('click', async () => {
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+    const payload = {
+      company_name: company,
+      contact_name: (elName && elName.value) || null
+    };
+    try{
+      setStatus('Preparing preview…');
+      const r = await fetch(apiPreview, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Preview failed');
+      dlgBody.innerHTML = js.html || '(empty)';
+      if (dlgPrev && dlgPrev.showModal) dlgPrev.showModal();
+      else { const w = window.open('', '_blank'); w.document.write(js.html || '(empty)'); w.document.close(); }
+      setStatus('Preview ready', true);
+    }catch(e){
+      setStatus(String(e)); log(e);
+    }
+  });
+
+  // send helper
+  async function doSend(fromPreview){
+    const company = getCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+
+    let toEmail = null;
+    if (!useMaster){
+      toEmail = (elEmail && elEmail.value || '').trim();
+      if (!validateEmail(toEmail)){ setStatus('Enter a valid email for New customer'); return; }
+    }
+    const payload = {
+      company_name: company,
+      to_email: toEmail || null,
+      contact_name: (elName && elName.value) || null
+    };
+
+    try{
+      setStatus('Sending…');
+      btnSend.disabled = true; dlgSend.disabled = true;
+      const r = await fetch(apiSend, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Send failed');
+      const sentTo = (js && js.to && (js.to.email || js.to)) || '(recipient)';
+      setStatus(`Sent to ${sentTo}`, true);
+      if (fromPreview && dlgPrev && dlgPrev.open) dlgPrev.close();
+    }catch(e){
+      setStatus(String(e)); log(e);
+    }finally{
+      btnSend.disabled = false; dlgSend.disabled = false;
+    }
+  }
+
+  // send (main + modal)
+  btnSend.addEventListener('click', () => doSend(false));
+  dlgSend.addEventListener('click', () => doSend(true));
+  dlgClose.addEventListener('click', () => { if (dlgPrev && dlgPrev.open) dlgPrev.close(); });
+})();
+
+
+
+(function(){
+  window.addEventListener('DOMContentLoaded', function(){
+    (async function gstSignatoryModule(){
+      // Endpoints
+      const apiPreview  = '/api/gst/authorized-signatory/preview';
+      const apiGenerate = '/api/gst/authorized-signatory/generate';
+
+      // Elements
+      const $ = (id)=>document.getElementById(id);
+      const elSearch    = $('gstSignCompanySearch');
+      const elDatalist  = $('gstSignCompanySuggestions');
+      const elSelect    = $('gstSignCompanies');
+      const elCount     = $('gstSignCountHint');
+      const elMsg       = $('gstSignMsg');
+      const elStatus    = $('gstSignStatus');
+      const btnLoad     = $('gstSignLoadDirectors');
+      const ulDirectors = $('gstSignDirectors');
+      const boxDirect   = $('gstSignDirectorsBox');
+      const btnPreview  = $('gstSignPreviewBtn');
+      const btnGen      = $('gstSignGenerateBtn');
+      const elDate      = $('gstSignMeetingDate');
+      const elPlace     = $('gstSignMeetingPlace');
+
+      const dlgPrev  = $('gstSignPreviewModal');
+      const dlgBody  = $('gstSignPreviewBody');
+      const dlgClose = $('gstSignPreviewClose');
+      const dlgSend  = $('gstSignPreviewSend');
+
+      if (!elSelect || !elSearch || !ulDirectors) return;
+
+      // Make sure buttons never submit a form
+      [btnLoad, btnPreview, btnGen, dlgClose, dlgSend].forEach(b=>{
+        if (b) b.setAttribute('type','button');
+      });
+
+      let companies = [];
+      let lastMaster = { directors: [] };
+
+      // helpers
+      function log(...a){ console.log('[gst-sign]', ...a); }
+      function setMsg(msg, kind=''){
+        if (!elMsg) return;
+        elMsg.className = 'status' + (kind==='ok'?' success': kind==='err'?' error':'');
+        elMsg.textContent = msg || '';
+      }
+      function setStatus(msg, ok=false){
+        if (!elStatus) return;
+        elStatus.textContent = msg || '';
+        elStatus.style.color = ok ? '#059669' : '#6b7280';
+      }
+      function normalizeCompanyList(payload){
+        if (!payload) return [];
+        if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+        if (Array.isArray(payload)) {
+          return payload.map(o =>
+            (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || ''
+          ).filter(Boolean);
+        }
+        if (payload.companies || payload.items || payload.results || payload.data) {
+          return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+        }
+        if (payload.name || payload.company_name || (payload.company && payload.company.name)) {
+          return [payload.name || payload.company_name || payload.company.name];
+        }
+        return [];
+      }
+      async function loadCompaniesSmart(){
+        if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+        const endpoints = ['/api/admin/company/list/','/api/companies'];
+        let lastErr;
+        for (const url of endpoints){
+          try{
+            const r = await fetch(url);
+            const raw = await r.text();
+            let data;
+            try { data = JSON.parse(raw); }
+            catch { throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`); }
+            if (!r.ok) throw new Error(`${url} → ${r.status} ${r.statusText}: ${(data.detail||data.message||'')}`);
+            const list = [...new Set(normalizeCompanyList(data))].filter(Boolean).sort((a,b)=>a.localeCompare(b));
+            if (list.length){ window.ALL_COMPANIES = list; return list; }
+            lastErr = new Error(`${url} returned 0 companies`);
+          }catch(e){ lastErr = e; console.warn('[gst-sign] loader:', e); }
+        }
+        throw lastErr || new Error('No company endpoints worked');
+      }
+
+      function selectedCompany(){
+        return (elSelect && elSelect.value) || (elSearch && elSearch.value) || '';
+      }
+
+      function selectedDirectorIndex(){
+        const r = document.querySelector('#gstSignDirectors input[name="signatory"]:checked');
+        return r ? parseInt(r.value, 10) : -1;
+      }
+
+      function updateActionState(){
+        const hasChoice = selectedDirectorIndex() >= 0;
+        if (btnPreview) btnPreview.disabled = !hasChoice;
+        if (btnGen)     btnGen.disabled     = !hasChoice;
+      }
+
+      function renderDirectors(list){
+        ulDirectors.innerHTML = '';
+        (list || []).forEach((d, i) => {
+          const id = 'dir_' + i;
+          const name = d.name || d.full_name || d.director_name || '';
+          const din  = d.din || d.DIN || d.din_number || '';
+          const email= d.email || d.mail || '';
+          const desig= d.designation || d.role || 'Director';
+          const li = document.createElement('li');
+          li.innerHTML = `
+            <label for="${id}" style="display:flex; gap:10px; align-items:start; border:1px solid #2b2f3a; border-radius:8px; padding:8px;">
+              <input type="radio" name="signatory" id="${id}" value="${i}">
+              <div>
+                <div><strong>${name}</strong> <span class="dim">(${desig})</span></div>
+                <div class="dim" style="font-size:12px;">DIN: ${din || '-' } ${email ? ' · ' + email : ''}</div>
+              </div>
+            </label>
+          `;
+          ulDirectors.appendChild(li);
+        });
+        boxDirect.style.display = list && list.length ? 'block' : 'none';
+
+        // Auto-select first director (toggle this if you don't want auto-select)
+        if (list && list.length){
+          const first = ulDirectors.querySelector('input[name="signatory"]');
+          if (first){ first.checked = true; }
+        }
+        updateActionState();
+      }
+
+      // ----- load companies -----
+      try {
+        if (elCount) elCount.textContent = 'Loading companies…';
+        companies = await loadCompaniesSmart();
+        elSelect.innerHTML   = companies.map(c => `<option value="${c}">${c}</option>`).join('');
+        elDatalist.innerHTML = companies.slice(0,200).map(c => `<option value="${c}">`).join('');
+        elCount.textContent  = `${companies.length} compan${companies.length===1?'y':'ies'}`;
+        setMsg('Companies loaded', 'ok');
+        if (companies.length) {
+          elSelect.value = companies[0];
+          elSearch.value = companies[0];
+        }
+      } catch (e){
+        setMsg((String(e)||'Failed to load companies').replace(/^Error:\s*/,''), 'err');
+        console.error('[gst-sign] load error:', e);
+        return;
+      }
+
+      // search sync
+      elSearch.addEventListener('input', () => {
+        const v = (elSearch.value || '').trim().toLowerCase();
+        const idx = companies.findIndex(c => c.toLowerCase() === v);
+        if (idx >= 0) elSelect.selectedIndex = idx;
+      });
+
+      // master fetch
+      async function loadMaster(name){
+        const url = `/api/company/master?company_name=${encodeURIComponent(name)}`;
+        const r = await fetch(url);
+        const js = await r.json();
+        if (!r.ok) throw new Error(js.detail || 'Failed to fetch master');
+        return js;
+      }
+
+      async function onLoadDirectors(){
+        const company = selectedCompany();
+        if (!company){ setMsg('Select a company first'); return; }
+        try{
+          setMsg('Loading directors…');
+          const master = await loadMaster(company);
+          const directors = (master.directors) || (master.company && master.company.directors) || [];
+          lastMaster = { directors };
+          renderDirectors(directors);
+          setMsg(`${directors.length} director${directors.length===1?'':'s'} loaded`, 'ok');
+        }catch(e){
+          ulDirectors.innerHTML = '';
+          boxDirect.style.display = 'none';
+          lastMaster = { directors: [] };
+          updateActionState();
+          setMsg(e.message || 'Failed to load directors', 'err');
+        }
+      }
+
+      // events
+      if (btnLoad) btnLoad.addEventListener('click', (e)=>{ e.preventDefault(); onLoadDirectors(); });
+      if (elSelect) elSelect.addEventListener('change', () => {
+        boxDirect.style.display='none'; ulDirectors.innerHTML=''; lastMaster={directors:[]}; updateActionState(); setMsg('');
+      });
+
+      // Enable buttons when a radio is chosen (support both change and click)
+      ['change','click','input'].forEach(evt=>{
+        ulDirectors.addEventListener(evt, (e)=>{
+          if (e.target && e.target.name === 'signatory') {
+            updateActionState();
+          } else if (e.target && e.target.closest('label')) {
+            const input = e.target.closest('label').querySelector('input[name="signatory"]');
+            if (input) { input.checked = true; updateActionState(); }
+          }
+        });
+      });
+
+      // preview
+      if (btnPreview) btnPreview.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const company = selectedCompany();
+        if (!company){ setStatus('Select a company first'); return; }
+        const idx = selectedDirectorIndex();
+        if (idx < 0){ setStatus('Select an authorised signatory'); return; }
+        const d = lastMaster.directors[idx] || {};
+        const sign = {
+          name: d.name || d.full_name || d.director_name || '',
+          din:  d.din || d.DIN || d.din_number || '',
+          email: d.email || d.mail || null,
+          designation: d.designation || d.role || 'Director'
+        };
+        const payload = {
+          company_name: company,
+          meeting_date: elDate ? (elDate.value || null) : null,
+          meeting_place: elPlace ? (elPlace.value || null) : null,
+          signatory: sign
+        };
+        try{
+          setStatus('Preparing preview…');
+          const res = await fetch(apiPreview, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+          const js = await res.json();
+          if (!res.ok) throw new Error(js.detail || 'Preview failed');
+          if (dlgBody) dlgBody.innerHTML = js.html || '(empty)';
+          if (dlgPrev && dlgPrev.showModal) dlgPrev.showModal();
+          else { const w = window.open('', '_blank'); w.document.write(js.html || '(empty)'); w.document.close(); }
+          setStatus('Preview ready', true);
+        }catch(err){
+          setStatus(String(err));
+          log(err);
+        }
+      });
+
+      // generate
+      if (btnGen) btnGen.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const company = selectedCompany();
+        if (!company){ setStatus('Select a company first'); return; }
+        const idx = selectedDirectorIndex();
+        if (idx < 0){ setStatus('Select an authorised signatory'); return; }
+        const d = lastMaster.directors[idx] || {};
+        const sign = {
+          name: d.name || d.full_name || d.director_name || '',
+          din:  d.din || d.DIN || d.din_number || '',
+          email: d.email || d.mail || null,
+          designation: d.designation || d.role || 'Director'
+        };
+        const payload = {
+          company_name: company,
+          meeting_date: elDate ? (elDate.value || null) : null,
+          meeting_place: elPlace ? (elPlace.value || null) : null,
+          signatory: sign
+        };
+        try{
+          setStatus('Generating DOCX…');
+          btnGen.disabled = true;
+          const res = await fetch(apiGenerate, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+          const js = await res.json();
+          if (!res.ok) throw new Error(js.detail || 'Generation failed');
+          if (js.download_url){
+            const a = document.createElement('a');
+            a.href = js.download_url; a.target = '_blank'; a.rel='noopener'; a.click();
+          }
+          setStatus('Generated', true);
+        }catch(err){
+          setStatus(String(err));
+          log(err);
+        }finally{
+          btnGen.disabled = false;
+        }
+      });
+
+      // modal controls
+      if (dlgClose) dlgClose.addEventListener('click', (e) => { e.preventDefault(); if (dlgPrev && dlgPrev.open) dlgPrev.close(); });
+      if (dlgSend)  dlgSend.addEventListener('click', (e) => { e.preventDefault(); if (btnGen && !btnGen.disabled) btnGen.click(); });
+
+      // Initial state
+      updateActionState();
+    })();
+  });
+})();
+
+
+
+
+  /* ===== 7) Process — INC 20 A ===== */
+  /* ===== 7) Process — INC 20 A ===== */
+(function INC20AProcess(){
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    // company
+    search: $('inc20aCompanySearch'),
+    list:   $('inc20aCompanies'),
+    dl:     $('inc20aCompanySuggestions'),
+    hint:   $('inc20aSearchHint'),
+    count:  $('inc20aCountHint'),
+
+    // status and actions
+    msg:    $('inc20aMsg'),
+    prevBtn:$('inc20aPreviewBtn'),
+    genBtn: $('inc20aGenerateBtn'),
+
+    // pack preview
+    prevBox:$('inc20aPreviewBox'),
+    prevList:$('inc20aPreviewList'),
+
+    // results
+    resBox: $('inc20aResultBox'),
+    links:  $('inc20aLinks'),
+
+    // moa/bank ingest
+    ingestMoaBtn: $('inc20aIngestMoaBtn'),
+    bankFile: $('inc20aBankFile'),
+    uploadBankBtn: $('inc20aUploadBankBtn'),
+    loadAutoBtn: $('inc20aLoadAutoBtn'),
+
+    // editable panels
+    bankPanel: $('inc20aBankPanel'),
+    subsPanel: $('inc20aSubsPanel'),
+
+    // bank fields
+    bank_acct:   $('bank_acct'),
+    bank_ifsc:   $('bank_ifsc'),
+    bank_name:   $('bank_name'),
+    bank_branch: $('bank_branch'),
+    bank_open:   $('bank_open'),
+
+    // MOA share capital fields
+    moa_total:  $('moa_total'),
+    moa_shares: $('moa_shares'),
+    moa_face:   $('moa_face'),
+
+    // subscribers table
+    subsTable: $('subsTable'),
+    subsTbody: $('subsTable') ? $('subsTable').querySelector('tbody') : null,
+    addRowBtn: $('addSubRowBtn'),
+
+    // authorised signatory (optional panel – safe if not present)
+    signPanel:   $('inc20aSignPanel'),
+    loadDirsBtn: $('inc20aLoadDirectorsBtn'),
+    signSelect:  $('inc20aSignatorySelect'),
+    signHint:    $('inc20aSignHint'),
+    signDin:     $('inc20aSignDin'),
+    signDesig:   $('inc20aSignDesig'),
+  };
+
+  // If this card is not on the page, exit quietly
+  if (!els.search || !els.list) return;
+
+  // ---- helpers ----
+  const pack = ()=> (document.querySelector('input[name="inc20aPack"]:checked')||{}).value || 'opc';
+  const company = ()=> els.list.value || els.search.value || '';
+  const toIN = (x)=> x==null ? '' : String(x).replace(/[^\d]/g,'');
+
+  function setStatus(kind,msg){
+    if (!els.msg) return;
+    els.msg.className = 'status' + (kind==='ok' ? ' success' : kind==='err' ? ' error' : '');
+    els.msg.innerHTML = msg || '';
+  }
+
+  async function getCompanies(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length)
+      return window.ALL_COMPANIES;
+    const res = await fetch('/api/companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populateCompanies(list){
+    els.list.innerHTML = '';
+    (list||[]).forEach(name=>{
+      const o = document.createElement('option');
+      o.value = name;
+      o.textContent = name;
+      els.list.appendChild(o);
+    });
+    if (els.count){
+      els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    }
+    if (list.length){
+      els.list.value = list[0];
+      els.search.value = list[0];
+    }
+  }
+
+  function refreshDL(list){
+    if (!els.dl || !els.hint) return;
+    els.dl.innerHTML = '';
+    (list || []).slice(0, 60).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n;
+      els.dl.appendChild(o);
+    });
+    els.hint.textContent = list && list.length
+      ? `Suggestions: ${Math.min(60, list.length)} shown`
+      : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (!els.search || els.search._wired) return;
+    els.search._wired = true;
+    let t;
+    const filter=(q)=>{
+      if(!q || q.trim().length<2){ refreshDL([]); return []; }
+      q=q.toLowerCase();
+      const m = all.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDL(m);
+      return m;
+    };
+    els.search.addEventListener('input',(e)=>{
+      clearTimeout(t);
+      const q=e.target.value;
+      t=setTimeout(()=>{
+        const m=filter(q);
+        if(m.find(n=>n.toLowerCase()===(q||'').toLowerCase())){
+          els.list.value = q;
+        }
+      }, 180);
+    });
+    els.search.addEventListener('change',(e)=>{
+      const v=(e.target.value||'').trim();
+      if(!v) return;
+      els.list.value=v;
+    });
+  }
+
+  // ===== Autofill editable UI =====
+  function setVal(el,v){ if(el) el.value = (v ?? ''); }
+
+  function clearSubsTable(){
+    if (els.subsTbody) els.subsTbody.innerHTML = '';
+  }
+
+  function addSubRow(row){
+    if (!els.subsTbody) return;
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      `<td><input value="${row.name||''}"/></td>
+       <td style="width:120px"><input value="${toIN(row.equity_shares)||''}"/></td>
+       <td style="width:140px"><input value="${toIN(row.amount)||''}"/></td>
+       <td style="width:140px"><input placeholder="yyyy-mm-dd" value="${row.date||''}"/></td>
+       <td><input value="${row.mode||''}"/></td>
+       <td><input value="${row.ref||''}"/></td>
+       <td><button class="mini danger" type="button">×</button></td>`;
+    tr.querySelector('button').addEventListener('click', ()=> tr.remove());
+    els.subsTbody.appendChild(tr);
+  }
+
+  function renderAutofillUI(data){
+    data = data || {};
+    const moa  = data.moa  || {};
+    const bank = data.bank || {};
+    const subs = Array.isArray(moa.subscribers) ? moa.subscribers : [];
+
+    // Bank block
+    if (els.bankPanel && (Object.keys(bank).length || data.credits)){
+      els.bankPanel.style.display = 'block';
+      setVal(els.bank_acct,   bank.account_no || '');
+      setVal(els.bank_ifsc,   bank.ifsc || '');
+      setVal(els.bank_name,   bank.name || '');
+      setVal(els.bank_branch, bank.branch || '');
+      setVal(els.bank_open,   bank.account_open_date || '');
+    }
+
+    // Subscribers / share capital block
+    const sc = moa.share_capital || {};
+    if (els.subsPanel && (Object.keys(sc).length || subs.length)){
+      els.subsPanel.style.display = 'block';
+      setVal(els.moa_total,  sc.total_amount);
+      setVal(els.moa_shares, sc.no_of_shares);
+      setVal(els.moa_face,   sc.face_value);
+
+      clearSubsTable();
+      subs.forEach(s=>{
+        addSubRow({
+          name: s.name,
+          equity_shares: s.equity_shares,
+          amount: s.amount || (s.equity_shares && sc.face_value ? s.equity_shares*sc.face_value : null),
+          date: s.date || '',
+          mode: s.mode || '',
+          ref:  s.ref  || ''
+        });
+      });
+    }
+  }
+
+  function collectOverrides(){
+    const overrides = {};
+
+    // Bank overrides
+    if (els.bankPanel && els.bankPanel.style.display !== 'none'){
+      overrides.bank = {
+        account_no: (els.bank_acct   && els.bank_acct.value)   || null,
+        ifsc:       (els.bank_ifsc   && els.bank_ifsc.value)   || null,
+        name:       (els.bank_name   && els.bank_name.value)   || null,
+        branch:     (els.bank_branch && els.bank_branch.value) || null,
+        account_open_date: (els.bank_open && els.bank_open.value) || null,
+      };
+    }
+
+    // MOA / subscribers overrides
+    if (els.subsPanel && els.subsPanel.style.display !== 'none'){
+      const sc = {
+        total_amount:  els.moa_total  ? Number(toIN(els.moa_total.value  || '')) || null : null,
+        no_of_shares:  els.moa_shares ? Number(toIN(els.moa_shares.value || '')) || null : null,
+        face_value:    els.moa_face   ? Number(toIN(els.moa_face.value   || '')) || null : null,
+      };
+
+      const subs = [];
+      if (els.subsTbody){
+        Array.from(els.subsTbody.querySelectorAll('tr')).forEach(tr=>{
+          const tds = tr.querySelectorAll('td');
+          if (!tds.length) return;
+          const name  = tds[0].querySelector('input')?.value || '';
+          const eq    = tds[1].querySelector('input')?.value || '';
+          const amt   = tds[2].querySelector('input')?.value || '';
+          const date  = tds[3].querySelector('input')?.value || '';
+          const mode  = tds[4].querySelector('input')?.value || '';
+          const ref   = tds[5].querySelector('input')?.value || '';
+          if (!name && !eq && !amt) return;
+          subs.push({
+            name: name,
+            equity_shares: eq ? Number(toIN(eq)) : null,
+            amount: amt ? Number(toIN(amt)) : null,
+            date, mode, ref
+          });
+        });
+      }
+
+      overrides.moa = {
+        share_capital: sc,
+        subscribers: subs
+      };
+    }
+
+    return overrides;
+  }
+
+  // ===== Authorised Signatory (Director) =====
+  let signatoryList = [];
+
+  function applySignatory(idx){
+    idx = Number(idx);
+    const d = signatoryList[idx];
+    if (!d) return;
+    if (els.signDin){
+      els.signDin.value = d.din || d.DIN || d.din_number || '';
+    }
+    if (els.signDesig && !els.signDesig.value){
+      els.signDesig.value = d.designation || d.role || 'Director';
+    }
+  }
+
+  function renderSignatories(list){
+    signatoryList = list || [];
+    if (!els.signSelect) return;
+
+    els.signSelect.innerHTML = '';
+    if (!signatoryList.length){
+      if (els.signHint) els.signHint.textContent = 'No directors found in master.';
+      return;
+    }
+
+    signatoryList.forEach((d, i)=>{
+      const opt  = document.createElement('option');
+      const name = d.name || d.full_name || d.director_name || `Director ${i+1}`;
+      const din  = d.din || d.DIN || d.din_number || '';
+      opt.value = String(i);
+      opt.textContent = din ? `${name} (DIN: ${din})` : name;
+      els.signSelect.appendChild(opt);
+    });
+
+    if (els.signPanel) els.signPanel.style.display = 'block';
+    if (els.signHint) els.signHint.textContent = `Loaded ${signatoryList.length} director(s).`;
+    applySignatory(0);
+  }
+
+  if (els.loadDirsBtn){
+    els.loadDirsBtn.addEventListener('click', async ()=>{
+      if (!company()) return setStatus('err','Select a company first.');
+      try{
+        if (els.signHint) els.signHint.textContent = 'Loading directors…';
+        const res = await fetch('/api/inc20a/directors?company_name=' + encodeURIComponent(company()));
+        const data = await res.json();
+        if (!res.ok) throw new Error(data?.detail || 'Failed to load directors');
+        renderSignatories(data.directors || []);
+        setStatus('ok', 'Directors loaded from master.');
+      }catch(e){
+        console.error('[INC20A] load directors error', e);
+        if (els.signHint) els.signHint.textContent = e.message || 'Failed to load directors';
+        setStatus('err', e.message || 'Failed to load directors');
+      }
+    });
+  }
+
+  if (els.signSelect){
+    els.signSelect.addEventListener('change', (e)=>{
+      applySignatory(e.target.value || 0);
+    });
+  }
+
+  function attachSignatory(payload){
+    if (!signatoryList.length || !els.signSelect || els.signSelect.value === '') return;
+    const d = signatoryList[Number(els.signSelect.value)] || {};
+    const sign = {
+      name: d.name || d.full_name || d.director_name || '',
+      din:  (els.signDin && els.signDin.value)     || d.din || d.DIN || d.din_number || '',
+      designation: (els.signDesig && els.signDesig.value) || d.designation || d.role || 'Director'
+    };
+    if (sign.name){
+      payload.signatory = sign;
+    }
+  }
+
+  // ===== wiring: MOA & Bank ingest, autofill, preview, generate =====
+
+  // MOA ingest
+  if (els.ingestMoaBtn){
+    els.ingestMoaBtn.addEventListener('click', async ()=>{
+      if(!company()) return setStatus('err','Select a company first.');
+      try{
+        setStatus('', 'Parsing MOA (INC-33)…');
+        const res = await fetch('/api/inc20a/ingest/moa', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ company_name: company() })
+        });
+        const data = await res.json();
+        if(!res.ok) throw new Error(data?.detail || 'MOA ingest failed');
+        setStatus('ok', 'MOA parsed successfully. You can now load auto-fill.');
+      }catch(e){
+        setStatus('err', e.message || 'Failed to ingest MOA');
+      }
+    });
+  }
+
+  // Bank scan upload
+  if (els.uploadBankBtn && els.bankFile){
+    els.uploadBankBtn.addEventListener('click', async ()=>{
+      if(!company()) return setStatus('err','Select a company first.');
+      if(!els.bankFile.files || !els.bankFile.files[0]){
+        return setStatus('err','Choose a bank statement / certificate scan first.');
+      }
+      try{
+        setStatus('', 'Uploading & OCR…');
+        const fd = new FormData();
+        fd.append('company_name', company());
+        fd.append('file', els.bankFile.files[0]);
+        const res = await fetch('/api/inc20a/ingest/bank', { method:'POST', body: fd });
+        const data = await res.json();
+        if(!res.ok) throw new Error(data?.detail || 'Bank OCR failed');
+        setStatus('ok','Bank details parsed. Use "Load Auto-Fill" to review/edit.');
+      }catch(e){
+        setStatus('err', e.message || 'Failed to ingest bank document');
+      }
+    });
+  }
+
+  // Load autofill (merged MOA + Bank)
+  if (els.loadAutoBtn){
+    els.loadAutoBtn.addEventListener('click', async ()=>{
+      if(!company()) return setStatus('err','Select a company first.');
+      try{
+        setStatus('', 'Loading auto-fill…');
+        const res = await fetch('/api/inc20a/autofill?company=' + encodeURIComponent(company()));
+        const data = await res.json();
+        if(!res.ok) throw new Error(data?.detail || 'No data available');
+        renderAutofillUI(data.data || {});
+        setStatus('ok', 'Auto-fill ready. You can edit before generating.');
+      }catch(e){
+        setStatus('err', e.message || 'Failed to load auto-fill data');
+      }
+    });
+  }
+
+  // Subscribers add row
+  if (els.addRowBtn){
+    els.addRowBtn.addEventListener('click', ()=> addSubRow({}));
+  }
+
+  // Preview pack templates
+  if (els.prevBtn){
+    els.prevBtn.addEventListener('click', async ()=>{
+      try{
+        setStatus('', 'Loading templates…');
+        els.prevBox.style.display='none';
+        els.prevList.innerHTML='';
+        const url = `/api/inc20a/templates?pack=${encodeURIComponent(pack())}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        if(!res.ok) throw new Error(data?.detail || 'Failed to load templates');
+        (data.files || []).forEach(f=>{
+          const li=document.createElement('li');
+          li.textContent = f.file;
+          els.prevList.appendChild(li);
+        });
+        els.prevBox.style.display='block';
+        setStatus('ok', 'Templates loaded for preview.');
+      }catch(e){
+        setStatus('err', e.message || 'Failed to load templates');
+      }
+    });
+  }
+
+  // Generate pack
+  if (els.genBtn){
+    els.genBtn.addEventListener('click', async ()=>{
+      if(!company()) return setStatus('err','Select a company.');
+      try{
+        setStatus('', 'Generating…');
+        els.resBox.style.display='none';
+        els.links.innerHTML='';
+
+        const payload = {
+          company_name: company(),
+          pack: pack(),
+          use_autofill: true,
+          render_bank_certificate: true,
+          overrides: collectOverrides()
+        };
+
+        // attach authorised signatory (if any)
+        attachSignatory(payload);
+
+        const res = await fetch('/api/inc20a/generate', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if(!res.ok) throw new Error(data?.detail || 'Generation failed');
+
+        (data.items||[]).forEach(it=>{
+          const li = document.createElement('li');
+          const fname = (it.output_docx || '').split(/[\\/]/).pop();
+          const a = document.createElement('a');
+          a.href = it.download_url || '#';
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.textContent = fname || it.template || 'Download';
+          li.appendChild(a);
+          els.links.appendChild(li);
+        });
+        els.resBox.style.display='block';
+        setStatus('ok', `Created ${data.count||0} file(s) in the company folder.`);
+      }catch(e){
+        setStatus('err', e.message || 'Failed to generate files');
+      }
+    });
+  }
+
+  // init: load companies
+  (async ()=>{
+    try{
+      if (els.count) els.count.textContent='Loading companies…';
+      const all = await getCompanies();
+      populateCompanies(all);
+      wireSearch(all);
+      refreshDL(all);
+    }catch(e){
+      if (els.count) els.count.textContent='Failed to load companies';
+    }
+  })();
+})();
+
+
+
+/* ===== 7) Process — GST Initiation ===== */
+
+(async function gstInitModule(){
+  const apiCompanies = '/api/admin/company/list/';     // preferred endpoint
+  const apiPreview   = '/api/mail/gst-init/preview';
+  const apiSend      = '/api/mail/gst-init/send';
+
+  // Elements
+  const $ = (id)=>document.getElementById(id);
+  const elSearch   = $('gstCompanySearch');
+  const elDatalist = $('gstCompanySuggestions');
+  const elSelect   = $('gstCompanies');
+  const elCount    = $('gstCountHint');
+  const elEmail    = $('gstEmail');
+  const elInfo     = $('gstEmailInfo');
+  const elName     = $('gstContactName');
+  const elStatus   = $('gstStatus');
+  const btnUse     = $('gstBtnUseMaster');
+  const btnNew     = $('gstBtnNewCustomer');
+  const btnPreview = $('gstBtnPreview');
+  const btnSend    = $('gstBtnSend');
+
+  // Preview modal (optional)
+  const dlgPreview = $('gstPreviewModal');
+  const dlgBody    = $('gstPreviewBody');
+  const dlgClose   = $('gstPreviewClose');
+  const dlgSend    = $('gstPreviewSend');
+
+  // If card not on page, exit quietly
+  if (!elSelect || !elSearch) return;
+
+  // --- state ---
+  const NEW_CUSTOMER_VALUE = 'NULL';
+  let companies = [];
+  let useMaster = true;
+
+  // ---- helpers ----
+  function log(msg){ console.log('[gst-init]', msg); }
+  function setStatus(msg, ok=false){
+    if (!elStatus) return;
+    elStatus.textContent = msg || '';
+    elStatus.style.color = ok ? '#059669' : '#6b7280';
+  }
+  function validateEmail(v){ return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v || ''); }
+
+  function setCompany(value){
+    if (elSelect) elSelect.value = value || '';
+    if (elSearch) elSearch.value = value || '';
+  }
+  function ensureNullOption(){
+    if (!elSelect || !elDatalist) return;
+    if (![...elSelect.options].some(o => o.value === NEW_CUSTOMER_VALUE)) {
+      const opt = document.createElement('option');
+      opt.value = NEW_CUSTOMER_VALUE;
+      opt.textContent = NEW_CUSTOMER_VALUE;
+      elSelect.prepend(opt);
+    }
+    if (![...elDatalist.children].some(o => o.value === NEW_CUSTOMER_VALUE)) {
+      const opt2 = document.createElement('option');
+      opt2.value = NEW_CUSTOMER_VALUE;
+      elDatalist.prepend(opt2);
+    }
+  }
+
+  function toggleMode(master){
+    useMaster = master;
+    if (btnUse) btnUse.classList.toggle('active', master);
+    if (btnNew) btnNew.classList.toggle('active', !master);
+    if (elEmail) elEmail.disabled = master;
+    if (elInfo) elInfo.textContent = master
+      ? 'Master email will be auto-picked from company master.'
+      : 'Enter recipient email for a new customer (not in master).';
+
+    if (!master) {
+      // NEW CUSTOMER: lock pickers and set "NULL"
+      ensureNullOption();
+      setCompany(NEW_CUSTOMER_VALUE);
+      if (elSelect) elSelect.disabled = true;
+      if (elSearch) elSearch.disabled = true;
+      setStatus('New customer mode: please enter recipient email');
+    } else {
+      // MASTER: re-enable pickers and restore a valid company
+      if (elSelect) elSelect.disabled = false;
+      if (elSearch) elSearch.disabled = false;
+
+      // If currently at NULL, switch to first company (if any)
+      const current = elSelect && elSelect.value;
+      if (current === NEW_CUSTOMER_VALUE && companies.length){
+        setCompany(companies[0]);
+      } else {
+        // keep current selection but sync search
+        if (elSearch && elSelect) elSearch.value = elSelect.value || '';
+      }
+      setStatus('Companies loaded', true);
+    }
+  }
+
+  function getSelectedCompany(){
+    return useMaster
+      ? ((elSelect && elSelect.value) || (elSearch && elSearch.value) || '')
+      : NEW_CUSTOMER_VALUE;
+  }
+
+  // ---- company loading (smart) ----
+  function normalizeCompanyList(payload){
+    if (!payload) return [];
+    if (Array.isArray(payload) && payload.every(x => typeof x === 'string')) return payload;
+    if (Array.isArray(payload)) {
+      return payload.map(o =>
+        (o && (o.company_name || o.name || o.title || o.company || (o.company && o.company.name))) || ''
+      ).filter(Boolean);
+    }
+    if (payload.companies || payload.items || payload.results || payload.data) {
+      return normalizeCompanyList(payload.companies || payload.items || payload.results || payload.data);
+    }
+    if (payload.name || payload.company_name || (payload.company && payload.company.name)) {
+      return [payload.name || payload.company_name || payload.company.name];
+    }
+    return [];
+  }
+
+  async function loadCompaniesSmart(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+    const endpoints = [
+      '/api/admin/company/list/',
+      '/api/companies'
+    ];
+    let lastErr;
+    for (const url of endpoints){
+      try{
+        const r = await fetch(url);
+        const raw = await r.text();
+        let data;
+        try { data = JSON.parse(raw); }
+        catch { throw new Error(`${url} → invalid JSON: ${raw.slice(0,120)}…`); }
+
+        if (!r.ok) throw new Error(`${url} → ${r.status} ${r.statusText}: ${(data.detail||data.message||'')}`);
+
+        const list = [...new Set(normalizeCompanyList(data))].filter(Boolean).sort((a,b)=>a.localeCompare(b));
+        if (list.length){
+          window.ALL_COMPANIES = list;
+          return list;
+        }
+        lastErr = new Error(`${url} returned 0 companies`);
+      }catch(e){ lastErr = e; console.warn('[gst-init] loader:', e); }
+    }
+    throw lastErr || new Error('No company endpoints worked');
+  }
+
+  try {
+    if (elCount) elCount.textContent = 'Loading companies…';
+    const list = await loadCompaniesSmart();
+    companies = list;
+
+    // Populate UI
+    elSelect.innerHTML   = companies.map(c => `<option value="${c}">${c}</option>`).join('');
+    elDatalist.innerHTML = companies.slice(0, 200).map(c => `<option value="${c}">`).join('');
+    elCount.textContent  = `${companies.length} compan${companies.length===1?'y':'ies'}`;
+
+    // Default selection = first company
+    if (companies.length) setCompany(companies[0]);
+    setStatus('Companies loaded', true);
+  } catch (e){
+    setStatus(String(e).replace(/^Error:\s*/,''));  // surface exact reason
+    console.error('[gst-init] load error:', e);
+    return;
+  }
+
+  // ---- search sync ----
+  if (elSearch) {
+    elSearch.addEventListener('input', () => {
+      const v = (elSearch.value || '').trim().toLowerCase();
+      const idx = companies.findIndex(c => c.toLowerCase() === v);
+      if (idx >= 0) elSelect.selectedIndex = idx;
+    });
+    elSearch.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter'){
+        const q = (elSearch.value || '').trim().toLowerCase();
+        const exact = companies.find(c => c.toLowerCase() === q);
+        if (exact){ elSelect.value = exact; elSearch.value = exact; }
+      }
+    });
+  }
+
+  // ---- initial mode ----
+  toggleMode(true);
+
+  // ---- toggle email mode ----
+  if (btnUse) btnUse.addEventListener('click', () => toggleMode(true));
+  if (btnNew) btnNew.addEventListener('click', () => toggleMode(false));
+
+  // ---- preview ----
+  if (btnPreview) {
+    btnPreview.addEventListener('click', async () => {
+      const company = getSelectedCompany();
+      if (!company){ setStatus('Select a company first'); return; }
+
+      const body = {
+        company_name: company,
+        contact_name: (elName && elName.value) || null,
+        // (optional) to_email not needed for preview even in new-customer mode
+      };
+      try{
+        setStatus('Generating preview…');
+        const r = await fetch(apiPreview, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const js = await r.json();
+        if (!r.ok) throw new Error(js.detail || 'Preview failed');
+
+        if (dlgBody) dlgBody.innerHTML = js.html || '(empty)';
+        if (dlgPreview && dlgPreview.showModal) dlgPreview.showModal();
+        else {
+          const w = window.open('', '_blank');
+          w.document.write(js.html || '(empty)');
+          w.document.close();
+        }
+        setStatus('Preview ready', true);
+      }catch(e){
+        setStatus(String(e));
+        log(e);
+      }
+    });
+  }
+
+  if (dlgClose && dlgPreview) {
+    dlgClose.addEventListener('click', () => { if (dlgPreview.open) dlgPreview.close(); });
+  }
+
+  // ---- send helpers ----
+  async function doSend(fromPreview){
+    const company = getSelectedCompany();
+    if (!company){ setStatus('Select a company first'); return; }
+
+    let toEmail = null;
+    if (!useMaster){
+      toEmail = (elEmail && elEmail.value || '').trim();
+      if (!validateEmail(toEmail)){
+        setStatus('Enter a valid email for New customer');
+        return;
+      }
+    }
+
+    const payload = {
+      company_name: company,
+      to_email: toEmail || null,
+      contact_name: (elName && elName.value) || null
+    };
+
+    try{
+      setStatus('Sending…');
+      if (btnSend) btnSend.disabled = true;
+      if (dlgSend) dlgSend.disabled = true;
+
+      const r = await fetch(apiSend, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const js = await r.json();
+      if (!r.ok) throw new Error(js.detail || 'Send failed');
+
+      const sentTo = (js && js.to && (js.to.email || js.to)) || '(recipient)';
+      setStatus(`Sent to ${sentTo}`, true);
+      if (fromPreview && dlgPreview && dlgPreview.open) dlgPreview.close();
+    }catch(e){
+      setStatus(String(e));
+      log(e);
+    }finally{
+      if (btnSend) btnSend.disabled = false;
+      if (dlgSend) dlgSend.disabled = false;
+    }
+  }
+
+  // ---- send (main) ----
+  if (btnSend) btnSend.addEventListener('click', () => doSend(false));
+  // ---- send (from preview) ----
+  if (dlgSend) dlgSend.addEventListener('click', () => doSend(true));
+})();
+
+
+/* ===== 6) Process — ADT-1 Acknowledgement ===== */
+
+(function ADT1AcknowledgementProcess(){
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    card: $('adt1AckCard'),
+    search: $('adt1AckCompanySearch'),
+    list:   $('adt1AckCompanies'),
+    dl:     $('adt1AckCompanySuggestions'),
+    chip:   $('adt1AckCompanyChip'),
+    count:  $('adt1AckCountHint'),
+    hint:   $('adt1AckSearchHint'),
+    to:     $('adt1AckToEmail'),
+    emailStatus: $('adt1AckEmailStatus'),
+    note:   $('adt1AckNote'),
+    file:   $('adt1AckFile'),
+    fileMsg:$('adt1AckFileMsg'),
+    autoBtn:$('adt1AckAutoPickBtn'),
+    preview:$('adt1AckPreviewBtn'),
+    send:   $('adt1AckSendBtn'),
+    msg:    $('adt1AckMsg'),
+    cc:     $('adt1AckCc')
+  };
+  if (!els.card) return;
+
+  function setStatus(kind,msg){
+    els.msg.className = 'status' + (kind==='ok'?' success':kind==='err'?' error':kind==='busy'?'':'');
+    els.msg.innerHTML = msg || '';
+  }
+  function setEmailStatus(text){ els.emailStatus.textContent = text || ''; }
+
+  // Reuse global companies list if already fetched
+  async function getCompanies(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) return window.ALL_COMPANIES;
+    const res = await fetch('/api/companies');
+    if(!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populate(list){
+    els.list.innerHTML='';
+    (list||[]).forEach(n=>{
+      const o=document.createElement('option');
+      o.value=n; o.textContent=n;
+      els.list.appendChild(o);
+    });
+    els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    if(list.length){
+      els.list.value = list[0];
+      els.chip.textContent = list[0];
+      els.search.value = list[0];
+      onCompanyChange();
+    }else{
+      els.chip.textContent='—';
+    }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML='';
+    (list||[]).slice(0,60).forEach(n=>{
+      const o=document.createElement('option');
+      o.value=n; els.dl.appendChild(o);
+    });
+    els.hint.textContent = list && list.length ? `Suggestions: ${Math.min(60,list.length)} shown` : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (els.search._wired) return; els.search._wired=true;
+    let timer;
+    function filter(q){
+      if(!q || q.trim().length<2){ refreshDatalist([]); return []; }
+      q=q.toLowerCase();
+      const m=all.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m); return m;
+    }
+    els.search.addEventListener('input',(e)=>{
+      clearTimeout(timer);
+      const q=e.target.value;
+      timer=setTimeout(()=>{
+        const m=filter(q);
+        if(m.find(n=>n.toLowerCase()===(q||'').toLowerCase())){
+          els.list.value=q; els.chip.textContent=q; onCompanyChange();
+        }
+      },120);
+    });
+    els.search.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'){
+        const q=(els.search.value||'').trim();
+        const m=filter(q);
+        const chosen = m.find(n=>n.toLowerCase()===q.toLowerCase()) || m[0];
+        if(chosen){ els.search.value=chosen; els.list.value=chosen; els.chip.textContent=chosen; onCompanyChange(); }
+      }
+    });
+    els.list.addEventListener('change', ()=>{
+      els.chip.textContent = els.list.value || '—';
+      if (els.list.value) els.search.value = els.list.value;
+      onCompanyChange();
+    });
+  }
+
+  // Ask backend preview to also auto-detect the email & build HTML
+  async function lookupEmailViaPreview(company){
+    const res = await fetch('/api/mail/adt1-ack/preview', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ company_name: company })
+    });
+    const data = await res.json().catch(()=> ({}));
+    if (!res.ok) throw new Error(data?.detail || 'Preview failed');
+    return {
+      email: (typeof data.to_email === 'string') ? data.to_email : '',
+      html: data.html || '',
+      srn: data.srn || null
+    };
+  }
+
+  async function onCompanyChange(){
+    const company = els.list.value;
+    setStatus('', '');
+    setEmailStatus('Fetching recipient from master…');
+    els.fileMsg.textContent = 'No file chosen.';
+
+    try{
+      const { email } = await lookupEmailViaPreview(company);
+      els.to.value = email || '';
+      setEmailStatus(email ? `Auto-detected: ${email}` : 'No email found in master');
+    }catch(e){
+      console.warn('[ADT1-ACK] email lookup error', e);
+      setEmailStatus('Could not fetch email from master');
+      els.to.value = '';
+    }
+  }
+
+  // The backend will auto-pick the right ACK file if you don't upload
+  els.autoBtn?.addEventListener('click', ()=>{
+    els.fileMsg.textContent = 'If no file is uploaded, backend will auto-attach the ACK/receipt from the company folder.';
+    setStatus('ok','Auto-pick enabled (handled server-side).');
+  });
+
+  // Preview (uses server-built HTML)
+  els.preview?.addEventListener('click', async ()=>{
+    const company = els.list.value;
+    if(!company){ setStatus('err','Please select a company.'); return; }
+    try{
+      setStatus('busy','Preparing preview…');
+      const payload = {
+        company_name: company,
+        to_email: (els.to.value||'').trim() || null,
+        note: (els.note.value||'').trim() || null,
+        cc: (els.cc.value||'').trim() || null
+      };
+      const res = await fetch('/api/mail/adt1-ack/preview', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json().catch(()=> ({}));
+      if(!res.ok) throw new Error(data?.detail || 'Preview failed');
+
+      const frame = document.getElementById('previewFrame');
+      const modal = document.getElementById('emailPreview');
+      if (frame && modal){
+        const doc = frame.contentWindow.document;
+        doc.open(); doc.write(data.html || '<p>No preview</p>'); doc.close();
+        modal.style.display='block';
+      }
+      setStatus('ok','Preview ready.');
+    }catch(e){
+      console.error('[ADT1-ACK] preview error', e);
+      setStatus('err', e.message || 'Preview request failed');
+    }
+  });
+
+  // Send
+  els.send?.addEventListener('click', async ()=>{
+    const company = els.list.value;
+    if(!company){ setStatus('err','Please select a company.'); return; }
+    const to = (els.to.value||'').trim();
+    if(!to){ setStatus('err','Recipient email is required.'); return; }
+
+    try{
+      setStatus('busy','Sending ADT-1 Acknowledgement…');
+      const fd = new FormData();
+      fd.append('company_name', company);
+      fd.append('to_email', to);
+      if ((els.note.value||'').trim()) fd.append('note', els.note.value.trim());
+      if ((els.cc.value||'').trim())   fd.append('cc', els.cc.value.trim());
+      if (els.file.files[0])           fd.append('ack_pdf', els.file.files[0]); // optional override
+
+      const res = await fetch('/api/mail/adt1-ack/send', { method:'POST', body: fd });
+      const data = await res.json().catch(()=> ({}));
+      if(!res.ok) throw new Error(data?.detail || 'Send failed');
+
+      const atts = (data.attachments||[]).map(a=>{
+        const name = (typeof a==='string' ? a.split(/[\\/]/).pop() : (a.filename || 'attachment.pdf'));
+        return `<li>${name}</li>`;
+      }).join('');
+      const summary = `
+        <div><strong>${data.sent===true?'Mail sent':'Mail prepared'}</strong></div>
+        <div>To: <em>${to}</em></div>
+        <div>Subject: <em>${data.subject || 'ADT-1 Acknowledgement'}</em></div>
+        ${data.srn ? `<div>SRN: <strong>${data.srn}</strong></div>` : ''}
+        ${atts?`<div style="margin-top:6px;">Attachments:</div><ul>${atts}</ul>`:''}
+      `;
+      setStatus('ok', summary);
+    }catch(e){
+      console.error('[ADT1-ACK] send error', e);
+      setStatus('err', e.message || 'Send request failed');
+    }
+  });
+
+  // Init
+  const start = async ()=>{
+    try{
+      els.count.textContent = 'Loading companies…';
+      const all = await getCompanies();
+      populate(all);
+      wireSearch(all);
+      els.count.textContent = `${all.length} compan${all.length===1?'y':'ies'} found`;
+    }catch(e){
+      console.error('[ADT1-ACK] init error', e);
+      els.count.textContent = 'Failed to load companies';
+      populate([]); refreshDatalist([]);
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start);
+  } else {
+    start();
+  }
+})();
+
+
+
+(function ADT1Process(){
+  const $ = (id)=>document.getElementById(id);
+  const els = {
+    card: $('adt1Card'),
+    search: $('adt1CompanySearch'),
+    list:   $('adt1Companies'),
+    dl:     $('adt1CompanySuggestions'),
+    chip:   $('adt1CompanyChip'),
+    count:  $('adt1CountHint'),
+    hint:   $('adt1SearchHint'),
+    to:     $('adt1ToEmail'),
+    emailStatus: $('adt1EmailStatus'),
+    note:   $('adt1Note'),
+    file:   $('adt1File'),
+    fileMsg:$('adt1FileMsg'),
+    autoBtn:$('adt1AutoPickBtn'),
+    preview:$('adt1PreviewBtn'),
+    send:   $('adt1SendBtn'),
+    msg:    $('adt1Msg'),
+    cc:     $('adt1Cc')
+  };
+  if (!els.card) return;
+
+  const state = { ALL: [] };
+
+  function setStatus(kind,msg){
+    els.msg.className = 'status' + (kind==='ok'?' success':kind==='err'?' error':kind==='busy'?'':'');
+    els.msg.innerHTML = msg || '';
+  }
+  function setEmailStatus(text){ els.emailStatus.textContent = text || ''; }
+
+  // --- Use the same company loader as other panels
+  async function getCompanies(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) {
+      return window.ALL_COMPANIES;
+    }
+    const res = await fetch('/api/companies');
+    if(!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populate(list){
+    els.list.innerHTML='';
+    (list||[]).forEach(n=>{
+      const o=document.createElement('option');
+      o.value=n; o.textContent=n;
+      els.list.appendChild(o);
+    });
+    els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    if(list.length){
+      els.list.value = list[0];
+      els.chip.textContent = list[0];
+      els.search.value = list[0];
+      onCompanyChange();
+    }else{
+      els.chip.textContent='—';
+    }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML='';
+    (list||[]).slice(0,60).forEach(n=>{
+      const o=document.createElement('option');
+      o.value=n; els.dl.appendChild(o);
+    });
+    els.hint.textContent = list && list.length ? `Suggestions: ${Math.min(60,list.length)} shown` : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (els.search._wired) return; els.search._wired=true;
+    let timer;
+    function filter(q){
+      if(!q || q.trim().length<2){ refreshDatalist([]); return []; }
+      q=q.toLowerCase();
+      const m=all.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m); return m;
+    }
+    els.search.addEventListener('input',(e)=>{
+      clearTimeout(timer);
+      const q=e.target.value;
+      timer=setTimeout(()=>{
+        const m=filter(q);
+        if(m.find(n=>n.toLowerCase()===(q||'').toLowerCase())){
+          els.list.value=q; els.chip.textContent=q; onCompanyChange();
+        }
+      },120);
+    });
+    els.search.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'){
+        const q=(els.search.value||'').trim();
+        const m=filter(q);
+        const chosen = m.find(n=>n.toLowerCase()===q.toLowerCase()) || m[0];
+        if(chosen){ els.search.value=chosen; els.list.value=chosen; els.chip.textContent=chosen; onCompanyChange(); }
+      }
+    });
+    els.list.addEventListener('change', ()=>{
+      els.chip.textContent = els.list.value || '—';
+      if (els.list.value) els.search.value = els.list.value;
+      onCompanyChange();
+    });
+  }
+
+  // --- Get email from master via PREVIEW (no /api/company/meta)
+  async function lookupEmailViaPreview(company){
+    const res = await fetch('/api/mail/adt1/preview', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ company_name: company })
+    });
+    const data = await res.json().catch(()=> ({}));
+    if (!res.ok) throw new Error(data?.detail || 'Preview failed');
+    // Backend should return { to_email: "...", html: "..." }
+    return (data && typeof data.to_email === 'string') ? data.to_email : '';
+  }
+
+  async function onCompanyChange(){
+    const company = els.list.value;
+    setStatus('', '');
+    setEmailStatus('Fetching recipient from master…');
+    els.fileMsg.textContent = 'No file chosen.';
+
+    try{
+      const email = await lookupEmailViaPreview(company);
+      // Important: set entire string; no truncation
+      els.to.value = email || '';
+      setEmailStatus(email ? `Auto-detected: ${email}` : 'No email found in master');
+    }catch(e){
+      console.warn('[ADT1] email lookup error', e);
+      setEmailStatus('Could not fetch email from master');
+      els.to.value = '';
+    }
+  }
+
+  // --- Auto-pick note (server will attach ADT-1 from folder if no upload)
+  els.autoBtn?.addEventListener('click', ()=>{
+    els.fileMsg.textContent = 'If no file is uploaded, backend will auto-attach ADT-1 from the company folder.';
+    setStatus('ok','Auto-pick enabled (handled server-side).');
+  });
+
+  // --- Preview button
+  els.preview?.addEventListener('click', async ()=>{
+    const company = els.list.value;
+    if(!company){ setStatus('err','Please select a company.'); return; }
+    try{
+      setStatus('busy','Preparing preview…');
+      const payload = {
+        company_name: company,
+        to_email: (els.to.value||'').trim() || null,
+        note: (els.note.value||'').trim() || null,
+        cc: (els.cc.value||'').trim() || null
+      };
+      const res = await fetch('/api/mail/adt1/preview', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json().catch(()=> ({}));
+      if(!res.ok) throw new Error(data?.detail || 'Preview failed');
+
+      const frame = document.getElementById('previewFrame');
+      const modal = document.getElementById('emailPreview');
+      if (frame && modal){
+        const doc = frame.contentWindow.document;
+        doc.open(); doc.write(data.html || '<p>No preview</p>'); doc.close();
+        modal.style.display='block';
+      }
+      setStatus('ok','Preview ready.');
+    }catch(e){
+      console.error('[ADT1] preview error', e);
+      setStatus('err', e.message || 'Preview request failed');
+    }
+  });
+
+  // --- Send button
+  els.send?.addEventListener('click', async ()=>{
+    const company = els.list.value;
+    if(!company){ setStatus('err','Please select a company.'); return; }
+    const to = (els.to.value||'').trim();
+    if(!to){ setStatus('err','Recipient email is required.'); return; }
+
+    try{
+      setStatus('busy','Sending ADT-1 email…');
+      const fd = new FormData();
+      fd.append('company_name', company);
+      fd.append('to_email', to);
+      if ((els.note.value||'').trim()) fd.append('note', els.note.value.trim());
+      if ((els.cc.value||'').trim())   fd.append('cc', els.cc.value.trim());
+      if (els.file.files[0])           fd.append('adt1_pdf', els.file.files[0]); // optional
+
+      const res = await fetch('/api/mail/adt1/send', { method:'POST', body: fd });
+      const data = await res.json().catch(()=> ({}));
+      if(!res.ok) throw new Error(data?.detail || 'Send failed');
+
+      const atts = (data.attachments||[]).map(a=>{
+        const name = (typeof a==='string' ? a.split(/[\\/]/).pop() : (a.filename || 'attachment.pdf'));
+        return `<li>${name}</li>`;
+      }).join('');
+      const summary = `
+        <div><strong>${data.sent===true?'Mail sent':'Mail prepared'}</strong></div>
+        <div>To: <em>${to}</em></div>
+        <div>Subject: <em>${data.subject || 'Form ADT-1 for Digital Signature'}</em></div>
+        ${atts?`<div style="margin-top:6px;">Attachments:</div><ul>${atts}</ul>`:''}
+      `;
+      setStatus('ok', summary);
+    }catch(e){
+      console.error('[ADT1] send error', e);
+      setStatus('err', e.message || 'Send request failed');
+    }
+  });
+
+  // --- init (after DOM is ready)
+  const start = async ()=>{
+    try{
+      els.count.textContent = 'Loading companies…';
+      state.ALL = await getCompanies();
+      populate(state.ALL);
+      wireSearch(state.ALL);
+      els.count.textContent = `${state.ALL.length} compan${state.ALL.length===1?'y':'ies'} found`;
+    }catch(e){
+      console.error('[ADT1] init error', e);
+      els.count.textContent = 'Failed to load companies';
+      populate([]); refreshDatalist([]);
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start);
+  } else {
+    start();
+  }
+})();
+
+
+
+    (function PaymentWelcomeProcess_Send(){
+  const $ = (id)=>document.getElementById(id);
+  const els = {
+    list: $('pwoCompanies'), msg: $('pwoMsg'),
+    contact: $('pwoContactName'), mgr: $('pwoAssignedMgr'),
+    plan: $('pwoPlan'), amt: $('pwoAmount'), cur: $('pwoCurrency'),
+    pid: $('pwoPaymentId'), when: $('pwoDate'),
+    to: $('pwoTo'), cc: $('pwoCc'),
+    sendBtn: $('pwoSendBtn')
+  };
+
+  function setStatus(kind,msg){
+    els.msg.className = 'status' + (kind==='ok'?' success':kind==='err'?' error':'');
+    els.msg.innerHTML = msg || '';
+  }
+
+  function isoOrNow(){
+    const v = (els.when.value||'').trim();
+    if (v) return v;
+    const now = new Date();
+    const pad = (n)=>String(n).padStart(2,'0');
+    // IST +05:30 quick format
+    return `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}T${pad(now.getHours())}:${pad(now.getMinutes())}:00+05:30`;
+  }
+
+  function payload(){
+    return {
+      company_name: els.list.value,
+      contact_email: (els.to && els.to.value)||null,
+      contact_name: (els.contact.value||'').trim()||null,
+      assigned_manager: (els.mgr.value||'').trim()||null,
+      plan_name: (els.plan.value||'').trim(),
+      amount: Number((els.amt.value||'0').replace(/[^0-9.]/g,'')),
+      currency: (els.cur.value||'INR').trim()||'INR',
+      payment_id: (els.pid.value||'').trim(),
+      payment_date: isoOrNow(),
+      template: "email_payment_welcome.html",
+      cc: (els.cc && els.cc.value)||null
+    };
+  }
+
+  async function sendNow(){
+    try{
+      const p = payload();
+      if(!p.company_name){ setStatus('err','Select a company.'); return; }
+      if(!p.payment_id){ setStatus('err','Enter Payment ID.'); return; }
+      if(!p.amount){ setStatus('err','Enter Amount.'); return; }
+      setStatus('', 'Sending…');
+
+      // ✅ Correct endpoint
+      const res = await fetch('/api/mail/payment-onboarding/send', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(p)
+      });
+      if(!res.ok){
+        const txt = await res.text();
+        throw new Error(txt || 'Failed');
+      }
+      setStatus('ok','Email sent successfully.');
+    }catch(e){
+      console.error('[PWO] send error', e);
+      setStatus('err','Failed to send email.');
+    }
+  }
+
+  if (els.sendBtn){
+    els.sendBtn.addEventListener('click', sendNow);
+  }
+})();
+// ===== Payment+Welcome PROCESS (front-end only) =====
+(function PaymentWelcomeProcess(){
+  const $ = (id)=>document.getElementById(id);
+  const log = (...a)=>console.log('[PWO]', ...a);
+
+  // elements
+  const els = {
+    search: $('pwoCompanySearch'),
+    list:   $('pwoCompanies'),
+    dl:     $('pwoCompanySuggestions'),
+    count:  $('pwoCountHint'),
+    hint:   $('pwoSearchHint'),
+    chip:   $('pwoCompanyChip'),
+    previewBtn: $('pwoPreviewBtn'),
+    msg:    $('pwoMsg'),
+
+    contact: $('pwoContactName'),
+    mgr:     $('pwoAssignedMgr'),
+    plan:    $('pwoPlan'),
+    amt:     $('pwoAmount'),
+    cur:     $('pwoCurrency'),
+    pid:     $('pwoPaymentId'),
+    when:    $('pwoDate'),
+  };
+
+  function setStatus(kind,msg){
+    els.msg.className = 'status' + (kind==='ok'?' success':kind==='err'?' error':'');
+    els.msg.innerHTML = msg || '';
+  }
+
+  // pull global list if present; else fetch
+  async function getCompanies(){
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length) {
+      return window.ALL_COMPANIES;
+    }
+    const res = await fetch('/api/companies');
+    if (!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    window.ALL_COMPANIES = Array.isArray(data) ? data : [];
+    return window.ALL_COMPANIES;
+  }
+
+  function populate(list){
+    els.list.innerHTML = '';
+    (list||[]).forEach(n=>{
+      const o=document.createElement('option'); o.value=n; o.textContent=n; els.list.appendChild(o);
+    });
+    els.count.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    if(list.length){ els.list.value = list[0]; els.chip.textContent = list[0]; els.search.value = list[0]; }
+    else { els.chip.textContent = '—'; }
+  }
+
+  function refreshDatalist(list){
+    els.dl.innerHTML = '';
+    (list||[]).slice(0,60).forEach(n=>{
+      const o=document.createElement('option'); o.value=n; els.dl.appendChild(o);
+    });
+    els.hint.textContent = list && list.length ? `Suggestions: ${Math.min(60,list.length)} shown` : 'No matches';
+  }
+
+  function wireSearch(all){
+    if (els.search._wired) return; els.search._wired = true;
+    let timer;
+    function filter(q){
+      if(!q || q.trim().length<2){ refreshDatalist([]); return []; }
+      q = q.toLowerCase();
+      const m = all.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(m); return m;
+    }
+    els.search.addEventListener('input', (e)=>{
+      clearTimeout(timer);
+      const q=e.target.value;
+      timer=setTimeout(()=>{
+        const m=filter(q);
+        if(m.find(n=>n.toLowerCase()===(q||'').toLowerCase())){
+          els.list.value = q; els.chip.textContent = q;
+        }
+      },120);
+    });
+    els.search.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'){
+        const q=(els.search.value||'').trim();
+        const m=filter(q);
+        const chosen = m.find(n=>n.toLowerCase()===q.toLowerCase()) || m[0];
+        if(chosen){ els.search.value=chosen; els.list.value=chosen; els.chip.textContent=chosen; }
+      }
+    });
+    els.list.addEventListener('change',()=>{
+      els.chip.textContent = els.list.value || '—';
+      if (els.list.value) els.search.value = els.list.value;
+    });
+  }
+
+  // simple templater (same approach as your existing preview code)
+  function renderTpl(tpl, ctx){
+    return tpl.replace(/\{\{\s*([^}]+)\s*\}\}/g, (_,path)=>{
+      try { return path.trim().split('.').reduce((o,k)=>o?.[k], ctx) ?? ''; }
+      catch { return ''; }
+    });
+  }
+
+  async function openPreview(ctx){
+    try{
+      setStatus('', 'Loading preview…');
+      const res = await fetch(`/app/emails/email_payment_welcome.html?v=${Date.now()}`);
+      const raw = await res.text();
+      const html = renderTpl(raw, ctx);
+      const frame = document.getElementById('previewFrame').contentWindow.document;
+      frame.open(); frame.write(html); frame.close();
+      document.getElementById('emailPreview').style.display='block';
+      setStatus('ok', 'Preview ready.');
+    }catch(e){
+      console.error('[PWO] preview error', e);
+      setStatus('err','Failed to load template.');
+    }
+  }
+
+  function buildCtx(){
+    const company = els.list.value || 'ACME PRIVATE LIMITED';
+    const now = new Date();
+    const iso = now.toISOString().replace('Z','+05:30'); // simple IST-ish fallback for preview
+    return {
+      company: { name: company },
+      contact_name: (els.contact.value||'').trim() || null,
+      assigned_manager: (els.mgr.value||'').trim() || null,
+      plan_name: (els.plan.value||'').trim() || 'Annual Compliance – ₹999/month',
+      amount: (els.amt.value||'999').trim(),
+      currency: (els.cur.value||'INR').trim() || 'INR',
+      payment_id: (els.pid.value||'rzp_ABC123').trim(),
+      payment_date: (els.when.value||iso).trim()
+    };
+  }
+
+  async function init(){
+    try{
+      els.count.textContent = 'Loading companies…';
+      const all = await getCompanies();
+      populate(all);
+      wireSearch(all);
+      els.count.textContent = `${all.length} compan${all.length===1?'y':'ies'} found`;
+      // default date = now (ISO)
+      if(!els.when.value){
+        const now = new Date();
+        const pad = (n)=>String(n).padStart(2,'0');
+        const iso = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}T${pad(now.getHours())}:${pad(now.getMinutes())}:00+05:30`;
+        els.when.value = iso;
+      }
+    }catch(e){
+      console.error('[PWO] init error', e);
+      els.count.textContent = 'Failed to load companies';
+    }
+  }
+
+  if (els.previewBtn){
+    els.previewBtn.addEventListener('click', ()=>{
+      const company = els.list.value;
+      if(!company){ setStatus('err','Please select a company first.'); return; }
+      openPreview(buildCtx());
+    });
+  }
+
+  init();
+})();
+
+
+
+  // ===== SLA COMPANY LOADER (self-contained) =====
+(function SLACompaniesModule(){
+  const log = (...a)=>console.log('[SLA]', ...a);
+  const $ = (id)=>document.getElementById(id);
+
+  const els = {
+    search: $('slaCompanySearch'),
+    list:   $('slaCompanies'),
+    hint:   $('slaCountHint'),
+    chip:   $('slaCompanyChip'),
+    dl:     $('slaCompanySuggestions'),
+    searchHint: $('slaSearchHint')
+  };
+
+  function ensureEls(){
+    for (const [k,v] of Object.entries(els)) {
+      if (!v) { console.warn('[SLA] missing element:', k); return false; }
+    }
+    return true;
+  }
+
+  function populate(list){
+    list = Array.isArray(list) ? list : [];
+    log('populate companies:', list.length);
+    els.list.innerHTML = '';
+    list.forEach(name=>{
+      const opt = document.createElement('option');
+      opt.value = name; opt.textContent = name;
+      els.list.appendChild(opt);
+    });
+    els.hint.textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    if (list.length){
+      els.list.value = list[0];
+      els.chip.textContent = list[0];
+    } else {
+      els.chip.textContent = '—';
+    }
+  }
+
+  function refreshDatalist(list){
+    list = Array.isArray(list) ? list : [];
+    els.dl.innerHTML = '';
+    list.slice(0,60).forEach(n=>{
+      const o = document.createElement('option');
+      o.value = n; els.dl.appendChild(o);
+    });
+    els.searchHint.textContent = list.length
+      ? `Suggestions: ${Math.min(60,list.length)} shown`
+      : 'No matches';
+  }
+
+  function wireSearch(all){
+    // avoid double-binding
+    if (els.search._slaWired) return;
+    els.search._slaWired = true;
+
+    let timer;
+    function filter(q){
+      if(!q || q.trim().length < 2){ refreshDatalist([]); return []; }
+      q = q.toLowerCase();
+      const matches = all.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(matches);
+      log('search:', q, '| matches:', matches.length);
+      return matches;
+    }
+
+    els.search.addEventListener('input',(e)=>{
+      clearTimeout(timer);
+      const q = e.target.value;
+      timer = setTimeout(()=>{
+        const m = filter(q);
+        // if exact type matches a suggestion, select it
+        if (m.find(n=>n.toLowerCase() === (q||'').toLowerCase())) {
+          els.list.value = q;
+          els.chip.textContent = q;
+        }
+      }, 120);
+    });
+
+    els.search.addEventListener('keydown',(e)=>{
+      if(e.key === 'Enter'){
+        const q = (els.search.value||'').trim();
+        const m = filter(q);
+        const chosen = m.find(n=>n.toLowerCase()===q.toLowerCase()) || m[0];
+        if (chosen){
+          els.search.value = chosen;
+          els.list.value = chosen;
+          els.chip.textContent = chosen;
+        }
+      }
+    });
+
+    els.list.addEventListener('change',()=>{
+      els.chip.textContent = els.list.value || '—';
+      if (els.list.value) els.search.value = els.list.value;
+    });
+  }
+
+  async function fetchCompanies(){
+    // 1) prefer global list if already loaded elsewhere
+    if (Array.isArray(window.ALL_COMPANIES) && window.ALL_COMPANIES.length){
+      log('using global ALL_COMPANIES:', window.ALL_COMPANIES.length);
+      return window.ALL_COMPANIES;
+    }
+    // 2) else fetch from API
+    log('GET /api/companies');
+    const res = await fetch('/api/companies');
+    if(!res.ok) throw new Error('Failed to load companies');
+    const data = await res.json();
+    const list = Array.isArray(data) ? data : [];
+    // cache to global for other sections
+    window.ALL_COMPANIES = list;
+    log('loaded from API:', list.length);
+    return list;
+  }
+
+  async function init(){
+    if (!ensureEls()) return;
+    try{
+      els.hint.textContent = 'Loading companies…';
+      const all = await fetchCompanies();
+      populate(all);
+      wireSearch(all);
+      els.hint.textContent = `${all.length} compan${all.length===1?'y':'ies'} found`;
+      log('ready.');
+    }catch(e){
+      console.error('[SLA] load error:', e);
+      els.hint.textContent = 'Failed to load companies';
+      populate([]);
+      refreshDatalist([]);
+    }
+  }
+
+  // kick off
+  init();
+})();
+// ---------- SLA: actions (Generate, Preview, Send) ----------
+(function SLAActions(){
+  const $ = (id)=>document.getElementById(id);
+  const log = (...a)=>console.log('[SLA]', ...a);
+
+  function slaSetGenStatus(kind,msg){ setStatus('slaGenMsg',kind,msg); }
+  function slaSetMailStatus(kind,msg){ setStatus('slaMailMsg',kind,msg); }
+
+  // --- Generate SLA document ---
+  const genBtn = $('slaGenerateBtn');
+  if (genBtn) {
+    genBtn.addEventListener('click', async ()=>{
+      const company = $('slaCompanies')?.value || '';
+      if(!company){ slaSetGenStatus('err','Please select a company.'); return; }
+
+      slaSetGenStatus('busy','Generating SLA…');
+      $('slaLinks').innerHTML='';
+
+      const payload = { company_name: company, template_id: 'sla_agreement_TEMPLATE' };
+      log('POST /api/templates/word/render', payload);
+
+      try{
+        const res = await fetch('/api/templates/word/render', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json().catch(()=> ({}));
+        log('render response:', res.status, data);
+
+        if(!res.ok) throw new Error(data?.detail || 'Render failed');
+
+        const href = data.download_url || data.output_docx || '#';
+        const p = document.createElement('div');
+        p.innerHTML = `<span class="success">SLA generated:</span> <a href="${href}" target="_blank">Open document</a>`;
+        $('slaLinks').appendChild(p);
+
+        slaSetGenStatus('ok','Done.');
+      }catch(e){
+        console.error('[SLA] generate error', e);
+        slaSetGenStatus('err', e.message || 'Request failed');
+      }
+    });
+  }
+
+  // --- Preview SLA email (HTML) ---
+  const previewBtn = $('slaPreviewBtn');
+  if (previewBtn) {
+    previewBtn.addEventListener('click', async ()=>{
+      const company = $('slaCompanies')?.value || '';
+      if(!company){ slaSetMailStatus('err','Select a company first.'); return; }
+
+      try{
+        slaSetMailStatus('busy','Loading preview…');
+        const payload = { company_name: company };
+        log('POST /api/mail/sla/preview', payload);
+
+        const res = await fetch('/api/mail/sla/preview', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json().catch(()=> ({}));
+        log('preview response:', res.status, data);
+
+        if(!res.ok) throw new Error(data?.detail || 'Preview failed');
+
+        // show HTML in modal
+        const frameDoc = $('previewFrame').contentWindow.document;
+        frameDoc.open(); frameDoc.write(data.html || '<p>No preview</p>'); frameDoc.close();
+        $('emailPreview').style.display='block';
+
+        slaSetMailStatus('ok','Preview ready.');
+      }catch(e){
+        console.error('[SLA] preview error', e);
+        slaSetMailStatus('err', e.message || 'Preview request failed');
+      }
+    });
+  }
+
+  // --- Send SLA email (SMTP) ---
+  const sendBtn = $('slaSendBtn');
+  if (sendBtn) {
+    sendBtn.addEventListener('click', async ()=>{
+      const company = $('slaCompanies')?.value || '';
+      if(!company){ slaSetMailStatus('err','Select a company first.'); return; }
+
+      try{
+        slaSetMailStatus('busy','Sending SLA email…');
+        const payload = { company_name: company };
+        log('POST /api/mail/sla/send', payload);
+
+        const res = await fetch('/api/mail/sla/send', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json().catch(()=> ({}));
+        log('send response:', res.status, data);
+
+        if(!res.ok) throw new Error(data?.detail || 'Send failed');
+
+        // summarize what was sent
+        const atts = (data.attachments||[]).map(a=>{
+          const href = a.download_url || '#';
+          return `<li><a target="_blank" href="${href}">${a.filename||'attachment'}</a></li>`;
+        }).join('');
+        const msg = `
+          <div><strong>${data.sent ? 'Mail sent' : 'Mail prepared'}</strong></div>
+          <div>To: <em>${(data.to && data.to.email) || '—'}</em></div>
+          <div>Subject: <em>${data.subject || 'SLA Agreement'}</em></div>
+          ${atts ? `<div style="margin-top:6px;">Attachments:</div><ul>${atts}</ul>` : ''}
+        `;
+        slaSetMailStatus('ok', msg);
+      }catch(e){
+        console.error('[SLA] send error', e);
+        slaSetMailStatus('err', e.message || 'Send request failed');
+      }
+    });
+  }
+
+  log('SLA actions wired.');
+})();
+
+
+    
+  const $ = (id)=>document.getElementById(id);
+  const log = (...a)=>console.log('[ui]', ...a);
+
+  // --- Status helpers ---
+  function setStatus(elId, kind, msg){
+    const el=$(elId);
+    el.className='status'+(kind==='ok'?' success':kind==='err'?' error':'');
+    el.textContent=msg||'';
+  }
+  function setGenStatus(kind,msg){
+    setStatus('genMsg',kind,msg);
+    $('apiStatusText').textContent = kind==='busy'?'busy…':kind==='ok'?'ok':kind==='err'?'error':'idle';
+    log('GEN:',msg);
+  }
+  function setAuditorsMsg(kind,msg){
+    setStatus('auditorsMsg',kind,msg);
+    console.log('[api] auditors:',msg);
+  }
+
+  // --- Toggles / enable auditor select when a doc that REQUIRES auditor is ON ---
+  let AUDITORS_LOADED=false;
+  // include letterheadToggle in "any" check (for UI enable/disable)
+  const anyToggleOn = () =>
+    $('bodToggle').checked || $('intimationToggle').checked || $('proposalToggle').checked || $('letterheadToggle').checked;
+
+  // but auditors are needed only if any of these three are ON:
+  const anyDocNeedsAuditor = () =>
+    $('bodToggle').checked || $('intimationToggle').checked || $('proposalToggle').checked || $('consentToggle').checked;
+
+  async function onToggleChange(){
+    const enableAuditors = anyDocNeedsAuditor();
+    console.log('[toggles] any on:', anyToggleOn(), 'auditors needed:', enableAuditors);
+
+    $('auditorsSelect').disabled = !enableAuditors || !ALL_AUDITORS.length;
+
+    if (enableAuditors && !AUDITORS_LOADED) {
+      await loadAuditors();
+      AUDITORS_LOADED = true;
+      $('auditorsSelect').disabled = !ALL_AUDITORS.length ? true : !enableAuditors;
+    }
+
+    $('auditorSelText').textContent =
+      (!enableAuditors || !$('auditorsSelect').value)
+        ? '—'
+        : ($('auditorsSelect').options[$('auditorsSelect').selectedIndex].textContent || '—');
+  }
+  ['bodToggle','intimationToggle','proposalToggle','letterheadToggle','consentToggle'].forEach(id=>$(id).addEventListener('change',onToggleChange));
+
+  // --- Generate Selected handler (one button for all toggled docs) ---
+  $('generateSelectedBtn').addEventListener('click', async ()=>{
+    const company=$('companies').value;
+    const auditor=$('auditorsSelect').value||null;
+    const dateStr=($('docDate').value||'').trim()||null;
+
+    const toBuild=[];
+    if ($('bodToggle').checked)
+      toBuild.push({id:'bod_auditor_first_appointment', label:'BOD Auditor Appointment', requireAuditor:true});
+    if ($('intimationToggle').checked)
+      toBuild.push({id:'intimation_first_auditor_TEMPLATE', label:'Intimation Letter', requireAuditor:true});
+    if ($('proposalToggle').checked)
+      toBuild.push({id:'proposal_first_auditor_TEMPLATE', label:'Proposal Letter', requireAuditor:true});
+    if ($('letterheadToggle').checked)
+      toBuild.push({id:'company_letterhead_TEMPLATE', label:'Company Letterhead', requireAuditor:false});
+    if ($('consentToggle').checked)
+      toBuild.push({id:'auditor_consent_TEMPLATE', label:'Auditor Consent Letter', requireAuditor:true}); // <-- add requireAuditor:true
+
+
+    if(!toBuild.length){ setStatus('multiMsg','err','Turn on at least one switch.'); return; }
+    if(!company){ setStatus('multiMsg','err','Please select a company.'); return; }
+
+    // only require auditor if any selected doc needs it
+    if (toBuild.some(t=>t.requireAuditor) && !auditor) {
+      setStatus('multiMsg','err','Please select an auditor.'); return;
+    }
+
+    setStatus('multiMsg','busy',`Generating ${toBuild.length} document(s)…`);
+    $('multiLinks').innerHTML='';
+
+    for(const t of toBuild){
+      const payload={ company_name:company, template_id:t.id };
+      if (dateStr)  payload.date = dateStr;
+      if (t.requireAuditor && auditor) payload.auditor_id = auditor;
+
+      console.log('[api] POST /api/templates/word/render', payload);
+      try{
+        const res=await fetch('/api/templates/word/render',{
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body:JSON.stringify(payload)
+        });
+        const data=await res.json().catch(()=> ({}));
+        if(!res.ok) throw new Error(data?.detail||'Render failed');
+        addResultLink(t.label, data.download_url || data.output_docx || '');
+        console.log('[done]',t.label,data);
+      }catch(e){
+        addResultError(t.label, e.message||'Failed');
+        console.error('[error]',t.label,e);
+      }
+    }
+    setStatus('multiMsg','ok','Done.');
+  });
+
+  function addResultLink(label, href){
+    const box=$('multiLinks');
+    const p=document.createElement('div');
+    p.innerHTML = `<span class="success">${label}:</span> <a href="${href}" target="_blank">Open document</a>`;
+    box.appendChild(p);
+  }
+  function addResultError(label, msg){
+    const box=$('multiLinks');
+    const p=document.createElement('div');
+    p.innerHTML = `<span class="error">${label}:</span> ${msg}`;
+    box.appendChild(p);
+  }
+
+  // --- Companies & search ---
+  let ALL_COMPANIES=[]; let ALL_AUDITORS=[];
+  async function loadCompanies(){
+    try{
+      console.log('[api] GET /api/companies');
+      const res=await fetch('/api/companies');
+      if(!res.ok) throw new Error('Failed to load companies');
+      ALL_COMPANIES = await res.json();
+      ALL_COMPANIES = Array.isArray(ALL_COMPANIES)?ALL_COMPANIES:[];
+      populateCompanies(ALL_COMPANIES); refreshDatalist(ALL_COMPANIES);
+      setStatus('audMsg','ok','Companies loaded.');
+    }catch(e){
+      console.error(e); setStatus('audMsg','err',e.message||'Failed to load companies');
+    }
+  }
+  function populateCompanies(list){
+    const sel=$('companies'); sel.innerHTML='';
+    list.forEach(n=>{ const o=document.createElement('option'); o.value=n; o.textContent=n; sel.appendChild(o); });
+    $('countHint').textContent = `${list.length} compan${list.length===1?'y':'ies'} found`;
+    if(list.length){ sel.value=list[0]; $('companySelText').textContent=sel.value; } else { $('companySelText').textContent='—'; }
+  }
+  function refreshDatalist(list){
+    const dl=$('companySuggestions'); dl.innerHTML='';
+    list.slice(0,60).forEach(n=>{ const o=document.createElement('option'); o.value=n; dl.appendChild(o); });
+    $('searchHint').textContent = list.length ? `Suggestions: ${Math.min(60,list.length)} shown` : 'No matches';
+  }
+  (function initSearch(){
+    const input=$('companySearch'); const sel=$('companies'); let timer;
+    function filter(q){
+      if(!q||q.trim().length<2){ refreshDatalist([]); return []; }
+      q=q.toLowerCase();
+      const matches=ALL_COMPANIES.filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.localeCompare(b));
+      refreshDatalist(matches); return matches;
+    }
+    input.addEventListener('input',(e)=>{
+      clearTimeout(timer);
+      const q=e.target.value;
+      timer=setTimeout(()=>{
+        const m=filter(q);
+        if(m.includes(q)){ sel.value=q; $('companySelText').textContent=sel.value; setStatus('audMsg','ok',`Selected: ${sel.value}`); }
+      },120);
+    });
+    input.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'){
+        const q=input.value.trim();
+        const m=filter(q);
+        const chosen = m.find(n=>n.toLowerCase()===q.toLowerCase()) || m[0];
+        if(chosen){ input.value=chosen; sel.value=chosen; $('companySelText').textContent=chosen; setStatus('audMsg','ok',`Selected: ${chosen}`); }
+      }
+    });
+    sel.addEventListener('change',()=>{
+      $('companySelText').textContent=sel.value||'—';
+      if(sel.value) input.value=sel.value;
+      setStatus('audMsg','ok', sel.value?`Selected: ${sel.value}`:'No selection');
+    });
+  })();
+
+  // --- Auditors load ---
+  async function loadAuditors(){
+    try{
+      setAuditorsMsg('idle','Loading auditors…');
+      console.log('[api] GET /api/templates/word/auditors');
+      const res=await fetch('/api/templates/word/auditors');
+      if(!res.ok) throw new Error('Failed to load auditors');
+      const data=await res.json();
+      ALL_AUDITORS=Array.isArray(data)?data:[];
+      populateAuditors(ALL_AUDITORS);
+      setAuditorsMsg('ok', `${ALL_AUDITORS.length} auditor(s) loaded`);
+    }catch(e){
+      console.error(e); setAuditorsMsg('err', e.message||'Failed to load auditors');
+      populateAuditors([]);
+    }
+  }
+  function populateAuditors(list){
+    const sel=$('auditorsSelect'); sel.innerHTML='';
+    if(!list.length){
+      sel.disabled=true; const o=document.createElement('option'); o.value=''; o.textContent='— No auditors found —'; sel.appendChild(o);
+      $('auditorSelText').textContent='—'; return;
+    }
+    sel.disabled=!anyDocNeedsAuditor();
+    list.sort((a,b)=>(a.auditor_name||'').localeCompare(b.auditor_name||'')).forEach(a=>{
+      const o=document.createElement('option'); o.value=a.auditor_id;
+      const mem=a.membership_no?` (M.No ${a.membership_no})`:''; o.textContent=`${a.auditor_name||'—'}${mem}`; sel.appendChild(o);
+    });
+    if(list.length){ sel.value=list[0].auditor_id; $('auditorSelText').textContent=sel.options[sel.selectedIndex].textContent||'—'; }
+  }
+
+  // --- Generate Master actions ---
+  $('generateBtn').addEventListener('click', async()=>{
+    const mca=$('mca').files[0]; const pan=$('pan').files[0];
+    const incorp = $('incorp').files[0];                        // NEW
+    const panNumber = ($('panNumber').value || '').trim().toUpperCase(); // NEW
+    if(!mca){ setGenStatus('err','Please choose an MCA PDF.'); return; }
+    const form=new FormData(); form.append('mca_file',mca); if(pan) form.append('pan_file',pan);
+    if (incorp) form.append('incorp_file', incorp);             // NEW
+    if (panNumber) form.append('pan_number', panNumber);   
+    try{
+      setGenStatus('busy','Uploading & generating master…');
+      console.log('[api] POST /api/master/generate');
+      const res=await fetch('/api/master/generate',{method:'POST',body:form});
+      const data=await res.json().catch(()=> ({}));
+      if(!res.ok) throw new Error(data?.detail||'Master generation failed');
+      setGenStatus('ok','Master generated/updated.');
+      const mp=data.master_path||''; const marker='/companies/';
+      let created=''; const idx=mp.indexOf(marker); if(idx!==-1) created=mp.substring(idx+marker.length).split(/[\\/]/)[0];
+      if(created){
+        $('createdCompany').textContent=created; await loadCompanies();
+        $('companies').value=created; $('companySearch').value=created; $('companySelText').textContent=created;
+        setStatus('audMsg','ok',`Selected: ${created}`);
+      }
+    }catch(e){ console.error(e); setGenStatus('err', e.message||'Request failed'); }
+  });
+  $('clearGenBtn').addEventListener('click',()=>{ $('mca').value=''; $('pan').value=''; $('createdCompany').textContent='—'; setGenStatus('idle',''); });
+
+
+  // ---------- MAILING SECTION HELPERS ----------
+
+// tiny templater for preview
+function _renderTpl(tpl, ctx){
+  return tpl.replace(/\{\{\s*([^}]+)\s*\}\}/g, (_,path)=>{
+    try { return path.trim().split('.').reduce((o,k)=>o?.[k], ctx) ?? ''; }
+    catch { return ''; }
+  });
+}
+
+// build context from current UI selection (safe fallbacks)
+function buildMailCtx(){
+  const companyName = $('companies')?.value || 'ACME PRIVATE LIMITED';
+  const auditorOpt  = $('auditorsSelect')?.selectedOptions?.[0]?.textContent || '';
+  const auditorName = auditorOpt.replace(/\(.*$/, '').trim() || 'ABC & Co.';
+  const auditorId   = $('auditorsSelect')?.value || '';
+
+  return {
+    company: {
+      name: companyName,
+      cin: '—', // backend preview can inject real values if you prefer
+      pan: { pan_number: '-' },
+      tan: '-',
+      email: '-'
+    },
+    auditor: { id: auditorId, name: auditorName, membership_no: '-' },
+    directors: [],
+    contact: { name:'Virtual Finance', email:'support@virtualfinance.co', phone:'+91-00000-00000', address:'—' },
+    attachments: [],
+    other_attachments: [],
+    reply_link: 'mailto:support@virtualfinance.co'
+  };
+}
+
+// open preview modal with a local template
+async function openEmailPreview(path, ctx){
+  try{
+    const res = await fetch(`${path}?v=${Date.now()}`); // cache-bust
+    const raw = await res.text();
+
+    // swap cid for browser preview
+    const html = raw.replace(/src="cid:vf_banner"/g, '/app/assets/img/Picture1.png'); // or '/assets/...' if mounted
+    const finalHtml = _renderTpl(html, ctx);
+
+    const frame = $('previewFrame').contentWindow.document;
+    frame.open(); frame.write(finalHtml); frame.close();
+    $('emailPreview').style.display='block';
+  }catch(e){
+    console.error('[mail] preview failed', e);
+    setStatus('mailCheckMsg','err','Preview failed to load template.');
+  }
+}
+
+$('closePreview').addEventListener('click', ()=> $('emailPreview').style.display='none');
+
+// update chips when selection changes (reuse your existing listeners)
+function refreshMailChips(){
+  $('mailCompanyChip').textContent = $('companies').value || '—';
+  const aSel = $('auditorsSelect');
+  $('mailAuditorChip').textContent = (!aSel || aSel.disabled || !aSel.value)
+    ? '—'
+    : (aSel.options[aSel.selectedIndex].textContent || '—');
+}
+['companies','auditorsSelect'].forEach(id=>{
+  const el=$(id); if(el) el.addEventListener('change', refreshMailChips);
+});
+refreshMailChips();
+
+// readiness check: company present? docs present?
+async function checkReadiness(){
+  setStatus('mailCheckMsg','', '');
+  $('readyCompany').textContent='Company: checking…';
+  $('readyDocs').textContent='Docs: checking…';
+
+  const company = $('companies').value;
+  if(!company){
+    $('readyCompany').textContent='Company: missing';
+    setStatus('mailCheckMsg','err','Select a company in section 2 first.');
+    return { ok:false, reason:'NO_COMPANY' };
+  }
+
+  // is company in loaded list?
+  const existsCompany = (ALL_COMPANIES||[]).includes(company);
+  $('readyCompany').textContent = 'Company: ' + (existsCompany ? 'ok' : 'missing');
+  if(!existsCompany){
+    setStatus('mailCheckMsg','err','Company not found. Please Generate Master first.');
+    return { ok:false, reason:'NO_MASTER' };
+  }
+
+  // try to ask backend which docs exist (if your API doesn’t exist yet, this will 404 and we’ll fall back)
+  const requiredDocs = [
+    'bod_auditor_first_appointment',
+    'intimation_first_auditor_TEMPLATE',
+    'proposal_first_auditor_TEMPLATE',
+    'auditor_consent_TEMPLATE'
+  ];
+
+  let docStatus = null;
+  try{
+    // OPTIONAL: implement this endpoint in backend to return { doc_id: true/false, ... }
+    const url = `/api/templates/word/exists?company_name=${encodeURIComponent(company)}`;
+    console.log('[mail] GET', url);
+    const res = await fetch(url);
+    if(res.ok){
+      docStatus = await res.json();
+    }
+  }catch(e){
+    console.warn('[mail] exists check failed (fallback)', e);
+  }
+
+  if(!docStatus){
+    // Fallback: we can’t verify. Ask user to generate docs if unsure.
+    $('readyDocs').textContent = 'Docs: unknown';
+    setStatus('mailCheckMsg','warn','Could not verify documents. If not generated, please use “Generate Selected”.');
+    return { ok:true, reason:'UNKNOWN_DOCS' };
+  }
+
+  const missing = requiredDocs.filter(id => !docStatus[id]);
+  $('readyDocs').textContent = missing.length ? `Docs: missing (${missing.length})` : 'Docs: ok';
+  if(missing.length){
+    setStatus('mailCheckMsg','err', `Missing documents: ${missing.join(', ')}. Please generate before sending.`);
+    return { ok:false, reason:'MISSING_DOCS', missing };
+  }
+
+  setStatus('mailCheckMsg','ok','All checks passed. Ready to preview or send.');
+  return { ok:true };
+}
+
+$('checkReadyBtn').addEventListener('click', checkReadiness);
+
+// preview buttons
+$('previewAuditorEmail').addEventListener('click', ()=>{
+  refreshMailChips();
+  openEmailPreview('/app/emails/email_auditor_consent.html', buildMailCtx());
+});
+$('previewDirectorsEmail').addEventListener('click', ()=>{
+  refreshMailChips();
+  openEmailPreview('/app/emails/email_directors_pack.html', buildMailCtx());
+});
+
+// send buttons (wire to your backend mail sender when ready)
+
+// Replace your _sendMail + listeners with this version
+async function _sendMail(kind){
+  const company = $('companies').value;
+  const auditor = $('auditorsSelect').value || null;
+  const needsAuditor = (kind==='auditor');
+
+  if(!company){ setStatus('mailSendMsg','err','Select a company first.'); return; }
+  if(needsAuditor && !auditor){ setStatus('mailSendMsg','err','Select an auditor first.'); return; }
+
+  // Run readiness first (so we don’t send partial packs)
+  const ready = await checkReadiness();
+  if(!ready.ok){ setStatus('mailSendMsg','err','Not ready to send. Resolve checks above.'); return; }
+
+  try{
+    const payload = { company_name: company, auditor_id: auditor };
+    const url = kind==='auditor' ? '/api/mail/send/auditor' : '/api/mail/send/company';
+    console.log('[mail] POST', url, payload);
+
+    const res = await fetch(url, {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+
+    const data = await res.json().catch(()=> ({}));
+    if(!res.ok) throw new Error(data?.detail || 'Send failed');
+
+    // Log full response for debugging
+    console.log('[mail] response', data);
+
+    // Build a nice summary with subject + attachments (clickable)
+    const sentFlag = data.sent===true ? 'sent' : 'prepared (stub)';
+    const subject  = data.subject || (kind==='auditor'
+                      ? `Consent to Act as Auditor — ${company}`
+                      : `Documents for Signature — ${company}`);
+
+    const atts = Array.isArray(data.attachments) ? data.attachments : [];
+    const list = atts.length
+      ? `<ul>${atts.map(a=>{
+            const name = a?.filename || (typeof a==='string'? a.split('/').pop(): 'attachment.docx');
+            const href = a?.download_url || (typeof a==='string'? a : '#');
+            return `<li><a href="${href}" target="_blank" rel="noopener">${name}</a></li>`;
+          }).join('')}</ul>`
+      : '<em>No attachments returned.</em>';
+
+    const msg = `
+      <div><strong>Mail ${sentFlag}</strong></div>
+      <div>Subject: <em>${subject}</em></div>
+      <div style="margin-top:6px;">Attachments:</div>
+      ${list}
+    `;
+    setStatus('mailSendMsg','ok', msg);
+
+  }catch(e){
+    console.error('[mail] error', e);
+    setStatus('mailSendMsg','err', e.message || 'Send request failed');
+  }
+}
+
+$('sendToAuditorBtn').addEventListener('click', ()=>_sendMail('auditor'));
+$('sendToCompanyBtn').addEventListener('click', ()=>_sendMail('company'));
+
+
+  // Init
+  loadCompanies();
+</script>
+
+</body>
+</html>

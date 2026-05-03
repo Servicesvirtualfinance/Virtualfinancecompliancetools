@@ -1,0 +1,18 @@
+{
+  "to": "pandeyarchitecture@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "PANDEY ALUMINIUM SYSTEMS AND INTERIORS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SA4H2KIodWpEeP",
+    "payment_date": "2026-01-30T16:45:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

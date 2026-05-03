@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ANANTA ETERNAL PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "dcfa6c5c5753e92c67bbb8a140734023efce931f72a3cc1b47a9cb80c97c59bc",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-27 13:19:43"
+  },
+  "master_data": {
+    "cin": "U35106ME2026PTC474306",
+    "company_name": "ANANTA ETERNAL PRIVATE LIMITED",
+    "roc_name": "ROC Nagpur",
+    "registration_number": "474306",
+    "date_of_incorporation": "07/04/2026",
+    "email": "anantaeternal1@gmail.com",
+    "registered_address": "Plot no 26 aarti society, Saubhagya NG hudkeshwar, Mhalginagar, Nagpur, Nagpur, Maharashtra, India, 440034",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11651996,
+    "paid_up_capital": 11651997,
+    "date_of_last_agm": "07/04/2026",
+    "date_of_balance_sheet": "07/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Nagpur",
+    "jurisdiction_roc": "ROC Nagpur",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "anantaeternal1@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11651996",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11651997",
+      "name": "Rekha Sunil Dhenge",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/27/26, 1:10 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU35106ME2026PTC474306\n\nCompany Name\n\nANANTA ETERNAL PRIVATE LIMITED\n\nROC Name\n\nROC Nagpur\n\nRegistration Number\n\n474306\n\nDate of Incorporation\n\n07/04/2026\n\nEmail Id\n\nanantaeternal1@gmail.com\n\nRegistered Address\n\nPlot no 26 aarti society, Saubhagya NG hudkeshwar, Mhalginagar, Nagpur, Nagpur, Maharashtra,\nIndia, 440034\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n4/27/26, 1:10 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Nagpur\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11651996\n\nDirector\n\nPromoter\n\n07/04/2026\n\n-\n\nYes\n\nPRANAV SUNIL\nDHENGE\n\n2\n\n11651997\n\nREKHA SUNIL DHENGE\n\nDirector\n\nPromoter\n\n07/04/2026\n\n-\n\nYes\n\n"
+  }
+}

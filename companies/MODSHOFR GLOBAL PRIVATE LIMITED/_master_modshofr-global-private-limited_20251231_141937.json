@@ -1,0 +1,120 @@
+{
+  "company_name": "MODSHOFR GLOBAL PRIVATE LIMITED",
+  "cin": "U85499PN2025PTC249011",
+  "registered_address": "D-803, Marvel Citrine, Nr Nirmala Convent School, Dukirkline, Pune, Pune City, Maharashtra, India, 411014",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11416716,
+  "paid_up_capital": 11416719,
+  "directors": [
+    {
+      "din": "11416716",
+      "name": "Sarah Sunil Modi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11416719",
+      "name": "Aarti Sharma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM1758L"
+  },
+  "email": "office@shofaar.com",
+  "meta": {
+    "created": "20251231_141937",
+    "last_updated": "20251231_171909"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251231_141937",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Modshofr Global Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U85499PN2025PTC249011",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251231_160812",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Modshofr Global Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U85499PN2025PTC249011",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251231_171909",
+      "inputs": {
+        "meeting_date": "31 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Sarah Sunil Modi",
+          "din": "11416716",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MODSHOFR GLOBAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20251231_171909.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251231_171921",
+      "inputs": {
+        "to": "office@shofaar.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251231_171909.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PNEM46398C",
+  "authorized_signatory": {
+    "name": "Sarah Sunil Modi",
+    "din": "11416716",
+    "designation": "Director",
+    "meeting_date": "31 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MODSHOFR GLOBAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20251231_171909.docx",
+    "ts": "20251231_171909",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251231_171921"
+  },
+  "authorised_signatory": {
+    "name": "Sarah Sunil Modi",
+    "din": "11416716",
+    "designation": "Director",
+    "meeting_date": "31 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MODSHOFR GLOBAL PRIVATE LIMITED\\bod_gst_authorized_signatory_20251231_171909.docx",
+    "ts": "20251231_171909",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251231_171921"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "company_name": "ALTITUDO INDIA PRIVATE LIMITED",
+  "cin": "U62013TZ2026PTC038147",
+  "registered_address": "No 8, k.k.nagar, Siddhapudur, Siddhapudur, Coimbatore, Coimbatore South, Tamil Nadu, India, 641044",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11583075,
+  "paid_up_capital": 11583076,
+  "directors": [
+    {
+      "din": "11583075",
+      "name": "GOPALAKRISHNAN KALARANI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11583076",
+      "name": "Sneha Sunil",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA0669N"
+  },
+  "email": "altitudoindia@gmail.com",
+  "meta": {
+    "created": "20260313_141157",
+    "last_updated": "20260326_103604"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260313_141157",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ALTITUDO INDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62013TZ2026PTC038147",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260313_141447",
+      "inputs": {
+        "meeting_date": "13 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "GOPALAKRISHNAN KALARANI",
+          "din": "11583075",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALTITUDO INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260313_141447.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260313_141502",
+      "inputs": {
+        "to": "altitudoindia@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260313_141447.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260313_182131",
+      "inputs": {
+        "meeting_date": "13 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Sneha Sunil",
+          "din": "11583076",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALTITUDO INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260313_182131.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260326_103604",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ALTITUDO INDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62013TZ2026PTC038147",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CMBA14595A",
+  "authorized_signatory": {
+    "name": "Sneha Sunil",
+    "din": "11583076",
+    "designation": "Director",
+    "meeting_date": "13 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALTITUDO INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260313_182131.docx",
+    "ts": "20260313_182131",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Sneha Sunil",
+    "din": "11583076",
+    "designation": "Director",
+    "meeting_date": "13 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ALTITUDO INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260313_182131.docx",
+    "ts": "20260313_182131",
+    "note": "authorised signatory appointed"
+  }
+}

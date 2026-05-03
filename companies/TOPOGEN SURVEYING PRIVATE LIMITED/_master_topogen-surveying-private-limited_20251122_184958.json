@@ -1,0 +1,67 @@
+{
+  "company_name": "TOPOGEN SURVEYING PRIVATE LIMITED",
+  "cin": "U74909KL2025PTC098283",
+  "registered_address": "ottarikathVeedu 10thStone, Nedumangad, Thiruvananthapuram, Nedumangad, Kerala, C/o A Salim Kulaviyode Th, India, 695541",
+  "roc_name": "ROC Ernakulam",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1000000,
+  "paid_up_capital": 2000,
+  "directors": [
+    {
+      "din": "10702201",
+      "name": "Arshad Salim ",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11367315",
+      "name": "Ansar Ramla Salim",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT4349N"
+  },
+  "email": "topogensurveying@gmail.com",
+  "meta": {
+    "created": "20251122_184958",
+    "last_updated": "20251122_185119"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251122_184958",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Topogen Surveying Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U74909KL2025PTC098283",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251122_185119",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Topogen Surveying Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U74909KL2025PTC098283",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "TVDT04607B"
+}

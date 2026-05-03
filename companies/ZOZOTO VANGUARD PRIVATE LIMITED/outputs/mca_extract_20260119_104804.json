@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZOZOTO VANGUARD PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "efe653bf09ec1a1058d8da1318a088c37ca3360805b4cf76b2e8e73c401a7f2f",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-19 10:48:04"
+  },
+  "master_data": {
+    "cin": "U62099GJ2025PTC171360",
+    "company_name": "ZOZOTO VANGUARD PRIVATE LIMITED",
+    "roc_name": "ROC Ahmedabad",
+    "registration_number": "171360",
+    "date_of_incorporation": "29/12/2025",
+    "email": "admin@zozoto.org",
+    "registered_address": "C/O DILIPSINH LAXMANSINH, SIDDHARTH BUNGOLW NO:36, Vavol, Gandhi Nagar, Gandhinagar, Gujarat, India, 382016",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/19/26, 10:34 AM",
+    "authorised_capital": 11455436,
+    "paid_up_capital": 11455437,
+    "date_of_last_agm": "29/12/2025",
+    "date_of_balance_sheet": "29/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Ahmedabad",
+    "jurisdiction_roc": "ROC Ahmedabad",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "admin@zozoto.org"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11455436",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "29/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11455437",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "29/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/19/26, 10:34 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU62099GJ2025PTC171360\n\nCompany Name\n\nZOZOTO VANGUARD PRIVATE LIMITED\n\nROC Name\n\nROC Ahmedabad\n\nRegistration Number\n\n171360\n\nDate of Incorporation\n\n29/12/2025\n\nEmail Id\n\nadmin@zozoto.org\n\nRegistered Address\n\nC/O DILIPSINH LAXMANSINH, SIDDHARTH BUNGOLW NO:36, Vavol, Gandhi\nNagar, Gandhinagar, Gujarat, India, 382016\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/19/26, 10:34 AM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Ahmedabad\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11455436\n\nDirector\n\nPromoter\n\n29/12/2025\n\n-\n\nYes\n\nSANDIPSINH DILIPSINH\nRATHOD\n\n2\n\n11455437\n\nDirector\n\nPromoter\n\n29/12/2025\n\n-\n\nYes\n\nDILIPSINH LAXMANSINH\nRATHOD\n\n\n1/19/26, 10:34 AM\n\n\n"
+  }
+}

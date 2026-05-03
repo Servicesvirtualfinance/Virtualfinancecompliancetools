@@ -1,0 +1,91 @@
+{
+  "company_name": "MUNO LABS PRIVATE LIMITED",
+  "cin": "U20236UP2025PTC235123",
+  "registered_address": "B-226 PATEL NGR II, C/O VIJAYA VAISH, Ghaziabad, Ghaziabad, Ghaziabad, Uttar Pradesh, India, 201001",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "08810090",
+      "name": "Aman Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11349454",
+      "name": "Sundararaman Karthik",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM0168Q"
+  },
+  "email": "Munolabs1@gmail.com",
+  "meta": {
+    "created": "20251027_114355",
+    "last_updated": "20251029_112039"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251027_114355",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Muno Labs Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U20236UP2025PTC235123",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251027_114440",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Muno Labs Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U20236UP2025PTC235123",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251027_115109",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Muno Labs Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U20236UP2025PTC235123",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251029_112039",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Muno Labs Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U20236UP2025PTC235123",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTM17605A"
+}

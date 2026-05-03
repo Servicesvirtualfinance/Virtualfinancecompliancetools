@@ -1,0 +1,55 @@
+{
+  "company_name": "REALSTAKE VENTURES PRIVATE LIMITED",
+  "cin": "U68200KA2025PTC213048",
+  "registered_address": "kotnur road, shankarnag circle 93/1, JP Nagar VIII phase, Bangalore, Bangalore South, Karnataka, India, 560076",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 9542365,
+  "paid_up_capital": 11445985,
+  "directors": [
+    {
+      "din": "09542365",
+      "name": "NARENDRA BABU PUNEETH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11445985",
+      "name": "Arshal Vino",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR3537B"
+  },
+  "email": "cfo@realstakeventures.com",
+  "meta": {
+    "created": "20260116_121034",
+    "last_updated": "20260116_121034"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260116_121034",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_REALSTAKE VENTURES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U68200KA2025PTC213048",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRR35219C"
+}

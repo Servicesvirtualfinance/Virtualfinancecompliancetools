@@ -1,0 +1,55 @@
+{
+  "company_name": "CANDELARE BUILDCON PRIVATE LIMITED",
+  "cin": "U41001PN2025PTC248594",
+  "registered_address": "OMKAR COLONY GALI NO.3, C/O SHRI GAIKWAD GANPAT, Hadapsar, Pune, Pune City, Maharashtra, India, 411028",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11396809",
+      "name": "Ishwar Atmaram Sawarne",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "26/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11396810",
+      "name": "Dattatray Raghoba Panchal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "26/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+	"pan_number": "AANCC2830J"
+},
+  "email": "candelarebuildcon@gmail.com",
+  "meta": {
+    "created": "20251223_153837",
+    "last_updated": "20251223_153837"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251223_153837",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Candelare Buildcon Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U41001PN2025PTC248594",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "NSKC05351D"
+}

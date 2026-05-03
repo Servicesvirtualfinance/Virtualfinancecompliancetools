@@ -1,0 +1,55 @@
+{
+  "company_name": "SERAPHAI PRIVATE LIMITED",
+  "cin": "U85499HR2024PTC122115",
+  "registered_address": "C/o Shatrughan, 1027, Gali No 14, Baselwa, Faridabad City, Faridabad, Faridabad, Haryana, India, 121002",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10220322,
+  "paid_up_capital": 10651549,
+  "directors": [
+    {
+      "din": "10220322",
+      "name": "Mohit Pawar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "31/05/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10651549",
+      "name": "SAKUNTALA DWIVEDI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "31/05/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABNCS5863N"
+  },
+  "email": "mohitpawar845@gmail.com",
+  "meta": {
+    "created": "20260119_112845",
+    "last_updated": "20260119_112845"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260119_112845",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SERAPHAI PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U85499HR2024PTC122115",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RTKS46240F"
+}

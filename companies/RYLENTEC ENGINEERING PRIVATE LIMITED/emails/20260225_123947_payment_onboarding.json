@@ -1,0 +1,18 @@
+{
+  "to": "mashish88@live.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 RYLENTEC ENGINEERING PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "RYLENTEC ENGINEERING PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "shubha",
+    "plan_name": "Annual Compliance Package",
+    "amount": "10000",
+    "currency": "INR",
+    "payment_id": "SIB Account",
+    "payment_date": "2026-02-25T12:36:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

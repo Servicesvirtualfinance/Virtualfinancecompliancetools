@@ -1,0 +1,77 @@
+<!-- VIRTUAL FINANCE — UDYAM CERTIFICATE MAIL (SLA style) -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Udyam Registration Certificate</title>
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no">
+</head>
+<body style="margin:0; padding:0; background:#f4f6f8;">
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background:#f4f6f8;">
+    <tr>
+      <td align="center">
+        <table role="presentation" cellpadding="0" cellspacing="0" width="640" style="max-width:640px; background:#ffffff; border-radius:12px; overflow:hidden; margin:24px;">
+          <tr>
+            <td>
+             <img src="https://raw.githubusercontent.com/virtualfinance1992/vf-assets/main/MSME_Registeration.png"
+     alt="Virtual Finance — A unified platform for compliance"
+     width="640" style="display:block; width:100%; height:250px; border:0;"/>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:24px 28px 0 28px; font-family:Segoe UI, Roboto, Arial, sans-serif;">
+              <h2 style="margin:0; font-size:22px; color:#0f172a;">
+                Udyam Registration Certificate
+                <span style="font-weight:400; color:#475569;">· {{ company.name }}</span>
+              </h2>
+              <p style="margin:8px 0 0 0; color:#64748b; font-size:12px;">Date: {{ today }}</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:12px 28px 0 28px; font-family:Segoe UI, Roboto, Arial, sans-serif; color:#334155; line-height:1.6; font-size:14px;">
+              <p style="margin:0 0 12px 0;">Dear {{ contact.name }},</p>
+
+              <p style="margin:0 0 12px 0;">
+                Please find attached the <strong>Udyam Registration Certificate</strong>
+                for <strong>{{ company.name }}</strong>
+                {{ udyam.registration_no ? ("(Udyam No.: " ~ udyam.registration_no ~ ")") : "" }}.
+              </p>
+
+              <p style="margin:0 0 12px 0;">
+                If any corrections are required, reply to this email and we’ll update and resend immediately.
+              </p>
+
+              <p style="margin:12px 0 0 0;">Warm regards,<br>
+                <strong>Team Virtual Finance</strong>
+              </p>
+            </td>
+          </tr>
+
+      <tr>
+  <td align="center" style="padding:16px 28px 24px 28px; font-family:Segoe UI, Roboto, Arial, sans-serif;">
+    <div style="display:inline-block; background:#e5e7eb; color:#111827; text-decoration:none; padding:10px 14px; border-radius:10px; font-weight:600; font-size:13px;">
+      Please reply to confirm receipt
+    </div>
+  </td>
+</tr>
+
+
+          <tr>
+            <td align="center" style="background:#f1f1f1; font-size:12px; color:#666; padding:15px; font-family:Segoe UI, Roboto, Arial, sans-serif;">
+              © 2025 Konar Virtual Fintech Services Pvt Ltd<br>
+              Office 206, Shah Heritage CHS, Plot No.09, Sector 42, Nerul, Navi Mumbai 400706<br>
+              📞 <a href="https://wa.me/917738895510" target="_blank" style="color:#007bff; text-decoration:none;">+91 7738895510</a>
+              &nbsp;|&nbsp; ✉️ <a href="mailto:contact@virtualfinanceservice.com" style="color:#007bff; text-decoration:none;">contact@virtualfinanceservice.com</a>
+              &nbsp;|&nbsp; 🌐 <a href="https://virtualfinanceservice.com/" target="_blank" style="color:#007bff; text-decoration:none;">virtualfinanceservice.com</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

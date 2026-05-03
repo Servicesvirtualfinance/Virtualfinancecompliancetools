@@ -1,0 +1,149 @@
+{
+  "company_name": "LEDERRA PRIVATE LIMITED",
+  "cin": "U15202BR2025PTC080345",
+  "registered_address": "Alishan, Ward No. 3, Indira Nagar, Paliganj, Paliganj, Patna, Paliganj, Bihar, India, 801110",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11405039,
+  "paid_up_capital": 11405040,
+  "directors": [
+    {
+      "din": "11405039",
+      "name": "Ankit Kumar",
+      "designation": "Director",
+      "category": "Independent",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11405040",
+      "name": "Shwet Kamal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAGCL5943A"
+  },
+  "email": "lederrapvtltd@gmail.com",
+  "meta": {
+    "created": "20251227_105814",
+    "last_updated": "20251227_140241"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251227_105814",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Lederra Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U15202BR2025PTC080345",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251227_110128",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Lederra Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U15202BR2025PTC080345",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251227_134512",
+      "inputs": {
+        "meeting_date": "27 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Ankit Kumar",
+          "din": "11405039",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\LEDERRA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251227_134512.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251227_134536",
+      "inputs": {
+        "to": "lederrapvtltd@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251227_134512.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251227_140241",
+      "inputs": {
+        "meeting_date": "27 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Shwet Kamal",
+          "din": "11405040",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\LEDERRA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251227_140241.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251227_140348",
+      "inputs": {
+        "to": "lederrapvtltd@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251227_140241.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PTNL02149A",
+  "authorized_signatory": {
+    "name": "Shwet Kamal",
+    "din": "11405040",
+    "designation": "Director",
+    "meeting_date": "27 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\LEDERRA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251227_140241.docx",
+    "ts": "20251227_140241",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251227_140348"
+  },
+  "authorised_signatory": {
+    "name": "Shwet Kamal",
+    "din": "11405040",
+    "designation": "Director",
+    "meeting_date": "27 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\LEDERRA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251227_140241.docx",
+    "ts": "20251227_140241",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251227_140348"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "to": "vtreyatech@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 VTREYA TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "VTREYA TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S0a3PZSwYHAdBZ",
+    "payment_date": "2026-01-06T17:27:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

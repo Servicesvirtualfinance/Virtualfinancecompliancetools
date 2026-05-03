@@ -1,0 +1,76 @@
+{
+  "company_name": "ALLIED KINSMEN FACILITY SERVICES PRIVATE LIMITED",
+  "cin": "U81100TN2025FTC185738",
+  "registered_address": "2/7 SILATTUR POST, ARANTHANGI TK, Puduvakottai, Pudukkottai, Arantangi, Tamil Nadu, India, 614616",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "subsidiary of company incorporated outside India",
+  "class_of_company": "Private",
+  "authorised_capital": 1500000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11360784",
+      "name": "Anand Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "30/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11360785",
+      "name": "Ravichandran Ramasamy",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "30/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11360786",
+      "name": "Ashok Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "30/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA0545J"
+  },
+  "email": "Alliedkinsmen@gmail.com",
+  "meta": {
+    "created": "20251121_141450",
+    "last_updated": "20251121_151249"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251121_141450",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Allied Kinsmen Facility Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U81100TN2025FTC185738",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251121_151249",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Allied Kinsmen Facility Services Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U81100TN2025FTC185738",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEA42650G"
+}

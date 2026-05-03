@@ -1,0 +1,142 @@
+{
+  "company_name": "MAHAUDYAMI SKILLS LIMITED",
+  "cin": "U17099MH2025PLC459253",
+  "registered_address": "2 FLR-GRD ANMOL APRT, SAKHARAM KEER MARG MAHIM, Mahim, Mumbai, Mumbai, Maharashtra, India, 400016",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Public",
+  "authorised_capital": 100000,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11345581",
+      "name": "SHRADDHA OMKAR CHACHAD",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11345582",
+      "name": "Chachad Amol Muke",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11345583",
+      "name": "Snehal Popat Zende",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM0052F"
+  },
+  "email": "realbizcont@gmail.com",
+  "meta": {
+    "created": "20251028_165126",
+    "last_updated": "20251229_123528"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251028_165126",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Mahaudyami Skills Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U17099MH2025PLC459253",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251028_184737",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Mahaudyami Skills Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U17099MH2025PLC459253",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251216_104625",
+      "inputs": {
+        "meeting_date": "16 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Snehal Popat Zende",
+          "din": "11345583",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MAHAUDYAMI SKILLS LIMITED\\bod_gst_authorized_signatory_20251216_104625.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251216_104635",
+      "inputs": {
+        "to": "realbizcont@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251216_104625.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251229_123528",
+      "inputs": {
+        "meeting_date": "29 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Snehal Popat Zende",
+          "din": "11345583",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MAHAUDYAMI SKILLS LIMITED\\bod_gst_authorized_signatory_20251229_123528.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMM72920B",
+  "authorized_signatory": {
+    "name": "Snehal Popat Zende",
+    "din": "11345583",
+    "designation": "Director",
+    "meeting_date": "29 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MAHAUDYAMI SKILLS LIMITED\\bod_gst_authorized_signatory_20251229_123528.docx",
+    "ts": "20251229_123528",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Snehal Popat Zende",
+    "din": "11345583",
+    "designation": "Director",
+    "meeting_date": "29 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\MAHAUDYAMI SKILLS LIMITED\\bod_gst_authorized_signatory_20251229_123528.docx",
+    "ts": "20251229_123528",
+    "note": "authorised signatory appointed"
+  }
+}

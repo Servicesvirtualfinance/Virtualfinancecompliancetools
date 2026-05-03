@@ -1,0 +1,18 @@
+{
+  "to": "gkfinancialsolutions@outlook.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 GK FINANCIAL SOLUTIONS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "GK FINANCIAL SOLUTIONS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Se6I90tlJpiD0q",
+    "payment_date": "2026-04-16T14:18:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

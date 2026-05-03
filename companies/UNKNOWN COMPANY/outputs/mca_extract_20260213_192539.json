@@ -1,0 +1,36 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_COI-Synexis .pdf",
+  "file_hash_sha256": "02cae11e29f6e694d2ef3a68a99fddba67a7e66b6c9500033ce279213ec7e866",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-13 19:25:39"
+  },
+  "master_data": {
+    "cin": null,
+    "company_name": null,
+    "roc_name": null,
+    "registration_number": null,
+    "date_of_incorporation": null,
+    "email": null,
+    "registered_address": "",
+    "category_of_company": null,
+    "subcategory_of_company": null,
+    "class_of_company": null,
+    "active_compliance": null,
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": null,
+    "date_of_balance_sheet": null,
+    "company_status": null,
+    "small_company": null,
+    "jurisdiction_roc": null,
+    "jurisdiction_rd": null,
+    "emails_found": [],
+    "phones_found": []
+  },
+  "directors": [],
+  "raw_blocks": {
+    "first_10k": "GOVERNMENT OF INDIA\n\nCentral Registration Centre\n\nCertificate of Incorporation\n\n[Pursuant to sub-section (2) of section 7 and sub-section (1) of section 8 of the Companies Act, 2013 (18 of 2013) and rule\n18 of the Companies (Incorporation) Rules, 2014]\n\nI hereby certify that SYNEXIS AI SOLUTIONS (OPC) PRIVATE LIMITED is incorporated on this SEVENTH day of\nJANUARY TWO THOUSAND TWENTY SIX under the Companies Act, 2013 (18 of 2013) and that the company is\nCompany limited by shares\n\nThe Corporate Identity Number of the company is U62099KA2026OPC213840\n\nThe Permanent Account Number (PAN) of the company is ABSCS3603H*\n\nThe Tax Deduction and Collection Account Number (TAN) of the company is BLRS21222M*\n\nGiven under my hand at Manesar this SEVENTH day of JANUARY TWO THOUSAND TWENTY SIX\n\nSrikar Anumula\n\nAssistant Registrar of Companies/ Deputy Registrar of Companies/ Registrar of Companies\n\nFor and on behalf of the Jurisdictional Registrar of Companies\n\nRegistrar of Companies\n\nCentral Registration Centre\n\nDisclaimer: This certificate only evidences incorporation of the company on the basis of documents and declarations of the\napplicant(s). This certificate is neither a license nor permission to conduct business or solicit deposits or funds from public.\nPermission of sector regulator is necessary wherever required. Registration status and other details of the company can be\nverified on mca.gov.in\n\nMailing Address as per record available in Registrar of Companies office:\n\nSYNEXIS AI SOLUTIONS (OPC) PRIVATE LIMITED\n\nNo.1664 32nd Cross, 18th Main, BSK 2nd Stage, B Sk II Stage, Bangalore South, Bangalore- 560070, Karnataka\n\n*as issued by Income tax Department\n\n"
+  }
+}

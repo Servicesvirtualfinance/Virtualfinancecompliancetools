@@ -1,0 +1,46 @@
+{
+  "company_name": "BIG BIOCHAR (OPC) PRIVATE LIMITED",
+  "cin": "U20121TS2025OPC208132",
+  "registered_address": "C/O INSEEYA KHAMBATI, PREM SAGAR OLD BOWENPALLY, Trimulgherry, Hyderabad, Rangareddy, Telangana, India, 500015",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11437469,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11437469",
+      "name": "Murtaza Khambati",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB2271K"
+  },
+  "email": "Murtaza.khambati.in@gmail.com",
+  "meta": {
+    "created": "20260120_103906",
+    "last_updated": "20260120_103906"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260120_103906",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BIG BIOCHAR (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U20121TS2025OPC208132",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDB16464A"
+}

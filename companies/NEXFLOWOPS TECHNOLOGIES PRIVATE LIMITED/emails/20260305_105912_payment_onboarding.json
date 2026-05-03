@@ -1,0 +1,18 @@
+{
+  "to": "matrojatech@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SNQGwIh9TmV1AR",
+    "payment_date": "2026-03-05T10:48:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

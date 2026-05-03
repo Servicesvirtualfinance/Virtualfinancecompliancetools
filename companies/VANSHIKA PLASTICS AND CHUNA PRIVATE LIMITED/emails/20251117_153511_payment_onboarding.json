@@ -1,0 +1,18 @@
+{
+  "to": "vanshikaplasticschuna@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "VANSHIKA PLASTICS AND CHUNA PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RglZGGr3LDStMF",
+    "payment_date": "2025-11-17T15:34:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

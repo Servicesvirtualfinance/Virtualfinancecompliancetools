@@ -1,0 +1,108 @@
+{
+  "company_name": "ECO ZEST AGRITECH PRIVATE LIMITED",
+  "cin": "U01610PN2025PTC247308",
+  "registered_address": "5th floor, plot no.30, Phase 1, Rajiv Gandhi, Infotech Park (Hinjawadi), Pune, Haveli, Maharashtra, India, 411057",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11334197",
+      "name": "Dibyendu Halder",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11334198",
+      "name": "Babita Haldar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE2069D"
+  },
+  "email": "ecozestagritech@gmail.com",
+  "meta": {
+    "created": "20251103_123101",
+    "last_updated": "20251120_150738"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251103_123101",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Eco Zest Agritech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U01610PN2025PTC247308",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251120_150738",
+      "inputs": {
+        "meeting_date": "20 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Dibyendu Halder",
+          "din": "11334197",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ECO ZEST AGRITECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20251120_150738.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251120_150751",
+      "inputs": {
+        "to": "ecozestagritech@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251120_150738.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PNEE11013C",
+  "authorized_signatory": {
+    "name": "Dibyendu Halder",
+    "din": "11334197",
+    "designation": "Director",
+    "meeting_date": "20 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ECO ZEST AGRITECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20251120_150738.docx",
+    "ts": "20251120_150738",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251120_150751"
+  },
+  "authorised_signatory": {
+    "name": "Dibyendu Halder",
+    "din": "11334197",
+    "designation": "Director",
+    "meeting_date": "20 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ECO ZEST AGRITECH PRIVATE LIMITED\\bod_gst_authorized_signatory_20251120_150738.docx",
+    "ts": "20251120_150738",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251120_150751"
+  }
+}

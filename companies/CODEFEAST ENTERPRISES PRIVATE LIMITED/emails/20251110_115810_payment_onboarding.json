@@ -1,0 +1,18 @@
+{
+  "to": "abhishek.uniprofs@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 CODEFEAST ENTERPRISES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "CODEFEAST ENTERPRISES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b91250/Month",
+    "amount": "1475",
+    "currency": "INR",
+    "payment_id": "pay_Rdw9wEZPwecmaw",
+    "payment_date": "2025-11-10T11:57:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

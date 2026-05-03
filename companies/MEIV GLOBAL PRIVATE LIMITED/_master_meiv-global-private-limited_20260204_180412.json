@@ -1,0 +1,55 @@
+{
+  "company_name": "MEIV GLOBAL PRIVATE LIMITED",
+  "cin": "U46909DL2026PTC461168",
+  "registered_address": "E- 49/5 FIRST FLOOR OKHLA, INDUSTRIAL AREA PH 11, C R R I (South Delhi), South Delhi, New Delhi, Delhi, India, 110020",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11467762,
+  "paid_up_capital": 11467763,
+  "directors": [
+    {
+      "din": "11467762",
+      "name": "Paramjit Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11467763",
+      "name": "Jasmeet Bhatia",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM3346C"
+  },
+  "email": "meivglobal@gmail.com",
+  "meta": {
+    "created": "20260204_180412",
+    "last_updated": "20260204_180412"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260204_180412",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MEIV GLOBAL PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46909DL2026PTC461168",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELM53720C"
+}

@@ -1,0 +1,73 @@
+{
+  "company_name": "ARIVO ROBOTICS & TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62011TZ2026PTC038467",
+  "registered_address": "1/15, PALAKGADU, KUNJAMPALAYAM, Periamanali, Namakkal, Tiruchengodu, Tamil Nadu, India, 637410",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11589097,
+  "paid_up_capital": 11589087,
+  "directors": [
+    {
+      "din": "11589097",
+      "name": "Moorthy Madesh Kumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11589087",
+      "name": "Paramasivam Sujeet",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11621605",
+      "name": "KAMARASU CHANDRA LEKA SABAREESAN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11621606",
+      "name": "PALANISAMY KAVIN KARTHICK",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA2368E"
+  },
+  "email": "adminarivo@gmail.com",
+  "meta": {
+    "created": "20260417_125037",
+    "last_updated": "20260417_125037"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260417_125037",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ARIVO ROBOTICS & TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62011TZ2026PTC038467",
+        "directors_count": 4
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CMBA14687B"
+}

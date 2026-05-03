@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ASTARAG OLD AGE HOME PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "1b45ca3779c0cecee1e8d3e58eb7ffcf1b28e54059bd0ff42969884f52e6e441",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-03 15:59:10"
+  },
+  "master_data": {
+    "cin": "U87900WB2025PTC278664",
+    "company_name": "ASTARAG OLD AGE HOME PRIVATE LIMITED",
+    "roc_name": "ROC Kolkata II",
+    "registration_number": "278664",
+    "date_of_incorporation": "20/04/2025",
+    "email": "astarag76@gmail.com",
+    "registered_address": "P-277 PLAZA HOUSING, SHIBRAMPUR ASHUTI-2, Vivekanandapur, South 24 Parganas, Thakurpukur Mahestola, West Bengal, India, 700141",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "4/3/26, 3:54 PM",
+    "authorised_capital": 11066419,
+    "paid_up_capital": 11066420,
+    "date_of_last_agm": "20/04/2025",
+    "date_of_balance_sheet": "20/04/2025",
+    "company_status": "Active",
+    "small_company": "ROC Kolkata II",
+    "jurisdiction_roc": "ROC Kolkata II",
+    "jurisdiction_rd": "RD Kolkata, Eastern Region Directorate",
+    "emails_found": [
+      "astarag76@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11066419",
+      "name": "Partha Ray",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11066420",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11066421",
+      "name": "Manisha Samanta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/3/26, 3:54 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU87900WB2025PTC278664\n\nCompany Name\n\nASTARAG OLD AGE HOME PRIVATE LIMITED\n\nROC Name\n\nROC Kolkata II\n\nRegistration Number\n\n278664\n\nDate of Incorporation\n\n20/04/2025\n\nEmail Id\n\nastarag76@gmail.com\n\nRegistered Address\n\nP-277 PLAZA HOUSING, SHIBRAMPUR ASHUTI-2, Vivekanandapur, South 24\nParganas, Thakurpukur Mahestola, West Bengal, India, 700141\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n4/3/26, 3:54 PM\n\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kolkata II\n\nRD (name and Region)\n\nRD Kolkata, Eastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11066419\n\nPARTHA RAY\n\nDirector\n\nPromoter\n\n20/04/2025\n\n-\n\nYes\n\n2\n\n11066420\n\nDirector\n\nPromoter\n\n20/04/2025\n\n-\n\nYes\n\nSAMIR KUMAR\nSAMANTA\n\n\n4/3/26, 3:54 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n3\n\n11066421\n\nMANISHA SAMANTA\n\nDirector\n\nPromoter\n\n20/04/2025\n\n-\n\nYes\n\n"
+  }
+}

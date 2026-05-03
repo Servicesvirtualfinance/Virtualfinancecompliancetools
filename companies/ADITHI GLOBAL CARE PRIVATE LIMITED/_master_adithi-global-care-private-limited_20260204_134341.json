@@ -1,0 +1,55 @@
+{
+  "company_name": "ADITHI GLOBAL CARE PRIVATE LIMITED",
+  "cin": "U78300KA2026PTC214117",
+  "registered_address": "C/O SHARANAMMA WD NO 22, SRI NAGAR TALUR ROAD, Bellary Cowl Bazar, Bellary, Bellary, Karnataka, India, 583102",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10058395,
+  "paid_up_capital": 11481757,
+  "directors": [
+    {
+      "din": "10058395",
+      "name": "HALEGOUD ADITHYA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11481757",
+      "name": "BELLARY SOUMYA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA6138K"
+  },
+  "email": "adithiglobalcare@gmail.com",
+  "meta": {
+    "created": "20260204_134341",
+    "last_updated": "20260204_134341"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260204_134341",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ADITHI GLOBAL CARE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U78300KA2026PTC214117",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRA58928C"
+}

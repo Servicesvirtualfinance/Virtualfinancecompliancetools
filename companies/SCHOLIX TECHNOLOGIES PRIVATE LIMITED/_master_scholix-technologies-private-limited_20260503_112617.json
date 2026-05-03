@@ -1,0 +1,55 @@
+{
+  "company_name": "SCHOLIX TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U47912TS2026PTC214924",
+  "registered_address": "HNO 1-8-236, PRAKASH NAGAR, Begumpet, Hyderabad, Secunderabad, Telangana, India, 500016",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11678618,
+  "paid_up_capital": 11678619,
+  "directors": [
+    {
+      "din": "11678618",
+      "name": "MOHAMMAD SHAMSHAD UDDIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11678619",
+      "name": "MOHAMMAD MAZHAR HUSSAIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS5290D"
+  },
+  "email": "support@schoolkart.in",
+  "meta": {
+    "created": "20260503_112617",
+    "last_updated": "20260503_112617"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260503_112617",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SCHOLIX TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912TS2026PTC214924",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDS93356E"
+}

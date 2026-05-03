@@ -1,0 +1,46 @@
+{
+  "company_name": "LIMINALLY (OPC) PRIVATE LIMITED",
+  "cin": "U73100MH2026OPC469831",
+  "registered_address": "B/701, Panchsheel Garden, Mahavir Nagar, Kandivali West, Mumbai, Kandivali West, Maharashtra, India, 400067",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11632362,
+  "paid_up_capital": 25000,
+  "directors": [
+    {
+      "din": "11632362",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "26/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAGCL8107L"
+  },
+  "email": "sidparekh007@gmail.com",
+  "meta": {
+    "created": "20260415_181242",
+    "last_updated": "20260415_181242"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260415_181242",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_LIMINALLY (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U73100MH2026OPC469831",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUML16341D"
+}

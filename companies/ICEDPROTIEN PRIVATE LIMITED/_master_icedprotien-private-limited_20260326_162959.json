@@ -1,0 +1,55 @@
+{
+  "company_name": "ICEDPROTIEN PRIVATE LIMITED",
+  "cin": "U46309TN2026PTC190472",
+  "registered_address": "A511, 5TH FLOOR, RAJIV GANDHI KALAVAKKAM, Illalur, Kanchipuram, Chengalpattu, Tamil Nadu, India, 603110",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11592586,
+  "paid_up_capital": 11592587,
+  "directors": [
+    {
+      "din": "11592586",
+      "name": "HARSHALBALU PATIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11592587",
+      "name": "SAMEULA ANTTO NIVETHITHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI7478K"
+  },
+  "email": "elitefacts77@gmail.com",
+  "meta": {
+    "created": "20260326_162959",
+    "last_updated": "20260326_162959"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260326_162959",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ICEDPROTIEN PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46309TN2026PTC190472",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEI13123F"
+}

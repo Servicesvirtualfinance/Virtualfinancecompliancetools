@@ -1,0 +1,61 @@
+{
+  "company_name": "GLID CARE FOUNDATION",
+  "cin": "U88900TZ2026NPL037431",
+  "registered_address": "8/5A, SHALOAM GATTAGE, PATTANAM RO.GANDHI NAGAR, Vellalore, Coimbatore, Coimbatore South, Tamil Nadu, India, 641111",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11461185",
+      "name": "AYYAPPAN BEAULA JEBARANI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11475406",
+      "name": "MANISHA RANI BHOI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11475407",
+      "name": "JOHN DAVID GNANARAJ BLESSING",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "glidcarefoundation@gmail.com",
+  "meta": {
+    "created": "20260129_160324",
+    "last_updated": "20260129_160324"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260129_160324",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_MASTER DATA (1).pdf"
+      },
+      "outputs": {
+        "cin": "U88900TZ2026NPL037431",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ]
+}

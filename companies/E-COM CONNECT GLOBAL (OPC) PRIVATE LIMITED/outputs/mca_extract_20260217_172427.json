@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_E-COM CONNECT GLOBAL (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "785d8a3e47deddba3220ad1e0e7307aadbe690b5c2c900fb08044eeb013ebcc8",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-17 17:24:27"
+  },
+  "master_data": {
+    "cin": "U47912KA2025OPC213259",
+    "company_name": "E-COM CONNECT GLOBAL (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "213259",
+    "date_of_incorporation": "25/12/2025",
+    "email": "info@ecomconnectglobal.com",
+    "registered_address": "Suit No.5B, AXIS PENMARK, 565, 9th Cross 7th Main, JP Nagar III Phase, Bangalore, Bangalore South, Karnataka, India, 560078",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "2/17/26, 5:23 PM",
+    "authorised_capital": 11451289,
+    "paid_up_capital": 20000,
+    "date_of_last_agm": "25/12/2025",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "No Records Found",
+    "emails_found": [
+      "info@ecomconnectglobal.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11451289",
+      "name": "Obaid Jayakumar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/17/26, 5:23 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU47912KA2025OPC213259\n\nCompany Name\n\nE-COM CONNECT GLOBAL (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n213259\n\nDate of Incorporation\n\n25/12/2025\n\nEmail Id\n\ninfo@ecomconnectglobal.com\n\nRegistered Address\n\nSuit No.5B, AXIS PENMARK, 565, 9th Cross 7th Main, JP Nagar III Phase, Bangalore,\nBangalore South, Karnataka, India, 560078\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n2/17/26, 5:23 PM\n\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n20,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\n-\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11451289\n\nOBAID JAYAKUMAR\n\nDirector\n\nPromoter\n\n25/12/2025\n\n-\n\nYes\n\n"
+  }
+}

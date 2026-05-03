@@ -1,0 +1,211 @@
+{
+  "company_name": "UNKNOWN COMPANY",
+  "cin": null,
+  "registered_address": "Flr-3, Hakimi Edifice, 5th Cross Rd, Vinayaka Ngr, J P Nagar, Bangalore, Bangalore South, Karnataka, India, 560078 Total Obligation of Contribution 1, 00, 000 LLP Status Active",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": null,
+  "subcategory_of_company": null,
+  "class_of_company": null,
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11414264",
+      "name": "06/01/2026 - Yes Designated",
+      "designation": "Partner",
+      "category": "MUSTAFA",
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11466976",
+      "name": "06/01/2026 - Yes Abbas Bedawala Designated",
+      "designation": "Partner",
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM5173D"
+  },
+  "email": "be.laban.india@gmail.com",
+  "meta": {
+    "created": "20260103_171633",
+    "last_updated": "20260425_131108"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260103_171633",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Adobe Scan 23 Sep 2025 (1).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 0
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260117_135714",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BASM VENTURES LLP.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260213_192539",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_COI-Synexis .pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260227_113929",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_print medicoed (2).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260227_114038",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_print medicoed (2).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260317_112745",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Certificate_of_Incorporation_HOLISYNX_TECH_SOLUTIONS_PRIVATE_LIMITED (1).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260402_143606",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_SPICE + Part B_Approval Letter_AC2800326.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260415_180209",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Certificate of Incorporation (COI).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260415_180314",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Certificate of Incorporation (COI).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260415_181210",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Certificate of Incorporation (COI).pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260425_125407",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_SPICE + Part B_Approval Letter_AC2908576_21 Apr 2026.pdf.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260425_130752",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_master almamunn.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260425_130959",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_master almamunn.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260425_131108",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_master almamunn.pdf"
+      },
+      "outputs": {
+        "cin": null,
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BPLM19656A"
+}

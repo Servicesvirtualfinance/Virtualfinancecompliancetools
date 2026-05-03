@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SYNEXIS AI SOLUTIONS (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "479ed8878a881de8ae6450d02adcea8346196dc7e876223a7220ee9619ad637f",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-13 19:27:05"
+  },
+  "master_data": {
+    "cin": "U62099KA2026OPC213840",
+    "company_name": "SYNEXIS AI SOLUTIONS (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "213840",
+    "date_of_incorporation": "07/01/2026",
+    "email": "synexis.aisolutions@gmail.com",
+    "registered_address": "1664 32nd Cross, 18th Main Banashankari II Stage, B Sk II Stage, Bangalore, Bangalore South, Karnataka, India, 560070",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "2/13/26, 7:24 PM",
+    "authorised_capital": 11471441,
+    "paid_up_capital": 100000,
+    "date_of_last_agm": "07/01/2026",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD, South East Region",
+    "emails_found": [
+      "synexis.aisolutions@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11471441",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/13/26, 7:24 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62099KA2026OPC213840\n\nCompany Name\n\nSYNEXIS AI SOLUTIONS (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n213840\n\nDate of Incorporation\n\n07/01/2026\n\nEmail Id\n\nsynexis.aisolutions@gmail.com\n\nRegistered Address\n\n1664 32nd Cross, 18th Main Banashankari II Stage, B Sk II Stage, Bangalore, Bangalore\nSouth, Karnataka, India, 560070\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\n\n2/13/26, 7:24 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD, South East Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11471441\n\nDirector\n\nPromoter\n\n07/01/2026\n\n-\n\nYes\n\nNARASAIAH\nDHANAPALA\n\n"
+  }
+}

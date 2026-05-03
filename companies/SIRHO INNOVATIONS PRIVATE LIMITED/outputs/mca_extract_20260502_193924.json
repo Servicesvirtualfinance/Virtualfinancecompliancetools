@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIRHO INNOVATIONS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "3d0b0fbc27cea4cadec8bb134a0a4a32d06e8bff1ff7b17bec5af6992d35a455",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-05-02 19:39:24"
+  },
+  "master_data": {
+    "cin": "U72100DL2025PTC446455",
+    "company_name": "SIRHO INNOVATIONS PRIVATE LIMITED",
+    "roc_name": "ROC Delhi I",
+    "registration_number": "446455",
+    "date_of_incorporation": "16/04/2025",
+    "email": "sirhoinnovations@gmail.com",
+    "registered_address": "B-120 Third Floor KH NO, 393/264, New Ashok Nagar, East Delhi, East Delhi, East Delhi, Delhi, India, 110096",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11058054,
+    "paid_up_capital": 11058055,
+    "date_of_last_agm": "16/04/2025",
+    "date_of_balance_sheet": "16/04/2025",
+    "company_status": "Active",
+    "small_company": "ROC Delhi I",
+    "jurisdiction_roc": "ROC Delhi I",
+    "jurisdiction_rd": "RD Delhi, Northern Region Directorate I",
+    "emails_found": [
+      "sirhoinnovations@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11058054",
+      "name": "Asha Ray",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11058055",
+      "name": "Goldi Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "09143075",
+      "name": "",
+      "designation": "Director",
+      "category": "Independent",
+      "date_of_appointment": "24/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "5/2/26, 7:38 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU72100DL2025PTC446455\n\nCompany Name\n\nSIRHO INNOVATIONS PRIVATE LIMITED\n\nROC Name\n\nROC Delhi I\n\nRegistration Number\n\n446455\n\nDate of Incorporation\n\n16/04/2025\n\nEmail Id\n\nsirhoinnovations@gmail.com\n\nRegistered Address\n\nB-120 Third Floor KH NO, 393/264 , New Ashok Nagar, East Delhi, East Delhi, East Delhi, Delhi,\nIndia, 110096\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\n\n5/2/26, 7:38 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi I\n\nRD (name and Region)\n\nRD Delhi, Northern Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11058054\n\nASHA RAY\n\nDirector\n\nPromoter\n\n16/04/2025\n\n-\n\nYes\n\n2\n\n11058055\n\nGOLDI KUMARI\n\nDirector\n\nPromoter\n\n16/04/2025\n\n-\n\nYes\n\n3\n\n09143075\n\nDirector\n\nIndependent\n\n24/03/2026\n\n-\n\nYes\n\nMANIKANDAN\nNAGARAJAN\n\n"
+  }
+}

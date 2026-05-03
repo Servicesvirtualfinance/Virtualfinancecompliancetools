@@ -1,0 +1,55 @@
+{
+  "company_name": "DETOX DIET DELIGHT PRIVATE LIMITED",
+  "cin": "U56101TN2026PTC188889",
+  "registered_address": "PLOT NO.9-B, 1ST STREET, BHUVANESHWARI NAGAR, Rajakilpakkam, Kanchipuram, Tambaram, Tamil Nadu, India, 600073",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11472302,
+  "paid_up_capital": 11502947,
+  "directors": [
+    {
+      "din": "11472302",
+      "name": "Sathiya",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11502947",
+      "name": "Ashwin Jayaseelan",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCD3916H"
+  },
+  "email": "detoxdietdelight@gmail.com",
+  "meta": {
+    "created": "20260219_173943",
+    "last_updated": "20260219_173943"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260219_173943",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DETOX DIET DELIGHT PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U56101TN2026PTC188889",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHED17383C"
+}

@@ -1,0 +1,56 @@
+{
+  "company_name": "OMHOME SERVICES PRIVATE LIMITED",
+  "cin": "U68100TS2025PTC208253",
+  "registered_address": "G 2, NO-426 PJR ENCLAVE, CHANDANAGAR, Lingampalli, K.V.Rangareddy, Serilingampally, Telangana, India, 500019",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11440690,
+  "paid_up_capital": 11440691,
+  "directors": [
+    {
+      "din": "11440690",
+      "name": "RADHA RAVI KIRAN TIRUPATI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11440691",
+      "name": "SESHAM AKHILASWETHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAECO9870D"
+
+},
+  "email": "ktirupati@zenstudios.in",
+  "meta": {
+    "created": "20260112_164335",
+    "last_updated": "20260112_164335"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260112_164335",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_OMHOME SERVICES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U68100TS2025PTC208253",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "HYDO05871F"
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHREE RADHA GOPALA BUILDERS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "1147235135d5facde8035d10455f2387210b11e6d36ddeeef7ab277a6ade4559",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-23 11:58:52"
+  },
+  "master_data": {
+    "cin": "U41001TS2026PTC210642",
+    "company_name": "SHREE RADHA GOPALA BUILDERS PRIVATE LIMITED",
+    "roc_name": "ROC Hyderabad",
+    "registration_number": "210642",
+    "date_of_incorporation": "03/02/2026",
+    "email": "srgtraderspvtltd@gmail.com",
+    "registered_address": "3-38 NH Road, Kochera Thanda, Kowdipally, Medak, Narsapur, Telangana, India, 502316",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11520842,
+    "paid_up_capital": 11520843,
+    "date_of_last_agm": "2/23/26, 11:57 AM",
+    "date_of_balance_sheet": "03/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Hyderabad",
+    "jurisdiction_roc": "ROC Hyderabad",
+    "jurisdiction_rd": "RD Hyderabad, Southeastern Region Directorate",
+    "emails_found": [
+      "srgtraderspvtltd@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11520842",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11520843",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/23/26, 11:57 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU41001TS2026PTC210642\n\nCompany Name\n\nSHREE RADHA GOPALA BUILDERS PRIVATE LIMITED\n\nROC Name\n\nROC Hyderabad\n\nRegistration Number\n\n210642\n\nDate of Incorporation\n\n03/02/2026\n\nEmail Id\n\nsrgtraderspvtltd@gmail.com\n\nRegistered Address\n\n3-38 NH Road, Kochera Thanda, Kowdipally, Medak, Narsapur,\nTelangana, India, 502316\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Hyderabad\n\nRD (name and Region)\n\nRD Hyderabad, Southeastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/23/26, 11:57 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11520842\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nRAMAVATH\nPRAVEEN\n\n2\n\n11520843\n\nDirector\n\nPromoter\n\n03/02/2026\n\n-\n\nYes\n\nPRATHAP\nRAMAVATH\n\n"
+  }
+}

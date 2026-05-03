@@ -1,0 +1,55 @@
+{
+  "company_name": "PIXFLY INNOVATIONS PRIVATE LIMITED",
+  "cin": "U62099MH2024PTC433572",
+  "registered_address": "SHOP NO 43, -A, F GRD W P, WELFARE CENTRE HUTMENTS, Sion, Mumbai, Mumbai- 400022, Maharashtra",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "10808010",
+      "name": "MOHD AAMIR ANIS AHMED KHAN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/10/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10808011",
+      "name": "SK ARMAN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "14/10/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCP1338L"
+  },
+  "email": "fixfly.in@gmail.com",
+  "meta": {
+    "created": "20251127_125427",
+    "last_updated": "20251127_125427"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251127_125427",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Bodhi Karuna Traders Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U46909BR2025PTC079866",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMP52554F"
+}

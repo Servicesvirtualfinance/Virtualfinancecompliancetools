@@ -1,0 +1,18 @@
+{
+  "to": "mysticmultiversepvtltd@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 MYSTIC MULTIVERSE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "MYSTIC MULTIVERSE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance  Package",
+    "amount": "11800",
+    "currency": "INR",
+    "payment_id": "pay_Rtqh67KdAawv86",
+    "payment_date": "2025-12-20T17:10:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

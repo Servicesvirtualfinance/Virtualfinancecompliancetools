@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MSEB RETIRED ENGINEERS WELFARE ASSOCIATION.pdf",
+  "file_hash_sha256": "e1d31aa3409373960b2e52f2a5b83302be89e6c93ff83461bf167a1ba4e5cdd0",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-25 16:31:18"
+  },
+  "master_data": {
+    "cin": "U88900MR2026NPL475628",
+    "company_name": "MSEB RETIRED ENGINEERS WELFARE ASSOCIATION",
+    "roc_name": "ROC Mumbai II",
+    "registration_number": "475628",
+    "date_of_incorporation": "15/04/2026",
+    "email": "msebretiredengineers1201@gmail.com",
+    "registered_address": "E-1201 Richmond Shiv sai, paradiseNEarFatima Church, Thane, Thane, Thane, Maharashtra, India, 400601",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,000",
+    "authorised_capital": 11664000,
+    "paid_up_capital": 11664001,
+    "date_of_last_agm": "15/04/2026",
+    "date_of_balance_sheet": "15/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai II",
+    "jurisdiction_roc": "ROC Mumbai II",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "msebretiredengineers1201@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11664000",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11664001",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11664002",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/25/26, 4:22 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900MR2026NPL475628\n\nCompany Name\n\nMSEB RETIRED ENGINEERS WELFARE ASSOCIATION\n\nROC Name\n\nROC Mumbai II\n\nRegistration Number\n\n475628\n\nDate of Incorporation\n\n15/04/2026\n\nEmail Id\n\nmsebretiredengineers1201@gmail.com\n\nRegistered Address\n\nE-1201 Richmond Shiv sai, paradiseNEarFatima Church, Thane, Thane, Thane, Maharashtra, India,\n400601\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,000\n\nPaid up Capital (Rs)\n\n10,000\n\n\n4/25/26, 4:22 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai II\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11664000\n\nDirector\n\nPromoter\n\n15/04/2026\n\n-\n\nYes\n\nRAJSHEKHAR BHARAMA\nKORE\n\n2\n\n11664001\n\nDirector\n\nPromoter\n\n15/04/2026\n\n-\n\nYes\n\nPRASHANT BHASKAR\nBHANUSHALI\n\n3\n\n11664002\n\nDirector\n\nPromoter\n\n15/04/2026\n\n-\n\nYes\n\nDHANANJAY VASANTRAO\nBHOJANE\n\n"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_GOLGAPPA FLEET PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "85ff554632ab5e98fadf06c2a03cda2856b074b9b93df622ba62493a7d5b05ac",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-04 13:21:22"
+  },
+  "master_data": {
+    "cin": "U56100WB2026PTC285848",
+    "company_name": "GOLGAPPA FLEET PRIVATE LIMITED",
+    "roc_name": "ROC Kolkata",
+    "registration_number": "285848",
+    "date_of_incorporation": "08/01/2026",
+    "email": "golgappafleet@gmail.com",
+    "registered_address": "C/O VILL-SAHAPUR PO-, KHATURA, NORTH24 PARGANAS, Khantura, North 24 Parganas, Habra - I, West Bengal, India, 743273",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,000",
+    "authorised_capital": 11473141,
+    "paid_up_capital": 11473142,
+    "date_of_last_agm": "2/4/26, 1:20 PM",
+    "date_of_balance_sheet": "08/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Kolkata",
+    "jurisdiction_roc": "ROC Kolkata",
+    "jurisdiction_rd": "RD, Eastern Region",
+    "emails_found": [
+      "golgappafleet@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11473141",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11473142",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/4/26, 1:20 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU56100WB2026PTC285848\n\nCompany Name\n\nGOLGAPPA FLEET PRIVATE LIMITED\n\nROC Name\n\nROC Kolkata\n\nRegistration Number\n\n285848\n\nDate of Incorporation\n\n08/01/2026\n\nEmail Id\n\ngolgappafleet@gmail.com\n\nRegistered Address\n\nC/O VILL-SAHAPUR PO-, KHATURA, NORTH24 PARGANAS,\nKhantura, North 24 Parganas, Habra - I, West Bengal, India, 743273\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kolkata\n\nRD (name and Region)\n\nRD, Eastern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/4/26, 1:20 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11473141\n\nDirector\n\nPromoter\n\n08/01/2026\n\n-\n\nYes\n\nARIJIT\nPODDER\n\n2\n\n11473142\n\nDirector\n\nPromoter\n\n08/01/2026\n\n-\n\nYes\n\nKOUSTAV\nSAHA\n\n"
+  }
+}

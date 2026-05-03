@@ -1,0 +1,55 @@
+{
+  "company_name": "ZENVICO GLOBAL PRIVATE LIMITED",
+  "cin": "U46209UP2026PTC246347",
+  "registered_address": "Shivnagar Colony, Near, Bhullanpur PAC, Bhullanpur, Bhulanpur Pac, Varanasi, Varanasi, Uttar Pradesh, India, 221108",
+  "roc_name": "ROC Uttar Pradesh I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11648923,
+  "paid_up_capital": 11648924,
+  "directors": [
+    {
+      "din": "11648923",
+      "name": "Priya Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11648924",
+      "name": "Priyanshu Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AACCZ9687M"
+  },
+  "email": "mkchauhan083@gmail.com",
+  "meta": {
+    "created": "20260422_124411",
+    "last_updated": "20260422_124411"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260422_124411",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ZENVICO GLOBAL PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46209UP2026PTC246347",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "ALDZ00554B"
+}

@@ -1,0 +1,18 @@
+{
+  "to": "saraighatproject@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 GRANDCITY TRADERS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "GRANDCITY TRADERS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S1jTYu6ik8w76s",
+    "payment_date": "2026-01-09T16:31:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

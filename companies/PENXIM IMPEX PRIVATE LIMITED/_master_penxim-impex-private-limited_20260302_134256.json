@@ -1,0 +1,52 @@
+{
+  "company_name": "PENXIM IMPEX PRIVATE LIMITED",
+  "cin": "U46200TN2026PTC189499",
+  "registered_address": "NO. 46 AA - 1/WARD 31, SUKKANGAL PATTY ROAD, Cumbum (Theni), Theni, Uthamapalayam, Tamil Nadu, India, 625516",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11539244,
+  "paid_up_capital": 11539245,
+  "directors": [
+    {
+      "din": "11539244",
+      "name": "Periyakaruppan",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11539245",
+      "name": "Kamala",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "penximimpex@gmail.com",
+  "meta": {
+    "created": "20260302_134256",
+    "last_updated": "20260302_134256"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260302_134256",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PENXIM IMPEX PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46200TN2026PTC189499",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ]
+}

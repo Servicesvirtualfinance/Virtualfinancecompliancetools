@@ -1,0 +1,67 @@
+{
+  "company_name": "STREAMYS PRIVATE LIMITED",
+  "cin": "U62099KA2025PTC210532",
+  "registered_address": "No 2, (Bangalore), Bangalore, Bangalore South, Karnataka, India, K No 43/2, 2nd main, Venkoji Rao Khane, Bommanahalli",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 50000,
+  "directors": [
+    {
+      "din": "09484233",
+      "name": "RAFEEQ MOHAMMED AMEEN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11369298",
+      "name": "SHAMEENA JAMAL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "ABRCS7446M"
+  },
+  "email": "mdameenstreamys@gmail.com",
+  "meta": {
+    "created": "20251203_102218",
+    "last_updated": "20251203_103007"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251203_102218",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Streamys Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099KA2025PTC210532",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251203_103007",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Streamys Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099KA2025PTC210532",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRS19531I"
+}

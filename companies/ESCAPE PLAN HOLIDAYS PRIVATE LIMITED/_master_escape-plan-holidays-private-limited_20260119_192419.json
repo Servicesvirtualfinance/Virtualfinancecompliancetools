@@ -1,0 +1,55 @@
+{
+  "company_name": "ESCAPE PLAN HOLIDAYS PRIVATE LIMITED",
+  "cin": "U79110TZ2025PTC036945",
+  "registered_address": "100, KALIANNAN STREET, Kuppakonanpudur, Coimbatore, Coimbatore North, Tamil Nadu, India, 641038",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10478757,
+  "paid_up_capital": 7766928,
+  "directors": [
+    {
+      "din": "10478757",
+      "name": "OSBORN EDWINJOHN SUSHIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07766928",
+      "name": "KANAGARAJ SIVASITTHARTH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE3214C"
+  },
+  "email": "theescapeplanis@gmail.com",
+  "meta": {
+    "created": "20260119_192419",
+    "last_updated": "20260119_192419"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260119_192419",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ESCAPE PLAN HOLIDAYS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79110TZ2025PTC036945",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CMBE05910C"
+}

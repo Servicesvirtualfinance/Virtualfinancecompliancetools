@@ -1,0 +1,13 @@
+{
+  "source": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\PINAKI NUTRAGLOBE FOODS PRIVATE LIMITED\\INC-33_MOA_PINAKI NUTRAGLOBE FOODS PRIVATE LIMITED.pdf",
+  "parsed": {
+    "company_name": "2 THE REGISTERED OFFICE OF THE COMPANY WILL BE SITUATED IN THE STATE OF",
+    "state": null,
+    "share_capital": {
+      "total_amount": null,
+      "no_of_shares": null,
+      "face_value": null
+    },
+    "subscribers": []
+  }
+}

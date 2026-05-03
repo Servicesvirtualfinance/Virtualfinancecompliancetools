@@ -1,0 +1,67 @@
+{
+  "company_name": "UDHAYA-TECH PRIVATE LIMITED",
+  "cin": "U80200TN2025PTC185560",
+  "registered_address": "SF. NO. 92B/1, KALLAI MAIN ROAD, Moongilthuraipattu, Tiruvannamalai, Tiruvannamalai, Tamil Nadu, India, 605702",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 1000000,
+  "paid_up_capital": 1000000,
+  "directors": [
+    {
+      "din": "11352396",
+      "name": "Kaviyaselvi Ramesh",
+      "designation": null,
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11352397",
+      "name": "Udhayasuriyan Ramesh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AADCU9712H"
+  },
+  "email": "suryaudhaya0852@gmail.com",
+  "meta": {
+    "created": "20251125_111230",
+    "last_updated": "20251125_113533"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251125_111230",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Udhaya-Tech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U80200TN2025PTC185560",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251125_113533",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Udhaya-Tech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U80200TN2025PTC185560",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEU06926D"
+}

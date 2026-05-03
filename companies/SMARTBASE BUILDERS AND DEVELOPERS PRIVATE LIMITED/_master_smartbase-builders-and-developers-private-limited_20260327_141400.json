@@ -1,0 +1,64 @@
+{
+  "company_name": "SMARTBASE BUILDERS AND DEVELOPERS PRIVATE LIMITED",
+  "cin": "U74102KL2026PTC101283",
+  "registered_address": "Bushra Manzil, A M K Nager, Nedumangad, Thiruvananthapuram, Nedumangad, Kerala, India, 695541",
+  "roc_name": "ROC Ernakulam",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11367315,
+  "paid_up_capital": 10702201,
+  "directors": [
+    {
+      "din": "11367315",
+      "name": "ANSAR RAMLA SALIM",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "10702201",
+      "name": "ARSHAD SALIM",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11546490",
+      "name": "Siddique",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS9309J"
+  },
+  "email": "nishaur9@gmail.com",
+  "meta": {
+    "created": "20260327_141400",
+    "last_updated": "20260327_141400"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260327_141400",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SMARTBASE BUILDERS AND DEVELOPERS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U74102KL2026PTC101283",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "TVDS12018G"
+}

@@ -1,0 +1,18 @@
+{
+  "to": "aravalliitaekwondongo@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ARAVALLII TAEKWONDO ASSOCIATION",
+  "ctx": {
+    "company": {
+      "name": "ARAVALLII TAEKWONDO ASSOCIATION"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S3fnstaB6aaaX6",
+    "payment_date": "2026-01-14T13:24:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "company_name": "GHADGE ENTERPRISES (OPC) PRIVATE LIMITED",
+  "cin": "U35105PN2025OPC248752",
+  "registered_address": "H No - 54, Kawadi Malwadi, Wakwasti Tal - Haveli, Kadam Wak Wasti, Pune, Haveli, Maharashtra, India, 412201",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11405960",
+      "name": "Sahil Vilas Ghadge",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG5449G"
+  },
+  "email": "infoghadgeenterprises@gmail.com",
+  "meta": {
+    "created": "20251211_152151",
+    "last_updated": "20251211_152428"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251211_152151",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ghadge Enterprises (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U35105PN2025OPC248752",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251211_152428",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ghadge Enterprises (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U35105PN2025OPC248752",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEG33921G"
+}

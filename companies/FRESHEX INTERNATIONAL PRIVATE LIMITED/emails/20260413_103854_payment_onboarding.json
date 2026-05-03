@@ -1,0 +1,18 @@
+{
+  "to": "freshexinternational@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 FRESHEX INTERNATIONAL PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "FRESHEX INTERNATIONAL PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "2357.64",
+    "currency": "INR",
+    "payment_id": "pay_ScqqhQLTxN5zGl",
+    "payment_date": "2026-04-13T10:33:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

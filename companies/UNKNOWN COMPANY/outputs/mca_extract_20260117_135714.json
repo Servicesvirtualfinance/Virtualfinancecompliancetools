@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BASM VENTURES LLP.pdf",
+  "file_hash_sha256": "d9073a70686a737d4a8be69d09cbee564aa93d204d08cf611d6c0fe3dad609ec",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-17 13:57:14"
+  },
+  "master_data": {
+    "cin": null,
+    "company_name": null,
+    "roc_name": "ROC Bangalore",
+    "registration_number": null,
+    "date_of_incorporation": "06/01/2026",
+    "email": "be.laban.india@gmail.com",
+    "registered_address": "Flr-3, Hakimi Edifice, 5th Cross Rd, Vinayaka Ngr, J P Nagar, Bangalore, Bangalore South, Karnataka, India, 560078 Total Obligation of Contribution 1, 00, 000 LLP Status Active",
+    "category_of_company": null,
+    "subcategory_of_company": null,
+    "class_of_company": null,
+    "active_compliance": null,
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": null,
+    "date_of_balance_sheet": null,
+    "company_status": null,
+    "small_company": null,
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD, South East Region",
+    "emails_found": [
+      "be.laban.india@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11414264",
+      "name": "06/01/2026 - Yes Designated",
+      "designation": "Partner",
+      "category": "MUSTAFA",
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11466976",
+      "name": "06/01/2026 - Yes Abbas Bedawala Designated",
+      "designation": "Partner",
+      "category": null,
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/17/26, 1:51 PM\n\n\n\n\nLLP Information\n\nLLPIN\n\nACU-0024\n\nLLP Name\n\nBASM VENTURES LLP\n\nROC Name\n\nROC Bangalore\n\nDate of Incorporation\n\n06/01/2026\n\nEmail Id\n\nbe.laban.india@gmail.com\n\nNumber of Partners\n\n1\n\nNumber of Designated Partners\n\n2\n\nRegistered Address\n\nFlr-3, Hakimi Edifice, 5th Cross Rd,Vinayaka Ngr, J P Nagar,\nBangalore, Bangalore South, Karnataka, India, 560078\n\nTotal Obligation of Contribution\n\n1,00,000\n\nLLP Status\n\nActive\n\n-\n\nStrike off/amalgamated/transferred\ndate\n\nStatus under CIRP\n\nNo\n\nSmall LLP\n\nYes\n\nAccounts and Solvency Filing Information\n\nDate of filing\n\nFinancial Year\n\n-\n\n-\n\nAnnual Returns Filing Information\n\nDate of filing\n\nFinancial Year\n\n-\n\n-\n\n\n1/17/26, 1:51 PM\n\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD, South East Region\n\nInterim Resolution Professional (IRP)\n\nSr. No\n\nName of IRP/ RP/ Liquidator\n\nAddress of IRP/ RP/ Liquidator\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11414264\n\n06/01/2026\n\n-\n\nYes\n\nDesignated\nPartner\n\nMUSTAFA\nNAJMUDDIN\nBEDAWALA\n\n2\n\n11466976\n\n06/01/2026\n\n-\n\nYes\n\nABBAS\nBEDAWALA\n\nDesignated\nPartner\n\n"
+  }
+}

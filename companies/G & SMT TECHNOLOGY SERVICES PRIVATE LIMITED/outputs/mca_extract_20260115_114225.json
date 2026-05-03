@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_G & Smt Technology Services Private Limited.pdf",
+  "file_hash_sha256": "3d11055c6e45da177ea83c1354d95e5ec75be603eada5b910d00999b860fb991",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-15 11:42:25"
+  },
+  "master_data": {
+    "cin": "U49223UP2025PTC237755",
+    "company_name": "G & SMT TECHNOLOGY SERVICES PRIVATE LIMITED",
+    "roc_name": "ROC Kanpur",
+    "registration_number": "237755",
+    "date_of_incorporation": "06/12/2025",
+    "email": "tripathiassociatesaag2025@gmail.com",
+    "registered_address": "D80, Kamleshpuram, Deoria, Rd, Ward No 18, M.M.M.E.College, Gorakhpur, Gorakhpur, Uttar Pradesh, India, 273010",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/15/26, 11:36 AM",
+    "authorised_capital": 11412981,
+    "paid_up_capital": 11412982,
+    "date_of_last_agm": "06/12/2025",
+    "date_of_balance_sheet": "06/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Kanpur",
+    "jurisdiction_roc": "ROC Kanpur",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "tripathiassociatesaag2025@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11412981",
+      "name": "Goldi Mani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11412982",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/15/26, 11:36 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU49223UP2025PTC237755\n\nCompany Name\n\nG & SMT TECHNOLOGY SERVICES PRIVATE LIMITED\n\nROC Name\n\nROC Kanpur\n\nRegistration Number\n\n237755\n\nDate of Incorporation\n\n06/12/2025\n\nEmail Id\n\ntripathiassociatesaag2025@gmail.com\n\nRegistered Address\n\nD80, Kamleshpuram, Deoria, Rd,Ward No 18, M.M.M.E.College, Gorakhpur, Gorakhpur,\nUttar Pradesh, India, 273010\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/15/26, 11:36 AM\n\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kanpur\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11412981\n\nGOLDI MANI\n\nDirector\n\nPromoter\n\n06/12/2025\n\n-\n\nYes\n\n2\n\n11412982\n\nDirector\n\nPromoter\n\n06/12/2025\n\n-\n\nYes\n\nRAKESH MANI\nTRIPATHI\n\n"
+  }
+}

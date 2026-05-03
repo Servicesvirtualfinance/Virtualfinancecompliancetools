@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SYNERVA TECHNOVA PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "2b50c2568d1296580dc2e1e0cacfe6afd3fcd501d05c4994a9d62639630630da",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-25 15:16:34"
+  },
+  "master_data": {
+    "cin": "U62099KA2026PTC219127",
+    "company_name": "SYNERVA TECHNOVA PRIVATE LIMITED",
+    "roc_name": "ROC Bangalore",
+    "registration_number": "219127",
+    "date_of_incorporation": "10/04/2026",
+    "email": "ritessh@synervaholdings.com",
+    "registered_address": "Om Chambers, 648/A, 4th Floor, Binnamangala, Indiranagar (Bangalore), Bangalore, Bangalore North, Karnataka, India, 560038",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "15,00,000",
+    "authorised_capital": 7170647,
+    "paid_up_capital": 8663987,
+    "date_of_last_agm": "10/04/2026",
+    "date_of_balance_sheet": "10/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Bangalore",
+    "jurisdiction_roc": "ROC Bangalore",
+    "jurisdiction_rd": "RD Bangalore, South-Western Region Directorate",
+    "emails_found": [
+      "ritessh@synervaholdings.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "07170647",
+      "name": "Ritessh R Agarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08663987",
+      "name": "Nidhi Agarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/25/26, 3:16 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62099KA2026PTC219127\n\nCompany Name\n\nSYNERVA TECHNOVA PRIVATE LIMITED\n\nROC Name\n\nROC Bangalore\n\nRegistration Number\n\n219127\n\nDate of Incorporation\n\n10/04/2026\n\nEmail Id\n\nritessh@synervaholdings.com\n\nRegistered Address\n\nOm Chambers, 648/A, 4th Floor,Binnamangala, Indiranagar (Bangalore), Bangalore, Bangalore North,\nKarnataka, India, 560038\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n4/25/26, 3:16 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Bangalore\n\nRD (name and Region)\n\nRD Bangalore, South-Western Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n07170647\n\nRITESSH R AGARWAL\n\nDirector\n\nPromoter\n\n10/04/2026\n\n-\n\nYes\n\n2\n\n08663987\n\nNIDHI AGARWAL\n\nDirector\n\nPromoter\n\n10/04/2026\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RAJADHARUN INTERNATIONAL PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "779a94533e19dcf37c6c395ec0f7174a11065db02c7e650346d4cf9d70344400",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-15 12:04:05"
+  },
+  "master_data": {
+    "cin": "U46909TN2026PTC190615",
+    "company_name": "RAJADHARUN INTERNATIONAL PRIVATE LIMITED",
+    "roc_name": "ROC Chennai",
+    "registration_number": "190615",
+    "date_of_incorporation": "11/03/2026",
+    "email": "dharunraja1@gmail.com",
+    "registered_address": "OFFICE 1, 18TH FLOOR, TIDEL PARK, SF NO 380/1, Pattabiram, Tiruvallur, Poonamallee, Tamil Nadu, India, 600072",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "5,00,000",
+    "authorised_capital": 11597477,
+    "paid_up_capital": 11597478,
+    "date_of_last_agm": "3/15/26, 11:52 AM",
+    "date_of_balance_sheet": "11/03/2026",
+    "company_status": "Active",
+    "small_company": "ROC Chennai",
+    "jurisdiction_roc": "ROC Chennai",
+    "jurisdiction_rd": "RD Chennai, Southern Region Directorate",
+    "emails_found": [
+      "dharunraja1@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11597477",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11597478",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/15/26, 11:52 AM\n\n\n\n\nCompany Information\n\nCIN\n\nU46909TN2026PTC190615\n\nCompany Name\n\nRAJADHARUN INTERNATIONAL PRIVATE LIMITED\n\nROC Name\n\nROC Chennai\n\nRegistration Number\n\n190615\n\nDate of Incorporation\n\n11/03/2026\n\nEmail Id\n\ndharunraja1@gmail.com\n\nRegistered Address\n\nOFFICE 1, 18TH FLOOR, TIDEL PARK, SF NO 380/1, Pattabiram,\nTiruvallur, Poonamallee, Tamil Nadu, India, 600072\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chennai\n\nRD (name and Region)\n\nRD Chennai, Southern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/15/26, 11:52 AM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11597477\n\nDirector\n\nPromoter\n\n11/03/2026\n\n-\n\nYes\n\nBOOMIRAJA\nRAJADHARUN\n\n2\n\n11597478\n\nDirector\n\nPromoter\n\n11/03/2026\n\n-\n\nYes\n\nBOOMIRAJA\nINDIRA\n\n"
+  }
+}

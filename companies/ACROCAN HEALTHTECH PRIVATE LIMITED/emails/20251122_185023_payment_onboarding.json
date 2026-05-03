@@ -1,0 +1,18 @@
+{
+  "to": "amansingh2006yr@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ACROCAN HEALTHTECH PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "ACROCAN HEALTHTECH PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rind07CXoeJyPf",
+    "payment_date": "2025-11-22T18:50:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

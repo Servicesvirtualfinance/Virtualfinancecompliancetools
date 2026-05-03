@@ -1,0 +1,55 @@
+{
+  "company_name": "SYNERVA TECHNOVA PRIVATE LIMITED",
+  "cin": "U62099KA2026PTC219127",
+  "registered_address": "Om Chambers, 648/A, 4th Floor, Binnamangala, Indiranagar (Bangalore), Bangalore, Bangalore North, Karnataka, India, 560038",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7170647,
+  "paid_up_capital": 8663987,
+  "directors": [
+    {
+      "din": "07170647",
+      "name": "Ritessh R Agarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08663987",
+      "name": "Nidhi Agarwal",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS5254R"
+  },
+  "email": "ritessh@synervaholdings.com",
+  "meta": {
+    "created": "20260425_151634",
+    "last_updated": "20260425_151634"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260425_151634",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SYNERVA TECHNOVA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62099KA2026PTC219127",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRS25043L"
+}

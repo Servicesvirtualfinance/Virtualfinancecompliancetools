@@ -1,0 +1,46 @@
+{
+  "company_name": "JUNN ECOMMERCE (OPC) PRIVATE LIMITED",
+  "cin": "U62090TS2026OPC209771",
+  "registered_address": "HNO 3-1-60/1/1, TEKULAPALLI, Khanapuram Haweli, Khammam, Khammam, Telangana, India, 507002",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11485713,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11485713",
+      "name": "MOHAMMED UMAR PASHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAHCJ2261L"
+  },
+  "email": "www.how2apply.net@gmail.com",
+  "meta": {
+    "created": "20260209_105953",
+    "last_updated": "20260209_105953"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260209_105953",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_JUNN ECOMMERCE (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62090TS2026OPC209771",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDJ08442A"
+}

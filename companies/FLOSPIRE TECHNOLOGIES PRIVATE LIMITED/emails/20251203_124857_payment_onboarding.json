@@ -1,0 +1,18 @@
+{
+  "to": "flospiretech@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 FLOSPIRE TECHNOLOGIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "FLOSPIRE TECHNOLOGIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rn3Fxc59Jqrefq",
+    "payment_date": "2025-12-03T12:48:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "SILADITYA INNOVATIONS PRIVATE LIMITED",
+  "cin": "U47912OD2026PTC052000",
+  "registered_address": "C/O RABINDRA KUMAR SWAIN, ANDHIA SAHI, Nimapara, Puri, Nimapara, Orissa, India, 752106",
+  "roc_name": "ROC Cuttack",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11462999,
+  "paid_up_capital": 11463000,
+  "directors": [
+    {
+      "din": "11462999",
+      "name": "SILADITYA SWAIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11463000",
+      "name": "SANJEEBANI SWAIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS3082J"
+  },
+  "email": "siladityainnovationspvtltd@gmail.com",
+  "meta": {
+    "created": "20260203_105211",
+    "last_updated": "20260203_105211"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260203_105211",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SILADITYA INNOVATIONS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912OD2026PTC052000",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BBNS17653G"
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "TESAS PRODUCTS PRIVATE LIMITED",
+  "cin": "U62011KA2026PTC216104",
+  "registered_address": "C-306, FOYER CITY APT, GREEN HOUSE LAYOUT, Electronics City, Bangalore, Bangalore South, Karnataka, India, 560100",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 5264710,
+  "paid_up_capital": 11548896,
+  "directors": [
+    {
+      "din": "05264710",
+      "name": "SATHISH KUMARPALANISAMY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11548896",
+      "name": "RAJALAKSHMI PONNUSAMY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT8175C"
+  },
+  "email": "sathish@tesas.co.in",
+  "meta": {
+    "created": "20260226_123703",
+    "last_updated": "20260226_123703"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260226_123703",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TESAS PRODUCTS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62011KA2026PTC216104",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRT27170D"
+}

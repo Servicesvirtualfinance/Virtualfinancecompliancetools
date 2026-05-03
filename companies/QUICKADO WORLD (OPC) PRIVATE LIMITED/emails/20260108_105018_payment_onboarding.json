@@ -1,0 +1,18 @@
+{
+  "to": "Quickadoindia@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 QUICKADO WORLD (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "QUICKADO WORLD (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S1GLd013qBDiqK",
+    "payment_date": "2026-01-08T10:49:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

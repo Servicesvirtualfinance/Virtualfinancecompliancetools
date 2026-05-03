@@ -1,0 +1,130 @@
+{
+  "company_name": "NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U62010GJ2026PTC173936",
+  "registered_address": "At 1/137, Darjivaru Faliyu, At Post Ghammad, Taluka Amod, Ghamnad, Bharuch, Amod, Gujarat, India, 392025",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11560776,
+  "paid_up_capital": 11560777,
+  "directors": [
+    {
+      "din": "11560776",
+      "name": "JANUBEN HARSHPALSINH MATROJA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11560777",
+      "name": "HARSHPALSINH HITENDRASINH MATROJA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11560778",
+      "name": "MITRAJSINH HITENDRASINH MATROJA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AALCN3555F"
+  },
+  "email": "matrojatech@gmail.com",
+  "meta": {
+    "created": "20260305_104230",
+    "last_updated": "20260327_114327"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260305_104230",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62010GJ2026PTC173936",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260326_165937",
+      "inputs": {
+        "meeting_date": "26 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "JANUBEN HARSHPALSINH MATROJA",
+          "din": "11560776",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260326_165937.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260326_165958",
+      "inputs": {
+        "to": "matrojatech@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260326_165937.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260327_114327",
+      "inputs": {
+        "meeting_date": "27 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "MITRAJSINH HITENDRASINH MATROJA",
+          "din": "11560778",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260327_114327.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMN15376E",
+  "authorized_signatory": {
+    "name": "MITRAJSINH HITENDRASINH MATROJA",
+    "din": "11560778",
+    "designation": "Director",
+    "meeting_date": "27 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260327_114327.docx",
+    "ts": "20260327_114327",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "MITRAJSINH HITENDRASINH MATROJA",
+    "din": "11560778",
+    "designation": "Director",
+    "meeting_date": "27 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\NEXFLOWOPS TECHNOLOGIES PRIVATE LIMITED\\bod_gst_authorized_signatory_20260327_114327.docx",
+    "ts": "20260327_114327",
+    "note": "authorised signatory appointed"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "company_name": "REPUTE MEDIA PRIVATE LIMITED",
+  "cin": "U63910AP2026PTC125205",
+  "registered_address": "C/O SK.SHAMSHAD, ISLAMPETA, Besthavari Peta, Prakasam, Cumbum, Andhra Pradesh, India, 523334",
+  "roc_name": "ROC Vijayawada",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11654019,
+  "paid_up_capital": 11654020,
+  "directors": [
+    {
+      "din": "11654019",
+      "name": "ABDUL RASHEED SHAIK",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11654020",
+      "name": "MAHAMMAD RAFI SHAIK",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR7423L"
+  },
+  "email": "reputemediaofficial@gmail.com",
+  "meta": {
+    "created": "20260418_141225",
+    "last_updated": "20260418_141309"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260418_141225",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_REPUTE MEDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U63910AP2026PTC125205",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260418_141309",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_REPUTE MEDIA PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U63910AP2026PTC125205",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDR25409G"
+}

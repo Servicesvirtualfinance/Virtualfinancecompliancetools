@@ -1,0 +1,46 @@
+{
+  "company_name": "BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED",
+  "cin": "U79120TN2026OPC188194",
+  "registered_address": "9B BHUVANESHWARI NAGAR, 1ST STREET GOWRIVAKKAM, Rajakilpakkam, Kanchipuram, Tambaram, Tamil Nadu, India, 600073",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11472302,
+  "paid_up_capital": 50000,
+  "directors": [
+    {
+      "din": "11472302",
+      "name": "Sathiya",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB3050A"
+  },
+  "email": "beyondtheveils333@gmail.com",
+  "meta": {
+    "created": "20260204_125916",
+    "last_updated": "20260204_125916"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260204_125916",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U79120TN2026OPC188194",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEB17963B"
+}

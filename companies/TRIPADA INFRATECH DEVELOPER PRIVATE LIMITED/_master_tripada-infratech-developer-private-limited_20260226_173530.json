@@ -1,0 +1,55 @@
+{
+  "company_name": "TRIPADA INFRATECH DEVELOPER PRIVATE LIMITED",
+  "cin": "U41000KA2026PTC216245",
+  "registered_address": "235 RAMACHANDRAPURA, Vidyaranyapura, Bangalore, Bangalore North, Karnataka, India, 560097",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 8172385,
+  "paid_up_capital": 11552503,
+  "directors": [
+    {
+      "din": "08172385",
+      "name": "CHAITRA JAYASHANKAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11552503",
+      "name": "Surekha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT8227F"
+  },
+  "email": "Tripadainfratech@gmail.com",
+  "meta": {
+    "created": "20260226_173530",
+    "last_updated": "20260226_173530"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260226_173530",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TRIPADA INFRATECH DEVELOPER PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U41000KA2026PTC216245",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRT27178E"
+}

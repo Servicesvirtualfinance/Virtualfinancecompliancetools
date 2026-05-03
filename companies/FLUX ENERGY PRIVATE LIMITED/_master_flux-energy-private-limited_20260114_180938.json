@@ -1,0 +1,108 @@
+{
+  "company_name": "FLUX ENERGY PRIVATE LIMITED",
+  "cin": "U35109TZ2025PTC037208",
+  "registered_address": "NO.466, THADAGAM ROAD, R.S.Puram West, Coimbatore, Coimbatore South, Tamil Nadu, India, 641002",
+  "roc_name": "ROC Coimbatore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 6787252,
+  "paid_up_capital": 7766928,
+  "directors": [
+    {
+      "din": "06787252",
+      "name": "KOTHANDAPANI KANAGARAJ",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07766928",
+      "name": "KANAGARAJ SIVASITTHARTH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAGCF7814C"
+  },
+  "email": "fluxenergyorg@gmail.com",
+  "meta": {
+    "created": "20260114_180938",
+    "last_updated": "20260302_143414"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260114_180938",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_FLUX ENERGY PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U35109TZ2025PTC037208",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260302_143414",
+      "inputs": {
+        "meeting_date": "02 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "KOTHANDAPANI KANAGARAJ",
+          "din": "06787252",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FLUX ENERGY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260302_143414.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260302_143424",
+      "inputs": {
+        "to": "fluxenergyorg@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260302_143414.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "CHEF08248C",
+  "authorized_signatory": {
+    "name": "KOTHANDAPANI KANAGARAJ",
+    "din": "06787252",
+    "designation": "Director",
+    "meeting_date": "02 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FLUX ENERGY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260302_143414.docx",
+    "ts": "20260302_143414",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260302_143424"
+  },
+  "authorised_signatory": {
+    "name": "KOTHANDAPANI KANAGARAJ",
+    "din": "06787252",
+    "designation": "Director",
+    "meeting_date": "02 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\FLUX ENERGY PRIVATE LIMITED\\bod_gst_authorized_signatory_20260302_143414.docx",
+    "ts": "20260302_143414",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260302_143424"
+  }
+}

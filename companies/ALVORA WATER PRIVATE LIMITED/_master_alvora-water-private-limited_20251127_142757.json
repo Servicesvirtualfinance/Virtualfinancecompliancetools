@@ -1,0 +1,76 @@
+{
+  "company_name": "ALVORA WATER PRIVATE LIMITED",
+  "cin": "U36000MH2025PTC460359",
+  "registered_address": "8th Flr S-11, 1171, 1172, SOLITAIRE CORPORATE PK, Chakala Midc, Mumbai, Mumbai, Maharashtra, India, 400093",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11370148",
+      "name": "SHAIKH SAMIUDDIN SHAIKH RAFIUDDIN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370149",
+      "name": "Anshul Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11370150",
+      "name": "Anchal Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA0993N"
+  },
+  "email": "alvorawater@gmail.com",
+  "meta": {
+    "created": "20251127_142757",
+    "last_updated": "20251127_143750"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251127_142757",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Alvora Water Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U36000MH2025PTC460359",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251127_143750",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Alvora Water Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U36000MH2025PTC460359",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMA84500D"
+}

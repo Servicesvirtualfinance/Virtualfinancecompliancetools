@@ -1,0 +1,64 @@
+{
+  "company_name": "PGKM SOLAR ENERGY PRIVATE LIMITED",
+  "cin": "U35105RJ2025PTC108451",
+  "registered_address": "C44 MOHAN NAGAR GARSHISAR, ROAD GANGASHAHAR, Bikaner, Bikaner, Bikaner, Rajasthan, India, 334001",
+  "roc_name": "ROC Jaipur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11368742,
+  "paid_up_capital": 11368743,
+  "directors": [
+    {
+      "din": "11368742",
+      "name": "Gurjeet Kaur Oberoi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11368743",
+      "name": "Pritpal Singh Oberoi",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11368744",
+      "name": "HARPREET SINGH OBEROI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAQCP3351C"
+  },
+  "email": "pgkm.solar@gmail.com",
+  "meta": {
+    "created": "20260102_121936",
+    "last_updated": "20260102_121936"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260102_121936",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Pgkm Solar Energy Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U35105RJ2025PTC108451",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "JDHP12700C"
+}

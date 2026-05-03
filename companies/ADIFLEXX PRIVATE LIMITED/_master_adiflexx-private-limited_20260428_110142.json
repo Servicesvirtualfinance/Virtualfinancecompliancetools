@@ -1,0 +1,55 @@
+{
+  "company_name": "ADIFLEXX PRIVATE LIMITED",
+  "cin": "U73100GJ2026PTC176582",
+  "registered_address": "Ofc.No.35 4th Floor, AI Muqaam Reside.Vishala, Juhapura, Ahmedabad, Ahmadabad City, Gujarat, India, 380055",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11666492,
+  "paid_up_capital": 11666493,
+  "directors": [
+    {
+      "din": "11666492",
+      "name": "Shah Fahad Shaikh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11666493",
+      "name": "TAUQEER SADIQ SARDAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA4440D"
+  },
+  "email": "shaikh.fahad75@gmail.com",
+  "meta": {
+    "created": "20260428_110142",
+    "last_updated": "20260428_110142"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260428_110142",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ADIFLEXX PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U73100GJ2026PTC176582",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMA36515D"
+}

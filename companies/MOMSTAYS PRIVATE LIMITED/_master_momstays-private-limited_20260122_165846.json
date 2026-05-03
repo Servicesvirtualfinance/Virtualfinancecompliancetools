@@ -1,0 +1,55 @@
+{
+  "company_name": "MOMSTAYS PRIVATE LIMITED",
+  "cin": "U55100JH2026PTC026660",
+  "registered_address": "C/O KALYANI CHOUDHARY, AT-BABA PATH HAZARIBAGH, Hazaribagh, Hazaribag, Hazaribagh, Jharkhand, India, 825301",
+  "roc_name": "ROC Ranchi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11464643,
+  "paid_up_capital": 11464644,
+  "directors": [
+    {
+      "din": "11464643",
+      "name": "ASHOK KUMAR CHOUDHARY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11464644",
+      "name": "Arya Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM3224D"
+  },
+  "email": "momstays4@gmail.com",
+  "meta": {
+    "created": "20260122_165846",
+    "last_updated": "20260122_165846"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260122_165846",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MOMSTAYS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U55100JH2026PTC026660",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RCHM06410F"
+}

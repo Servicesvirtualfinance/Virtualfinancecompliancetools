@@ -1,0 +1,64 @@
+{
+  "company_name": "INSTITUTE OF MAHA ELEARNING & DIGNITY SKILL DEVELOPMENT LIMITED",
+  "cin": "U80904PN2018PLC179753",
+  "registered_address": "Block No. 10&11, Prathmesh Complex Dahiwadi Road, Vaduj Dist-Satara, Satara, SATARA, Maharashtra, India, 415506",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Public",
+  "authorised_capital": 8258466,
+  "paid_up_capital": 6943537,
+  "directors": [
+    {
+      "din": "08258466",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "06943537",
+      "name": "Amol Govind Shinde",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08258427",
+      "name": "Madhuri Amol Shinde",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+"pan_number": "AAFCI0418Q"
+},
+  "email": "cahrishikesh@sinhasane.in",
+  "meta": {
+    "created": "20260428_152657",
+    "last_updated": "20260428_152657"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260428_152657",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INSTITUTE OF MAHA ELEARNING & DIGNITY SKILL DEVELOPMENT LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U80904PN2018PLC179753",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "PNEI08889G"
+}

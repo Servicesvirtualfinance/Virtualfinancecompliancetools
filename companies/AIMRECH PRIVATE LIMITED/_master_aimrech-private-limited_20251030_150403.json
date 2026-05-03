@@ -1,0 +1,84 @@
+{
+  "company_name": "AIMRECH PRIVATE LIMITED",
+  "cin": "U73100MH2025PTC459357",
+  "registered_address": "SHOP NO.3 PLOTNO.97, SEC-1 SANPADA, Thane, Thane, Thane, Maharashtra, India, 400705",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11347836",
+      "name": "Chandan Kumar Thakur",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11347837",
+      "name": "Manoj Jagdish Thakur",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "18/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABDCA9949B"
+  },
+  "email": "aimrechdigital@gmail.com",
+  "meta": {
+    "created": "20251030_150403",
+    "last_updated": "20251030_151241"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251030_150403",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Aimrech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100MH2025PTC459357",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251030_151241",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Aimrech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U73100MH2025PTC459357",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_UDYAM_CERT",
+      "ts": "20251113_173722",
+      "inputs": {
+        "to": "aimrechdigital@gmail.com"
+      },
+      "outputs": {
+        "attachment": "Udyam Registration Certificate.pdf"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "MUMA84261C",
+  "udyam": {
+    "pdf": "Udyam Registration Certificate.pdf",
+    "mailed": true,
+    "mailed_at": "20251113_173722"
+  }
+}

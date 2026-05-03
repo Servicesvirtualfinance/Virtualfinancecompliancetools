@@ -1,0 +1,18 @@
+{
+  "to": "suryaudhaya0852@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 UDHAYA-TECH PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "UDHAYA-TECH PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Virtual Finance Team",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RjrPtiU1qBoI6i",
+    "payment_date": "2025-11-25T11:12:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

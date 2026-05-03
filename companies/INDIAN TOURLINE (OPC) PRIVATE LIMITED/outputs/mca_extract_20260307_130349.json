@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INDIAN TOURLINE (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "8868f7be23dd49238a7f7eb810307d89c3b2a276961c962d728e8b3780cfa752",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-07 13:03:49"
+  },
+  "master_data": {
+    "cin": "U79110AP2026OPC124030",
+    "company_name": "INDIAN TOURLINE (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Vijayawada",
+    "registration_number": "124030",
+    "date_of_incorporation": "13/02/2026",
+    "email": "info@indiantourline.com",
+    "registered_address": "1-109/A Mallamgunta, Thirupathi rural, Tirupati, Chittoor, Tirupati (Urban), Andhra Pradesh, India, 517501",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "5,00,000",
+    "authorised_capital": 11545069,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "3/7/26, 1:02 PM",
+    "date_of_balance_sheet": "13/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Vijayawada",
+    "jurisdiction_roc": "ROC Vijayawada",
+    "jurisdiction_rd": "RD Hyderabad, Southeastern Region Directorate",
+    "emails_found": [
+      "info@indiantourline.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11545069",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/7/26, 1:02 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU79110AP2026OPC124030\n\nCompany Name\n\nINDIAN TOURLINE (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Vijayawada\n\nRegistration Number\n\n124030\n\nDate of Incorporation\n\n13/02/2026\n\nEmail Id\n\ninfo@indiantourline.com\n\nRegistered Address\n\n1-109/A Mallamgunta, Thirupathi rural, Tirupati, Chittoor, Tirupati (Urban),\nAndhra Pradesh, India, 517501\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n5,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Vijayawada\n\nRD (name and Region)\n\nRD Hyderabad, Southeastern Region Directorate\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/7/26, 1:02 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11545069\n\nDirector\n\nPromoter\n\n13/02/2026\n\n-\n\nYes\n\nVENKATA\nRAMANMURTHI\n\n"
+  }
+}

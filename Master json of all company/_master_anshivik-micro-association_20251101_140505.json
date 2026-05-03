@@ -1,0 +1,137 @@
+{
+  "company_name": "ANSHIVIK MICRO ASSOCIATION",
+  "cin": "U88100BR2025NPL079708",
+  "registered_address": "KHATA 116, C/O AARATI DEVI, WARD NO.43, SAVODAY NAGAR, Anaith, Bhojpur, Arrah, Bihar, India, 802302",
+  "roc_name": "ROC Patna",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 500000,
+  "paid_up_capital": 50000,
+  "directors": [
+    {
+      "din": "11351502",
+      "name": "Shashi Shekhar",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11351503",
+      "name": "Baby Kumari",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA0120H"
+  },
+  "email": "03sshekhar@gmail.com",
+  "meta": {
+    "created": "20251101_140505",
+    "last_updated": "20251108_163359"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251101_140505",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Anshivik Micro Association.pdf"
+      },
+      "outputs": {
+        "cin": "U88100BR2025NPL079708",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251101_165250",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Anshivik Micro Association.pdf"
+      },
+      "outputs": {
+        "cin": "U88100BR2025NPL079708",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_UDYAM_CERT",
+      "ts": "20251106_192448",
+      "inputs": {
+        "to": "03sshekhar@gmail.com"
+      },
+      "outputs": {
+        "attachment": "UDHYAM_ANSHIVIK.pdf"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251108_163359",
+      "inputs": {
+        "meeting_date": "08 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Shashi Shekhar",
+          "din": "11351502",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ANSHIVIK MICRO ASSOCIATION\\bod_gst_authorized_signatory_20251108_163359.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251108_163451",
+      "inputs": {
+        "to": "03sshekhar@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251108_163359.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PTNA13450D",
+  "udyam": {
+    "pdf": "UDHYAM_ANSHIVIK.pdf",
+    "mailed": true,
+    "mailed_at": "20251106_192448"
+  },
+  "authorized_signatory": {
+    "name": "Shashi Shekhar",
+    "din": "11351502",
+    "designation": "Director",
+    "meeting_date": "08 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ANSHIVIK MICRO ASSOCIATION\\bod_gst_authorized_signatory_20251108_163359.docx",
+    "ts": "20251108_163359",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251108_163451"
+  },
+  "authorised_signatory": {
+    "name": "Shashi Shekhar",
+    "din": "11351502",
+    "designation": "Director",
+    "meeting_date": "08 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\ANSHIVIK MICRO ASSOCIATION\\bod_gst_authorized_signatory_20251108_163359.docx",
+    "ts": "20251108_163359",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251108_163451"
+  }
+}

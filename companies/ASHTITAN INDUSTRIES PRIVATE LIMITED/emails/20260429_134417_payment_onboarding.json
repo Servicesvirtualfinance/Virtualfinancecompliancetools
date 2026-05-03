@@ -1,0 +1,18 @@
+{
+  "to": "sofiyaandev861@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ASHTITAN INDUSTRIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "ASHTITAN INDUSTRIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "plan_RDndjPYIyPdNhV",
+    "payment_date": "2026-04-29T13:40:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

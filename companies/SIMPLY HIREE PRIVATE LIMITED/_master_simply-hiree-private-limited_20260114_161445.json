@@ -1,0 +1,92 @@
+{
+  "company_name": "SIMPLY HIREE PRIVATE LIMITED",
+  "cin": "U78200UP2025PTC238321",
+  "registered_address": "C/o Rajendra Prasad, JNP, Phoolkhan/Shahar 152, Machhali Shahar, Jaunpur, Machhali Shahar, Uttar Pradesh, India, 222143",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 7892399,
+  "paid_up_capital": 11424196,
+  "directors": [
+    {
+      "din": "07892399",
+      "name": "Aman Yadav",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11424196",
+      "name": "Ankit Yadav",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "12/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS0529G"
+  },
+  "email": "Anjrajgroup@gmail.com",
+  "meta": {
+    "created": "20260114_161445",
+    "last_updated": "20260317_113214"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260114_161445",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIMPLY HIREE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U78200UP2025PTC238321",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260317_113214",
+      "inputs": {
+        "meeting_date": "17 Mar 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Aman Yadav",
+          "din": "07892399",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SIMPLY HIREE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260317_113214.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "LKNS30703B",
+  "authorized_signatory": {
+    "name": "Aman Yadav",
+    "din": "07892399",
+    "designation": "Director",
+    "meeting_date": "17 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SIMPLY HIREE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260317_113214.docx",
+    "ts": "20260317_113214",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Aman Yadav",
+    "din": "07892399",
+    "designation": "Director",
+    "meeting_date": "17 Mar 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\SIMPLY HIREE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260317_113214.docx",
+    "ts": "20260317_113214",
+    "note": "authorised signatory appointed"
+  }
+}

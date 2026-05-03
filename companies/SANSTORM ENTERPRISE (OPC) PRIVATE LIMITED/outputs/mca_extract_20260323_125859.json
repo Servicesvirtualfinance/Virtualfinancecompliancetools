@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SANSTORM ENTERPRISE (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "6806aad2b2677124452f8107a32ec6b22418f9232f6aca03928afd55c6b6d595",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-03-23 12:58:59"
+  },
+  "master_data": {
+    "cin": "U82990JK2026OPC018943",
+    "company_name": "SANSTORM ENTERPRISE (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Jammu",
+    "registration_number": "018943",
+    "date_of_incorporation": "19/03/2026",
+    "email": "sanstormholdings@gmail.com",
+    "registered_address": "46E (EXT) BHARAT NAGAR, KAMLA PALACE ROAD, Talab Tillo, Jammu, Jammu, Jammu & Kashmir, India, 180002",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11619611,
+    "paid_up_capital": 10000,
+    "date_of_last_agm": "3/23/26, 12:53 PM",
+    "date_of_balance_sheet": "19/03/2026",
+    "company_status": "Active",
+    "small_company": "ROC Jammu",
+    "jurisdiction_roc": "ROC Jammu",
+    "jurisdiction_rd": "RD Chandigarh, Northern Region Directorate II",
+    "emails_found": [
+      "sanstormholdings@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11619611",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "3/23/26, 12:53 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU82990JK2026OPC018943\n\nCompany Name\n\nSANSTORM ENTERPRISE (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Jammu\n\nRegistration Number\n\n018943\n\nDate of Incorporation\n\n19/03/2026\n\nEmail Id\n\nsanstormholdings@gmail.com\n\nRegistered Address\n\n46E (EXT) BHARAT NAGAR, ,KAMLA PALACE ROAD, Talab Tillo,\nJammu, Jammu, Jammu & Kashmir, India, 180002\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Jammu\n\nRD (name and Region)\n\nRD Chandigarh, Northern Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n3/23/26, 12:53 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11619611\n\nDirector\n\nPromoter\n\n19/03/2026\n\n-\n\nYes\n\nSANGEET\nBARGOTRA\n\n"
+  }
+}

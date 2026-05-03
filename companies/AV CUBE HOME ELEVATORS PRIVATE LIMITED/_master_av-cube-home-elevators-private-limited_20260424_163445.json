@@ -1,0 +1,55 @@
+{
+  "company_name": "AV CUBE HOME ELEVATORS PRIVATE LIMITED",
+  "cin": "U28161TN2026PTC192034",
+  "registered_address": "No 37a Kamarajar Street, Ponniamman Nagar Chennai, Ayanambakkam, Tiruvallur, Poonamallee, Tamil Nadu, India, 600095",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11640913,
+  "paid_up_capital": 11640918,
+  "directors": [
+    {
+      "din": "11640913",
+      "name": "",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11640918",
+      "name": "Gurumoorthy",
+      "designation": "Director",
+      "category": "Professional",
+      "date_of_appointment": "10/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABFCA4136L"
+  },
+  "email": "avcubehomeelevators@gmail.com",
+  "meta": {
+    "created": "20260424_163445",
+    "last_updated": "20260424_163445"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260424_163445",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_AV CUBE HOME ELEVATORS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U28161TN2026PTC192034",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEA44358G"
+}

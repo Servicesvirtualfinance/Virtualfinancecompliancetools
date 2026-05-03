@@ -1,0 +1,64 @@
+{
+  "company_name": "QUBOW PRIVATE LIMITED",
+  "cin": "U82200KL2026PTC102619",
+  "registered_address": "17/25, ASHA MANDIRAM, VENKAVILA NEDUMANGAD, Pazhakutty, Thiruvananthapuram, Nedumangad, Kerala, India, 695561",
+  "roc_name": "ROC Ernakulam",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11673184,
+  "paid_up_capital": 11673185,
+  "directors": [
+    {
+      "din": "11673184",
+      "name": "VANNERY HOUSE VIJAYAN VISAKH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11673185",
+      "name": "Navas Sali Maheen",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11673186",
+      "name": "Lekshmi Molly",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AABCQ2609P"
+  },
+  "email": "qubowbc@gmail.com",
+  "meta": {
+    "created": "20260430_135047",
+    "last_updated": "20260430_135047"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260430_135047",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_QUBOW PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U82200KL2026PTC102619",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "TVDQ00241D"
+}

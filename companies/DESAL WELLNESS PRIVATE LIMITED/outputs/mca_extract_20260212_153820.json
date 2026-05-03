@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DESAL WELLNESS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "98f3fb960ec8f1aed48ca11035e77977d127a218add3ecec33590a075e4bf066",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-12 15:38:20"
+  },
+  "master_data": {
+    "cin": "U20236RJ2026PTC111498",
+    "company_name": "DESAL WELLNESS PRIVATE LIMITED",
+    "roc_name": "ROC Jaipur",
+    "registration_number": "111498",
+    "date_of_incorporation": "11/02/2026",
+    "email": "desalwellness@gmail.com",
+    "registered_address": "46 KRISHNA, COLONEY NAYA KHEDA, Amba Bari, Jaipur, Jaipur, Rajasthan, India, 302039",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "2/12/26, 3:37 PM",
+    "authorised_capital": 11517797,
+    "paid_up_capital": 11519785,
+    "date_of_last_agm": "11/02/2026",
+    "date_of_balance_sheet": "11/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Jaipur",
+    "jurisdiction_roc": "ROC Jaipur",
+    "jurisdiction_rd": "RD, North Western Region",
+    "emails_found": [
+      "desalwellness@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11517797",
+      "name": "Meenakshi Verma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11519785",
+      "name": "Rashmi Pareek",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/12/26, 3:37 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU20236RJ2026PTC111498\n\nCompany Name\n\nDESAL WELLNESS PRIVATE LIMITED\n\nROC Name\n\nROC Jaipur\n\nRegistration Number\n\n111498\n\nDate of Incorporation\n\n11/02/2026\n\nEmail Id\n\ndesalwellness@gmail.com\n\nRegistered Address\n\n46 KRISHNA, COLONEY NAYA KHEDA, Amba Bari, Jaipur, Jaipur, Rajasthan, India,\n302039\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n2/12/26, 3:37 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Jaipur\n\nRD (name and Region)\n\nRD, North Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11517797\n\nMEENAKSHI VERMA\n\nDirector\n\nPromoter\n\n11/02/2026\n\n-\n\nYes\n\n2\n\n11519785\n\nRASHMI PAREEK\n\nDirector\n\nPromoter\n\n11/02/2026\n\n-\n\nYes\n\n"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INSTITUTE OF MAHA ELEARNING & DIGNITY SKILL DEVELOPMENT LIMITED.pdf",
+  "file_hash_sha256": "8351f61ba125931f3305b0af62e8f173dd7a5a9f6c0cd01ff249b82f3753db11",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-28 15:26:57"
+  },
+  "master_data": {
+    "cin": "U80904PN2018PLC179753",
+    "company_name": "INSTITUTE OF MAHA ELEARNING & DIGNITY SKILL DEVELOPMENT LIMITED",
+    "roc_name": "ROC Pune",
+    "registration_number": "179753",
+    "date_of_incorporation": "23/10/2018",
+    "email": "cahrishikesh@sinhasane.in",
+    "registered_address": "Block No. 10&11, Prathmesh Complex Dahiwadi Road, Vaduj Dist-Satara, Satara, SATARA, Maharashtra, India, 415506",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Public",
+    "active_compliance": "1,00,00,000",
+    "authorised_capital": 8258466,
+    "paid_up_capital": 6943537,
+    "date_of_last_agm": "31/03/2020",
+    "date_of_balance_sheet": "23/10/2018",
+    "company_status": "Active",
+    "small_company": "ROC Pune",
+    "jurisdiction_roc": "ROC Pune",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "cahrishikesh@sinhasane.in"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "08258466",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "06943537",
+      "name": "Amol Govind Shinde",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "08258427",
+      "name": "Madhuri Amol Shinde",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2018",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/28/26, 3:26 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU80904PN2018PLC179753\n\nCompany Name\n\nINSTITUTE OF MAHA ELEARNING & DIGNITY SKILL DEVELOPMENT LIMITED\n\nROC Name\n\nROC Pune\n\nRegistration Number\n\n179753\n\nDate of Incorporation\n\n23/10/2018\n\nEmail Id\n\ncahrishikesh@sinhasane.in\n\nRegistered Address\n\nBlock No. 10&11, Prathmesh Complex Dahiwadi Road, Vaduj Dist-Satara, Satara, SATARA,\nMaharashtra, India, 415506\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPublic\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,00,000\n\nPaid up Capital (Rs)\n\n4,66,550\n\n\n4/28/26, 3:26 PM\n\n\nDate of last AGM\n\n31/12/2020\n\nDate of Balance Sheet\n\n31/03/2020\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Pune\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n08258466\n\nDirector\n\nPromoter\n\n23/10/2018\n\n-\n\nYes\n\nGOVINDRAO KAKASO\nSHINDE\n\n2\n\n06943537\n\nAMOL GOVIND SHINDE\n\nDirector\n\nPromoter\n\n23/10/2018\n\n-\n\nYes\n\n3\n\n08258427\n\nMADHURI AMOL SHINDE\n\nDirector\n\nPromoter\n\n23/10/2018\n\n-\n\nYes\n\n"
+  }
+}

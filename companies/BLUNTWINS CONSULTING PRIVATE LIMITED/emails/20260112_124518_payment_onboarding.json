@@ -1,0 +1,18 @@
+{
+  "to": "maverickco.info@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 BLUNTWINS CONSULTING PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "BLUNTWINS CONSULTING PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 Covering only ROC and MCA Compliance",
+    "amount": "7000",
+    "currency": "INR",
+    "payment_id": "pay_S2rWtJoYcneyp5",
+    "payment_date": "2026-01-12T12:37:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

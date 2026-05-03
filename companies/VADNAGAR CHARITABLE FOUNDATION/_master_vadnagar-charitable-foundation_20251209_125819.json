@@ -1,0 +1,92 @@
+{
+  "company_name": "VADNAGAR CHARITABLE FOUNDATION",
+  "cin": "U88900GJ2025NPL169927",
+  "registered_address": "B-07 DEV I LAND, KATHWADAA hmadabad, Kathwada, Ahmedabad,Daskroi, Gujarat, India, 382430",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11405655",
+      "name": "KATHAN JYOTISHCHANDRA DAS",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11405656",
+      "name": "Sandhyaben Jyotishchandra Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "02/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AALCV6190Q"
+  },
+  "email": "rasoigoldoil@gmail.com",
+  "meta": {
+    "created": "20251209_125819",
+    "last_updated": "20251221_174807"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251209_125819",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Vadnagar Charitable Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900GJ2025NPL169927",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251221_174807",
+      "inputs": {
+        "meeting_date": "21 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "KATHAN JYOTISHCHANDRA DAS",
+          "din": "11405655",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VADNAGAR CHARITABLE FOUNDATION\\bod_gst_authorized_signatory_20251221_174807.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMV14936F",
+  "authorized_signatory": {
+    "name": "KATHAN JYOTISHCHANDRA DAS",
+    "din": "11405655",
+    "designation": "Director",
+    "meeting_date": "21 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VADNAGAR CHARITABLE FOUNDATION\\bod_gst_authorized_signatory_20251221_174807.docx",
+    "ts": "20251221_174807",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "KATHAN JYOTISHCHANDRA DAS",
+    "din": "11405655",
+    "designation": "Director",
+    "meeting_date": "21 Dec 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VADNAGAR CHARITABLE FOUNDATION\\bod_gst_authorized_signatory_20251221_174807.docx",
+    "ts": "20251221_174807",
+    "note": "authorised signatory appointed"
+  }
+}

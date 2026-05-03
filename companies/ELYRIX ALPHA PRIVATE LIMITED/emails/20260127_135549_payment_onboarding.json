@@ -1,0 +1,18 @@
+{
+  "to": "info@cosiva.in",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ELYRIX ALPHA PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "ELYRIX ALPHA PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual MCA and ROC Compliance",
+    "amount": "8260",
+    "currency": "INR",
+    "payment_id": "IN42602750460588",
+    "payment_date": "2026-01-27T13:54:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

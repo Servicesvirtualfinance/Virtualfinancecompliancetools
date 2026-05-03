@@ -1,0 +1,55 @@
+{
+  "company_name": "EKITCHAINS FOODTECH PRIVATE LIMITED",
+  "cin": "U10790MH2026PTC467424",
+  "registered_address": "Plot No: 102 Flat No: 903, Deep Sunil, Ghatkopar E, Mumbai, Mumbai, Mumbai, Maharashtra, India, 400077",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 10223413,
+  "paid_up_capital": 11523003,
+  "directors": [
+    {
+      "din": "10223413",
+      "name": "BHAVIN UTTAMCHAND SHAH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11523003",
+      "name": "MANJULA SHAH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "04/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE4702F"
+  },
+  "email": "bhavinfamilyinfo@gmail.com",
+  "meta": {
+    "created": "20260225_184219",
+    "last_updated": "20260225_184219"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260225_184219",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_EKITCHAINS FOODTECH PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U10790MH2026PTC467424",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUME18422F"
+}

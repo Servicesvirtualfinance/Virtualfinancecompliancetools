@@ -1,0 +1,18 @@
+{
+  "to": "pgkm.solar@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 PGKM SOLAR ENERGY PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "PGKM SOLAR ENERGY PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Ryul9nzC1tUMQu",
+    "payment_date": "2026-01-02T12:19:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

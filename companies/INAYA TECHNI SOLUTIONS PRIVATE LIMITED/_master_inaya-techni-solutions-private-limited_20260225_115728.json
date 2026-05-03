@@ -1,0 +1,55 @@
+{
+  "company_name": "INAYA TECHNI SOLUTIONS PRIVATE LIMITED",
+  "cin": "U42209TS2026PTC210666",
+  "registered_address": "18-397/5/F PYARADISE, COLONY SHADNAGAR, Farooqnagar, Mahabub Nagar, Farooqnagar, Telangana, India, 509216",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11521535,
+  "paid_up_capital": 11521536,
+  "directors": [
+    {
+      "din": "11521535",
+      "name": "MD PERWEZ ALAM",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11521536",
+      "name": "MARIYAM PARVEEN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI6733R"
+  },
+  "email": "mdperwezalam102@gmail.com",
+  "meta": {
+    "created": "20260225_115728",
+    "last_updated": "20260225_115728"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260225_115728",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INAYA TECHNI SOLUTIONS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U42209TS2026PTC210666",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDI10285C"
+}

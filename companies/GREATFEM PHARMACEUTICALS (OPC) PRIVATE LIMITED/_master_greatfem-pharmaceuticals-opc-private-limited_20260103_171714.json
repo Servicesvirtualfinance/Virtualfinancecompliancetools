@@ -1,0 +1,128 @@
+{
+  "company_name": "GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED",
+  "cin": "U21001PN2025OPC249609",
+  "registered_address": "Fl No-401, C Wing, Maruti, Enclave 204/3Papade Vasti, Phursungi, Pune, Haveli, Maharashtra, India, 412308",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11439164,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11439164",
+      "name": "PRAVIN AMRIKLAL KHURANA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG6052D"
+  },
+  "email": "pravin.khurana1984@gmail.com",
+  "meta": {
+    "created": "20260103_171714",
+    "last_updated": "20260103_171754"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260103_171714",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U21001PN2025OPC249609",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260103_171730",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U21001PN2025OPC249609",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260103_171754",
+      "inputs": {
+        "meeting_date": "03 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "",
+          "din": "11439164",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_171754.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260103_171754",
+      "inputs": {
+        "meeting_date": "03 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "",
+          "din": "11439164",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_171754.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260103_171805",
+      "inputs": {
+        "to": "pravin.khurana1984@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260103_171754.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "PNEG34035B",
+  "authorized_signatory": {
+    "name": "",
+    "din": "11439164",
+    "designation": "Director",
+    "meeting_date": "03 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_171754.docx",
+    "ts": "20260103_171754",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260103_171805"
+  },
+  "authorised_signatory": {
+    "name": "",
+    "din": "11439164",
+    "designation": "Director",
+    "meeting_date": "03 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GREATFEM PHARMACEUTICALS (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20260103_171754.docx",
+    "ts": "20260103_171754",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260103_171805"
+  }
+}

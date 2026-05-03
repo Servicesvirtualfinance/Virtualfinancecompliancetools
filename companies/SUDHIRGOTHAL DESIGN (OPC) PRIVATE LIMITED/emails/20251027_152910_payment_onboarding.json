@@ -1,0 +1,18 @@
+{
+  "to": "gothalsudhir43@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 SUDHIRGOTHAL DESIGN (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "SUDHIRGOTHAL DESIGN (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RYSEbT8T10Aapv",
+    "payment_date": "2025-10-27T15:19:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

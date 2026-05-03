@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BANSAL STRATEDGE PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "4064d3a9b3bb05ddb7c4bc275b2d323ca2200b60d7be64667a3d1918d331723a",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-17 15:11:24"
+  },
+  "master_data": {
+    "cin": "U70200MR2026PTC475662",
+    "company_name": "BANSAL STRATEDGE PRIVATE LIMITED",
+    "roc_name": "ROC Mumbai II",
+    "registration_number": "475662",
+    "date_of_incorporation": "16/04/2026",
+    "email": "kamlesh@kamleshbansal.com",
+    "registered_address": "FLAT NO D-302 PLOT NO.46, SECTOR 30A Silicon Tower, Thane, Thane, Thane, Maharashtra, India, 400705",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11590295,
+    "paid_up_capital": 11666327,
+    "date_of_last_agm": "16/04/2026",
+    "date_of_balance_sheet": "16/04/2026",
+    "company_status": "Inactive for e-filing",
+    "small_company": "ROC Mumbai II",
+    "jurisdiction_roc": "ROC Mumbai II",
+    "jurisdiction_rd": "RD Navi Mumbai, Western Region Directorate II",
+    "emails_found": [
+      "kamlesh@kamleshbansal.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11590295",
+      "name": "Kamlesh Bansal Promoter 16/04/2026 - Yes Managing",
+      "designation": "Director",
+      "category": "2",
+      "date_of_appointment": null,
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11666327",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/17/26, 3:11 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU70200MR2026PTC475662\n\nCompany Name\n\nBANSAL STRATEDGE PRIVATE LIMITED\n\nROC Name\n\nROC Mumbai II\n\nRegistration Number\n\n475662\n\nDate of Incorporation\n\n16/04/2026\n\nEmail Id\n\nkamlesh@kamleshbansal.com\n\nRegistered Address\n\nFLAT NO D-302 PLOT NO.46, SECTOR 30A Silicon Tower, Thane, Thane, Thane, Maharashtra,\nIndia, 400705\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n4/17/26, 3:11 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nInactive for e-filing\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai II\n\nRD (name and Region)\n\nRD Navi Mumbai, Western Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11590295\n\nKAMLESH BANSAL\n\nPromoter\n\n16/04/2026\n\n-\n\nYes\n\nManaging\nDirector\n\n2\n\n11666327\n\nDirector\n\nPromoter\n\n16/04/2026\n\n-\n\nYes\n\nRIGVED KAMLESH\nBANSAL\n\n"
+  }
+}

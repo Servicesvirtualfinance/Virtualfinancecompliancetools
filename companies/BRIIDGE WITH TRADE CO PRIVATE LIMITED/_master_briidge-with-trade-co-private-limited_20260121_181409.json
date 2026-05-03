@@ -1,0 +1,185 @@
+{
+  "company_name": "BRIIDGE WITH TRADE CO PRIVATE LIMITED",
+  "cin": "U46699GJ2026PTC172359",
+  "registered_address": "SHED NO-58,Golden industrial Park,Nr Hinglaj MataTempal,village-Singrava,Taluko- Daskroi, Ad , Ahmedabad, Gujarat, 382340",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 8759072,
+  "paid_up_capital": 11405655,
+  "directors": [
+    {
+      "din": "08759072",
+      "name": "DAS SAUMIL JYOTISHCHANDRA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11405655",
+      "name": "KATHAN JYOTISHCHANDRA DAS",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11495289",
+      "name": "SANJAY KUMARKUSHWAHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11495290",
+      "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "20/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCB3472E"
+  },
+  "email": "Jd9601271@gmail.com",
+  "meta": {
+    "created": "20260121_181409",
+    "last_updated": "20260129_155758"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260121_181409",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BRIIDGE WITH TRADE CO PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46699GJ2026PTC172359",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20260128_164004",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BRIIDGE WITH TRADE CO PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46699GJ2026PTC172359",
+        "directors_count": 4
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260128_164924",
+      "inputs": {
+        "meeting_date": "28 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "KATHAN JYOTISHCHANDRA DAS",
+          "din": "11405655",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260128_164924.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260128_164943",
+      "inputs": {
+        "to": "Jd9601271@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260128_164924.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260129_110918",
+      "inputs": {
+        "meeting_date": "29 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+          "din": "11495290",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260129_110918.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260129_120521",
+      "inputs": {
+        "meeting_date": "29 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+          "din": "11495290",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260129_120521.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260129_155758",
+      "inputs": {
+        "meeting_date": "29 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+          "din": "11495290",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260129_155758.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMB15891B",
+  "authorized_signatory": {
+    "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+    "din": "11495290",
+    "designation": "Director",
+    "meeting_date": "29 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260129_155758.docx",
+    "ts": "20260129_155758",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "NAVDEEPSINGH RAMESHSINGH TOMAR",
+    "din": "11495290",
+    "designation": "Director",
+    "meeting_date": "29 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\BRIIDGE WITH TRADE CO PRIVATE LIMITED\\bod_gst_authorized_signatory_20260129_155758.docx",
+    "ts": "20260129_155758",
+    "note": "authorised signatory appointed"
+  }
+}

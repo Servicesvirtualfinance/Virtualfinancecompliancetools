@@ -1,0 +1,55 @@
+{
+  "company_name": "SELNIX HEALTHCARE PRIVATE LIMITED",
+  "cin": "U86909HR2026PTC144169",
+  "registered_address": "Flat No. 205 T - 009, Gls Arawali Homes, Sec 04, KherliLala, Gurgaon, Sohna, Haryana, India, 122103",
+  "roc_name": "ROC Haryana",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11663701,
+  "paid_up_capital": 11663702,
+  "directors": [
+    {
+      "din": "11663701",
+      "name": "Pawan Srivastava",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11663702",
+      "name": "BHAGWAT SRIVASTAVA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "15/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABTCS4511P"
+  },
+  "email": "bhagwat.srivastava1@gmail.com",
+  "meta": {
+    "created": "20260430_145544",
+    "last_updated": "20260430_145544"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260430_145544",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SELNIX HEALTHCARE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U86909HR2026PTC144169",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "RTKS55204C"
+}

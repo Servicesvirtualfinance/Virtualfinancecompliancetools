@@ -1,0 +1,18 @@
+{
+  "to": "ramsoniqindustries@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 RAMSONIQ INDUSTRIES PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "RAMSONIQ INDUSTRIES PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Trupti",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Rjs2g6LN7Rw904",
+    "payment_date": "2025-11-25T11:50:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

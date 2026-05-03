@@ -1,0 +1,67 @@
+{
+  "company_name": "ASPIRING HUMAN SERVICES INDIA FOUNDATION",
+  "cin": "U88900MH2025NPL459295",
+  "registered_address": "B501 Uptown Avenue, Bldg 2, 743/2.3A, 4, 5, 8(P)KarnalaS, Panvel City, Raigarh(MH), Panvel, Maharashtra, India, 410206",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "08585959",
+      "name": "Pallavi Achyut Sawant",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11346648",
+      "name": "Achyut Hanmant Sawant",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABDCA9894R"
+  },
+  "email": "Info@ahsindiafoundation.org",
+  "meta": {
+    "created": "20251120_163658",
+    "last_updated": "20251120_164950"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251120_163658",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Aspiring Human Services India Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900MH2025NPL459295",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251120_164950",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Aspiring Human Services India Foundation.pdf"
+      },
+      "outputs": {
+        "cin": "U88900MH2025NPL459295",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEA56845F"
+}

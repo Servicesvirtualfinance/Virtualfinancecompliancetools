@@ -1,0 +1,48 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "aa16772cfa79c6ad3efda8d39aa2be9a241d34bd2cc66314964ecea6f38f83bd",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-04 12:59:16"
+  },
+  "master_data": {
+    "cin": "U79120TN2026OPC188194",
+    "company_name": "BEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED",
+    "roc_name": "ROC Chennai",
+    "registration_number": "188194",
+    "date_of_incorporation": "08/01/2026",
+    "email": "s66885493@gmail.com",
+    "registered_address": "9B BHUVANESHWARI NAGAR, 1ST STREET GOWRIVAKKAM, Rajakilpakkam, Kanchipuram, Tambaram, Tamil Nadu, India, 600073",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "One Person Company",
+    "active_compliance": "2,00,000",
+    "authorised_capital": 11472302,
+    "paid_up_capital": 50000,
+    "date_of_last_agm": "2/4/26, 12:58 PM",
+    "date_of_balance_sheet": "08/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Chennai",
+    "jurisdiction_roc": "ROC Chennai",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "s66885493@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11472302",
+      "name": "Sathiya",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/4/26, 12:58 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU79120TN2026OPC188194\n\nCompany Name\n\nBEYOND THE VEILS TOURISM (OPC) PRIVATE LIMITED\n\nROC Name\n\nROC Chennai\n\nRegistration Number\n\n188194\n\nDate of Incorporation\n\n08/01/2026\n\nEmail Id\n\ns66885493@gmail.com\n\nRegistered Address\n\n9B BHUVANESHWARI NAGAR, 1ST STREET GOWRIVAKKAM,\nRajakilpakkam, Kanchipuram, Tambaram, Tamil Nadu, India, 600073\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nOne Person Company\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n2,00,000\n\nPaid up Capital (Rs)\n\n50,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chennai\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/4/26, 12:58 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11472302\n\nSATHIYA\n\nDirector\n\nPromoter\n\n08/01/2026\n\n-\n\nYes\n\n"
+  }
+}

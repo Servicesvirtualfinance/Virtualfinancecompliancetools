@@ -1,0 +1,55 @@
+{
+  "company_name": "SHREE RADHA GOPALA BUILDERS PRIVATE LIMITED",
+  "cin": "U41001TS2026PTC210642",
+  "registered_address": "3-38 NH Road, Kochera Thanda, Kowdipally, Medak, Narsapur, Telangana, India, 502316",
+  "roc_name": "ROC Hyderabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11520842,
+  "paid_up_capital": 11520843,
+  "directors": [
+    {
+      "din": "11520842",
+      "name": "RAMAVATH PRAVEEN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11520843",
+      "name": "PRATHAP RAMAVATH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS6407R"
+  },
+  "email": "srgtraderspvtltd@gmail.com",
+  "meta": {
+    "created": "20260223_115852",
+    "last_updated": "20260223_115852"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260223_115852",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SHREE RADHA GOPALA BUILDERS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U41001TS2026PTC210642",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "HYDS91182A"
+}

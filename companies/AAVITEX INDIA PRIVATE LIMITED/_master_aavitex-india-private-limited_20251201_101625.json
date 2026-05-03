@@ -1,0 +1,162 @@
+{
+  "company_name": "AAVITEX INDIA PRIVATE LIMITED",
+  "cin": "U62011MH2025PTC461291",
+  "registered_address": "F No.2103, Barrington Bldg, One Hiranandani Park, Sandozbaugh, Thane, Thane, Maharashtra, India, 400607",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11394018",
+      "name": "Ashish Sharma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11394019",
+      "name": "Ashok Bapusaheb BHOSLE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "24/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "ABECA1833F"
+  },
+  "email": "uk.ashish@gmail.com",
+  "meta": {
+    "created": "20251201_101625",
+    "last_updated": "20260219_145206"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251201_101625",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Aavitex India Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62011MH2025PTC461291",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251216_101503",
+      "inputs": {
+        "meeting_date": "16 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Ashish Sharma",
+          "din": "11394018",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\AAVITEX INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251216_101503.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251217_172221",
+      "inputs": {
+        "meeting_date": "17 Dec 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Ashok Bapusaheb BHOSLE",
+          "din": "11394019",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\AAVITEX INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20251217_172221.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251217_172253",
+      "inputs": {
+        "to": "uk.ashish@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251217_172221.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251224_102411",
+      "inputs": {
+        "to": "uk.ashish@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251217_172221.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251227_134523",
+      "inputs": {
+        "to": "uk.ashish@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251217_172221.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260219_145206",
+      "inputs": {
+        "meeting_date": "19 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Ashish Sharma",
+          "din": "11394018",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\AAVITEX INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145206.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEA57343G",
+  "authorized_signatory": {
+    "name": "Ashish Sharma",
+    "din": "11394018",
+    "designation": "Director",
+    "meeting_date": "19 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\AAVITEX INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145206.docx",
+    "ts": "20260219_145206",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Ashish Sharma",
+    "din": "11394018",
+    "designation": "Director",
+    "meeting_date": "19 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\AAVITEX INDIA PRIVATE LIMITED\\bod_gst_authorized_signatory_20260219_145206.docx",
+    "ts": "20260219_145206",
+    "note": "authorised signatory appointed"
+  }
+}

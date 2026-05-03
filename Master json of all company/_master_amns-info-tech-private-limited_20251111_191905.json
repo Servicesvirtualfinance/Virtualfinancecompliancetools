@@ -1,0 +1,67 @@
+{
+  "company_name": "AMNS INFO TECH PRIVATE LIMITED",
+  "cin": "U62013UP2025PTC235061",
+  "registered_address": "D806, GALAXY VEGA TOWER, TECHZONE 4, GREATER NOIDA, Noida, Gautam Buddha Nagar, Noida, Uttar Pradesh, India, 201301",
+  "roc_name": "ROC Kanpur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11347568",
+      "name": "Shweta Pandey",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11347569",
+      "name": "Amit Pandey",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABDCA9941K"
+  },
+  "email": "amnsinfotech@gmail.com",
+  "meta": {
+    "created": "20251111_191905",
+    "last_updated": "20251112_120752"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251111_191905",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Amns Info Tech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62013UP2025PTC235061",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251112_120752",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Amns Info Tech Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62013UP2025PTC235061",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MRTA28027G"
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "FLOSPIRE TECHNOLOGIES PRIVATE LIMITED",
+  "cin": "U66190MH2025PTC460324",
+  "registered_address": "PLOT NO.59, S NO.17/1, SAPTARSHRUNGI NAGAR, Dhule, Dhule, Dhule, Maharashtra, India, 424001",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11369726",
+      "name": "ADITYA MAHADEV JAMDHADE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11369727",
+      "name": "MAHADEV SAMPATI JAMDHADE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAGCF6939E"
+  },
+  "email": "flospiretech@gmail.com",
+  "meta": {
+    "created": "20251203_124827",
+    "last_updated": "20251203_124827"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251203_124827",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Flospire Technologies Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U66190MH2025PTC460324",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEF07504A"
+}

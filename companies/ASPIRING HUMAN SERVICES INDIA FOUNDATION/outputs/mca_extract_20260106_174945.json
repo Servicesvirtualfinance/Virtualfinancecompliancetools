@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Aspiring Human Services India Foundation.pdf",
+  "file_hash_sha256": "0e6d57855c470b11a92b9dd55b419d682ba7b6dfb99403678bad2bb5a722662a",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-06 17:49:45"
+  },
+  "master_data": {
+    "cin": "U88900MH2025NPL459295",
+    "company_name": "ASPIRING HUMAN SERVICES INDIA FOUNDATION",
+    "roc_name": "ROC Mumbai",
+    "registration_number": "459295",
+    "date_of_incorporation": "17/10/2025",
+    "email": "Theavadhoot@gmail.com",
+    "registered_address": "B501 Uptown Avenue, Bldg 2, 743/2.3A, 4, 5, 8(P)KarnalaS, Panvel City, Raigarh(MH), Panvel, Maharashtra, India, 410206",
+    "category_of_company": "Company limited by guarantee",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/6/26, 5:43 PM",
+    "authorised_capital": null,
+    "paid_up_capital": null,
+    "date_of_last_agm": "Active",
+    "date_of_balance_sheet": "Active",
+    "company_status": "Active",
+    "small_company": "ROC Mumbai",
+    "jurisdiction_roc": "ROC Mumbai",
+    "jurisdiction_rd": "RD, Western Region",
+    "emails_found": [
+      "Theavadhoot@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "08585959",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11346648",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/6/26, 5:43 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900MH2025NPL459295\n\nCompany Name\n\nASPIRING HUMAN SERVICES INDIA FOUNDATION\n\nROC Name\n\nROC Mumbai\n\nRegistration Number\n\n459295\n\nDate of Incorporation\n\n17/10/2025\n\nEmail Id\n\nTheavadhoot@gmail.com\n\nRegistered Address\n\nB501 Uptown Avenue,Bldg 2, 743/2.3A,4,5,8(P)KarnalaS, Panvel City, Raigarh(MH),\nPanvel, Maharashtra, India, 410206\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by guarantee\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/6/26, 5:43 PM\n\n\nMaximum Number of Members\n\n200\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Mumbai\n\nRD (name and Region)\n\nRD, Western Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n08585959\n\nDirector\n\nPromoter\n\n17/10/2025\n\n-\n\nYes\n\nPALLAVI ACHYUT\nSAWANT\n\n2\n\n11346648\n\nDirector\n\nPromoter\n\n17/10/2025\n\n-\n\nYes\n\nACHYUT HANMANT\nSAWANT\n\n"
+  }
+}

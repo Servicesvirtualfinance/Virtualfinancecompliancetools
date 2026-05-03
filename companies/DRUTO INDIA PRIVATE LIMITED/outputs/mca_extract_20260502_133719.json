@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DRUTO INDIA PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "ddfe538568f92be0793d3bcd233310d1aaf4c76b7ddef9761ef0ca83739e1f6c",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-05-02 13:37:19"
+  },
+  "master_data": {
+    "cin": "U62020DL2026PTC465572",
+    "company_name": "DRUTO INDIA PRIVATE LIMITED",
+    "roc_name": "ROC Delhi I",
+    "registration_number": "465572",
+    "date_of_incorporation": "16/04/2026",
+    "email": "abheanandd@gmail.com",
+    "registered_address": "W/O UGRANATH JHA POIE NO, 5169-E-1/8 EXTN PART 1-6, Badarpur (South Delhi), South Delhi, New Delhi, Delhi, India, 110044",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "10,00,000",
+    "authorised_capital": 11666602,
+    "paid_up_capital": 11666603,
+    "date_of_last_agm": "16/04/2026",
+    "date_of_balance_sheet": "16/04/2026",
+    "company_status": "Active",
+    "small_company": "ROC Delhi I",
+    "jurisdiction_roc": "ROC Delhi I",
+    "jurisdiction_rd": "RD Delhi, Northern Region Directorate I",
+    "emails_found": [
+      "abheanandd@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11666602",
+      "name": "Abhishek Anand",
+      "designation": "Managing Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11666603",
+      "name": "Shyma Jha",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "5/2/26, 1:34 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62020DL2026PTC465572\n\nCompany Name\n\nDRUTO INDIA PRIVATE LIMITED\n\nROC Name\n\nROC Delhi I\n\nRegistration Number\n\n465572\n\nDate of Incorporation\n\n16/04/2026\n\nEmail Id\n\nabheanandd@gmail.com\n\nRegistered Address\n\nW/O UGRANATH JHA POIE NO, 5169-E-1/8 EXTN PART 1-6, Badarpur (South Delhi), South\nDelhi, New Delhi, Delhi, India, 110044\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n10,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\n\n5/2/26, 1:34 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Delhi I\n\nRD (name and Region)\n\nRD Delhi, Northern Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11666602\n\nABHISHEK ANAND\n\nManaging Director\n\nPromoter\n\n16/04/2026\n\n-\n\nYes\n\n2\n\n11666603\n\nSHYMA JHA\n\nDirector\n\nPromoter\n\n16/04/2026\n\n-\n\nYes\n\n"
+  }
+}

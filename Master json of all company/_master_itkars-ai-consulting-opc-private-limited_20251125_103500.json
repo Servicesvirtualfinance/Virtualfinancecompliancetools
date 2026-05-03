@@ -1,0 +1,58 @@
+{
+  "company_name": "ITKARS AI CONSULTING (OPC) PRIVATE LIMITED",
+  "cin": "U62099PN2025OPC248066",
+  "registered_address": "302 BLD.G/1 DAFFODILSSNO, 61:62&63 PIM.SAUDAGAR, Sangavi, Pune, Pune City, Maharashtra, India, 411027",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "10901294",
+      "name": "ASHFAK MOHMADIQBAL SUTAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI5045C"
+  },
+  "email": "ashfakis@gmail.com",
+  "meta": {
+    "created": "20251125_103500",
+    "last_updated": "20251125_103543"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251125_103500",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Itkars Ai Consulting (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099PN2025OPC248066",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251125_103543",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Itkars Ai Consulting (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099PN2025OPC248066",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEI14113B"
+}

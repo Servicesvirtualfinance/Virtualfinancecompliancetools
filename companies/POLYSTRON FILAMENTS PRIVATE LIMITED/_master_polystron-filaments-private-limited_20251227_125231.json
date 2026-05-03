@@ -1,0 +1,73 @@
+{
+  "company_name": "POLYSTRON FILAMENTS PRIVATE LIMITED",
+  "cin": "U13942DD2025PTC010095",
+  "registered_address": "PLOT NO.55/2, RINGANWADA, Daman, Daman, Daman, Daman and Diu, India, 396210",
+  "roc_name": "ROC Goa",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11382330,
+  "paid_up_capital": 11399922,
+  "directors": [
+    {
+      "din": "11382330",
+      "name": "DILIP SHIVAJIRAO PATIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11399922",
+      "name": "CHETAN DILIP PATIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11399923",
+      "name": "JYOTI DILIP PATIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11399924",
+      "name": "HARSHAL DILIP PATIL",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "28/11/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAQCP3947C"
+  },
+  "email": "polystronfilaments@gmail.com",
+  "meta": {
+    "created": "20251227_125231",
+    "last_updated": "20251227_125231"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251227_125231",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Polystron Filaments Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U13942DD2025PTC010095",
+        "directors_count": 4
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMP22900D"
+}

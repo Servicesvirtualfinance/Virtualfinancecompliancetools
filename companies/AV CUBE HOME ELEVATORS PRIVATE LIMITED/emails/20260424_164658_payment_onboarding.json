@@ -1,0 +1,18 @@
+{
+  "to": "avcubehomeelevators@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 AV CUBE HOME ELEVATORS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "AV CUBE HOME ELEVATORS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_ShIfNdMbundKnr",
+    "payment_date": "2026-04-24T16:35:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

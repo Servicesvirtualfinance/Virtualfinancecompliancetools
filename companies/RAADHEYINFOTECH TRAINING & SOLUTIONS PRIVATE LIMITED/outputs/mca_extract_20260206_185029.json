@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RAADHEYINFOTECH TRAINING & SOLUTIONS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "b771bfd81db81850447d759c8b543c455aefa56190f109ffaf1f612e891e9f8e",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-06 18:50:29"
+  },
+  "master_data": {
+    "cin": "U85499UP2026PTC240755",
+    "company_name": "RAADHEYINFOTECH TRAINING & SOLUTIONS PRIVATE LIMITED",
+    "roc_name": "ROC Kanpur",
+    "registration_number": "240755",
+    "date_of_incorporation": "07/01/2026",
+    "email": "radheyinfotech86@gmail.com",
+    "registered_address": "No. 206/2, Jagrati Vihar, Meerut, Uttar Pradesh, L. L. R. M. Med.college, Meerut, Meerut, Uttar Pradesh, India, 250004",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "2/6/26, 6:48 PM",
+    "authorised_capital": 11471254,
+    "paid_up_capital": 11471255,
+    "date_of_last_agm": "07/01/2026",
+    "date_of_balance_sheet": "07/01/2026",
+    "company_status": "Active",
+    "small_company": "ROC Kanpur",
+    "jurisdiction_roc": "ROC Kanpur",
+    "jurisdiction_rd": "RD, Northern Region",
+    "emails_found": [
+      "radheyinfotech86@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11471254",
+      "name": "Puran Mal Gupta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11471255",
+      "name": "Sandeep Gupta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/6/26, 6:48 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU85499UP2026PTC240755\n\nCompany Name\n\nRAADHEYINFOTECH TRAINING & SOLUTIONS PRIVATE LIMITED\n\nROC Name\n\nROC Kanpur\n\nRegistration Number\n\n240755\n\nDate of Incorporation\n\n07/01/2026\n\nEmail Id\n\nradheyinfotech86@gmail.com\n\nRegistered Address\n\nNo. 206/2, Jagrati Vihar, Meerut, Uttar Pradesh, L. L. R. M. Med.college, Meerut, Meerut,\nUttar Pradesh, India, 250004\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n2/6/26, 6:48 PM\n\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Kanpur\n\nRD (name and Region)\n\nRD, Northern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11471254\n\nPURAN MAL GUPTA\n\nDirector\n\nPromoter\n\n07/01/2026\n\n-\n\nYes\n\n2\n\n11471255\n\nSANDEEP GUPTA\n\nDirector\n\nPromoter\n\n07/01/2026\n\n-\n\nYes\n\n"
+  }
+}

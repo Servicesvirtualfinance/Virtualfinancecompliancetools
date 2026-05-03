@@ -1,0 +1,67 @@
+{
+  "company_name": "DAYVISA IMMIGRATION PRIVATE LIMITED",
+  "cin": "U74909DL2025PTC459141",
+  "registered_address": "400-A, 4th Floor, 12 Ajit, Singh House, Yusuf Sarai, Green Park, South West Delhi, New Delhi, Delhi, India, 110016",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "06680565",
+      "name": "Vikas Gupta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11416167",
+      "name": "Gaurav",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCD2267P"
+  },
+  "email": "vikasjigupta9@gmail.com",
+  "meta": {
+    "created": "20251217_121026",
+    "last_updated": "20251217_121049"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251217_121026",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dayvisa Immigration Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U74909DL2025PTC459141",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251217_121049",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Dayvisa Immigration Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U74909DL2025PTC459141",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELD33590E"
+}

@@ -1,0 +1,108 @@
+{
+  "company_name": "WITHGRIT LIFESTYLE PRIVATE LIMITED",
+  "cin": "U21001KA2025PTC211904",
+  "registered_address": "Flr-3, Hakimi Edifice, 5th Cross Rd, Vinayaka Ngr, J P Nagar, Bangalore, Bangalore South, Karnataka, India, 560078",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11414263,
+  "paid_up_capital": 11414264,
+  "directors": [
+    {
+      "din": "11414263",
+      "name": "Najmuddin Bedawala",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11414264",
+      "name": "MUSTAFA NAJMUDDIN BEDAWALA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "08/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAECW3067E"
+  },
+  "email": "withgrit.in@gmail.com",
+  "meta": {
+    "created": "20260105_183100",
+    "last_updated": "20260108_110045"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260105_183100",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_WITHGRIT LIFESTYLE PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U21001KA2025PTC211904",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260108_110045",
+      "inputs": {
+        "meeting_date": "08 Jan 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "MUSTAFA NAJMUDDIN BEDAWALA",
+          "din": "11414264",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\WITHGRIT LIFESTYLE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260108_110045.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260108_110055",
+      "inputs": {
+        "to": "withgrit.in@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260108_110045.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "tan": "BLRW05512D",
+  "authorized_signatory": {
+    "name": "MUSTAFA NAJMUDDIN BEDAWALA",
+    "din": "11414264",
+    "designation": "Director",
+    "meeting_date": "08 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\WITHGRIT LIFESTYLE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260108_110045.docx",
+    "ts": "20260108_110045",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260108_110055"
+  },
+  "authorised_signatory": {
+    "name": "MUSTAFA NAJMUDDIN BEDAWALA",
+    "din": "11414264",
+    "designation": "Director",
+    "meeting_date": "08 Jan 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\WITHGRIT LIFESTYLE PRIVATE LIMITED\\bod_gst_authorized_signatory_20260108_110045.docx",
+    "ts": "20260108_110045",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20260108_110055"
+  }
+}

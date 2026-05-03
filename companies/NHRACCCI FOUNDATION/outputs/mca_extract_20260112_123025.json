@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_NHRACCCI FOUNDATION.pdf",
+  "file_hash_sha256": "adc8df656d465a83193cc30b0ade96ea6e45ef6ac74f41cf1bf73aca61b8a504",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-12 12:30:25"
+  },
+  "master_data": {
+    "cin": "U88900WB2025NPL285111",
+    "company_name": "NHRACCCI FOUNDATION",
+    "roc_name": "ROC Kolkata",
+    "registration_number": "285111",
+    "date_of_incorporation": "17/12/2025",
+    "email": "nhraccci.team@gmail.com",
+    "registered_address": "C/O-SHIPRA DAS, MONDALPARA, Mothuadham Mondalpara, North 24 Parganas, Chandpara, West Bengal, India, 743245",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1/12/26, 12:29 PM",
+    "authorised_capital": 11435322,
+    "paid_up_capital": 11435323,
+    "date_of_last_agm": "17/12/2025",
+    "date_of_balance_sheet": "17/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Kolkata",
+    "jurisdiction_roc": "ROC Kolkata",
+    "jurisdiction_rd": "RD, Eastern Region",
+    "emails_found": [
+      "nhraccci.team@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11435322",
+      "name": "Shipra Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11435323",
+      "name": "Atanu Das",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/12/26, 12:29 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU88900WB2025NPL285111\n\nCompany Name\n\nNHRACCCI FOUNDATION\n\nROC Name\n\nROC Kolkata\n\nRegistration Number\n\n285111\n\nDate of Incorporation\n\n17/12/2025\n\nEmail Id\n\nnhraccci.team@gmail.com\n\nRegistered Address\n\nC/O-SHIPRA DAS, MONDALPARA, Mothuadham Mondalpara, North 24 Parganas,\nChandpara, West Bengal, India, 743245\n\n-\n\nAddress at which the books of account are to be\nmaintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\n\n1/12/26, 12:29 PM\n\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n5,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nNo\n\nJurisdiction\n\nROC (name and office)\n\nROC Kolkata\n\nRD (name and Region)\n\nRD, Eastern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11435322\n\nSHIPRA DAS\n\nDirector\n\nPromoter\n\n17/12/2025\n\n-\n\nYes\n\n2\n\n11435323\n\nATANU DAS\n\nDirector\n\nPromoter\n\n17/12/2025\n\n-\n\nYes\n\n"
+  }
+}

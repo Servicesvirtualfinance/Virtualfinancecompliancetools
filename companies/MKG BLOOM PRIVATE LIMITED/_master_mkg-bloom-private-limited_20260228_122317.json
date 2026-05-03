@@ -1,0 +1,55 @@
+{
+  "company_name": "MKG BLOOM PRIVATE LIMITED",
+  "cin": "U46209MH2026PTC467341",
+  "registered_address": "INNOV8 Q PARC, GEN-4/1, 13TH FLR, BLDG NO. Q2, GA, Ghansoli, Thane, Rabale, Maharashtra, India, 400701",
+  "roc_name": "ROC Mumbai II",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11521372,
+  "paid_up_capital": 11521373,
+  "directors": [
+    {
+      "din": "11521372",
+      "name": "MANISHA ROY",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11521373",
+      "name": "UTTKARSH GAUTAM",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "03/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM4642D"
+  },
+  "email": "manisharoy1273@gmail.com",
+  "meta": {
+    "created": "20260228_122317",
+    "last_updated": "20260228_122317"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260228_122317",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MKG BLOOM PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U46209MH2026PTC467341",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMM73806F"
+}

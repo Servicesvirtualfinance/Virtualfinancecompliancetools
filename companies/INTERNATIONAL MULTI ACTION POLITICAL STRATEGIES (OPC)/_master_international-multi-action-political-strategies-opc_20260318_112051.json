@@ -1,0 +1,46 @@
+{
+  "company_name": "INTERNATIONAL MULTI ACTION POLITICAL STRATEGIES (OPC) PRIVATE LIMITED ",
+  "cin": "U70200TN2026OPC190885",
+  "registered_address": "2/96 BHAJANKOVIL STREET METTU COLONY MANAPAKKAM, CHENNAI 600125 KANCHIPURAM TAMILNADU, Manapakkam,, Kanchipuram, Sriperumbudur, Tamil Nadu, India, 600125, Kancheepuram, Tamil Nadu 600125 ",
+  "roc_name": "ROC Chennai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11609275,
+  "paid_up_capital": 20000,
+  "directors": [
+    {
+      "din": "11609275",
+      "name": "NAGA SRINIVASA BAPUJI GUNTUPALLI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "16/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAICI7671L"
+  },
+  "email": "imapstrategies@gmail.com",
+  "meta": {
+    "created": "20260318_112051",
+    "last_updated": "20260318_112051"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260318_112051",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_INTERNATIONAL MULTI ACTION POLITICAL STRATEGIES (OPC).pdf"
+      },
+      "outputs": {
+        "cin": "U70200TN2026OPC190885",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHEI13142D"
+}

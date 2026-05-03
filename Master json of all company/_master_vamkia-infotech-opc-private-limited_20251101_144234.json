@@ -1,0 +1,113 @@
+{
+  "company_name": "VAMKIA INFOTECH (OPC) PRIVATE LIMITED",
+  "cin": "U70200WB2025OPC283756",
+  "registered_address": "North 24 Parganas, Parganas), North 24 Pgs, West Bengal, India, Flat No. 3A, Tarulia 2nd, Lane, Krishnapur, Krishnapur (North 24",
+  "roc_name": "ROC Kolkata",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11351634",
+      "name": "Ruby Kumari Gupta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {},
+  "email": "vamkiainfotech@gmail.com",
+  "meta": {
+    "created": "20251101_144234",
+    "last_updated": "20251111_105405"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251101_144234",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Vamkia Infotech (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U70200WB2025OPC283756",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_UDYAM_CERT",
+      "ts": "20251106_192522",
+      "inputs": {
+        "to": "vamkiainfotech@gmail.com"
+      },
+      "outputs": {
+        "attachment": "UDHYAM_VAMKIAPVTLTD.pdf"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251111_105405",
+      "inputs": {
+        "meeting_date": "11 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Ruby Kumari Gupta",
+          "din": "11351634",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VAMKIA INFOTECH (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251111_105405.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20251111_105617",
+      "inputs": {
+        "to": "vamkiainfotech@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20251111_105405.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    }
+  ],
+  "udyam": {
+    "pdf": "UDHYAM_VAMKIAPVTLTD.pdf",
+    "mailed": true,
+    "mailed_at": "20251106_192522"
+  },
+  "authorized_signatory": {
+    "name": "Ruby Kumari Gupta",
+    "din": "11351634",
+    "designation": "Director",
+    "meeting_date": "11 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VAMKIA INFOTECH (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251111_105405.docx",
+    "ts": "20251111_105405",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251111_105617"
+  },
+  "authorised_signatory": {
+    "name": "Ruby Kumari Gupta",
+    "din": "11351634",
+    "designation": "Director",
+    "meeting_date": "11 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\VAMKIA INFOTECH (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251111_105405.docx",
+    "ts": "20251111_105405",
+    "note": "authorised signatory appointed",
+    "mailed": true,
+    "mailed_at": "20251111_105617"
+  }
+}

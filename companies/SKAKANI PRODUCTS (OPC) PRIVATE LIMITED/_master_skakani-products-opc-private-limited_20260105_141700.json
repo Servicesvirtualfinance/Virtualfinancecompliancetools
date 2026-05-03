@@ -1,0 +1,46 @@
+{
+  "company_name": "SKAKANI PRODUCTS (OPC) PRIVATE LIMITED",
+  "cin": "U32909KA2025OPC212882",
+  "registered_address": "#513, Concorde Napa, Valley, Kanakapura Road, Kagalipura, Bangalore Rural, Bangalore South, Karnataka, India, 560082",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11440655,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11440655",
+      "name": "Srividya Kakani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "19/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS1621H"
+  },
+  "email": "skakaniproducts@gmail.com",
+  "meta": {
+    "created": "20260105_141700",
+    "last_updated": "20260105_141700"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260105_141700",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SKAKANI PRODUCTS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U32909KA2025OPC212882",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRS20698N"
+}

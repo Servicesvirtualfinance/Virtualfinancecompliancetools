@@ -1,0 +1,18 @@
+{
+  "to": "skakaniproducts@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 SKAKANI PRODUCTS (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "SKAKANI PRODUCTS (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_S08P6nerjxeaa5",
+    "payment_date": "2026-01-05T14:17:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

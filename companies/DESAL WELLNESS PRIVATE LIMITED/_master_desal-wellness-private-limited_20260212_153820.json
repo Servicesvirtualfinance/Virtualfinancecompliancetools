@@ -1,0 +1,121 @@
+{
+  "company_name": "DESAL WELLNESS PRIVATE LIMITED",
+  "cin": "U20236RJ2026PTC111498",
+  "registered_address": "46 KRISHNA, COLONEY NAYA KHEDA, Amba Bari, Jaipur, Jaipur, Rajasthan, India, 302039",
+  "roc_name": "ROC Jaipur",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11517797,
+  "paid_up_capital": 11519785,
+  "directors": [
+    {
+      "din": "11517797",
+      "name": "Meenakshi Verma",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11519785",
+      "name": "Rashmi Pareek",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCD4371N"
+  },
+  "email": "desalwellness@gmail.com",
+  "meta": {
+    "created": "20260212_153820",
+    "last_updated": "20260216_193239"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260212_153820",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_DESAL WELLNESS PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U20236RJ2026PTC111498",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260212_154205",
+      "inputs": {
+        "meeting_date": "12 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Meenakshi Verma",
+          "din": "11517797",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DESAL WELLNESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260212_154205.docx"
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_GST_AUTH_SIGNATORY",
+      "ts": "20260212_154216",
+      "inputs": {
+        "to": "desalwellness@gmail.com"
+      },
+      "outputs": {
+        "attachment": "bod_gst_authorized_signatory_20260212_154205.docx"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20260216_193239",
+      "inputs": {
+        "meeting_date": "16 Feb 2026",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Rashmi Pareek",
+          "din": "11519785",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DESAL WELLNESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260216_193239.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "JPRD09416B",
+  "authorized_signatory": {
+    "name": "Rashmi Pareek",
+    "din": "11519785",
+    "designation": "Director",
+    "meeting_date": "16 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DESAL WELLNESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260216_193239.docx",
+    "ts": "20260216_193239",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Rashmi Pareek",
+    "din": "11519785",
+    "designation": "Director",
+    "meeting_date": "16 Feb 2026",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\DESAL WELLNESS PRIVATE LIMITED\\bod_gst_authorized_signatory_20260216_193239.docx",
+    "ts": "20260216_193239",
+    "note": "authorised signatory appointed"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company_name": "TONGUELIPS NUTRITION PRIVATE LIMITED",
+  "cin": "U47912DL2026PTC461293",
+  "registered_address": "A-125 1st flr ekta vihar, jaitpur EXTN gyan Mandir, Badarpur (South Delhi), South Delhi, New Delhi, Delhi, India, 110044",
+  "roc_name": "ROC Delhi",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11471679,
+  "paid_up_capital": 11471680,
+  "directors": [
+    {
+      "din": "11471679",
+      "name": "GULSHAN KUMAR KARN",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11471680",
+      "name": "Rajesh Kumar Gupta",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "07/01/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCT6707A"
+  },
+  "email": "tonguelipshealthcare@gmail.com",
+  "meta": {
+    "created": "20260128_135156",
+    "last_updated": "20260128_135156"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260128_135156",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_TONGUELIPS NUTRITION PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U47912DL2026PTC461293",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "DELT26469C"
+}

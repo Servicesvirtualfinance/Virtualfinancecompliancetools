@@ -1,0 +1,64 @@
+{
+  "company_name": "ELAIR SLEEP TECH PRIVATE LIMITED",
+  "cin": "U31009KA2026PTC216614",
+  "registered_address": "No. 43, CHIKIKABANAVARA, YESHAVANTHAPURA, Kodigehalli, Bangalore Rural, Bangalore North, Karnataka, India, 560091",
+  "roc_name": "ROC Bangalore",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 8165310,
+  "paid_up_capital": 11564531,
+  "directors": [
+    {
+      "din": "08165310",
+      "name": "WASSIM MOHAMMED",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11564531",
+      "name": "SABIHA SULTANA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11564532",
+      "name": "NAWAZ PASHA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE5261F"
+  },
+  "email": "elairsleeptech@gmail.com",
+  "meta": {
+    "created": "20260306_170723",
+    "last_updated": "20260306_170723"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260306_170723",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ELAIR SLEEP TECH PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U31009KA2026PTC216614",
+        "directors_count": 3
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BLRE16525F"
+}

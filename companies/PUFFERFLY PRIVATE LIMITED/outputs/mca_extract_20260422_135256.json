@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PUFFERFLY PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "ba2a60934e207c5ff676b644532ac96ee28f442d62b4a6b6049841a7fe06270f",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-04-22 13:52:56"
+  },
+  "master_data": {
+    "cin": "U10799CH2026PTC046869",
+    "company_name": "PUFFERFLY PRIVATE LIMITED",
+    "roc_name": "ROC Chandigarh",
+    "registration_number": "046869",
+    "date_of_incorporation": "25/03/2026",
+    "email": "pufferflysnacks@gmail.com",
+    "registered_address": "House no 733, Sector 25 D, Sector 14 (Chandigarh), Chandigarh, Chandigarh, Chandigarh, India, 160014",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11631238,
+    "paid_up_capital": 11631239,
+    "date_of_last_agm": "25/03/2026",
+    "date_of_balance_sheet": "25/03/2026",
+    "company_status": "Active",
+    "small_company": "ROC Chandigarh",
+    "jurisdiction_roc": "ROC Chandigarh",
+    "jurisdiction_rd": "RD Chandigarh, Northern Region Directorate II",
+    "emails_found": [
+      "pufferflysnacks@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11631238",
+      "name": "Shivani",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11631239",
+      "name": "Shivam",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "25/03/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "4/22/26, 1:49 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU10799CH2026PTC046869\n\nCompany Name\n\nPUFFERFLY PRIVATE LIMITED\n\nROC Name\n\nROC Chandigarh\n\nRegistration Number\n\n046869\n\nDate of Incorporation\n\n25/03/2026\n\nEmail Id\n\npufferflysnacks@gmail.com\n\nRegistered Address\n\nHouse no 733, Sector 25 D, Sector 14 (Chandigarh), Chandigarh, Chandigarh, Chandigarh, India,\n160014\n\nAddress at which the books of account are to be maintained\n\n-\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n55,000\n\n\n4/22/26, 1:49 PM\n\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Chandigarh\n\nRD (name and Region)\n\nRD Chandigarh, Northern Region Directorate II\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\nSr. No\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nDate of Appointment\n\nCessation Date\n\nSignatory\n\n1\n\n11631238\n\nSHIVANI\n\nDirector\n\nPromoter\n\n25/03/2026\n\n-\n\nYes\n\n2\n\n11631239\n\nSHIVAM\n\nDirector\n\nPromoter\n\n25/03/2026\n\n-\n\nYes\n\n"
+  }
+}

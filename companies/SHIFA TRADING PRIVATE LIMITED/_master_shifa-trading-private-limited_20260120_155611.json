@@ -1,0 +1,55 @@
+{
+  "company_name": "SHIFA TRADING PRIVATE LIMITED",
+  "cin": "U47912JK2025PTC018443",
+  "registered_address": "C/O Abdul Rashid Sheikh, KHAL NATIPORA, Natipora, Budgam, Natipora, Jammu & Kashmir, India, 190015",
+  "roc_name": "ROC Jammu",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 11456616,
+  "paid_up_capital": 11456617,
+  "directors": [
+    {
+      "din": "11456616",
+      "name": "IRFAN AHMAD SHIEKH",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "30/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11456617",
+      "name": "Saima",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "30/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS2715A"
+  },
+  "email": "shifasmartservices@gmail.com",
+  "meta": {
+    "created": "20260120_155611",
+    "last_updated": "20260120_155611"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260120_155611",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_Shifa Trading Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U47912JK2025PTC018443",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AMRS26675F"
+}

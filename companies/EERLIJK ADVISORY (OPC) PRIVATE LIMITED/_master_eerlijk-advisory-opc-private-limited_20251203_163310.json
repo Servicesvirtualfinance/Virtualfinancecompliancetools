@@ -1,0 +1,58 @@
+{
+  "company_name": "EERLIJK ADVISORY (OPC) PRIVATE LIMITED",
+  "cin": "U62099PN2025OPC247741",
+  "registered_address": "FL105, MANORAMA HEIGHTS, SECTOR 9, PNO 97/27, Moshi, Pune, Haveli, Maharashtra, India, 412105",
+  "roc_name": "ROC Pune",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 10000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11465984",
+      "name": "CHANDRAKALA RAVINDRA KOSHTI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "23/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAJCE2340K"
+  },
+  "email": "ifserp05@gmail.com",
+  "meta": {
+    "created": "20251203_163310",
+    "last_updated": "20251203_171736"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251203_163310",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Eerlijk Advisory (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099PN2025OPC247741",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251203_171736",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Eerlijk Advisory (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U62099PN2025OPC247741",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "PNEE11049D"
+}

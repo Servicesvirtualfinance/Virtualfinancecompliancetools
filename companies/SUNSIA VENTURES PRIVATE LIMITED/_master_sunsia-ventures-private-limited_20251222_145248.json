@@ -1,0 +1,55 @@
+{
+  "company_name": "SUNSIA VENTURES PRIVATE LIMITED",
+  "cin": "U46309OD2025PTC051598",
+  "registered_address": "C/O ASHOK KUMAR SINGH, NEAR TRUCK UNION OFFICE, Bareipali, Sambalpur, Sadar, Orissa, India, 768006",
+  "roc_name": "ROC Cuttack",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11416993",
+      "name": "Rohit Kumar Singh",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11416994",
+      "name": "Sonalika",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "09/12/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+    "pan_number": "ABSCS0056J"
+  },
+  "email": "sunsiaventures@gmail.com",
+  "meta": {
+    "created": "20251222_145248",
+    "last_updated": "20251222_145248"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251222_145248",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Sunsia Ventures Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U46309OD2025PTC051598",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BBNS17523C"
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_SIDQON TECHNOLOGIES PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "fe1a89611ce01700daa923c1da7e52e60d8e24d631abd6eb536f9142bc642a08",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-02-20 13:33:40"
+  },
+  "master_data": {
+    "cin": "U62090UP2026PTC243355",
+    "company_name": "SIDQON TECHNOLOGIES PRIVATE LIMITED",
+    "roc_name": "ROC Uttar Pradesh I",
+    "registration_number": "243355",
+    "date_of_incorporation": "06/02/2026",
+    "email": "sidqontechnologies@gmail.com",
+    "registered_address": "C/O ARMAGHAN A ANSARI, FARZANA MANZILBAZAR MUFTI, Nawabpura, Moradabad, Moradabad, Uttar Pradesh, India, 244001",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "1,00,000",
+    "authorised_capital": 11527619,
+    "paid_up_capital": 11527620,
+    "date_of_last_agm": "2/20/26, 1:33 PM",
+    "date_of_balance_sheet": "06/02/2026",
+    "company_status": "Active",
+    "small_company": "ROC Uttar Pradesh I",
+    "jurisdiction_roc": "ROC Uttar Pradesh I",
+    "jurisdiction_rd": "RD Delhi, Northern Region Directorate I",
+    "emails_found": [
+      "sidqontechnologies@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "11527619",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11527620",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "06/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "2/20/26, 1:33 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU62090UP2026PTC243355\n\nCompany Name\n\nSIDQON TECHNOLOGIES PRIVATE LIMITED\n\nROC Name\n\nROC Uttar Pradesh I\n\nRegistration Number\n\n243355\n\nDate of Incorporation\n\n06/02/2026\n\nEmail Id\n\nsidqontechnologies@gmail.com\n\nRegistered Address\n\nC/O ARMAGHAN A ANSARI, FARZANA MANZILBAZAR MUFTI,\nNawabpura, Moradabad, Moradabad, Uttar Pradesh, India, 244001\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n1,00,000\n\nPaid up Capital (Rs)\n\n10,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Uttar Pradesh I\n\nRD (name and Region)\n\nRD Delhi, Northern Region Directorate I\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n2/20/26, 1:33 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n11527619\n\nDirector\n\nPromoter\n\n06/02/2026\n\n-\n\nYes\n\nARMAGHAN\nAKRAM\nANSARI\n\n2\n\n11527620\n\nDirector\n\nPromoter\n\n06/02/2026\n\n-\n\nYes\n\nSHAIKH\nHUMA\nNAZNEEN\nMD ISMAIL\n\n"
+  }
+}

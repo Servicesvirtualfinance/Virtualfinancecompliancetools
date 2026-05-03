@@ -1,0 +1,18 @@
+{
+  "to": "Shyamkashyap38@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 AURELLENT PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "AURELLENT PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "vinayak",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_Sa5FKqU20LGbMF",
+    "payment_date": "2026-04-06T10:31:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

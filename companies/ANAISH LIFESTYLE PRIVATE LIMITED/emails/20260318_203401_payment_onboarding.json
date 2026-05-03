@@ -1,0 +1,18 @@
+{
+  "to": "hello@barelyminimum.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 ANAISH LIFESTYLE PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "ANAISH LIFESTYLE PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SShYbC6d57en6T",
+    "payment_date": "2026-03-18T20:26:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

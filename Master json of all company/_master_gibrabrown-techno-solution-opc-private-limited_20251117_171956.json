@@ -1,0 +1,95 @@
+{
+  "company_name": "GIBRABROWN TECHNO SOLUTION (OPC) PRIVATE LIMITED",
+  "cin": "U80200KL2025OPC097188",
+  "registered_address": "369, VAZHAPPULLY HOUSE, PUNNAYORKULAM, Chammannur, Thrissur, Chavakkad, Kerala, India, 679561",
+  "roc_name": "ROC Ernakulam",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 100000,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11297735",
+      "name": "Vazhappully",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "13/09/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCG3708Q"
+  },
+  "email": "gibrabros@gmail.com",
+  "meta": {
+    "created": "20251117_171956",
+    "last_updated": "20251117_181956"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251117_171956",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Gibrabrown Techno Solution (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U80200KL2025OPC097188",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251117_172005",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Gibrabrown Techno Solution (Opc) Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U80200KL2025OPC097188",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251117_181956",
+      "inputs": {
+        "meeting_date": "17 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Vazhappully",
+          "din": "11297735",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GIBRABROWN TECHNO SOLUTION (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251117_181956.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "CHNG10054C",
+  "authorized_signatory": {
+    "name": "Vazhappully",
+    "din": "11297735",
+    "designation": "Director",
+    "meeting_date": "17 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GIBRABROWN TECHNO SOLUTION (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251117_181956.docx",
+    "ts": "20251117_181956",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Vazhappully",
+    "din": "11297735",
+    "designation": "Director",
+    "meeting_date": "17 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\GIBRABROWN TECHNO SOLUTION (OPC) PRIVATE LIMITED\\bod_gst_authorized_signatory_20251117_181956.docx",
+    "ts": "20251117_181956",
+    "note": "authorised signatory appointed"
+  }
+}

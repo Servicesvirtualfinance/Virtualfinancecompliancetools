@@ -1,0 +1,55 @@
+{
+  "company_name": "MUKTIBHAWAN CHARITABLE ASSOCIATION",
+  "cin": "U88900MH2026NPL470486",
+  "registered_address": "Q/2101 Shakti Enclave, Jan Kalyan Nagar, Kharodi, Mumbai, Malad West, Maharashtra, India, 400095",
+  "roc_name": "ROC Mumbai I",
+  "category_of_company": "Company limited by guarantee",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": null,
+  "paid_up_capital": null,
+  "directors": [
+    {
+      "din": "11667380",
+      "name": "SIDHESHWARI GIRISH KUMARS HARMA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11667381",
+      "name": "SAURABH SHARMA",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/04/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAUCM8014D"
+  },
+  "email": "info.muktibhawan@gmail.com",
+  "meta": {
+    "created": "20260420_202425",
+    "last_updated": "20260420_202425"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260420_202425",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_MUKTIBHAWAN CHARITABLE ASSOCIATION (1).pdf"
+      },
+      "outputs": {
+        "cin": "U88900MH2026NPL470486",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "MUMM74772F"
+}

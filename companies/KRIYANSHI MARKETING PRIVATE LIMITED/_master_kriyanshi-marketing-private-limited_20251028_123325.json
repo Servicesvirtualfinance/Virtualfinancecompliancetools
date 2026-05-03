@@ -1,0 +1,121 @@
+{
+  "company_name": "KRIYANSHI MARKETING PRIVATE LIMITED",
+  "cin": "U13996MP2025PTC079663",
+  "registered_address": "165/1 OPP NEW BUS STAND, JAORA ROAD, Tal, Ratlam, Ratlam, Madhya Pradesh, India, 457118",
+  "roc_name": "ROC Gwalior",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 100000,
+  "paid_up_capital": 100000,
+  "directors": [
+    {
+      "din": "11347206",
+      "name": "Hansmukh Sisodiya",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "11347207",
+      "name": "Siddharth Maru",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "17/10/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAMCK2754Q"
+  },
+  "email": "harshsisodiya321@gmail.com",
+  "meta": {
+    "created": "20251028_123325",
+    "last_updated": "20251112_160647"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251028_123325",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kriyanshi Marketing Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U13996MP2025PTC079663",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251028_135752",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Kriyanshi Marketing Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U13996MP2025PTC079663",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MAIL_UDYAM_CERT",
+      "ts": "20251110_183528",
+      "inputs": {
+        "to": "harshsisodiya321@gmail.com"
+      },
+      "outputs": {
+        "attachment": "Udyam Registration Certificate.pdf"
+      },
+      "status": "SUCCESS",
+      "reason": null
+    },
+    {
+      "process": "GST_AUTH_SIGNATORY_APPOINTED",
+      "ts": "20251112_160647",
+      "inputs": {
+        "meeting_date": "12 Nov 2025",
+        "meeting_place": "Registered Office",
+        "signatory": {
+          "name": "Hansmukh Sisodiya",
+          "din": "11347206",
+          "designation": "Director"
+        }
+      },
+      "outputs": {
+        "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KRIYANSHI MARKETING PRIVATE LIMITED\\bod_gst_authorized_signatory_20251112_160647.docx"
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "BPLK08429B",
+  "udyam": {
+    "pdf": "Udyam Registration Certificate.pdf",
+    "mailed": true,
+    "mailed_at": "20251110_183528"
+  },
+  "authorized_signatory": {
+    "name": "Hansmukh Sisodiya",
+    "din": "11347206",
+    "designation": "Director",
+    "meeting_date": "12 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KRIYANSHI MARKETING PRIVATE LIMITED\\bod_gst_authorized_signatory_20251112_160647.docx",
+    "ts": "20251112_160647",
+    "note": "authorised signatory appointed"
+  },
+  "authorised_signatory": {
+    "name": "Hansmukh Sisodiya",
+    "din": "11347206",
+    "designation": "Director",
+    "meeting_date": "12 Nov 2025",
+    "meeting_place": "Registered Office",
+    "docx": "E:\\Bots\\docgen_backend_minimal_v2\\companies\\KRIYANSHI MARKETING PRIVATE LIMITED\\bod_gst_authorized_signatory_20251112_160647.docx",
+    "ts": "20251112_160647",
+    "note": "authorised signatory appointed"
+  }
+}

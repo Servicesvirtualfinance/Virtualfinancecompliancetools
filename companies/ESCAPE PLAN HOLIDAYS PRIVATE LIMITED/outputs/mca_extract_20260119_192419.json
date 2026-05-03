@@ -1,0 +1,57 @@
+{
+  "source_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_ESCAPE PLAN HOLIDAYS PRIVATE LIMITED.pdf",
+  "file_hash_sha256": "ef0f5750cdd1c69315e762c243485dc192ef43442bdb86079efffe17578bd072",
+  "parse_meta": {
+    "parser": "p01_mca_extract.py",
+    "version": "1.3.0",
+    "timestamp": "2026-01-19 19:24:19"
+  },
+  "master_data": {
+    "cin": "U79110TZ2025PTC036945",
+    "company_name": "ESCAPE PLAN HOLIDAYS PRIVATE LIMITED",
+    "roc_name": "ROC Coimbatore",
+    "registration_number": "036945",
+    "date_of_incorporation": "10/12/2025",
+    "email": "theescapeplanis@gmail.com",
+    "registered_address": "100, KALIANNAN STREET, Kuppakonanpudur, Coimbatore, Coimbatore North, Tamil Nadu, India, 641038",
+    "category_of_company": "Company limited by shares",
+    "subcategory_of_company": "Non-government company",
+    "class_of_company": "Private",
+    "active_compliance": "15,00,000",
+    "authorised_capital": 10478757,
+    "paid_up_capital": 7766928,
+    "date_of_last_agm": "1/19/26, 3:36 PM",
+    "date_of_balance_sheet": "10/12/2025",
+    "company_status": "Active",
+    "small_company": "ROC Coimbatore",
+    "jurisdiction_roc": "ROC Coimbatore",
+    "jurisdiction_rd": "RD, Southern Region",
+    "emails_found": [
+      "theescapeplanis@gmail.com"
+    ],
+    "phones_found": []
+  },
+  "directors": [
+    {
+      "din": "10478757",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    },
+    {
+      "din": "07766928",
+      "name": "",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "10/12/2025",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "raw_blocks": {
+    "first_10k": "1/19/26, 3:36 PM\n\n\n\n\nCompany Information\n\nCIN\n\nU79110TZ2025PTC036945\n\nCompany Name\n\nESCAPE PLAN HOLIDAYS PRIVATE LIMITED\n\nROC Name\n\nROC Coimbatore\n\nRegistration Number\n\n036945\n\nDate of Incorporation\n\n10/12/2025\n\nEmail Id\n\ntheescapeplanis@gmail.com\n\nRegistered Address\n\n100, KALIANNAN STREET, Kuppakonanpudur, Coimbatore, Coimbatore\nNorth, Tamil Nadu, India, 641038\n\n-\n\nAddress at which the books of account are to\nbe maintained\n\nListed in Stock Exchange(s) (Y/N)\n\nNo\n\nCategory of Company\n\nCompany limited by shares\n\nSubcategory of the Company\n\nNon-government company\n\nClass of Company\n\nPrivate\n\nACTIVE compliance\n\n-\n\nAuthorised Capital (Rs)\n\n15,00,000\n\nPaid up Capital (Rs)\n\n1,00,000\n\nDate of last AGM\n\n-\n\nDate of Balance Sheet\n\n-\n\nCompany Status\n\nActive\n\nSmall Company\n\nYes\n\nJurisdiction\n\nROC (name and office)\n\nROC Coimbatore\n\nRD (name and Region)\n\nRD, Southern Region\n\nIndex of Charges\n\nNo Records Found\n\nDirector/Signatory Details\n\n\n1/19/26, 3:36 PM\n\n\nDIN/PAN\n\nName\n\nDesignation\n\nCategory\n\nSignatory\n\nSr.\nNo\n\nDate of\nAppointment\n\nCessation\nDate\n\n1\n\n10478757\n\nDirector\n\nPromoter\n\n10/12/2025\n\n-\n\nYes\n\nOSBORN EDWIN\nJOHN SUSHIL\n\n2\n\n07766928\n\nDirector\n\nPromoter\n\n10/12/2025\n\n-\n\nYes\n\nKANAGARAJ\nSIVASITTHARTH\n\n"
+  }
+}

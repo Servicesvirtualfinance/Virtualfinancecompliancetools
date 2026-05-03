@@ -1,0 +1,68 @@
+{
+  "company_name": "MYSTIC MULTIVERSE PRIVATE LIMITED",
+  "cin": "U32509MH2025PTC461202",
+  "registered_address": "E-303 SERENITY COMPLEX, OSHIWARA OFF NEW LINK RD, Andheri, Mumbai, Mumbai, Maharashtra, India, 400053",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "Private",
+  "authorised_capital": 500000,
+  "paid_up_capital": 21000,
+  "directors": [
+    {
+      "din": "11390940",
+      "name": "MEHERR MANPREET AARSHI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    },
+    {
+      "din": "11390941",
+      "name": "PRACHE ARSHI",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "22/11/2025",
+      "cessation_date": null,
+      "is_signatory": false
+    }
+  ],
+  "pan": {
+	"pan_number": "AAUCM1118L"
+},
+  "email": "mysticmultiversepvtltd@gmail.com",
+  "meta": {
+    "created": "20251204_155957",
+    "last_updated": "20251218_142804"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20251204_155957",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Mystic Multiverse Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U32509MH2025PTC461202",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    },
+    {
+      "process": "MCA_IMPORT",
+      "ts": "20251218_142804",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Mystic Multiverse Private Limited.pdf"
+      },
+      "outputs": {
+        "cin": "U32509MH2025PTC461202",
+        "directors_count": 2
+      },
+      "status": "SUCCESS"
+    }
+  ],
+"tan": "MUMR54744E"
+
+}

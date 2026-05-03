@@ -1,0 +1,46 @@
+{
+  "company_name": "PUJANIYA INTERNATIONAL (OPC) PRIVATE LIMITED",
+  "cin": "U52219MH2024OPC426540",
+  "registered_address": "FT NO:3 GURU ASHRAY CO-OP, HSG SO NR SHANTI PARK NGR, Nashik Road, Nashik, Nashik, Maharashtra, India, 422101",
+  "roc_name": "ROC Mumbai",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 10657502,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "10657502",
+      "name": "VIDULA SUSHIL TIKALE",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "05/06/2024",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAOCP8033B"
+  },
+  "email": "pujaniyainternationalcompany@gmail.com",
+  "meta": {
+    "created": "20260128_153028",
+    "last_updated": "20260128_153028"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260128_153028",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_PUJANIYA INTERNATIONAL (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U52219MH2024OPC426540",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "NSKP12373E"
+}

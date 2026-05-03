@@ -1,0 +1,18 @@
+{
+  "to": "amnsinfotech@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 AMNS INFO TECH PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "AMNS INFO TECH PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_ReSCMzClUj1ZSZ",
+    "payment_date": "2025-11-11T19:19:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "to": "msebretiredengineers1201@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 MSEB RETIRED ENGINEERS WELFARE ASSOCIATION",
+  "ctx": {
+    "company": {
+      "name": "MSEB RETIRED ENGINEERS WELFARE ASSOCIATION"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance Package",
+    "amount": "7000",
+    "currency": "INR",
+    "payment_id": "SIB",
+    "payment_date": "2026-04-25T16:31:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

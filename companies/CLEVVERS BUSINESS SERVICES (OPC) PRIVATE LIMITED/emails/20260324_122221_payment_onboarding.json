@@ -1,0 +1,18 @@
+{
+  "to": "clevvers.com@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "CLEVVERS BUSINESS SERVICES (OPC) PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_SUxV2Htmid3ocE",
+    "payment_date": "2026-03-24T12:18:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

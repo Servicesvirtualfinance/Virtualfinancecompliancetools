@@ -1,0 +1,18 @@
+{
+  "to": "fixfly.in@gmail.com",
+  "cc": [],
+  "subject": "Payment Confirmation & Onboarding \u2014 PIXFLY INNOVATIONS PRIVATE LIMITED",
+  "ctx": {
+    "company": {
+      "name": "PIXFLY INNOVATIONS PRIVATE LIMITED"
+    },
+    "contact_name": "there",
+    "assigned_manager": "Shubha",
+    "plan_name": "Annual Compliance \u2013 \u20b9999/month",
+    "amount": "1178.82",
+    "currency": "INR",
+    "payment_id": "pay_RkgD1J0nOumx8i",
+    "payment_date": "2025-11-27T12:57:00+05:30",
+    "next_steps_url": "https://vfoffice.in/welcome"
+  }
+}

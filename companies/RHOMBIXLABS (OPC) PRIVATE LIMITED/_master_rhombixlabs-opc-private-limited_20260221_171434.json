@@ -1,0 +1,46 @@
+{
+  "company_name": "RHOMBIXLABS (OPC) PRIVATE LIMITED",
+  "cin": "U62013GJ2026OPC173361",
+  "registered_address": "FL-1 PLOT NO 1096 GUJARAT, CLEARANS, KANAKPUR KANSAD, Sachin, Surat, Surat, Gujarat, India, 394230",
+  "roc_name": "ROC Ahmedabad",
+  "category_of_company": "Company limited by shares",
+  "subcategory_of_company": "Non-government company",
+  "class_of_company": "One Person Company",
+  "authorised_capital": 11537981,
+  "paid_up_capital": 10000,
+  "directors": [
+    {
+      "din": "11537981",
+      "name": "VIRAL RAMESHBHAI PARMAR",
+      "designation": "Director",
+      "category": "Promoter",
+      "date_of_appointment": "11/02/2026",
+      "cessation_date": null,
+      "is_signatory": true
+    }
+  ],
+  "pan": {
+    "pan_number": "AAPCR5331K"
+  },
+  "email": "viralparmarmca@hotmail.com",
+  "meta": {
+    "created": "20260221_171434",
+    "last_updated": "20260221_171434"
+  },
+  "mismatches": {},
+  "process_log": [
+    {
+      "process": "INIT_FROM_MCA",
+      "ts": "20260221_171434",
+      "inputs": {
+        "mca_file": "E:\\Bots\\docgen_backend_minimal_v2\\tmp\\_upload_mca_Ministry Of Corporate Affairs - MCA Services_RHOMBIXLABS (OPC) PRIVATE LIMITED.pdf"
+      },
+      "outputs": {
+        "cin": "U62013GJ2026OPC173361",
+        "directors_count": 1
+      },
+      "status": "SUCCESS"
+    }
+  ],
+  "tan": "AHMR22146F"
+}
